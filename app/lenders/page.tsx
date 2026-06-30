@@ -399,7 +399,7 @@ function LenderInquiryForm() {
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
+            className="w-full rounded-xl bg-[#0f0f0f] text-white font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
           >
             Submit Provider Inquiry
           </button>

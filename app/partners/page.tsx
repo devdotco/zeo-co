@@ -317,7 +317,7 @@ function PartnerInquiryForm() {
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
+            className="w-full rounded-xl bg-[#0f0f0f] text-white font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
           >
             Submit Partner Inquiry
           </button>
@@ -441,7 +441,7 @@ export default function PartnersPage() {
             </div>
             <a
               href="#partner-inquiry"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Submit Inquiry
             </a>

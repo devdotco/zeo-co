@@ -628,7 +628,7 @@ export default function FactoringIndustriesPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-[#0f0f0f]/30 text-sm font-semibold text-[#0f0f0f] hover:bg-[#0f0f0f]/10 transition-colors"
+              className="flex-shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-[#0f0f0f]/30 text-sm font-semibold text-white hover:bg-[#0f0f0f]/10 transition-colors"
             >
               Open Calculator <ArrowRightIcon />
             </Link>

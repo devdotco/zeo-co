@@ -42,7 +42,7 @@ function PostCard({ post }: { post: BlogPost }) {
       className="group flex flex-col gap-3 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 transition-colors hover:border-[#0f0f0f]/30 hover:bg-[#0f1410]"
     >
       {post.category && (
-        <span className="self-start rounded-full border border-[#0f0f0f]/20 bg-[#0f0f0f]/10 px-2.5 py-0.5 text-xs font-medium text-[#0f0f0f]">
+        <span className="self-start rounded-full border border-[#0f0f0f]/20 bg-[#0f0f0f]/10 px-2.5 py-0.5 text-xs font-medium text-white">
           {post.category}
         </span>
       )}

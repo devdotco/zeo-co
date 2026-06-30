@@ -78,7 +78,7 @@ function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
         <Link
           href="/apply"
           onClick={onClose}
-          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
+          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -341,7 +341,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
         <Link
           href="/apply"
           onClick={onClose}
-          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold hover:bg-[#333333] transition-colors"
+          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -476,7 +476,7 @@ export default function Header() {
             <div className="ml-auto flex items-center gap-3">
               <Link
                 href="/apply"
-                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
+                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>

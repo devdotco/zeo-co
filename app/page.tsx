@@ -234,7 +234,7 @@ function FactoringSection() {
               Trucking, staffing, healthcare, manufacturing, oilfield, construction, agriculture, and government contractors each have specific factoring requirements. ZEO evaluates your industry and receivable structure to identify relevant factoring options.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors">
+              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors">
                 Explore Factoring
               </Link>
               <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors">
@@ -588,7 +588,7 @@ function HeroSection() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="#intake-form"
-                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold hover:bg-[#333333] transition-colors"
+                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>

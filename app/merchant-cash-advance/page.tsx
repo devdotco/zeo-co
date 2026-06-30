@@ -542,7 +542,7 @@ export default function MerchantCashAdvancePage() {
             </p>
             <Link
               href="/calculators/mca"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Open MCA calculator
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

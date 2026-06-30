@@ -184,7 +184,7 @@ export default function BusinessLoanAffordabilityCalculator() {
               <span
                 className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                   dscrHealthy
-                    ? "bg-[#0f0f0f]/15 text-[#0f0f0f]"
+                    ? "bg-[#0f0f0f]/15 text-white"
                     : "bg-[#737373]/15 text-[#737373]"
                 }`}
               >

@@ -661,7 +661,7 @@ export default function BusinessLoanGuidePage() {
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-[#0f0f0f] text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-white text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

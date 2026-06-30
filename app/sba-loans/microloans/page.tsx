@@ -363,8 +363,8 @@ export default function SBAMicroloansPage() {
                   <span
                     className={`ml-auto text-[0.6rem] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded ${
                       item.permitted
-                        ? "text-[#0f0f0f] bg-[#0f0f0f]/10"
-                        : "text-[#0f0f0f] bg-[#0f0f0f]/10"
+                        ? "text-white bg-[#0f0f0f]/10"
+                        : "text-white bg-[#0f0f0f]/10"
                     }`}
                   >
                     {item.permitted ? "Permitted" : "Not Permitted"}

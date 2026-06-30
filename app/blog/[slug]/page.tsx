@@ -82,7 +82,7 @@ export default async function BlogPostPage({
           {/* Category pill */}
           {post.category && (
             <div className="mt-6">
-              <span className="inline-flex items-center rounded-full border border-[#0f0f0f]/20 bg-[#0f0f0f]/8 px-2.5 py-0.5 text-xs font-medium text-[#0f0f0f] tracking-wide uppercase">
+              <span className="inline-flex items-center rounded-full border border-[#0f0f0f]/20 bg-[#0f0f0f]/8 px-2.5 py-0.5 text-xs font-medium text-white tracking-wide uppercase">
                 {post.category}
               </span>
             </div>

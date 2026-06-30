@@ -176,7 +176,7 @@ export default function SBA7aLoanCalculator() {
               <span
                 className={`text-[0.6rem] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full ${
                   dscrOk
-                    ? "bg-[#0f0f0f]/10 text-[#0f0f0f]"
+                    ? "bg-[#0f0f0f]/10 text-white"
                     : "bg-amber-400/10 text-amber-400"
                 }`}
               >
