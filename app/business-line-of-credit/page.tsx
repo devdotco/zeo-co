@@ -189,7 +189,7 @@ export default function BusinessLineOfCreditPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who It May Fit
               </p>
-              <h2 className="text-2xl font-semibold text-white leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] leading-snug">
                 Businesses with recurring or unpredictable capital needs
               </h2>
               <p className="text-[#737373] text-sm mt-4 leading-relaxed">
@@ -235,7 +235,7 @@ export default function BusinessLineOfCreditPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How It Works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             The revolving credit cycle
           </h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
@@ -292,7 +292,7 @@ export default function BusinessLineOfCreditPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common Use Cases
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             What businesses typically use a line of credit for
           </h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
@@ -356,7 +356,7 @@ export default function BusinessLineOfCreditPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Typical Requirements
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             What lenders generally evaluate
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
@@ -424,7 +424,7 @@ export default function BusinessLineOfCreditPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 How the cost of a business line of credit is structured
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-4">
@@ -479,7 +479,7 @@ export default function BusinessLineOfCreditPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Trade-offs
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8">
             Advantages and limitations to consider
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -545,7 +545,7 @@ export default function BusinessLineOfCreditPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Line of credit vs. other financing structures
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
@@ -568,7 +568,7 @@ export default function BusinessLineOfCreditPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Other structures that may address similar needs
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">

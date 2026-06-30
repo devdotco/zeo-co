@@ -169,7 +169,7 @@ export default function CashFlowPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug">
                 When revenue exists but cash is constrained
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -249,7 +249,7 @@ export default function CashFlowPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Structures
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Options that may apply to cash flow needs
             </h2>
             <p className="text-[#737373] text-sm max-w-2xl">
@@ -286,7 +286,7 @@ export default function CashFlowPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation Framework
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Choosing the right structure for your situation
             </h2>
             <p className="text-[#737373] text-sm max-w-2xl">
@@ -316,7 +316,7 @@ export default function CashFlowPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Typical Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               What lenders commonly look at
             </h2>
             <p className="text-[#737373] text-sm max-w-2xl">

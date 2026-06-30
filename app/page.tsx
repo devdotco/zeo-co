@@ -106,7 +106,7 @@ function HowItWorksSection() {
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-12">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process</p>
-          <h2 className="text-2xl md:text-3xl font-semibold text-white mb-3">One intake. Multiple capital paths.</h2>
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#0f0f0f] mb-3">One intake. Multiple capital paths.</h2>
           <p className="text-[#737373] max-w-xl">
             ZEO is not a lender. It&apos;s a financing decision engine that evaluates your situation against the full range of commercial financing structures.
           </p>
@@ -119,7 +119,7 @@ function HowItWorksSection() {
               )}
               <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
                 <span className="text-[0.625rem] font-semibold uppercase tracking-[0.15em] text-[#0f0f0f] mb-2 block">{s.n}</span>
-                <p className="text-sm font-semibold text-white mb-2">{s.title}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.desc}</p>
               </div>
             </div>
@@ -199,7 +199,7 @@ function FinancingOptionsGrid() {
         <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Financing Options</p>
-            <h2 className="text-2xl md:text-3xl font-semibold text-white">Commercial financing products</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#0f0f0f]">Commercial financing products</h2>
           </div>
           <Link href="/financing" className="hidden md:block text-sm text-[#0f0f0f] hover:underline">
             View all →
@@ -224,7 +224,7 @@ function FactoringSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Factoring</p>
-            <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#0f0f0f] mb-4">
               Deep factoring expertise, now part of ZEO
             </h2>
             <p className="text-[#737373] leading-relaxed mb-5">
@@ -234,7 +234,7 @@ function FactoringSection() {
               Trucking, staffing, healthcare, manufacturing, oilfield, construction, agriculture, and government contractors each have specific factoring requirements. ZEO evaluates your industry and receivable structure to identify relevant factoring options.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors">
+              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors">
                 Explore Factoring
               </Link>
               <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors">
@@ -258,7 +258,7 @@ function FactoringSection() {
                   <div className="h-6 rounded-sm" style={{ width: `${row.pct}%`, background: row.color === "bg-[#0f0f0f]" ? "#0f0f0f" : row.color === "bg-[#333333]" ? "#333333" : row.color === "bg-[#e5e5e5]" ? "#e5e5e5" : row.color === "bg-[#f5f5f5]" ? "#f5f5f5" : "#f5f5f5" }} />
                 </div>
                 <span className="text-xs text-[#737373] flex-1">{row.label}</span>
-                <span className="text-xs font-medium tabular-nums text-white">{row.value}</span>
+                <span className="text-xs font-medium tabular-nums text-[#0f0f0f]">{row.value}</span>
               </div>
             ))}
             <p className="text-[0.65rem] text-[#a3a3a3] mt-2">Illustrative example only. Actual rates, advance percentages, fees, and structures vary by factor and account.</p>
@@ -278,7 +278,7 @@ function AcquisitionSection() {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Acquisition Financing</p>
-            <h2 className="text-2xl font-semibold text-white mb-4">Financing the purchase of an existing business</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">Financing the purchase of an existing business</h2>
             <p className="text-[#737373] leading-relaxed mb-4">
               Business acquisitions typically involve a combination of financing structures: SBA 7(a) loans, seller notes, buyer equity injection, and sometimes mezzanine or private credit. DSCR — debt service coverage ratio — is the primary underwriting metric.
             </p>
@@ -303,7 +303,7 @@ function AcquisitionSection() {
                 <tr><td className="text-[#0f0f0f] font-medium">SBA 7(a) Loan</td><td>$1,050,000</td><td>70%</td></tr>
                 <tr><td>Seller Note</td><td>$225,000</td><td>15%</td></tr>
                 <tr><td>Buyer Equity Injection</td><td>$225,000</td><td>15%</td></tr>
-                <tr className="font-semibold"><td className="text-white">Total Sources</td><td className="text-white">$1,500,000</td><td className="text-white">100%</td></tr>
+                <tr className="font-semibold"><td className="text-[#0f0f0f]">Total Sources</td><td className="text-[#0f0f0f]">$1,500,000</td><td className="text-[#0f0f0f]">100%</td></tr>
               </tbody>
             </table>
             <p className="px-5 pb-4 pt-2 text-[0.65rem] text-[#a3a3a3]">
@@ -338,7 +338,7 @@ function CalculatorsSection() {
         <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Calculators</p>
-            <h2 className="text-2xl font-semibold text-white">Financial modeling tools</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">Financial modeling tools</h2>
             <p className="text-[#737373] text-sm mt-2">Estimate payments, DSCR, cost of capital, and more. Results are estimates, not offers.</p>
           </div>
           <Link href="/calculators" className="hidden md:block text-sm text-[#0f0f0f] hover:underline">
@@ -382,7 +382,7 @@ function IndustriesSection() {
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-10">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Industries</p>
-          <h2 className="text-2xl font-semibold text-white">Industry-specific financing</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f]">Industry-specific financing</h2>
           <p className="text-[#737373] text-sm mt-2">Financing requirements vary significantly by industry. ZEO evaluates industry-specific factors.</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
@@ -419,7 +419,7 @@ function DocumentsSection() {
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-10">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Preparation</p>
-          <h2 className="text-2xl font-semibold text-white">Common documents required for business financing</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f]">Common documents required for business financing</h2>
           <p className="text-[#737373] text-sm mt-2 max-w-xl">
             Requirements vary by product, lender, and business profile. This is a general reference.{" "}
             <Link href="/resources/documents-needed" className="text-[#0f0f0f] hover:underline">Full document guide →</Link>
@@ -428,7 +428,7 @@ function DocumentsSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {docs.map((d) => (
             <div key={d.cat} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
-              <p className="text-xs font-semibold text-white mb-3">{d.cat}</p>
+              <p className="text-xs font-semibold text-[#0f0f0f] mb-3">{d.cat}</p>
               <ul className="space-y-2">
                 {d.items.map((item) => (
                   <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
@@ -455,7 +455,7 @@ function ComparisonSection() {
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-10">
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Comparison</p>
-          <h2 className="text-2xl font-semibold text-white">Commercial financing at a glance</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f]">Commercial financing at a glance</h2>
           <p className="text-[#737373] text-sm mt-2">General overview only. Actual terms vary significantly by applicant, lender, and product.</p>
         </div>
         <ComparisonTable
@@ -502,7 +502,7 @@ function ComplianceSection() {
             },
           ].map((item) => (
             <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
-              <p className="text-sm font-semibold text-white mb-2">{item.title}</p>
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
               <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{item.desc}</p>
               <Link href={item.href} className="text-xs text-[#0f0f0f] hover:underline">
                 Learn more →
@@ -571,7 +571,7 @@ function HeroSection() {
               <span className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f] animate-pulse" />
               Commercial financing · Not a lender
             </div>
-            <h1 className="text-4xl md:text-5xl font-semibold text-white mb-5 leading-tight tracking-tight">
+            <h1 className="text-4xl md:text-5xl font-semibold text-[#0f0f0f] mb-5 leading-tight tracking-tight">
               Business financing matched to how your company actually makes money.
             </h1>
             <p className="text-[#737373] text-lg leading-relaxed mb-8 max-w-lg">
@@ -588,7 +588,7 @@ function HeroSection() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="#intake-form"
-                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
+                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>
@@ -607,7 +607,7 @@ function HeroSection() {
               <svg className="w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                 <path d="M8 1l2 4h4l-3 2.5 1 4L8 9l-4 2.5 1-4L2 5h4L8 1z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
               </svg>
-              <p className="text-sm font-semibold text-white">Financing Match Intake</p>
+              <p className="text-sm font-semibold text-[#0f0f0f]">Financing Match Intake</p>
               <span className="ml-auto text-[0.625rem] text-[#a3a3a3] bg-[#e5e5e5] px-2 py-0.5 rounded-full">Not an application</span>
             </div>
             <MultiStepFinancingForm />

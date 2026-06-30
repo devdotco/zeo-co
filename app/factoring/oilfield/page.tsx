@@ -146,7 +146,7 @@ export default function OilfieldFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             What Is Oilfield Factoring?
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -176,7 +176,7 @@ export default function OilfieldFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
               Oil and Gas Service Companies That Commonly Use Factoring
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -258,7 +258,7 @@ export default function OilfieldFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             The Oilfield Factoring Cycle: From Service Completion to Reserve Release
           </h2>
           <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
@@ -315,7 +315,7 @@ export default function OilfieldFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               What Oilfield Factors Typically Evaluate
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -369,7 +369,7 @@ export default function OilfieldFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Advance Rates and Fee Structures in Oilfield Factoring
           </h2>
           <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
@@ -436,7 +436,7 @@ export default function OilfieldFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               Oilfield Factoring vs. Other Working Capital Options
             </h2>
             <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
@@ -459,7 +459,7 @@ export default function OilfieldFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
-              <h2 className="text-xl font-semibold text-white mb-5">What Oilfield Factoring Can Offer</h2>
+              <h2 className="text-xl font-semibold text-[#0f0f0f] mb-5">What Oilfield Factoring Can Offer</h2>
               <ul className="space-y-4">
                 {[
                   {
@@ -495,7 +495,7 @@ export default function OilfieldFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
-              <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
+              <h2 className="text-xl font-semibold text-[#0f0f0f] mb-5">Important Considerations</h2>
               <ul className="space-y-4">
                 {[
                   {

@@ -258,7 +258,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Who It May Suit</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Businesses that may find private lending worth evaluating</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Businesses that may find private lending worth evaluating</h2>
             <p className="text-[#737373] leading-relaxed">
               Private lending is not the right fit for every situation. It tends to be more relevant when speed, flexibility, or a non-standard credit profile makes conventional financing inaccessible or impractical. Below are common circumstances where business owners explore this path.
             </p>
@@ -303,7 +303,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process Overview</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">How private business lending generally works</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">How private business lending generally works</h2>
             <p className="text-[#737373] leading-relaxed">
               Private lending encompasses a wide variety of lender types — specialty finance companies, private credit funds, direct lenders, family offices, and more. While processes vary, the general flow for a business loan from a private lender tends to follow these stages.
             </p>
@@ -358,7 +358,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Common Use Cases</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Where businesses commonly explore private lending</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Where businesses commonly explore private lending</h2>
             <p className="text-[#737373] leading-relaxed">
               Private lending is used across a wide range of capital needs. These are among the more frequent scenarios where business owners evaluate private lenders as a potential source of financing.
             </p>
@@ -413,7 +413,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Typical Requirements</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">What private lenders generally evaluate</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">What private lenders generally evaluate</h2>
             <p className="text-[#737373] leading-relaxed">
               Requirements vary significantly across private lenders. Unlike banks or SBA programs, there is no standard underwriting framework. The following reflects what many private lenders commonly look at — it is not a checklist for guaranteed approval, and all financing is subject to individual lender underwriting.
             </p>
@@ -469,7 +469,7 @@ export default function PrivateLendingPage() {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
-              <h2 className="text-2xl font-semibold text-white mb-4">What determines the cost of private business financing</h2>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">What determines the cost of private business financing</h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Private business loans are generally priced higher than conventional bank or SBA financing. This reflects the additional risk private lenders accept — broader credit criteria, faster timelines, and less regulatory backstop — and the cost of private capital itself relative to deposit-funded bank lending.
@@ -531,7 +531,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Tradeoffs</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Weighing private lending against your situation</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Weighing private lending against your situation</h2>
             <p className="text-[#737373] leading-relaxed">
               Private lending is a tradeoff: speed and accessibility on one side, higher cost and shorter terms on the other. Whether those tradeoffs are worth it depends entirely on your specific situation, available alternatives, and the cost of inaction.
             </p>
@@ -586,7 +586,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">How It Compares</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Private lending vs. bank and SBA financing</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Private lending vs. bank and SBA financing</h2>
             <p className="text-[#737373] leading-relaxed">
               A high-level comparison to help frame the tradeoffs. Actual terms vary considerably by lender, borrower profile, and market conditions at time of application.
             </p>
@@ -607,7 +607,7 @@ export default function PrivateLendingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Alternatives</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Other financing paths to consider alongside private lending</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Other financing paths to consider alongside private lending</h2>
             <p className="text-[#737373] leading-relaxed">
               Private lending is one option in a broader landscape. Depending on your timeline, credit profile, and use case, one of the following may be a better fit — or worth evaluating in parallel before committing to private financing.
             </p>

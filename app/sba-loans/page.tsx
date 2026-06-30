@@ -205,7 +205,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Who It May Suit</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">A potential fit for established, creditworthy businesses</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">A potential fit for established, creditworthy businesses</h2>
             <p className="text-[#737373] leading-relaxed">
               SBA loan programs are not designed for every borrower. The application process is more involved than many alternative financing products, and the underwriting bar tends to be meaningful. Businesses that may be worth evaluating often share a set of common characteristics.
             </p>
@@ -250,7 +250,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process Overview</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">How SBA lending generally works</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">How SBA lending generally works</h2>
             <p className="text-[#737373] leading-relaxed">
               The SBA does not lend directly to businesses. Instead, the agency provides a partial guarantee to approved participating lenders — banks, credit unions, and CDFIs — which then make and service the loans. Understanding the general flow helps set expectations.
             </p>
@@ -305,7 +305,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Common Use Cases</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Where SBA financing is commonly evaluated</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Where SBA financing is commonly evaluated</h2>
             <p className="text-[#737373] leading-relaxed">
               SBA programs cover a broad range of business financing needs. These are among the more common scenarios where business owners explore SBA-backed options — though each situation is subject to individual program rules and lender requirements.
             </p>
@@ -360,7 +360,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Typical Requirements</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">What lenders generally look at</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">What lenders generally look at</h2>
             <p className="text-[#737373] leading-relaxed">
               Requirements vary by lender, program, loan size, and use of proceeds. The following represents a general picture of what participating lenders typically evaluate — it is not a guarantee of eligibility, and all financing is subject to underwriting.
             </p>
@@ -416,7 +416,7 @@ export default function SBALoansPage() {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
-              <h2 className="text-2xl font-semibold text-white mb-4">What determines total cost of SBA financing</h2>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">What determines total cost of SBA financing</h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   SBA loans are generally considered lower-cost than many alternative financing products, but the specific rate and total cost any borrower may encounter depends on multiple factors and cannot be predicted in advance. Interest rates on SBA 7(a) loans are negotiated between the borrower and lender, subject to SBA maximum rate caps that are pegged to the prime rate.
@@ -460,7 +460,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Tradeoffs</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Weighing SBA financing against your situation</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Weighing SBA financing against your situation</h2>
             <p className="text-[#737373] leading-relaxed">
               SBA programs involve meaningful tradeoffs. Understanding both sides helps set realistic expectations before beginning the process.
             </p>
@@ -515,7 +515,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Program Comparison</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">SBA programs vs. conventional term lending</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">SBA programs vs. conventional term lending</h2>
             <p className="text-[#737373] leading-relaxed">
               A high-level comparison to help orient your evaluation. All terms are subject to lender underwriting, SBA program rules, and market conditions at time of application.
             </p>
@@ -536,7 +536,7 @@ export default function SBALoansPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Alternatives</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Other financing paths to consider</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Other financing paths to consider</h2>
             <p className="text-[#737373] leading-relaxed">
               SBA programs are one option in a broader landscape of commercial financing. Depending on your timeline, credit profile, collateral position, and use case, other products may be worth evaluating alongside or instead of an SBA application.
             </p>

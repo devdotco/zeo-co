@@ -299,7 +299,7 @@ export default function RestaurantFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industry Challenges
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               What makes restaurant financing different
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -334,7 +334,7 @@ export default function RestaurantFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Paths
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Products restaurant operators most commonly explore
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -399,7 +399,7 @@ export default function RestaurantFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Lender Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               What lenders typically look for in restaurant applications
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -445,7 +445,7 @@ export default function RestaurantFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Underwriting Context
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 How lenders typically approach restaurant risk
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">

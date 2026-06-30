@@ -284,7 +284,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who it may fit
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Businesses that win orders they cannot currently afford to fulfill
               </h2>
               <p className="text-[#737373] leading-relaxed text-sm">
@@ -338,7 +338,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             The PO financing cycle, step by step
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
@@ -392,7 +392,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             Industries and scenarios where PO financing commonly applies
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -450,7 +450,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Typical requirements
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What PO financing providers generally evaluate
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -512,7 +512,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 How PO financing fees are typically structured
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-5">
@@ -569,7 +569,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             Potential advantages and drawbacks
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
@@ -652,7 +652,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-6 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-6 text-balance">
             PO financing vs. invoice factoring vs. line of credit
           </h2>
           <p className="text-sm text-[#737373] mb-6 max-w-2xl">
@@ -673,7 +673,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -722,7 +722,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <h3 className="text-lg font-semibold text-white mb-1">
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-1">
                 Estimate PO financing cost on an order
               </h3>
               <p className="text-sm text-[#a3a3a3] max-w-md">

@@ -411,7 +411,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Program Parameters
             </p>
-            <h2 className="text-xl font-semibold text-white">
+            <h2 className="text-xl font-semibold text-[#0f0f0f]">
               SBA 7(a) program at a glance
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -434,7 +434,7 @@ export default function SBA7aPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Fit Assessment
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Who SBA 7(a) may be a potential fit for
               </h2>
               <p className="text-[#737373] leading-relaxed mb-6">
@@ -461,7 +461,7 @@ export default function SBA7aPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Common Non-Fits
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 When SBA 7(a) may not be the right path
               </h2>
               <p className="text-[#737373] leading-relaxed mb-6">
@@ -494,7 +494,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               How the SBA 7(a) process typically works
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -529,7 +529,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Common purposes for SBA 7(a) financing
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -551,7 +551,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Eligibility
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Typical underwriting criteria
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -589,7 +589,7 @@ export default function SBA7aPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Considerations
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Understanding SBA 7(a) costs
               </h2>
               <p className="text-[#737373] leading-relaxed mb-4">
@@ -652,7 +652,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Pros and cons of SBA 7(a)
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-xl">
@@ -697,7 +697,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               SBA 7(a) vs. other financing structures
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -722,7 +722,7 @@ export default function SBA7aPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Related financing structures to consider
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-xl">

@@ -311,7 +311,7 @@ export default function SBA504Page() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Potential Fit
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Who may be a potential candidate
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-8">
@@ -351,7 +351,7 @@ export default function SBA504Page() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Generally Not a Fit
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Where 504 financing does not typically apply
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-8">
@@ -397,7 +397,7 @@ export default function SBA504Page() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Program Structure
             </p>
-            <h2 className="text-2xl font-semibold text-white">How the 504 program works</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">How the 504 program works</h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The 504 is unusual in that it involves two separate lenders — a conventional bank and a Certified Development Company (CDC). Understanding the structure is important before pursuing this path.
             </p>
@@ -489,7 +489,7 @@ export default function SBA504Page() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
-            <h2 className="text-2xl font-semibold text-white">Common SBA 504 project types</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">Common SBA 504 project types</h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               These are frequently cited project types for 504 applications. Each carries its own eligibility nuances under SBA Standard Operating Procedures. Third-party underwriting applies.
             </p>
@@ -509,7 +509,7 @@ export default function SBA504Page() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Eligibility
             </p>
-            <h2 className="text-2xl font-semibold text-white">Typical requirements</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">Typical requirements</h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The following represent commonly cited thresholds for SBA 504 applications. Actual requirements are set by the SBA and the participating lender and CDC — not by ZEO. These are general reference points only.
             </p>
@@ -552,7 +552,7 @@ export default function SBA504Page() {
                 <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1.5">
                   {req.label}
                 </p>
-                <p className="text-xl font-semibold text-white tabular-nums mb-2">{req.value}</p>
+                <p className="text-xl font-semibold text-[#0f0f0f] tabular-nums mb-2">{req.value}</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed">{req.detail}</p>
               </div>
             ))}
@@ -572,7 +572,7 @@ export default function SBA504Page() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Costs
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Understanding 504 costs
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -638,7 +638,7 @@ export default function SBA504Page() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Considerations
             </p>
-            <h2 className="text-2xl font-semibold text-white">Potential advantages and trade-offs</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">Potential advantages and trade-offs</h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The following are general observations about the 504 structure. Whether these characteristics are advantages or disadvantages depends on the specific business, project, and financial situation — subject to underwriting.
             </p>
@@ -688,7 +688,7 @@ export default function SBA504Page() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white">SBA 504 vs. alternatives</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">SBA 504 vs. alternatives</h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               General overview only. Actual terms, amounts, and eligibility vary by applicant, lender, and product. Not offers or commitments. Subject to third-party underwriting.
             </p>
@@ -713,7 +713,7 @@ export default function SBA504Page() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
-            <h2 className="text-2xl font-semibold text-white">Related financing structures to evaluate</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">Related financing structures to evaluate</h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               Depending on your use of proceeds, credit profile, and timeline, one of these alternatives may be a better potential fit. Each has distinct eligibility and cost characteristics.
             </p>

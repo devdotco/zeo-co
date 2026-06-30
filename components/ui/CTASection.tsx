@@ -26,12 +26,12 @@ export default function CTASection({
   return (
     <section className={`border-t ${bg} py-16`}>
       <div className="max-w-3xl mx-auto px-5 lg:px-8 text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">{headline}</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold text-[#0f0f0f] mb-4">{headline}</h2>
         <p className="text-[#737373] mb-8 max-w-xl mx-auto">{subtext}</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
             href={primaryHref}
-            className="px-8 py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
+            className="px-8 py-3 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold hover:bg-[#333333] transition-colors"
           >
             {primaryLabel}
           </Link>

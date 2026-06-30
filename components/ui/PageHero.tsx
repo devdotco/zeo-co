@@ -30,7 +30,7 @@ export default function PageHero({
             {eyebrow}
           </p>
         )}
-        <h1 className="text-3xl md:text-4xl font-semibold text-white mb-4 max-w-3xl leading-tight">
+        <h1 className="text-3xl md:text-4xl font-semibold text-[#0f0f0f] mb-4 max-w-3xl leading-tight">
           {title}
         </h1>
         {subtitle && (

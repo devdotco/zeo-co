@@ -205,7 +205,7 @@ export default function SbaLoanGuidePage() {
       {/* Section 1: What SBA Loans Are */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-5">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
             What Are SBA Loans?
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -234,7 +234,7 @@ export default function SbaLoanGuidePage() {
       {/* Section 2: Main Programs */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             The Main SBA Loan Programs
           </h2>
           <p className="text-[#a3a3a3] text-sm mb-8">
@@ -248,7 +248,7 @@ export default function SbaLoanGuidePage() {
                 <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] px-2.5 py-1 rounded-md bg-[#f5f5f5] text-[#0f0f0f] border border-[#0f0f0f]/20">
                   Most Common
                 </span>
-                <h3 className="text-lg font-semibold text-white">SBA 7(a) Loan</h3>
+                <h3 className="text-lg font-semibold text-[#0f0f0f]">SBA 7(a) Loan</h3>
               </div>
               <div className="space-y-3 text-[#737373] text-sm leading-relaxed">
                 <p>
@@ -265,7 +265,7 @@ export default function SbaLoanGuidePage() {
 
             {/* 504 */}
             <div className="pt-6 border-t border-[#e5e5e5]">
-              <h3 className="text-lg font-semibold text-white mb-3">SBA 504 Loan</h3>
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-3">SBA 504 Loan</h3>
               <div className="space-y-3 text-[#737373] text-sm leading-relaxed">
                 <p>
                   The 504 program is specifically designed for major fixed-asset purchases — primarily owner-occupied commercial real estate and long-term machinery or equipment with a useful life of at least 10 years. It is not suitable for working capital, inventory, or operating expenses.
@@ -281,7 +281,7 @@ export default function SbaLoanGuidePage() {
 
             {/* Microloans */}
             <div className="pt-6 border-t border-[#e5e5e5]">
-              <h3 className="text-lg font-semibold text-white mb-3">SBA Microloans</h3>
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-3">SBA Microloans</h3>
               <div className="space-y-3 text-[#737373] text-sm leading-relaxed">
                 <p>
                   The Microloan program provides small, short-term financing of up to $50,000 to small businesses and certain nonprofit childcare centers. The SBA funds nonprofit, community-based intermediary organizations, which in turn lend to eligible borrowers and often provide technical assistance alongside financing.
@@ -301,7 +301,7 @@ export default function SbaLoanGuidePage() {
       {/* Section 3: Comparison Table */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-5xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Program Comparison
           </h2>
           <p className="text-[#a3a3a3] text-sm mb-8">
@@ -321,7 +321,7 @@ export default function SbaLoanGuidePage() {
       {/* Section 4: Eligibility */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-5">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
             General Eligibility Considerations
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -386,7 +386,7 @@ export default function SbaLoanGuidePage() {
       {/* Section 5: Application Process */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-5">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
             How the Application Process Generally Works
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -445,7 +445,7 @@ export default function SbaLoanGuidePage() {
       {/* Related Paths */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">Related Resources</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">Related Resources</h2>
           <p className="text-sm text-[#a3a3a3] mb-6">
             Tools and guides that may be useful alongside this overview.
           </p>

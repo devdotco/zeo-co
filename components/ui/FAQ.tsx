@@ -23,7 +23,7 @@ export default function FAQ({
     <section className="py-16 border-t border-[#e5e5e5]">
       {includeSchema && <JsonLd data={faqSchema(items)} />}
       <div className="max-w-3xl mx-auto px-5 lg:px-8">
-        <h2 className="text-2xl font-semibold text-white mb-8">{title}</h2>
+        <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8">{title}</h2>
         <div className="space-y-2">
           {items.map((item, i) => (
             <div key={i} className="border border-[#e5e5e5] rounded-xl overflow-hidden">

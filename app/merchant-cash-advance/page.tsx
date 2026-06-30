@@ -206,7 +206,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Who it's for ─────────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">Who typically considers an MCA</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">Who typically considers an MCA</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             An MCA may be a potential fit for businesses in specific situations. It is not a universal solution, and the cost profile means it is generally better suited for short-term, high-margin needs where speed outweighs total cost.
           </p>
@@ -241,7 +241,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── How it works ─────────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">How a merchant cash advance works</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">How a merchant cash advance works</h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             An MCA is structured as a purchase of future receivables, not a loan. The mechanics differ from term debt in ways that carry real financial implications.
           </p>
@@ -290,7 +290,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Common use cases ─────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">Common use cases</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">Common use cases</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             MCA proceeds can be used for most general business purposes. These are the scenarios where businesses most commonly turn to this product.
           </p>
@@ -344,7 +344,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Typical requirements ─────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">Typical eligibility thresholds</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">Typical eligibility thresholds</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             MCA providers set their own standards. These represent common benchmarks seen in the market — individual providers may qualify businesses that fall outside these ranges, or may require more. Subject to underwriting.
           </p>
@@ -385,7 +385,7 @@ export default function MerchantCashAdvancePage() {
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-xl font-semibold text-white mb-4">Understanding MCA costs</h2>
+            <h2 className="text-xl font-semibold text-[#0f0f0f] mb-4">Understanding MCA costs</h2>
             <p className="text-[#737373] text-sm leading-relaxed mb-5">
               MCA pricing is expressed as a factor rate rather than an annual percentage rate (APR), which makes direct cost comparison with traditional financing difficult. A factor rate of 1.30 on a $40,000 advance means you repay $52,000 total — regardless of how quickly or slowly you repay. Paying off the advance in 60 days versus 180 days does not change the total cost, but it dramatically changes the effective annualized rate.
             </p>
@@ -406,7 +406,7 @@ export default function MerchantCashAdvancePage() {
                 ].map((item) => (
                   <div key={item.label}>
                     <p className="text-[0.65rem] text-[#a3a3a3] mb-1">{item.label}</p>
-                    <p className="text-lg font-semibold text-white tabular-nums">{item.value}</p>
+                    <p className="text-lg font-semibold text-[#0f0f0f] tabular-nums">{item.value}</p>
                   </div>
                 ))}
               </div>
@@ -421,7 +421,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Pros and cons ────────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-8">Potential advantages and drawbacks</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-8">Potential advantages and drawbacks</h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
             <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">Potential advantages</p>
@@ -473,7 +473,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Comparison table ─────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">MCA compared to other financing options</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">MCA compared to other financing options</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             This comparison reflects general market characteristics. Individual offers will vary by provider, business profile, and underwriting. Subject to approval.
           </p>
@@ -488,7 +488,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Alternatives ─────────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">Alternatives that may be worth evaluating</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">Alternatives that may be worth evaluating</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Before accepting an MCA, it is worth understanding what other financing paths may be available. Lower-cost products may be accessible even if your credit or time-in-business falls short of bank standards.
           </p>
@@ -536,13 +536,13 @@ export default function MerchantCashAdvancePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-6 max-w-2xl">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">Calculator</p>
-            <h2 className="text-lg font-semibold text-white mb-2">Estimate your MCA repayment</h2>
+            <h2 className="text-lg font-semibold text-[#0f0f0f] mb-2">Estimate your MCA repayment</h2>
             <p className="text-sm text-[#737373] leading-relaxed mb-4">
               Use ZEO's MCA calculator to model total repayment amounts and estimated holdback timelines based on different factor rates and advance sizes. Calculator results are estimates only and do not represent offers or guarantees.
             </p>
             <Link
               href="/calculators/mca"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Open MCA calculator
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

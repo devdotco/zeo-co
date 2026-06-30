@@ -101,7 +101,7 @@ export default function NonRecourseFactoringPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 What Is Non-Recourse Factoring?
               </h2>
               <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -174,7 +174,7 @@ export default function NonRecourseFactoringPage() {
       {/* Advance / Reserve Cycle */}
       <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             How the Advance and Reserve Cycle Works
           </h2>
           <p className="text-[#737373] max-w-2xl mb-10 leading-relaxed">
@@ -239,7 +239,7 @@ export default function NonRecourseFactoringPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Eligibility and Invoice Criteria
               </h2>
               <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -290,7 +290,7 @@ export default function NonRecourseFactoringPage() {
       {/* Advance Rates and Fees */}
       <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Advance Rates and Fee Ranges
           </h2>
           <p className="text-[#737373] max-w-2xl mb-8 leading-relaxed">
@@ -333,7 +333,7 @@ export default function NonRecourseFactoringPage() {
       {/* Comparison Table */}
       <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Non-Recourse vs. Recourse Factoring
           </h2>
           <p className="text-[#737373] max-w-2xl mb-8 leading-relaxed">
@@ -352,7 +352,7 @@ export default function NonRecourseFactoringPage() {
       {/* Benefits and Limitations */}
       <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-8">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8">
             Potential Benefits and Key Limitations
           </h2>
           <div className="grid md:grid-cols-2 gap-8">

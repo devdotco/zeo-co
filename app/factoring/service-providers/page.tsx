@@ -146,7 +146,7 @@ export default function ServiceProviderFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Overview
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
                 What Is Service Provider Invoice Factoring?
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -216,7 +216,7 @@ export default function ServiceProviderFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               How It Works
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               The Advance and Reserve Cycle for Service Invoices
             </h2>
             <p className="text-sm text-[#737373] leading-relaxed">
@@ -277,7 +277,7 @@ export default function ServiceProviderFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Eligibility
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
                 Business Requirements
               </h2>
               <p className="text-sm text-[#737373] leading-relaxed mb-6">
@@ -326,7 +326,7 @@ export default function ServiceProviderFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Invoice Criteria
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
                 What Makes a Service Invoice Eligible
               </h2>
               <p className="text-sm text-[#737373] leading-relaxed mb-6">
@@ -383,7 +383,7 @@ export default function ServiceProviderFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Cost & Rates
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               Advance Rates and Fee Structures
             </h2>
             <p className="text-sm text-[#737373] leading-relaxed mb-2">
@@ -434,7 +434,7 @@ export default function ServiceProviderFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Considerations
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
               Potential Benefits and Notable Limitations
             </h2>
           </div>
@@ -529,7 +529,7 @@ export default function ServiceProviderFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 text-balance">
               Service Factoring vs. Other Working Capital Options
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">

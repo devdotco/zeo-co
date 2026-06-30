@@ -164,7 +164,7 @@ export default function IndustriesPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industries
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               15 industry verticals
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-xl">
@@ -227,7 +227,7 @@ export default function IndustriesPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Context
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Why industry context matters in financing
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -282,7 +282,7 @@ export default function IndustriesPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
                 Also Browse
               </p>
-              <p className="text-white font-semibold text-lg">Explore all financing structures</p>
+              <p className="text-[#0f0f0f] font-semibold text-lg">Explore all financing structures</p>
               <p className="text-[#737373] text-sm mt-1 max-w-md">
                 Browse the full range of commercial financing products independent of industry.
               </p>
@@ -290,7 +290,7 @@ export default function IndustriesPage() {
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <Link
                 href="/financing"
-                className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
+                className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 All Financing Products
               </Link>

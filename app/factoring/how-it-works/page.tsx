@@ -201,7 +201,7 @@ export default function HowFactoringWorksPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 What Is Factoring
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
                 Selling receivables, not taking on debt
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -262,7 +262,7 @@ export default function HowFactoringWorksPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             The Advance &amp; Reserve Cycle
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
             Step-by-step: from invoice submission to reserve release
           </h2>
           <p className="text-sm text-[#737373] mb-10 max-w-2xl leading-relaxed">
@@ -360,7 +360,7 @@ export default function HowFactoringWorksPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Eligibility
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
                 Requirements and invoice criteria
               </h2>
               <p className="text-sm text-[#737373] mb-6 leading-relaxed">
@@ -429,7 +429,7 @@ export default function HowFactoringWorksPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
             Advance rates and fee ranges
           </h2>
           <p className="text-sm text-[#737373] mb-10 max-w-2xl leading-relaxed">
@@ -539,7 +539,7 @@ export default function HowFactoringWorksPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Considerations
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
             Benefits and limitations
           </h2>
           <p className="text-sm text-[#737373] mb-10 max-w-2xl leading-relaxed">

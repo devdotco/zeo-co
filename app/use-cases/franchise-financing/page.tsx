@@ -197,7 +197,7 @@ export default function FranchiseFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 What makes franchise financing distinct
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -252,7 +252,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Options
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Structures commonly used in franchise transactions
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl">
@@ -301,7 +301,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Comparing common franchise financing structures
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl mb-8">
@@ -370,7 +370,7 @@ export default function FranchiseFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Common Requirements
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 What lenders typically evaluate
               </h2>
               <p className="text-sm text-[#737373] leading-relaxed mb-6">

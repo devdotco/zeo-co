@@ -360,7 +360,7 @@ export default function ManufacturingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Industry Context
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2 text-balance">
             Key financing challenges in manufacturing
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -386,7 +386,7 @@ export default function ManufacturingPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <div className="md:col-span-2 space-y-8 text-sm text-[#737373] leading-relaxed">
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Why manufacturing financing is structurally different
                 </h2>
                 <p>
@@ -398,7 +398,7 @@ export default function ManufacturingPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Working capital timing: the production-to-payment gap
                 </h2>
                 <p>
@@ -410,7 +410,7 @@ export default function ManufacturingPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Equipment financing: new capacity vs. replacement
                 </h2>
                 <p>
@@ -422,7 +422,7 @@ export default function ManufacturingPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Navigating customer concentration and supply chain risk
                 </h2>
                 <p>
@@ -504,7 +504,7 @@ export default function ManufacturingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Financing Structures
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Products manufacturers commonly consider
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -524,7 +524,7 @@ export default function ManufacturingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             What Lenders Evaluate
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Typical requirements for manufacturing financing
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -552,7 +552,7 @@ export default function ManufacturingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Manufacturing financing structures side by side
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">

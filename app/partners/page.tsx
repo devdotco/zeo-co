@@ -223,7 +223,7 @@ function PartnerInquiryForm() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Partner Inquiry
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Start a partner conversation
           </h2>
           <p className="text-[#737373] text-sm leading-relaxed">
@@ -317,7 +317,7 @@ function PartnerInquiryForm() {
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#0f0f0f] text-white font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
+            className="w-full rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
           >
             Submit Partner Inquiry
           </button>
@@ -352,7 +352,7 @@ export default function PartnersPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Partner Types
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Who ZEO partners with
             </h2>
             <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
@@ -410,7 +410,7 @@ export default function PartnersPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               How the referral program works
             </h2>
             <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
@@ -441,7 +441,7 @@ export default function PartnersPage() {
             </div>
             <a
               href="#partner-inquiry"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Submit Inquiry
             </a>
@@ -457,7 +457,7 @@ export default function PartnersPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What partners access
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Supporting your clients through their financing process
               </h2>
               <p className="text-[#737373] leading-relaxed mb-5 text-sm">

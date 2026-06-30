@@ -208,7 +208,7 @@ export default function DocumentsNeededPage() {
       {/* Section 1: Why Documentation Matters */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-5">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
             Why Lenders Require Documentation
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -237,7 +237,7 @@ export default function DocumentsNeededPage() {
       {/* Section 2: Core Business Documents */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Core Business Financial Documents
           </h2>
           <p className="text-[#a3a3a3] text-sm mb-8">
@@ -299,7 +299,7 @@ export default function DocumentsNeededPage() {
       {/* Section 3: Owner and Personal Documents */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Owner and Personal Documentation
           </h2>
           <p className="text-[#a3a3a3] text-sm mb-8">
@@ -349,7 +349,7 @@ export default function DocumentsNeededPage() {
       {/* Section 4: Business Legal and Entity Documents */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Business Legal and Entity Documents
           </h2>
           <p className="text-[#a3a3a3] text-sm mb-8">
@@ -404,7 +404,7 @@ export default function DocumentsNeededPage() {
       {/* Section 5: Document Requirements by Product Type */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-5xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             How Requirements Differ by Product Type
           </h2>
           <p className="text-[#a3a3a3] text-sm mb-8">
@@ -424,7 +424,7 @@ export default function DocumentsNeededPage() {
       {/* Section 6: Preparing Your Documentation */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-5">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
             Preparing Your Documentation Package
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed">
@@ -473,7 +473,7 @@ export default function DocumentsNeededPage() {
       {/* Related Paths */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-white mb-2">Related Resources</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-2">Related Resources</h2>
           <p className="text-sm text-[#a3a3a3] mb-6">
             Guides and overviews that may be useful alongside this documentation reference.
           </p>

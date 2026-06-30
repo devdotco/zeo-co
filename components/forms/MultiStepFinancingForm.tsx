@@ -256,7 +256,7 @@ export default function MultiStepFinancingForm() {
             <path d="M5 12L9 16L19 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
-        <h3 className="text-xl font-semibold text-white mb-3">Submission Received</h3>
+        <h3 className="text-xl font-semibold text-[#0f0f0f] mb-3">Submission Received</h3>
         <p className="text-sm text-[#737373] leading-relaxed max-w-sm mx-auto">
           {matchMessage(matchCategory)}
         </p>
@@ -274,7 +274,7 @@ export default function MultiStepFinancingForm() {
       {/* ── Step 1: Purpose ─────────────────────────────────────────────── */}
       {step === 1 && (
         <div className="animate-fade-in">
-          <h3 className="text-base font-semibold text-white mb-1">What do you need funding for?</h3>
+          <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">What do you need funding for?</h3>
           <p className="text-xs text-[#a3a3a3] mb-5">Select all that apply</p>
           <div className="grid grid-cols-2 gap-2">
             {[
@@ -307,7 +307,7 @@ export default function MultiStepFinancingForm() {
       {/* ── Step 2: Amount ──────────────────────────────────────────────── */}
       {step === 2 && (
         <div className="animate-fade-in">
-          <h3 className="text-base font-semibold text-white mb-1">How much capital do you need?</h3>
+          <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">How much capital do you need?</h3>
           <p className="text-xs text-[#a3a3a3] mb-5">Approximate range is fine</p>
           <div className="grid grid-cols-2 gap-2">
             {["Under $50K", "$50K–$150K", "$150K–$500K", "$500K–$1M", "$1M–$5M", "$5M+"].map((opt) => (
@@ -327,7 +327,7 @@ export default function MultiStepFinancingForm() {
       {/* ── Step 3: Business Type ────────────────────────────────────────── */}
       {step === 3 && (
         <div className="animate-fade-in">
-          <h3 className="text-base font-semibold text-white mb-1">What best describes your business?</h3>
+          <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">What best describes your business?</h3>
           <p className="text-xs text-[#a3a3a3] mb-5">Choose the closest match</p>
           <div className="grid grid-cols-2 gap-2">
             {[
@@ -357,7 +357,7 @@ export default function MultiStepFinancingForm() {
       {/* ── Step 4: Financial Profile ────────────────────────────────────── */}
       {step === 4 && (
         <div className="animate-fade-in space-y-4">
-          <h3 className="text-base font-semibold text-white mb-1">Business financial profile</h3>
+          <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">Business financial profile</h3>
           <p className="text-xs text-[#a3a3a3] mb-3">Approximate figures are fine. Fields marked * are required.</p>
           <Input
             label="Monthly Revenue"
@@ -409,7 +409,7 @@ export default function MultiStepFinancingForm() {
       {/* ── Step 5: Urgency ───────────────────────────────────────────────── */}
       {step === 5 && (
         <div className="animate-fade-in">
-          <h3 className="text-base font-semibold text-white mb-1">When do you need funding?</h3>
+          <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">When do you need funding?</h3>
           <p className="text-xs text-[#a3a3a3] mb-5">Timeline helps us prioritize your review</p>
           <div className="grid grid-cols-2 gap-2">
             {["This week", "2–4 weeks", "30–60 days", "Exploring options"].map((opt) => (
@@ -429,7 +429,7 @@ export default function MultiStepFinancingForm() {
       {/* ── Step 6: Contact ───────────────────────────────────────────────── */}
       {step === 6 && (
         <div className="animate-fade-in space-y-4">
-          <h3 className="text-base font-semibold text-white mb-1">Where should we send your results?</h3>
+          <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">Where should we send your results?</h3>
           <div className="grid grid-cols-2 gap-3">
             <Input label="First & Last Name" id="name" value={data.name} onChange={(v) => set("name", v)} required placeholder="Jane Smith" />
             <Input label="Company Name" id="company" value={data.company} onChange={(v) => set("company", v)} placeholder="Acme LLC" />
@@ -499,7 +499,7 @@ export default function MultiStepFinancingForm() {
               (step === 4 && !data.monthlyRevenue) ||
               (step === 5 && !data.urgency)
             }
-            className="px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+            className="px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
           >
             Continue
           </button>
@@ -507,7 +507,7 @@ export default function MultiStepFinancingForm() {
           <button
             type="submit"
             disabled={submitting || !data.consent}
-            className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+            className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
           >
             {submitting ? "Submitting…" : "Submit"}
           </button>

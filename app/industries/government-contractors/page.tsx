@@ -234,7 +234,7 @@ export default function GovernmentContractorFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry context
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Why government contracting creates distinct financing challenges
               </h2>
               <p className="text-[#737373] leading-relaxed text-sm mb-4">
@@ -296,7 +296,7 @@ export default function GovernmentContractorFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Relevant financing structures
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 text-balance">
             Products commonly used by government contractors
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -360,7 +360,7 @@ export default function GovernmentContractorFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Lender criteria
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What lenders typically evaluate for government contractors
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -422,7 +422,7 @@ export default function GovernmentContractorFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Preparation
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 How government contractors can strengthen a financing application
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-5">
@@ -480,7 +480,7 @@ export default function GovernmentContractorFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Side-by-side comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 text-balance">
             Government contractor financing structures at a glance
           </h2>
           <p className="text-sm text-[#737373] mb-6 max-w-2xl">
@@ -504,7 +504,7 @@ export default function GovernmentContractorFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Government contractor consideration
               </p>
-              <h3 className="text-lg font-semibold text-white mb-3 text-balance">
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-3 text-balance">
                 Why government receivables are often easier to factor than commercial ones
               </h3>
               <p className="text-sm text-[#737373] leading-relaxed mb-3">
@@ -528,7 +528,7 @@ export default function GovernmentContractorFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Government contractor consideration
               </p>
-              <h3 className="text-lg font-semibold text-white mb-3 text-balance">
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-3 text-balance">
                 IDIQ vehicles, BPAs, and the funded task order distinction
               </h3>
               <p className="text-sm text-[#737373] leading-relaxed mb-3">

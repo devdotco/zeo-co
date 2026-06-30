@@ -214,7 +214,7 @@ export default function HealthcareFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Financing Challenges
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2 max-w-2xl">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2 max-w-2xl">
             Why healthcare financing is distinct
           </h2>
           <p className="text-[#737373] text-sm max-w-2xl mb-10 leading-relaxed">
@@ -247,7 +247,7 @@ export default function HealthcareFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Financing Paths
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2 max-w-2xl">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2 max-w-2xl">
             Products that may be a fit for healthcare
           </h2>
           <p className="text-[#737373] text-sm max-w-2xl mb-10 leading-relaxed">
@@ -275,7 +275,7 @@ export default function HealthcareFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Product Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Financing structures at a glance
           </h2>
           <p className="text-[#737373] text-sm max-w-2xl mb-8 leading-relaxed">
@@ -295,7 +295,7 @@ export default function HealthcareFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Industry Context
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Scale of the healthcare financing landscape
           </h2>
           <p className="text-[#737373] text-sm max-w-2xl mb-8 leading-relaxed">
@@ -337,7 +337,7 @@ export default function HealthcareFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Lender Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               What lenders typically look for in healthcare
             </h2>
             <p className="text-[#737373] text-sm mb-8 leading-relaxed">

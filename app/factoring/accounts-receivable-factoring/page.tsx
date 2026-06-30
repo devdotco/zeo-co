@@ -255,7 +255,7 @@ export default function AccountsReceivableFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Liquidity tied directly to the invoices your business already generates
               </h2>
               <p className="text-[#737373] leading-relaxed text-sm mb-4">
@@ -326,7 +326,7 @@ export default function AccountsReceivableFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2 text-balance">
             The advance and reserve cycle
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -386,7 +386,7 @@ export default function AccountsReceivableFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Requirements and invoice criteria
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -452,7 +452,7 @@ export default function AccountsReceivableFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Common use cases
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Industries that commonly use AR factoring
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-5">
@@ -508,7 +508,7 @@ export default function AccountsReceivableFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Pricing overview
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2 text-balance">
             Advance rates and fee ranges
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -576,7 +576,7 @@ export default function AccountsReceivableFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             Potential advantages and limitations of AR factoring
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
@@ -659,7 +659,7 @@ export default function AccountsReceivableFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             AR factoring vs. asset-based lending vs. business line of credit
           </h2>
           <p className="text-sm text-[#737373] mb-6 max-w-2xl">
@@ -681,7 +681,7 @@ export default function AccountsReceivableFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related financing paths
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Other options that may be relevant
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -729,7 +729,7 @@ export default function AccountsReceivableFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <h3 className="text-lg font-semibold text-white mb-1">
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-1">
                 Estimate your factoring proceeds
               </h3>
               <p className="text-sm text-[#a3a3a3] max-w-md">

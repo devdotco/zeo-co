@@ -241,7 +241,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Potential fit
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2 leading-snug">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2 leading-snug">
               Who may be a candidate for a term loan
             </h2>
             <p className="text-[#737373] text-sm mb-8 leading-relaxed">
@@ -289,7 +289,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               How business term lending works
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">
@@ -324,7 +324,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use cases
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Common purposes for business term loans
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">
@@ -378,7 +378,7 @@ export default function BusinessTermLoansPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-3 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 leading-snug">
                 Typical lender requirements
               </h2>
               <p className="text-sm text-[#737373] leading-relaxed mb-6">
@@ -461,7 +461,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Understanding cost
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3 leading-snug">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 leading-snug">
               What drives term loan pricing
             </h2>
             <p className="text-sm text-[#737373] leading-relaxed">
@@ -516,7 +516,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Advantages and limitations
             </h2>
             <p className="text-sm text-[#737373] leading-relaxed">
@@ -579,7 +579,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               How it compares
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Term loans vs. other financing structures
             </h2>
             <p className="text-sm text-[#737373] leading-relaxed">
@@ -601,7 +601,7 @@ export default function BusinessTermLoansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Other financing options to explore
             </h2>
             <p className="text-sm text-[#737373] leading-relaxed">

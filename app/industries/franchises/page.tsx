@@ -315,7 +315,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industry Challenges
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               What makes franchise financing different
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -350,7 +350,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Paths
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Products franchise buyers and franchisees most commonly explore
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -415,7 +415,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Lender Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               What lenders typically look for in franchise applications
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -460,7 +460,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Underwriting Context
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               How lenders approach different franchise deal types
             </h2>
             <p className="text-[#737373] leading-relaxed">

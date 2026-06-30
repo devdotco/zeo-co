@@ -146,7 +146,7 @@ export default function StaffingFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             What Is Staffing Factoring?
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -170,7 +170,7 @@ export default function StaffingFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
               Types of Staffing Businesses That Commonly Use Factoring
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -226,7 +226,7 @@ export default function StaffingFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             The Advance and Reserve Cycle for Staffing Agencies
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem] mb-10">
@@ -283,7 +283,7 @@ export default function StaffingFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Eligibility
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
               Requirements and Invoice Criteria
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -345,7 +345,7 @@ export default function StaffingFactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             Advance Rates and Fee Ranges for Staffing Factoring
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
@@ -400,7 +400,7 @@ export default function StaffingFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Considerations
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
               Potential Benefits and Notable Limitations
             </h2>
           </div>
@@ -487,7 +487,7 @@ export default function StaffingFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 text-balance">
               Staffing Factoring vs. Other Working Capital Options
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">

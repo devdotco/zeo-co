@@ -277,7 +277,7 @@ export default function InventoryFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who it may fit
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Businesses where inventory is both the product and the bottleneck
               </h2>
               <p className="text-[#737373] leading-relaxed text-sm">
@@ -330,7 +330,7 @@ export default function InventoryFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             From application to funded inventory
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
@@ -384,7 +384,7 @@ export default function InventoryFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             Industries and scenarios that commonly use inventory financing
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -442,7 +442,7 @@ export default function InventoryFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Typical requirements
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What lenders generally evaluate
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -499,7 +499,7 @@ export default function InventoryFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What drives the cost of inventory financing
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-5">
@@ -554,7 +554,7 @@ export default function InventoryFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             Potential advantages and drawbacks
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
@@ -637,7 +637,7 @@ export default function InventoryFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-6 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-6 text-balance">
             Inventory financing vs. line of credit vs. purchase order financing
           </h2>
           <p className="text-sm text-[#737373] mb-6 max-w-2xl">
@@ -658,7 +658,7 @@ export default function InventoryFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -707,7 +707,7 @@ export default function InventoryFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <h3 className="text-lg font-semibold text-white mb-1">
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-1">
                 Estimate your inventory line availability
               </h3>
               <p className="text-sm text-[#a3a3a3] max-w-md">

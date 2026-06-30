@@ -130,7 +130,7 @@ export default function FactoringCostsPage() {
       {/* What factoring costs means */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-5">What Does Factoring Cost?</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">What Does Factoring Cost?</h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Invoice factoring is not priced like a loan with an annual interest rate. Instead, costs are expressed as a percentage of the invoice face value — called a discount rate or factoring fee — assessed when the invoice is purchased and sometimes again at intervals if the customer takes longer to pay.
@@ -148,7 +148,7 @@ export default function FactoringCostsPage() {
       {/* Advance and reserve cycle */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">How the Advance and Reserve Cycle Works</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">How the Advance and Reserve Cycle Works</h2>
           <p className="text-[#737373] text-sm mb-8 leading-relaxed">
             The factoring cycle has three distinct stages that together determine your net cash position.
           </p>
@@ -241,7 +241,7 @@ export default function FactoringCostsPage() {
       {/* Invoice requirements */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Invoice Eligibility and Program Requirements</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Invoice Eligibility and Program Requirements</h2>
           <p className="text-[#737373] text-sm mb-8 leading-relaxed">
             Not all invoices qualify for factoring. The factor&rsquo;s primary risk is the creditworthiness of your customer, so eligibility criteria center on who owes you, not just on your business.
           </p>
@@ -284,7 +284,7 @@ export default function FactoringCostsPage() {
       {/* Fee structures */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Advance Rates and Fee Structures</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Advance Rates and Fee Structures</h2>
           <p className="text-[#737373] text-sm mb-8 leading-relaxed">
             Factoring fees vary by provider, industry, customer credit quality, and contract type. These ranges reflect commonly available programs and are not offers or guarantees of any specific terms.
           </p>
@@ -311,7 +311,7 @@ export default function FactoringCostsPage() {
       {/* Benefits and limitations */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-8">Potential Benefits and Limitations</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8">Potential Benefits and Limitations</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Benefits */}
             <div>
@@ -366,7 +366,7 @@ export default function FactoringCostsPage() {
           <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-6 py-6 flex flex-col sm:flex-row sm:items-center gap-5">
             <div className="flex-1">
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">Calculator</p>
-              <h3 className="text-[1rem] font-semibold text-white mb-1.5">Estimate Your Factoring Net Proceeds</h3>
+              <h3 className="text-[1rem] font-semibold text-[#0f0f0f] mb-1.5">Estimate Your Factoring Net Proceeds</h3>
               <p className="text-sm text-[#737373] leading-relaxed">
                 Use the invoice factoring calculator to model advance rates, fee structures, and reserve releases based on your invoice amounts and estimated days-to-pay.
               </p>

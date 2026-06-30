@@ -39,7 +39,7 @@ function ZeoLogo() {
         <rect width="32" height="32" rx="6" fill="#0f0f0f"/>
         <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#000"/>
       </svg>
-      <span className="text-[1.0625rem] font-semibold tracking-tight text-white group-hover:text-[#333333] transition-colors">
+      <span className="text-[1.0625rem] font-semibold tracking-tight text-[#0f0f0f] group-hover:text-[#333333] transition-colors">
         zeo<span className="text-[#0f0f0f]">.</span>co
       </span>
     </Link>
@@ -78,7 +78,7 @@ function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
         <Link
           href="/apply"
           onClick={onClose}
-          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
+          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -302,7 +302,7 @@ function NavItem({
     <div className="relative" onMouseEnter={onCancelClose}>
       <button
         className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
-          isOpen ? "text-white bg-[#f5f5f5]" : "text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5]"
+          isOpen ? "text-[#0f0f0f] bg-[#f5f5f5]" : "text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5]"
         }`}
         onMouseEnter={() => setActiveMenu(menuKey)}
         onClick={() => setActiveMenu(isOpen ? null : menuKey)}
@@ -341,7 +341,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
         <Link
           href="/apply"
           onClick={onClose}
-          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
+          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -476,7 +476,7 @@ export default function Header() {
             <div className="ml-auto flex items-center gap-3">
               <Link
                 href="/apply"
-                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
+                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>

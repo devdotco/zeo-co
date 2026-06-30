@@ -32,7 +32,7 @@ export default function CalculatorShell({
               <rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.3"/>
               <path d="M5 8h6M8 5v6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
             </svg>
-            <h1 className="text-base font-semibold text-white">{title}</h1>
+            <h1 className="text-base font-semibold text-[#0f0f0f]">{title}</h1>
           </div>
           <p className="text-sm text-[#a3a3a3]">{description}</p>
         </div>
@@ -131,7 +131,7 @@ export function CalcResult({
   return (
     <div className={`rounded-xl border p-4 ${highlight ? "border-[#0f0f0f]/30 bg-[#f5f5f5]" : "border-[#e5e5e5] bg-[#ffffff]"}`}>
       <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">{label}</p>
-      <p className={`text-xl font-semibold tabular-nums ${highlight ? "text-[#0f0f0f]" : "text-white"}`}>{value}</p>
+      <p className={`text-xl font-semibold tabular-nums ${highlight ? "text-[#0f0f0f]" : "text-[#0f0f0f]"}`}>{value}</p>
       {note && <p className="text-[0.625rem] text-[#a3a3a3] mt-1.5">{note}</p>}
     </div>
   );

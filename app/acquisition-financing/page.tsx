@@ -272,7 +272,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Who It May Suit</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">A potential fit for qualified buyers with a defined target</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">A potential fit for qualified buyers with a defined target</h2>
             <p className="text-[#737373] leading-relaxed">
               Acquisition financing is not a standard off-the-shelf product. Lenders evaluate both the buyer's financial profile and the business being acquired. Buyers who tend to be stronger candidates typically share several characteristics.
             </p>
@@ -317,7 +317,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process Overview</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">How acquisition financing generally works</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">How acquisition financing generally works</h2>
             <p className="text-[#737373] leading-relaxed">
               Business acquisition financing involves more moving parts than most other loan types. The lender is underwriting both the buyer and the business being purchased, and the deal structure itself — purchase price, equity, seller note, asset allocation — directly affects what can be financed and on what terms.
             </p>
@@ -372,7 +372,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Common Use Cases</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Scenarios where acquisition financing is commonly evaluated</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Scenarios where acquisition financing is commonly evaluated</h2>
             <p className="text-[#737373] leading-relaxed">
               Business acquisitions take many forms. These are among the more common scenarios where buyers seek third-party financing to fund part or all of the purchase price — each subject to the specific deal terms, lender requirements, and buyer profile.
             </p>
@@ -427,7 +427,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Typical Requirements</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">What lenders generally evaluate</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">What lenders generally evaluate</h2>
             <p className="text-[#737373] leading-relaxed">
               Acquisition financing underwriting is more complex than a standard business loan because lenders are evaluating two parties simultaneously — the buyer and the business being acquired. The following reflects what lenders commonly assess, not a guarantee of eligibility.
             </p>
@@ -488,7 +488,7 @@ export default function AcquisitionFinancingPage() {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
-              <h2 className="text-2xl font-semibold text-white mb-4">What determines the total cost of acquisition financing</h2>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">What determines the total cost of acquisition financing</h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Acquisition financing cost cannot be predicted in advance — it depends on the financing structure, lender, deal size, buyer creditworthiness, and market conditions at the time of the transaction. Quoting specific rates without underwriting a real deal would not reflect what any particular buyer might actually encounter.
@@ -532,7 +532,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Tradeoffs</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Weighing acquisition financing against your situation</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Weighing acquisition financing against your situation</h2>
             <p className="text-[#737373] leading-relaxed">
               Debt financing for an acquisition amplifies both the upside and the risk. Going in with a clear view of the tradeoffs helps buyers structure deals more responsibly.
             </p>
@@ -587,7 +587,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Structure Comparison</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Acquisition financing structures at a glance</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Acquisition financing structures at a glance</h2>
             <p className="text-[#737373] leading-relaxed">
               A high-level comparison of common acquisition financing structures. The right structure depends on deal specifics, buyer profile, and lender availability. All financing is subject to underwriting and approval.
             </p>
@@ -608,7 +608,7 @@ export default function AcquisitionFinancingPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Alternatives</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Related financing paths to consider</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Related financing paths to consider</h2>
             <p className="text-[#737373] leading-relaxed">
               Acquisition financing rarely exists in isolation. Depending on the deal structure and the buyer's needs before and after closing, other financing products may be relevant alongside or following the primary acquisition loan.
             </p>

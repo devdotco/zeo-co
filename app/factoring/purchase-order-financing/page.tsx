@@ -233,7 +233,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Financing the gap between receiving an order and issuing an invoice
               </h2>
               <p className="text-[#737373] leading-relaxed text-sm mb-4">
@@ -301,7 +301,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How the cycle works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             From purchase order to reserve release
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -374,7 +374,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What lenders generally evaluate
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -436,7 +436,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Invoice criteria
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What makes an invoice eligible for the factoring component
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-5">
@@ -489,7 +489,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Advance rates and fee ranges
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Understanding cost — without promises
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -503,7 +503,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 PO advance rate
               </p>
-              <p className="text-2xl font-semibold text-white tabular-nums mb-2">
+              <p className="text-2xl font-semibold text-[#0f0f0f] tabular-nums mb-2">
                 Up to 70 – 90%
               </p>
               <p className="text-xs text-[#a3a3a3] leading-relaxed">
@@ -531,7 +531,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Reserve release
               </p>
-              <p className="text-2xl font-semibold text-white tabular-nums mb-2">
+              <p className="text-2xl font-semibold text-[#0f0f0f] tabular-nums mb-2">
                 On buyer payment
               </p>
               <p className="text-xs text-[#a3a3a3] leading-relaxed">
@@ -562,7 +562,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8 text-balance">
             Potential benefits and limitations of PO financing through factoring
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
@@ -646,7 +646,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Industries and deal types where PO financing is commonly evaluated
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -706,7 +706,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             PO financing vs. invoice factoring vs. working capital
           </h2>
           <p className="text-sm text-[#737373] mb-6 max-w-2xl">
@@ -727,7 +727,7 @@ export default function PurchaseOrderFinancingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Other financing paths that may address similar needs
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -769,7 +769,7 @@ export default function PurchaseOrderFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <h3 className="text-lg font-semibold text-white mb-1">
+              <h3 className="text-lg font-semibold text-[#0f0f0f] mb-1">
                 Estimate invoice factoring costs
               </h3>
               <p className="text-sm text-[#a3a3a3] max-w-md">

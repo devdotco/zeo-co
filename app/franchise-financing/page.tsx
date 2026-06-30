@@ -315,7 +315,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Who It May Suit
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               A potential fit for aspiring and existing franchise operators
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -367,7 +367,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process Overview
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               How franchise financing generally works
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -431,7 +431,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Common Use Cases
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Where franchise financing is commonly evaluated
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -493,7 +493,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Typical Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               What lenders generally look at
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -570,7 +570,7 @@ export default function FranchiseFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding Cost
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 What determines the total cost of franchise financing
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -641,7 +641,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Weighing franchise financing against your situation
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -723,7 +723,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Program Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               SBA 7(a) vs. conventional vs. franchisor financing
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -748,7 +748,7 @@ export default function FranchiseFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Other financing paths to consider
             </h2>
             <p className="text-[#737373] leading-relaxed">

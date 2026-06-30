@@ -213,7 +213,7 @@ export default function RefinanceBusinessDebtPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
                 When existing debt becomes a constraint
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -278,7 +278,7 @@ export default function RefinanceBusinessDebtPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Options
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Structures that may be relevant
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl">
@@ -329,7 +329,7 @@ export default function RefinanceBusinessDebtPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               How to evaluate which option fits
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl">
@@ -377,7 +377,7 @@ export default function RefinanceBusinessDebtPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
                 What lenders typically look for
               </h2>
               <p className="text-sm text-[#737373] leading-relaxed mb-6">

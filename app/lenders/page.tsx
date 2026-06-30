@@ -260,7 +260,7 @@ function LenderInquiryForm() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Provider Inquiry
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Inquire about joining the provider network
           </h2>
           <p className="text-[#737373] text-sm leading-relaxed">
@@ -399,7 +399,7 @@ function LenderInquiryForm() {
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#0f0f0f] text-white font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
+            className="w-full rounded-xl bg-[#0f0f0f] text-[#0f0f0f] font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
           >
             Submit Provider Inquiry
           </button>
@@ -434,7 +434,7 @@ export default function LendersPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Provider Types
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Types of financing providers ZEO works with
             </h2>
             <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
@@ -505,7 +505,7 @@ export default function LendersPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Compliance
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Provider compliance requirements
             </h2>
             <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
@@ -544,7 +544,7 @@ export default function LendersPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Provider types at a glance
             </h2>
             <p className="text-[#737373] text-sm">

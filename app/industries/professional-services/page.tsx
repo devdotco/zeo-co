@@ -246,7 +246,7 @@ export default function ProfessionalServicesPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Industry Challenges</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Why professional services firms seek outside capital</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Why professional services firms seek outside capital</h2>
             <p className="text-[#737373] leading-relaxed">
               Professional services businesses are often profitable on paper but cash-constrained in practice. Several structural characteristics of service-based revenue models create recurring financing needs — independent of business quality or growth trajectory.
             </p>
@@ -305,7 +305,7 @@ export default function ProfessionalServicesPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Financing Options</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Products that may be relevant for professional services firms</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Products that may be relevant for professional services firms</h2>
             <p className="text-[#737373] leading-relaxed">
               No single product fits every situation. The right financing path depends on your use case, timeline, revenue profile, and credit position. The options below represent the most commonly evaluated structures for professional services businesses — each subject to underwriting by third-party providers.
             </p>
@@ -352,7 +352,7 @@ export default function ProfessionalServicesPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Lender Requirements</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">What lenders typically look for in professional services</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">What lenders typically look for in professional services</h2>
             <p className="text-[#737373] leading-relaxed">
               Requirements vary by product, lender, loan size, and the individual business. The following reflects what many lenders evaluate when underwriting professional services financing. Meeting these thresholds does not guarantee approval — all financing is subject to underwriting, and lender criteria differ.
             </p>
@@ -407,7 +407,7 @@ export default function ProfessionalServicesPage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Product Comparison</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Common financing structures side by side</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Common financing structures side by side</h2>
             <p className="text-[#737373] leading-relaxed">
               A high-level comparison of the most commonly evaluated products for professional services firms. All terms are illustrative — actual terms depend on lender, borrower profile, and market conditions at time of application.
             </p>

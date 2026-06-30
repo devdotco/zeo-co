@@ -259,7 +259,7 @@ export default function BusinessLoanGuidePage() {
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">The Basics</p>
-              <h2 className="text-2xl font-semibold text-white mb-4">What a business loan actually is</h2>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">What a business loan actually is</h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   A business loan is a financing arrangement in which a lender provides capital to a business, and the business agrees to repay that capital over time — typically with interest and fees — according to a defined schedule. Unlike equity financing, debt does not require giving up ownership; but it does create a repayment obligation that persists regardless of business performance.
@@ -315,7 +315,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Loan Types</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Common types of business financing</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Common types of business financing</h2>
             <p className="text-[#737373] leading-relaxed">
               No single product works for every business or every use case. The landscape of commercial financing includes products with meaningfully different structures, timelines, costs, and qualification standards.
             </p>
@@ -383,7 +383,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Qualification</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">What lenders evaluate</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">What lenders evaluate</h2>
             <p className="text-[#737373] leading-relaxed">
               Lender underwriting standards are not uniform, and eligibility thresholds vary by institution and product. The following factors commonly appear in commercial lending decisions across most product types — they are indicators, not guarantees.
             </p>
@@ -448,7 +448,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">How to approach a business loan application</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">How to approach a business loan application</h2>
             <p className="text-[#737373] leading-relaxed">
               A structured approach reduces friction, improves outcomes, and helps avoid common mistakes that slow or derail applications. The steps below represent a general framework — specific requirements vary by product and lender.
             </p>
@@ -503,7 +503,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">How to evaluate the true cost of a business loan</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">How to evaluate the true cost of a business loan</h2>
             <p className="text-[#737373] leading-relaxed">
               Interest rate alone does not tell the full story of what a loan costs. Different products use different pricing conventions, and comparing across them requires looking beyond the headline number.
             </p>
@@ -548,7 +548,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Product Comparison</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Business loan types side by side</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Business loan types side by side</h2>
             <p className="text-[#737373] leading-relaxed">
               A high-level comparison to help orient your evaluation. All terms are general estimates — actual terms are set by individual lenders and subject to underwriting.
             </p>
@@ -569,7 +569,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">What to Avoid</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Common mistakes in business loan applications</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Common mistakes in business loan applications</h2>
             <p className="text-[#737373] leading-relaxed">
               The following mistakes frequently slow or derail applications, result in worse terms, or create downstream complications that are difficult to unwind.
             </p>
@@ -617,7 +617,7 @@ export default function BusinessLoanGuidePage() {
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Explore Options</p>
-            <h2 className="text-2xl font-semibold text-white mb-3">Financing paths worth evaluating</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">Financing paths worth evaluating</h2>
             <p className="text-[#737373] leading-relaxed">
               The right product depends on your business profile, use case, and timeline. These are some of the most commonly evaluated paths for established businesses — each subject to underwriting by third-party providers.
             </p>

@@ -298,7 +298,7 @@ export default function CommercialRealEstateLoanPage() {
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-2xl font-semibold text-white mb-2">Who May Be a Potential Fit</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Who May Be a Potential Fit</h2>
             <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Commercial real estate financing is not a single product — it spans conventional mortgages,
               government-backed programs, bridge loans, and construction facilities. The common thread is
@@ -338,7 +338,7 @@ export default function CommercialRealEstateLoanPage() {
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-2xl">
-            <h2 className="text-2xl font-semibold text-white mb-2">How CRE Lending Generally Works</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">How CRE Lending Generally Works</h2>
             <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Every lender has its own process, but the general arc of a commercial real estate loan
               follows a predictable sequence. Understanding what happens at each stage can help you
@@ -383,7 +383,7 @@ export default function CommercialRealEstateLoanPage() {
       {/* 5 — Common use cases */}
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Common Use Cases</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Common Use Cases</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             The following scenarios represent common reasons businesses explore commercial real estate
             financing. Each has different structural considerations and lender preferences.
@@ -455,7 +455,7 @@ export default function CommercialRealEstateLoanPage() {
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-2xl font-semibold text-white mb-2">Typical Requirements</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Typical Requirements</h2>
             <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Requirements for commercial real estate loans vary considerably by lender, loan type, and
               property. The benchmarks below represent common thresholds observed across the conventional
@@ -482,7 +482,7 @@ export default function CommercialRealEstateLoanPage() {
               ].map(({ label, range, note }) => (
                 <div key={label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                   <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">{label}</p>
-                  <p className="text-xl font-semibold text-white mb-2 tabular-nums">{range}</p>
+                  <p className="text-xl font-semibold text-[#0f0f0f] mb-2 tabular-nums">{range}</p>
                   <p className="text-xs text-[#a3a3a3] leading-relaxed">{note}</p>
                 </div>
               ))}
@@ -513,7 +513,7 @@ export default function CommercialRealEstateLoanPage() {
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-2xl font-semibold text-white mb-2">Understanding CRE Loan Costs</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Understanding CRE Loan Costs</h2>
             <p className="text-[#737373] text-sm mb-6 leading-relaxed">
               Commercial real estate loans carry a range of costs beyond the interest rate itself.
               Understanding the full cost structure — not just the headline rate — is important when
@@ -556,7 +556,7 @@ export default function CommercialRealEstateLoanPage() {
       {/* 8 — Comparison table */}
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">CRE Loan Structures at a Glance</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">CRE Loan Structures at a Glance</h2>
           <p className="text-[#737373] text-sm mb-6 max-w-2xl leading-relaxed">
             The three most common structures that come up in commercial real estate financing conversations.
             Figures are general benchmarks — all terms are set by individual lenders at underwriting.
@@ -573,7 +573,7 @@ export default function CommercialRealEstateLoanPage() {
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-2xl font-semibold text-white mb-2">Potential Advantages and Tradeoffs</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Potential Advantages and Tradeoffs</h2>
             <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Commercial real estate loans are not the right tool for every situation. Understanding both
               the potential benefits and the real constraints can help frame whether CRE debt makes sense
@@ -628,7 +628,7 @@ export default function CommercialRealEstateLoanPage() {
       {/* 10 — Alternatives */}
       <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Alternative Financing Paths</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Alternative Financing Paths</h2>
           <p className="text-[#737373] text-sm mb-6 max-w-2xl leading-relaxed">
             Depending on the specific situation, these structures may be worth evaluating alongside or
             instead of a conventional commercial real estate loan.

@@ -171,7 +171,7 @@ export default function BuyABusinessPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 What business acquisition financing actually covers
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -226,7 +226,7 @@ export default function BuyABusinessPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Structures
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Common options for buying a business
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl">
@@ -275,7 +275,7 @@ export default function BuyABusinessPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               How to evaluate which structure may fit your deal
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl">
@@ -350,7 +350,7 @@ export default function BuyABusinessPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Common Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               What buyers typically need to document
             </h2>
             <p className="text-sm text-[#737373] max-w-2xl">

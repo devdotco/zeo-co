@@ -198,7 +198,7 @@ export default function PayrollFundingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What It Is
               </p>
-              <h2 className="text-2xl font-semibold text-white leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] leading-snug">
                 Turning outstanding invoices into same-week payroll
               </h2>
               <p className="text-[#737373] text-sm mt-4 leading-relaxed">
@@ -247,7 +247,7 @@ export default function PayrollFundingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How It Works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             The advance and reserve cycle
           </h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
@@ -304,7 +304,7 @@ export default function PayrollFundingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Eligibility
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Requirements and invoice criteria
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
@@ -394,7 +394,7 @@ export default function PayrollFundingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 Advance rates and fee ranges
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-4">
@@ -462,7 +462,7 @@ export default function PayrollFundingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Trade-offs
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8">
             Benefits and limitations to consider
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -528,7 +528,7 @@ export default function PayrollFundingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Payroll factoring vs. other payroll funding structures
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
@@ -551,7 +551,7 @@ export default function PayrollFundingPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related Options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Other structures that may address similar needs
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">

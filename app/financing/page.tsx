@@ -426,7 +426,7 @@ export default function FinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Products
               </p>
-              <h2 className="text-2xl font-semibold text-white">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f]">
                 16 commercial financing structures
               </h2>
               <p className="text-[#737373] text-sm mt-2 max-w-xl">
@@ -454,7 +454,7 @@ export default function FinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Financing structures at a glance
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-xl">
@@ -481,7 +481,7 @@ export default function FinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Factors that may affect which structures apply
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -535,7 +535,7 @@ export default function FinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Quick Navigation
             </p>
-            <h2 className="text-2xl font-semibold text-white">Browse by financing category</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">Browse by financing category</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

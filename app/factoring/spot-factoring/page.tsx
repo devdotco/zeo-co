@@ -111,7 +111,7 @@ export default function SpotFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Overview
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug">
                 What is spot factoring?
               </h2>
               <div className="space-y-4 text-[#737373] text-sm leading-relaxed">
@@ -143,7 +143,7 @@ export default function SpotFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Common Users
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug">
                 Who typically evaluates spot factoring?
               </h2>
               <div className="space-y-3">
@@ -205,7 +205,7 @@ export default function SpotFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               How it works
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               The advance and reserve cycle
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">
@@ -245,7 +245,7 @@ export default function SpotFactoringPage() {
                 <p className="text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-[#0f0f0f] mb-3">
                   Step {item.step}
                 </p>
-                <p className="text-sm font-semibold text-white mb-2">{item.label}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.label}</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
@@ -259,7 +259,7 @@ export default function SpotFactoringPage() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div>
                 <p className="text-xs text-[#a3a3a3] mb-1">Invoice face value</p>
-                <p className="text-xl font-semibold text-white tabular-nums">$50,000</p>
+                <p className="text-xl font-semibold text-[#0f0f0f] tabular-nums">$50,000</p>
               </div>
               <div>
                 <p className="text-xs text-[#a3a3a3] mb-1">Advance (80%)</p>
@@ -268,12 +268,12 @@ export default function SpotFactoringPage() {
               </div>
               <div>
                 <p className="text-xs text-[#a3a3a3] mb-1">Reserve (20%)</p>
-                <p className="text-xl font-semibold text-white tabular-nums">$10,000</p>
+                <p className="text-xl font-semibold text-[#0f0f0f] tabular-nums">$10,000</p>
                 <p className="text-xs text-[#a3a3a3] mt-1">Held until customer pays</p>
               </div>
               <div>
                 <p className="text-xs text-[#a3a3a3] mb-1">Reserve release (after 3% fee)</p>
-                <p className="text-xl font-semibold text-white tabular-nums">$8,500</p>
+                <p className="text-xl font-semibold text-[#0f0f0f] tabular-nums">$8,500</p>
                 <p className="text-xs text-[#a3a3a3] mt-1">$10,000 − $1,500 fee</p>
               </div>
             </div>
@@ -294,7 +294,7 @@ export default function SpotFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
                 Business and invoice requirements
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -379,7 +379,7 @@ export default function SpotFactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Documentation
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-5">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5">
                 Typical documentation checklist
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -452,7 +452,7 @@ export default function SpotFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Rates and fees
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               Advance rates and fee ranges
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">
@@ -531,7 +531,7 @@ export default function SpotFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Fit assessment
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               Potential benefits and limitations
             </h2>
             <p className="text-[#737373] text-sm leading-relaxed">
@@ -667,7 +667,7 @@ export default function SpotFactoringPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Related options
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Other factoring structures to evaluate
             </h2>
             <p className="text-[#737373] text-sm">

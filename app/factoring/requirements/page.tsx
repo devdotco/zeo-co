@@ -148,7 +148,7 @@ export default function FactoringRequirementsPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             What Invoice Factoring Is — and Who It Is Designed For
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -172,7 +172,7 @@ export default function FactoringRequirementsPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Common Industries
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               Businesses That Commonly Use Invoice Factoring
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -226,7 +226,7 @@ export default function FactoringRequirementsPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             The Advance and Reserve Cycle
           </h2>
           <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
@@ -278,7 +278,7 @@ export default function FactoringRequirementsPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               What Factoring Companies Typically Evaluate
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -333,7 +333,7 @@ export default function FactoringRequirementsPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Rates and Fees
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 text-balance">
             Advance Rates and Fee Ranges
           </h2>
           <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
@@ -392,7 +392,7 @@ export default function FactoringRequirementsPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Considerations
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               Potential Benefits and Limitations
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
@@ -457,7 +457,7 @@ export default function FactoringRequirementsPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
               How Factoring Requirements Compare to Other Financing Types
             </h2>
             <p className="text-[#737373] leading-relaxed text-[0.9375rem]">

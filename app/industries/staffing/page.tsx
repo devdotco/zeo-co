@@ -263,7 +263,7 @@ export default function StaffingIndustryPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry Challenges
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 Why staffing agencies need specialized financing
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-4">
@@ -317,7 +317,7 @@ export default function StaffingIndustryPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Financing Products
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Structures commonly used by staffing agencies
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -337,7 +337,7 @@ export default function StaffingIndustryPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <div className="md:col-span-2 space-y-7 text-sm text-[#737373] leading-relaxed">
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Invoice factoring: the most common staffing financing structure
                 </h2>
                 <p>
@@ -352,7 +352,7 @@ export default function StaffingIndustryPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Lines of credit and term loans for established agencies
                 </h2>
                 <p>
@@ -364,7 +364,7 @@ export default function StaffingIndustryPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   SBA 7(a) loans for growth and long-term working capital
                 </h2>
                 <p>
@@ -376,7 +376,7 @@ export default function StaffingIndustryPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Evaluating which structure may be the right fit
                 </h2>
                 <p>
@@ -459,7 +459,7 @@ export default function StaffingIndustryPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Staffing financing options side by side
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">

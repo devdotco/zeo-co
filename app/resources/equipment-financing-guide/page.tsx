@@ -266,7 +266,7 @@ export default function EquipmentFinancingGuidePage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 Equipment financing: the core concept
               </h2>
               <p className="text-[#737373] leading-relaxed text-sm mb-4">
@@ -345,7 +345,7 @@ export default function EquipmentFinancingGuidePage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Who uses it
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3 text-balance">
             Industries and asset types commonly financed
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -409,7 +409,7 @@ export default function EquipmentFinancingGuidePage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Underwriting factors
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What lenders typically evaluate
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -471,7 +471,7 @@ export default function EquipmentFinancingGuidePage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
                 What drives the cost of equipment financing
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-5">
@@ -531,7 +531,7 @@ export default function EquipmentFinancingGuidePage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Loan vs. lease
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Choosing between ownership and use-based financing
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -625,7 +625,7 @@ export default function EquipmentFinancingGuidePage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Application preparation
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             How to prepare a stronger equipment financing application
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">
@@ -682,7 +682,7 @@ export default function EquipmentFinancingGuidePage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Free tool
               </p>
-              <h3 className="text-base font-semibold text-white mb-1">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">
                 Estimate your monthly payment before you apply
               </h3>
               <p className="text-sm text-[#a3a3a3] max-w-md">
@@ -707,7 +707,7 @@ export default function EquipmentFinancingGuidePage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
           <p className="text-sm text-[#737373] mb-8 max-w-2xl">

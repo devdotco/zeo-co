@@ -304,7 +304,7 @@ export default function TruckingLogisticsPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry Context
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 Financing challenges unique to trucking and logistics
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
@@ -379,7 +379,7 @@ export default function TruckingLogisticsPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Financing Options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Products commonly used in trucking and logistics
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -399,7 +399,7 @@ export default function TruckingLogisticsPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <div className="md:col-span-2 space-y-6 text-sm text-[#737373] leading-relaxed">
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   What lenders and factors typically evaluate in trucking businesses
                 </h2>
                 <p>
@@ -411,7 +411,7 @@ export default function TruckingLogisticsPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Revenue documentation and bank statement requirements
                 </h2>
                 <p>
@@ -423,7 +423,7 @@ export default function TruckingLogisticsPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Fleet size, authority status, and how they affect financing options
                 </h2>
                 <p>
@@ -435,7 +435,7 @@ export default function TruckingLogisticsPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Fuel advances and same-day funding programs
                 </h2>
                 <p>
@@ -519,7 +519,7 @@ export default function TruckingLogisticsPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Freight factoring vs. equipment financing vs. SBA loans
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -542,7 +542,7 @@ export default function TruckingLogisticsPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Related Options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-6">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-6">
             Other financing structures to consider
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

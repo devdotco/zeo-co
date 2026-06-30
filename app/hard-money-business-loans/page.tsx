@@ -227,7 +227,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 2. Who it is for */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Who Hard Money Lending May Fit</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Who Hard Money Lending May Fit</h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Hard money is not a one-size-fits-all solution. It tends to be a potential fit when speed, flexibility, or asset strength matters more than obtaining the lowest possible cost of capital.
           </p>
@@ -267,7 +267,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 3. How it works */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">How Hard Money Lending Typically Works</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">How Hard Money Lending Typically Works</h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             The general process varies by lender, but most hard money transactions follow a similar path from inquiry to funding.
           </p>
@@ -323,7 +323,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 4. Common use cases */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Common Use Cases</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Common Use Cases</h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Hard money financing tends to cluster around real asset transactions where conventional financing is unavailable, too slow, or structurally mismatched to the deal.
           </p>
@@ -377,7 +377,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 5. Typical requirements */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Typical Requirements</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Typical Requirements</h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Hard money lenders vary significantly in their requirements. These ranges are illustrative and based on general market patterns — actual requirements depend entirely on the lender and the specific deal. All financing is subject to underwriting.
           </p>
@@ -430,7 +430,7 @@ export default function HardMoneyBusinessLoansPage() {
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <h2 className="text-2xl font-semibold text-white mb-4">Understanding Hard Money Costs</h2>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">Understanding Hard Money Costs</h2>
             <p className="text-sm text-[#737373] leading-relaxed mb-4">
               Hard money loans are generally more expensive than conventional business financing. The higher cost reflects the lender's faster underwriting, greater flexibility on borrower profile, and increased risk from collateral-only underwriting. Businesses that pursue this path typically do so because the speed, access, or strategic value of the capital justifies the cost in their specific situation.
             </p>
@@ -461,7 +461,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 7. Pros and cons */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-10">Pros and Cons</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-10">Pros and Cons</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             <div>
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
@@ -542,7 +542,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 8. Comparison table */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">How It Compares to Other Financing</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">How It Compares to Other Financing</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             This comparison is illustrative only. Actual terms, requirements, and availability depend on the lender, deal, and underwriting outcome.
           </p>
@@ -557,7 +557,7 @@ export default function HardMoneyBusinessLoansPage() {
       {/* 9. Alternatives */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-2">Alternatives to Explore</h2>
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">Alternatives to Explore</h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Hard money may not be the right fit for every situation. Depending on your business profile, timeline, and use of funds, other financing structures may be worth evaluating.
           </p>

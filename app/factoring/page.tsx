@@ -323,7 +323,7 @@ export default function FactoringPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 How It Works
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 The advance, reserve, and fee cycle
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-4">
@@ -378,7 +378,7 @@ export default function FactoringPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <div className="md:col-span-2 space-y-6 text-sm text-[#737373] leading-relaxed">
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Why businesses use invoice factoring
                 </h2>
                 <p>
@@ -390,7 +390,7 @@ export default function FactoringPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   What factors evaluate during underwriting
                 </h2>
                 <p>
@@ -402,7 +402,7 @@ export default function FactoringPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Key contract terms to understand before signing
                 </h2>
                 <p>
@@ -414,7 +414,7 @@ export default function FactoringPage() {
               </div>
 
               <div>
-                <h2 className="text-lg font-semibold text-white mb-3">
+                <h2 className="text-lg font-semibold text-[#0f0f0f] mb-3">
                   Industries and use cases where factoring is commonly considered
                 </h2>
                 <p>
@@ -496,7 +496,7 @@ export default function FactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Factoring Types
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Explore the factoring landscape
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -516,7 +516,7 @@ export default function FactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Factoring vs. other working capital options
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -539,7 +539,7 @@ export default function FactoringPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Related Options
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-6">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-6">
             Adjacent financing structures to consider
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

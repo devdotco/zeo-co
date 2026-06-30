@@ -213,7 +213,7 @@ export default function AcquisitionFinancingGuidePage() {
       {/* ── Section 1: What Is Acquisition Financing ── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
             What is business acquisition financing?
           </h2>
           <p className="text-[#737373] leading-relaxed mb-4">
@@ -241,7 +241,7 @@ export default function AcquisitionFinancingGuidePage() {
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               What lenders evaluate in an acquisition deal
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -327,7 +327,7 @@ export default function AcquisitionFinancingGuidePage() {
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               Common acquisition deal structures
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -392,7 +392,7 @@ export default function AcquisitionFinancingGuidePage() {
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               Acquisition financing structures at a glance
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -416,7 +416,7 @@ export default function AcquisitionFinancingGuidePage() {
       {/* ── Section 5: How to Approach the Process ── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
             How to approach the acquisition financing process
           </h2>
           <p className="text-[#737373] leading-relaxed mb-6">

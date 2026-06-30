@@ -20,7 +20,7 @@ export default function Footer() {
           <div className="col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <ZeoLogoSvg />
-              <span className="text-base font-semibold text-white">
+              <span className="text-base font-semibold text-[#0f0f0f]">
                 zeo<span className="text-[#0f0f0f]">.</span>co
               </span>
             </Link>
@@ -29,7 +29,7 @@ export default function Footer() {
             </p>
             <Link
               href="/apply"
-              className="inline-flex mt-5 items-center px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
+              className="inline-flex mt-5 items-center px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-[#0f0f0f] text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Find Financing
             </Link>

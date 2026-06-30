@@ -311,7 +311,7 @@ export default function HomeServicesFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industry Challenges
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Why home services businesses seek outside financing
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -346,7 +346,7 @@ export default function HomeServicesFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Paths
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               Products home services businesses most commonly explore
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -411,7 +411,7 @@ export default function HomeServicesFinancingPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Lender Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-3">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
               What lenders typically evaluate in home services applications
             </h2>
             <p className="text-[#737373] leading-relaxed">
@@ -457,7 +457,7 @@ export default function HomeServicesFinancingPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Underwriting Context
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 How lenders think about home services risk
               </h2>
               <div className="space-y-4 text-sm text-[#737373] leading-relaxed">

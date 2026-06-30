@@ -247,7 +247,7 @@ export default function WorkingCapitalPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Fit
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Who working capital financing may be a fit for
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed">
@@ -292,7 +292,7 @@ export default function WorkingCapitalPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Process
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             How working capital financing typically works
           </h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
@@ -345,7 +345,7 @@ export default function WorkingCapitalPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Use Cases
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Common uses of working capital financing
           </h2>
           <p className="text-[#737373] text-sm mb-10 max-w-2xl">
@@ -418,7 +418,7 @@ export default function WorkingCapitalPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Typical requirements
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -476,7 +476,7 @@ export default function WorkingCapitalPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Cost
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-4">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
               Understanding the cost of working capital financing
             </h2>
             <div className="space-y-5 text-sm text-[#737373] leading-relaxed">
@@ -534,7 +534,7 @@ export default function WorkingCapitalPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Considerations
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-8">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-8">
             Potential advantages and tradeoffs
           </h2>
 
@@ -597,7 +597,7 @@ export default function WorkingCapitalPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Working capital vs. related financing structures
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">
@@ -622,7 +622,7 @@ export default function WorkingCapitalPage() {
           <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives
           </p>
-          <h2 className="text-2xl font-semibold text-white mb-2">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
             Related financing options to consider
           </h2>
           <p className="text-[#737373] text-sm mb-8 max-w-2xl">

@@ -204,7 +204,7 @@ export default function SBAMicroloansPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Potential Fit
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Who may benefit from an SBA Microloan
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -245,7 +245,7 @@ export default function SBAMicroloansPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Process
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 How the SBA Microloan program works
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -302,7 +302,7 @@ export default function SBAMicroloansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Common ways SBA Microloan proceeds may be used
             </h2>
             <p className="text-[#737373] text-sm max-w-2xl">
@@ -389,7 +389,7 @@ export default function SBAMicroloansPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Typical eligibility considerations
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -445,7 +445,7 @@ export default function SBAMicroloansPage() {
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
-              <h2 className="text-2xl font-semibold text-white mb-4">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
                 Understanding SBA Microloan pricing
               </h2>
               <p className="text-[#737373] text-sm leading-relaxed mb-6">
@@ -499,7 +499,7 @@ export default function SBAMicroloansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
-            <h2 className="text-2xl font-semibold text-white">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]">
               Potential advantages and limitations
             </h2>
             <p className="text-[#737373] text-sm mt-2 max-w-2xl">
@@ -564,7 +564,7 @@ export default function SBAMicroloansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               How SBA Microloans compare to other structures
             </h2>
             <p className="text-[#737373] text-sm max-w-2xl">
@@ -589,7 +589,7 @@ export default function SBAMicroloansPage() {
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
-            <h2 className="text-2xl font-semibold text-white mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Related financing options to explore
             </h2>
             <p className="text-[#737373] text-sm max-w-2xl">
