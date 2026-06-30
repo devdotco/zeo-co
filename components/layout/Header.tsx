@@ -292,12 +292,13 @@ function NavItem({
   menuKey: MenuKey;
   activeMenu: MenuKey;
   setActiveMenu: (key: MenuKey) => void;
+  onCancelClose: () => void;
   children: React.ReactNode;
 }) {
   const isOpen = activeMenu === menuKey;
 
   return (
-    <div className="relative">
+    <div className="relative" onMouseEnter={onCancelClose}>
       <button
         className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
           isOpen ? "text-white bg-[#181d16]" : "text-[#9aaa98] hover:text-white hover:bg-[#181d16]"
@@ -403,7 +404,15 @@ export default function Header() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const closeMenu = useCallback(() => setActiveMenu(null), []);
+  const closeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const closeMenu = useCallback(() => {
+    closeTimerRef.current = setTimeout(() => setActiveMenu(null), 300);
+  }, []);
+
+  const cancelClose = useCallback(() => {
+    if (closeTimerRef.current) clearTimeout(closeTimerRef.current);
+  }, []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -443,22 +452,22 @@ export default function Header() {
               className="hidden lg:flex items-center gap-1 ml-4"
               onMouseLeave={closeMenu}
             >
-              <NavItem label="Financing Options" menuKey="financing" activeMenu={activeMenu} setActiveMenu={setActiveMenu}>
+              <NavItem label="Financing Options" menuKey="financing" activeMenu={activeMenu} setActiveMenu={setActiveMenu} onCancelClose={cancelClose}>
                 <FinancingMegaMenu onClose={closeMenu} />
               </NavItem>
-              <NavItem label="Factoring" menuKey="factoring" activeMenu={activeMenu} setActiveMenu={setActiveMenu}>
+              <NavItem label="Factoring" menuKey="factoring" activeMenu={activeMenu} setActiveMenu={setActiveMenu} onCancelClose={cancelClose}>
                 <FactoringMegaMenu onClose={closeMenu} />
               </NavItem>
-              <NavItem label="Use Cases" menuKey="useCases" activeMenu={activeMenu} setActiveMenu={setActiveMenu}>
+              <NavItem label="Use Cases" menuKey="useCases" activeMenu={activeMenu} setActiveMenu={setActiveMenu} onCancelClose={cancelClose}>
                 <UseCasesMegaMenu onClose={closeMenu} />
               </NavItem>
-              <NavItem label="Industries" menuKey="industries" activeMenu={activeMenu} setActiveMenu={setActiveMenu}>
+              <NavItem label="Industries" menuKey="industries" activeMenu={activeMenu} setActiveMenu={setActiveMenu} onCancelClose={cancelClose}>
                 <IndustriesMegaMenu onClose={closeMenu} />
               </NavItem>
-              <NavItem label="Resources" menuKey="resources" activeMenu={activeMenu} setActiveMenu={setActiveMenu}>
+              <NavItem label="Resources" menuKey="resources" activeMenu={activeMenu} setActiveMenu={setActiveMenu} onCancelClose={cancelClose}>
                 <ResourcesMegaMenu onClose={closeMenu} />
               </NavItem>
-              <NavItem label="Company" menuKey="company" activeMenu={activeMenu} setActiveMenu={setActiveMenu}>
+              <NavItem label="Company" menuKey="company" activeMenu={activeMenu} setActiveMenu={setActiveMenu} onCancelClose={cancelClose}>
                 <CompanyMegaMenu onClose={closeMenu} />
               </NavItem>
             </nav>

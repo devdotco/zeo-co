@@ -40,10 +40,8 @@ const nextConfig: NextConfig = {
       { source: "/industries/", destination: "/factoring/industries", permanent: true },
       { source: "/factoring-vs-bank-loans-2", destination: "/factoring/factoring-vs-bank-loans", permanent: true },
       { source: "/factoring-vs-bank-loans-2/", destination: "/factoring/factoring-vs-bank-loans", permanent: true },
-      { source: "/blog", destination: "/blog", permanent: false },
       { source: "/process", destination: "/factoring/how-it-works", permanent: true },
       { source: "/process/", destination: "/factoring/how-it-works", permanent: true },
-      { source: "/contact", destination: "/contact", permanent: false },
 
       // ── Old ZEO.co blockchain/DAO content → appropriate new pages ────────
       { source: "/dao", destination: "/financing", permanent: true },
