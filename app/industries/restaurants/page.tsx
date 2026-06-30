@@ -282,7 +282,7 @@ const faqItems = [
 
 export default function RestaurantFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -293,16 +293,16 @@ export default function RestaurantFinancingPage() {
       />
 
       {/* 2 — Key financing challenges */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industry Challenges
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               What makes restaurant financing different
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Lenders underwrite restaurant loans against a backdrop of well-documented industry risk. Understanding those pressure points — before approaching a lender — helps restaurant operators prepare a stronger, more credible financing request.
             </p>
           </div>
@@ -310,15 +310,15 @@ export default function RestaurantFinancingPage() {
             {challenges.map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -328,16 +328,16 @@ export default function RestaurantFinancingPage() {
       </section>
 
       {/* 3 — Financing products */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Paths
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Products restaurant operators most commonly explore
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               No single financing product fits every situation. The right structure depends on the purpose of the capital, the age of the business, available collateral, and the operator's financial profile. The options below cover the most relevant paths for food-service businesses.
             </p>
           </div>
@@ -357,24 +357,24 @@ export default function RestaurantFinancingPage() {
           </div>
 
           {/* Revenue-based and factoring callout */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <FactoringIcon />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                     Revenue-Based Financing
                   </p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed max-w-2xl">
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed max-w-2xl">
                     Some restaurant operators with consistent card or delivery-platform revenue explore revenue-based financing structures. Repayment is tied to a percentage of future receipts rather than fixed monthly payments — which may suit businesses with variable revenue. Review total repayment amounts and factor rates carefully before accepting any offer. Subject to underwriting.
                   </p>
                 </div>
               </div>
               <Link
                 href="/revenue-based-financing"
-                className="flex-shrink-0 text-sm text-[#22c55e] hover:text-white transition-colors flex items-center gap-1.5"
+                className="flex-shrink-0 text-sm text-[#0f0f0f] hover:text-white transition-colors flex items-center gap-1.5"
               >
                 Learn more
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -393,16 +393,16 @@ export default function RestaurantFinancingPage() {
       </section>
 
       {/* 4 — Typical requirements and metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Lender Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               What lenders typically look for in restaurant applications
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Requirements vary by lender, program, loan size, and whether the business is a startup or established operation. The following reflects general patterns across restaurant financing — not a guarantee of eligibility. All financing is subject to underwriting and approval by third-party providers.
             </p>
           </div>
@@ -425,12 +425,12 @@ export default function RestaurantFinancingPage() {
             {requirements.map((req) => (
               <div
                 key={req.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">
                   {req.label}
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -438,17 +438,17 @@ export default function RestaurantFinancingPage() {
       </section>
 
       {/* 5 — Industry context: what lenders actually think */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Underwriting Context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 How lenders typically approach restaurant risk
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Food service is broadly considered higher-risk by commercial lenders. Industry data on failure rates, thin margins, and sensitivity to external shocks — labor costs, supply chain, discretionary spending — inform underwriting across every product type. This does not mean restaurants cannot access financing; it means the bar for documentation, owner strength, and deal structure is generally higher than in other industries.
                 </p>
@@ -464,7 +464,7 @@ export default function RestaurantFinancingPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">
                 Factors That Strengthen a Restaurant Application
               </p>
               {[
@@ -495,12 +495,12 @@ export default function RestaurantFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.factor}
-                  className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                  className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}

@@ -24,9 +24,9 @@ const STATUS_CONFIG: Record<
   strong: {
     label: "Strong Coverage",
     bg: "bg-[#0f2a14]",
-    text: "text-[#22c55e]",
-    border: "border-[#22c55e]/30",
-    dot: "bg-[#22c55e]",
+    text: "text-[#0f0f0f]",
+    border: "border-[#0f0f0f]/30",
+    dot: "bg-[#0f0f0f]",
   },
   marginal: {
     label: "Marginal Coverage",
@@ -81,7 +81,7 @@ export default function DscrCalculatorClient() {
 
         {/* ── Inputs ──────────────────────────────────────────────────────── */}
         <div className="space-y-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
             Income &amp; Add-Backs
           </p>
 
@@ -108,7 +108,7 @@ export default function DscrCalculatorClient() {
           />
 
           <div className="pt-2">
-            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
               Debt Service
             </p>
 
@@ -138,7 +138,7 @@ export default function DscrCalculatorClient() {
           </div>
 
           <div className="pt-2">
-            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
               Target
             </p>
 
@@ -158,7 +158,7 @@ export default function DscrCalculatorClient() {
 
         {/* ── Results ─────────────────────────────────────────────────────── */}
         <div className="space-y-3">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
             Results
           </p>
 
@@ -167,7 +167,7 @@ export default function DscrCalculatorClient() {
             className={`rounded-xl border p-4 ${status.bg} ${status.border}`}
           >
             <div className="flex items-center justify-between mb-2">
-              <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+              <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
                 DSCR
               </p>
               <span
@@ -220,9 +220,9 @@ export default function DscrCalculatorClient() {
           />
 
           {/* Summary note */}
-          <div className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-3 mt-1">
-            <p className="text-[0.625rem] text-[#6b7e69] leading-relaxed">
-              <span className="text-[#9aaa98] font-medium">How it works: </span>
+          <div className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-3 mt-1">
+            <p className="text-[0.625rem] text-[#a3a3a3] leading-relaxed">
+              <span className="text-[#737373] font-medium">How it works: </span>
               DSCR = (EBITDA + Add-Backs) / (Existing DS + Proposed DS). A ratio
               of 1.25x means you generate $1.25 of income for every $1.00 of debt
               service — the standard minimum for most commercial lenders.

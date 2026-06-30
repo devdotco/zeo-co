@@ -257,7 +257,7 @@ const faqItems = [
 
 export default function AcquisitionFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -268,12 +268,12 @@ export default function AcquisitionFinancingPage() {
       />
 
       {/* 2 — Who it is for */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Who It May Suit</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Who It May Suit</p>
             <h2 className="text-2xl font-semibold text-white mb-3">A potential fit for qualified buyers with a defined target</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Acquisition financing is not a standard off-the-shelf product. Lenders evaluate both the buyer's financial profile and the business being acquired. Buyers who tend to be stronger candidates typically share several characteristics.
             </p>
           </div>
@@ -296,14 +296,14 @@ export default function AcquisitionFinancingPage() {
                 body: "Lenders need to underwrite to a supportable purchase price. Acquisitions with clean financials, an independent business valuation, and a logical pricing rationale are easier to finance than deals where the price is difficult to defend relative to historical earnings.",
               },
             ].map((item) => (
-              <div key={item.heading} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+              <div key={item.heading} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -313,17 +313,17 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 3 — How it works */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Process Overview</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process Overview</p>
             <h2 className="text-2xl font-semibold text-white mb-3">How acquisition financing generally works</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Business acquisition financing involves more moving parts than most other loan types. The lender is underwriting both the buyer and the business being purchased, and the deal structure itself — purchase price, equity, seller note, asset allocation — directly affects what can be financed and on what terms.
             </p>
           </div>
           <div className="relative">
-            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#1e2620]" aria-hidden="true" />
+            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#e5e5e5]" aria-hidden="true" />
             <div className="space-y-4">
               {[
                 {
@@ -353,12 +353,12 @@ export default function AcquisitionFinancingPage() {
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-5 md:gap-6">
-                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
-                    <span className="text-xs font-semibold text-[#22c55e] tabular-nums">{item.step}</span>
+                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
+                    <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">{item.step}</span>
                   </div>
-                  <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex-1">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.title}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex-1">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.title}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -368,12 +368,12 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 4 — Common use cases */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Common Use Cases</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Common Use Cases</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Scenarios where acquisition financing is commonly evaluated</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Business acquisitions take many forms. These are among the more common scenarios where buyers seek third-party financing to fund part or all of the purchase price — each subject to the specific deal terms, lender requirements, and buyer profile.
             </p>
           </div>
@@ -410,12 +410,12 @@ export default function AcquisitionFinancingPage() {
                 body: "A partial buyout where a co-owner or successor acquires an ownership stake from a retiring partner. Deal structures can be complex, often involving seller notes and earnout provisions. Financing eligibility depends on the business's ability to service the new debt independently of the departing owner's contribution.",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+              <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   {item.icon}
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -423,12 +423,12 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 5 — Typical requirements & metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Typical Requirements</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Typical Requirements</p>
             <h2 className="text-2xl font-semibold text-white mb-3">What lenders generally evaluate</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Acquisition financing underwriting is more complex than a standard business loan because lenders are evaluating two parties simultaneously — the buyer and the business being acquired. The following reflects what lenders commonly assess, not a guarantee of eligibility.
             </p>
           </div>
@@ -473,9 +473,9 @@ export default function AcquisitionFinancingPage() {
                 detail: "Collateral availability is assessed, including business assets of both the acquiring entity and the target. All owners with 20% or greater stake are typically required to personally guarantee the debt. Personal real estate may be taken as collateral when business assets are insufficient to fully secure the loan.",
               },
             ].map((req) => (
-              <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">{req.label}</p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+              <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">{req.label}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -483,13 +483,13 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 6 — Cost discussion */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Understanding Cost</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
               <h2 className="text-2xl font-semibold text-white mb-4">What determines the total cost of acquisition financing</h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Acquisition financing cost cannot be predicted in advance — it depends on the financing structure, lender, deal size, buyer creditworthiness, and market conditions at the time of the transaction. Quoting specific rates without underwriting a real deal would not reflect what any particular buyer might actually encounter.
                 </p>
@@ -505,7 +505,7 @@ export default function AcquisitionFinancingPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Typical Cost Factors</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Typical Cost Factors</p>
               {[
                 { factor: "Interest rate", note: "Varies by structure, lender, market conditions, and buyer profile. SBA 7(a) rates are capped relative to prime; conventional and private credit rates vary independently." },
                 { factor: "SBA guarantee fee", note: "Assessed on the guaranteed portion for SBA loans. Amount depends on loan size, maturity, and the current SBA fee schedule, which is subject to change." },
@@ -514,11 +514,11 @@ export default function AcquisitionFinancingPage() {
                 { factor: "Legal and professional fees", note: "Purchase agreement review, entity formation, and closing legal costs are buyer-side expenses outside of the loan itself." },
                 { factor: "Equity injection", note: "Not a fee, but a meaningful cash commitment that affects the buyer's total capital deployed and return on investment." },
               ].map((item) => (
-                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}
@@ -528,18 +528,18 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 7 — Pros and cons */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Tradeoffs</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Tradeoffs</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Weighing acquisition financing against your situation</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Debt financing for an acquisition amplifies both the upside and the risk. Going in with a clear view of the tradeoffs helps buyers structure deals more responsibly.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">Potential Advantages</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">Potential Advantages</p>
               <div className="space-y-3">
                 {[
                   "Preserves buyer liquidity — financing part of the purchase price rather than deploying all equity upfront keeps capital available for working capital and post-close operations.",
@@ -550,16 +550,16 @@ export default function AcquisitionFinancingPage() {
                   "Acquiring an established business typically means buying existing cash flow, customers, and operations rather than building from scratch.",
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
-                    <svg className="flex-shrink-0 w-4 h-4 text-[#22c55e] mt-0.5" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 w-4 h-4 text-[#0f0f0f] mt-0.5" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Potential Drawbacks</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Potential Drawbacks</p>
               <div className="space-y-3">
                 {[
                   "Personal guarantees are typically required from all 20%+ owners, exposing personal assets if the business fails to service the debt post-acquisition.",
@@ -570,10 +570,10 @@ export default function AcquisitionFinancingPage() {
                   "Rate and fee costs vary — without a specific offer in hand, buyers cannot know in advance what the true cost of financing will be until underwriting is complete.",
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
-                    <svg className="flex-shrink-0 w-4 h-4 text-[#6b7e69] mt-0.5" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 w-4 h-4 text-[#a3a3a3] mt-0.5" viewBox="0 0 16 16" fill="none">
                       <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
@@ -583,12 +583,12 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 8 — Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Structure Comparison</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Structure Comparison</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Acquisition financing structures at a glance</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A high-level comparison of common acquisition financing structures. The right structure depends on deal specifics, buyer profile, and lender availability. All financing is subject to underwriting and approval.
             </p>
           </div>
@@ -597,19 +597,19 @@ export default function AcquisitionFinancingPage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             This table is for general informational purposes only. Actual terms, eligibility, and availability vary by lender, deal structure, and market conditions. Subject to change without notice.
           </p>
         </div>
       </section>
 
       {/* 9 — Alternatives */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Alternatives</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Alternatives</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Related financing paths to consider</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Acquisition financing rarely exists in isolation. Depending on the deal structure and the buyer's needs before and after closing, other financing products may be relevant alongside or following the primary acquisition loan.
             </p>
           </div>
@@ -628,7 +628,7 @@ export default function AcquisitionFinancingPage() {
           <div className="text-center">
             <Link
               href="/financing"
-              className="inline-flex items-center gap-2 text-sm text-[#9aaa98] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-white transition-colors"
             >
               View all financing options
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -640,19 +640,19 @@ export default function AcquisitionFinancingPage() {
       </section>
 
       {/* 9b — Calculator link */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">Tools</p>
-              <p className="text-base font-semibold text-[#eef2ec] mb-1">Model your acquisition debt service</p>
-              <p className="text-sm text-[#6b7e69]">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">Tools</p>
+              <p className="text-base font-semibold text-[#0f0f0f] mb-1">Model your acquisition debt service</p>
+              <p className="text-sm text-[#a3a3a3]">
                 Use the loan payment calculator to estimate monthly obligations at different loan amounts, terms, and rate assumptions. Results are estimates only — not offers or commitments.
               </p>
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#22c55e]/40 text-[#22c55e] text-sm font-medium hover:bg-[#22c55e]/10 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-[#0f0f0f] text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

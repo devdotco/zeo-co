@@ -95,7 +95,7 @@ const comparisonRows = [
 
 export default function OilfieldFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -108,7 +108,7 @@ export default function OilfieldFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -134,22 +134,22 @@ export default function OilfieldFactoringPage() {
               note="Common net payment terms in the oil and gas sector"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only. Actual advance rates and fees are subject to underwriting by third-party providers and are not guaranteed.
           </p>
         </div>
       </section>
 
       {/* What is oilfield factoring */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Oilfield Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Oilfield factoring — also called oil and gas factoring or energy services factoring — is a form of accounts receivable financing for businesses that provide services or materials to oil and gas operators. After completing work and issuing an invoice, a service company sells that receivable to a factoring company, which advances a large portion of the invoice value immediately. The factor then collects from the operator when payment is due.
             </p>
@@ -170,36 +170,36 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Oil and Gas Service Companies That Commonly Use Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Oilfield factoring is used across the upstream and midstream energy services ecosystem wherever service invoices are issued to operators on net payment terms. The common challenge is deploying significant labor and equipment capital well before operator payments arrive.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-3">
             {/* Oilfield service contractors */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M9 2v4M9 12v4M2 9h4M12 9h4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <circle cx="9" cy="9" r="2.5" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M4.5 4.5l2.5 2.5M11 11l2.5 2.5M4.5 13.5l2.5-2.5M11 7l2.5-2.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Oilfield Service Contractors</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Oilfield Service Contractors</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Drilling, completion, workover, and stimulation contractors invoice operators after job completion but face immediate costs for crew payroll, chemicals, and equipment maintenance. Factoring may allow these businesses to maintain cash flow across multi-well programs without waiting for operator payment cycles.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Drilling services", "Completion", "Wireline", "Workover"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -207,21 +207,21 @@ export default function OilfieldFactoringPage() {
             </div>
 
             {/* Equipment rental and supply */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="2" y="10" width="14" height="5" rx="1" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M5 10V7a4 4 0 018 0v3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <path d="M7 13h4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Equipment Rental and Supply</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Equipment Rental and Supply</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Businesses renting tanks, pumps, generators, tubular goods, or specialty equipment to operators can build large outstanding receivable balances when multiple operators are on extended terms simultaneously. Factoring against those receivables can fund new equipment purchases or fleet maintenance without taking on term debt.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Tank rental", "Pipe supply", "Equipment rental", "Fluid management"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -229,20 +229,20 @@ export default function OilfieldFactoringPage() {
             </div>
 
             {/* Environmental and technical staffing */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M9 3L3 7v8h12V7L9 3z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M7 15v-4h4v4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Environmental and Technical Staffing</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Environmental and Technical Staffing</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Environmental remediation firms, water disposal operators, and technical staffing agencies servicing the energy sector all carry significant weekly payroll obligations that precede operator payment. Factoring invoices billed to creditworthy operators can bridge the payroll gap without compromising operations.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Environmental services", "Water disposal", "Technical staffing", "Inspection"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -253,15 +253,15 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Oilfield Factoring Cycle: From Service Completion to Reserve Release
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Oilfield factoring follows a cycle tied to completion of field work and issuance of invoices. Each step maps to documents already generated in the normal course of oil and gas contracting.
           </p>
           <ol className="space-y-6">
@@ -293,14 +293,14 @@ export default function OilfieldFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -309,16 +309,16 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Oilfield Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Oilfield factoring eligibility criteria vary significantly by factor and by the nature of the services you provide. The items below represent commonly reviewed requirements. No approval or outcome is guaranteed — all decisions are subject to underwriting by third-party providers.
             </p>
           </div>
@@ -351,12 +351,12 @@ export default function OilfieldFactoringPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -364,62 +364,62 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures in Oilfield Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Oilfield factoring fees tend to be somewhat higher than trucking or staffing factoring, reflecting the longer payment terms typical in the oil and gas sector and the additional complexity of energy industry invoices. The figures below are illustrative market ranges only — they are not offers, commitments, or guarantees. All terms are subject to underwriting by a third-party provider.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">80 – 90%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">80 – 90%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Oilfield factoring advance rates are somewhat lower than trucking factoring rates, reflecting longer operator payment terms and the more variable documentation requirements in the energy sector. Invoices billed to large, investment-grade E&amp;P operators under well-documented MSAs with clean field tickets may qualify for advance rates at the higher end of this range. Invoices from smaller independent operators, those with limited credit history, or those under disputed or complex billing arrangements may qualify for lower rates or may not be eligible.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">2 – 6% per invoice</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">2 – 6% per invoice</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Factoring fees in the oilfield sector are commonly structured as a flat rate for an initial period — for example, 3% for payment within 30 days — with an additional increment charged for each subsequent period until the operator pays. Because many oil and gas operators pay on 45-to-90-day cycles, the total fee paid over the life of the invoice can exceed the initial rate. Businesses with higher monthly invoice volume may qualify for lower per-invoice rates. Always confirm the full fee schedule, including any minimum monthly fees, wire fees, reserve holdback policies, and early termination penalties before signing a factoring agreement.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Reserve Account</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">10 – 20% withheld</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Reserve Account</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">10 – 20% withheld</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The reserve is the portion of the invoice not advanced at funding — typically 10% to 20% of the invoice face value. It is held by the factor as a buffer against potential disputes, short payments, or charge-backs. Once the operator pays in full and no disputes are outstanding, the reserve is released to you minus the factoring fee. In oilfield factoring, reserve hold periods may be longer than in other industries due to the extended payment terms common with operators.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Recourse vs. Non-Recourse</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Affects risk and fee</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Recourse vs. Non-Recourse</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Affects risk and fee</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Recourse factoring — the more common structure — means that if the operator fails to pay, you remain responsible for repurchasing the invoice or substituting another eligible receivable. Non-recourse factoring shifts the credit risk of the operator's insolvency to the factor, but typically applies only to insolvency events — not to invoice disputes, performance claims, or billing disagreements. Given the complexity of oil and gas billing, non-recourse protections in this sector can have significant limitations. Review the specific non-recourse provisions in any agreement carefully.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Estimate your factoring cost before you commit.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Estimate your factoring cost before you commit.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -430,16 +430,16 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Oilfield Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single product fits every situation. The table below highlights structural differences between common working capital options for oilfield service companies — not endorsements or cost rankings. All terms are subject to underwriting; results vary by provider.
             </p>
           </div>
@@ -452,11 +452,11 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Oilfield Factoring Can Offer</h2>
@@ -480,19 +480,19 @@ export default function OilfieldFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -516,13 +516,13 @@ export default function OilfieldFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -533,23 +533,23 @@ export default function OilfieldFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Estimate advance amounts, factoring fees, and reserve releases based on your oilfield invoice values and expected operator payment timing. Outputs are estimates only and do not represent an offer or commitment.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -574,7 +574,7 @@ export default function OilfieldFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

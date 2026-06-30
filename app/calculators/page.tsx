@@ -255,7 +255,7 @@ export default function CalculatorsPage() {
   const total = CALCULATORS.length;
 
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       <JsonLd data={calculatorListSchema()} />
 
       <PageHero
@@ -266,10 +266,10 @@ export default function CalculatorsPage() {
       />
 
       {/* Disclaimer banner */}
-      <div className="border-b border-[#1e2620] bg-[#111512]">
+      <div className="border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 py-3">
-          <p className="text-xs text-[#6b7e69] leading-relaxed">
-            <span className="text-[#9aaa98] font-medium">Estimates only.</span>{" "}
+          <p className="text-xs text-[#a3a3a3] leading-relaxed">
+            <span className="text-[#737373] font-medium">Estimates only.</span>{" "}
             All calculator results are illustrative and based on inputs you
             provide. They are not offers, approvals, or commitments. Actual
             financing terms are set by lenders subject to underwriting and
@@ -288,12 +288,12 @@ export default function CalculatorsPage() {
               <div className="flex items-center gap-3 mb-6">
                 <span
                   id={`cat-${category.replace(/\s+/g, "-").toLowerCase()}`}
-                  className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-[#22c55e]"
+                  className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-[#0f0f0f]"
                 >
                   {category}
                 </span>
-                <div className="flex-1 h-px bg-[#1e2620]" aria-hidden="true" />
-                <span className="text-[0.65rem] font-medium tabular-nums text-[#6b7e69]">
+                <div className="flex-1 h-px bg-[#e5e5e5]" aria-hidden="true" />
+                <span className="text-[0.65rem] font-medium tabular-nums text-[#a3a3a3]">
                   {items.length} tool{items.length !== 1 ? "s" : ""}
                 </span>
               </div>
@@ -304,11 +304,11 @@ export default function CalculatorsPage() {
                   <Link
                     key={calc.slug}
                     href={`/calculators/${calc.slug}`}
-                    className="group relative flex flex-col bg-[#111512] border border-[#1e2620] rounded-xl p-5 hover:border-[#2e3d2c] hover:bg-[#131a12] transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#22c55e] focus-visible:ring-offset-2 focus-visible:ring-offset-[#0a0d0b]"
+                    className="group relative flex flex-col bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl p-5 hover:border-[#2e3d2c] hover:bg-[#131a12] transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f] focus-visible:ring-offset-2 focus-visible:ring-offset-[#ffffff]"
                   >
                     {/* Top row: icon + tags */}
                     <div className="flex items-start justify-between gap-2 mb-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#0f2010] border border-[#1e2620] flex items-center justify-center text-[#22c55e] group-hover:border-[#22c55e]/30 transition-colors">
+                      <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#0f2010] border border-[#e5e5e5] flex items-center justify-center text-[#0f0f0f] group-hover:border-[#0f0f0f]/30 transition-colors">
                         <CalcIcon />
                       </div>
                       {calc.tags && calc.tags.length > 0 && (
@@ -316,7 +316,7 @@ export default function CalculatorsPage() {
                           {calc.tags.slice(0, 2).map((tag) => (
                             <span
                               key={tag}
-                              className="text-[0.6rem] font-medium uppercase tracking-wide text-[#6b7e69] bg-[#0a0d0b] border border-[#1e2620] rounded px-1.5 py-0.5"
+                              className="text-[0.6rem] font-medium uppercase tracking-wide text-[#a3a3a3] bg-[#ffffff] border border-[#e5e5e5] rounded px-1.5 py-0.5"
                             >
                               {tag}
                             </span>
@@ -326,17 +326,17 @@ export default function CalculatorsPage() {
                     </div>
 
                     {/* Title */}
-                    <h2 className="text-sm font-semibold text-[#eef2ec] mb-2 leading-snug group-hover:text-white transition-colors">
+                    <h2 className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug group-hover:text-white transition-colors">
                       {calc.title}
                     </h2>
 
                     {/* Description */}
-                    <p className="text-xs text-[#9aaa98] leading-relaxed flex-1">
+                    <p className="text-xs text-[#737373] leading-relaxed flex-1">
                       {calc.description}
                     </p>
 
                     {/* CTA */}
-                    <div className="flex items-center gap-1.5 mt-4 pt-4 border-t border-[#1e2620] text-xs font-medium text-[#6b7e69] group-hover:text-[#22c55e] transition-colors">
+                    <div className="flex items-center gap-1.5 mt-4 pt-4 border-t border-[#e5e5e5] text-xs font-medium text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors">
                       <span>Open calculator</span>
                       <span className="translate-x-0 group-hover:translate-x-0.5 transition-transform">
                         <ArrowRightIcon />

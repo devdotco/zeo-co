@@ -190,7 +190,7 @@ const faqItems = [
 
 export default function SBALoansPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -201,12 +201,12 @@ export default function SBALoansPage() {
       />
 
       {/* 2 — Who it is for */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Who It May Suit</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Who It May Suit</p>
             <h2 className="text-2xl font-semibold text-white mb-3">A potential fit for established, creditworthy businesses</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               SBA loan programs are not designed for every borrower. The application process is more involved than many alternative financing products, and the underwriting bar tends to be meaningful. Businesses that may be worth evaluating often share a set of common characteristics.
             </p>
           </div>
@@ -229,14 +229,14 @@ export default function SBALoansPage() {
                 body: "Personal credit history is a material part of SBA underwriting. Owners with strong personal credit profiles (generally 650+ FICO) and limited derogatory marks may be in a stronger position to move through the process, though requirements vary by lender.",
               },
             ].map((item) => (
-              <div key={item.heading} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+              <div key={item.heading} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -246,17 +246,17 @@ export default function SBALoansPage() {
       </section>
 
       {/* 3 — How it works */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Process Overview</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process Overview</p>
             <h2 className="text-2xl font-semibold text-white mb-3">How SBA lending generally works</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The SBA does not lend directly to businesses. Instead, the agency provides a partial guarantee to approved participating lenders — banks, credit unions, and CDFIs — which then make and service the loans. Understanding the general flow helps set expectations.
             </p>
           </div>
           <div className="relative">
-            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#1e2620]" aria-hidden="true" />
+            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#e5e5e5]" aria-hidden="true" />
             <div className="space-y-4">
               {[
                 {
@@ -286,12 +286,12 @@ export default function SBALoansPage() {
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-5 md:gap-6">
-                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
-                    <span className="text-xs font-semibold text-[#22c55e] tabular-nums">{item.step}</span>
+                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
+                    <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">{item.step}</span>
                   </div>
-                  <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex-1 mb-0">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.title}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex-1 mb-0">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.title}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -301,12 +301,12 @@ export default function SBALoansPage() {
       </section>
 
       {/* 4 — Common use cases */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Common Use Cases</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Common Use Cases</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Where SBA financing is commonly evaluated</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               SBA programs cover a broad range of business financing needs. These are among the more common scenarios where business owners explore SBA-backed options — though each situation is subject to individual program rules and lender requirements.
             </p>
           </div>
@@ -343,12 +343,12 @@ export default function SBALoansPage() {
                 body: "Renovating or improving a leased commercial space. When paired with a long-term lease, improvements may be eligible under 7(a) financing depending on lender and project specifics.",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+              <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   {item.icon}
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -356,12 +356,12 @@ export default function SBALoansPage() {
       </section>
 
       {/* 5 — Typical requirements & metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Typical Requirements</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Typical Requirements</p>
             <h2 className="text-2xl font-semibold text-white mb-3">What lenders generally look at</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Requirements vary by lender, program, loan size, and use of proceeds. The following represents a general picture of what participating lenders typically evaluate — it is not a guarantee of eligibility, and all financing is subject to underwriting.
             </p>
           </div>
@@ -401,9 +401,9 @@ export default function SBALoansPage() {
                 detail: "Lenders typically require two to three years of business and personal tax returns, recent financial statements, a business plan or overview, government-issued ID, entity formation documents, and any documents relevant to the specific use of proceeds.",
               },
             ].map((req) => (
-              <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">{req.label}</p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+              <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">{req.label}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -411,13 +411,13 @@ export default function SBALoansPage() {
       </section>
 
       {/* 6 — Cost discussion */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Understanding Cost</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
               <h2 className="text-2xl font-semibold text-white mb-4">What determines total cost of SBA financing</h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   SBA loans are generally considered lower-cost than many alternative financing products, but the specific rate and total cost any borrower may encounter depends on multiple factors and cannot be predicted in advance. Interest rates on SBA 7(a) loans are negotiated between the borrower and lender, subject to SBA maximum rate caps that are pegged to the prime rate.
                 </p>
@@ -433,7 +433,7 @@ export default function SBALoansPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Typical Cost Factors</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Typical Cost Factors</p>
               {[
                 { factor: "Base interest rate", note: "Tied to prime rate for 7(a); Treasury benchmarks for 504. Subject to SBA maximum rate caps." },
                 { factor: "SBA guarantee fee", note: "Assessed on the guaranteed portion. Varies by loan size, maturity, and current SBA fee schedule." },
@@ -442,11 +442,11 @@ export default function SBALoansPage() {
                 { factor: "Prepayment penalties", note: "May apply on 504 debentures and longer-term 7(a) loans. Review terms before accepting." },
                 { factor: "Personal guarantee exposure", note: "Not a fee, but a risk factor: defaults can result in personal asset pursuit under the guarantee." },
               ].map((item) => (
-                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3">
-                  <div className="mt-0.5 w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3">
+                  <div className="mt-0.5 w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}
@@ -456,18 +456,18 @@ export default function SBALoansPage() {
       </section>
 
       {/* 7 — Pros and cons */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Tradeoffs</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Tradeoffs</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Weighing SBA financing against your situation</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               SBA programs involve meaningful tradeoffs. Understanding both sides helps set realistic expectations before beginning the process.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">Potential Advantages</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">Potential Advantages</p>
               <div className="space-y-3">
                 {[
                   "Longer repayment terms than most conventional or alternative products, which may reduce monthly payment obligations.",
@@ -478,16 +478,16 @@ export default function SBALoansPage() {
                   "504 fixed-rate debenture provides long-term rate certainty for real estate and equipment-heavy businesses.",
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
-                    <svg className="flex-shrink-0 w-4 h-4 text-[#22c55e] mt-0.5" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 w-4 h-4 text-[#0f0f0f] mt-0.5" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Potential Drawbacks</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Potential Drawbacks</p>
               <div className="space-y-3">
                 {[
                   "Application and underwriting timelines are longer than most alternative financing products — often several weeks to months.",
@@ -498,10 +498,10 @@ export default function SBALoansPage() {
                   "Prepayment restrictions on certain loans limit flexibility if the business wants to pay off debt early.",
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
-                    <svg className="flex-shrink-0 w-4 h-4 text-[#6b7e69] mt-0.5" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 w-4 h-4 text-[#a3a3a3] mt-0.5" viewBox="0 0 16 16" fill="none">
                       <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
@@ -511,12 +511,12 @@ export default function SBALoansPage() {
       </section>
 
       {/* 8 — Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Program Comparison</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Program Comparison</p>
             <h2 className="text-2xl font-semibold text-white mb-3">SBA programs vs. conventional term lending</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A high-level comparison to help orient your evaluation. All terms are subject to lender underwriting, SBA program rules, and market conditions at time of application.
             </p>
           </div>
@@ -525,19 +525,19 @@ export default function SBALoansPage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             This table is for informational purposes only. Actual program terms, limits, and eligibility criteria are set by the SBA and individual participating lenders. Subject to change without notice.
           </p>
         </div>
       </section>
 
       {/* 9 — Alternatives */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Alternatives</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Alternatives</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Other financing paths to consider</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               SBA programs are one option in a broader landscape of commercial financing. Depending on your timeline, credit profile, collateral position, and use case, other products may be worth evaluating alongside or instead of an SBA application.
             </p>
           </div>
@@ -556,7 +556,7 @@ export default function SBALoansPage() {
           <div className="text-center">
             <Link
               href="/financing"
-              className="inline-flex items-center gap-2 text-sm text-[#9aaa98] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-white transition-colors"
             >
               View all financing options
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -568,19 +568,19 @@ export default function SBALoansPage() {
       </section>
 
       {/* 9b — Calculator link */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">Tools</p>
-              <p className="text-base font-semibold text-[#eef2ec] mb-1">Estimate your potential payment range</p>
-              <p className="text-sm text-[#6b7e69]">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">Tools</p>
+              <p className="text-base font-semibold text-[#0f0f0f] mb-1">Estimate your potential payment range</p>
+              <p className="text-sm text-[#a3a3a3]">
                 Use the loan payment calculator to model different principal amounts, terms, and rate assumptions. Results are estimates only — not offers or commitments.
               </p>
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#22c55e]/40 text-[#22c55e] text-sm font-medium hover:bg-[#22c55e]/10 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-[#0f0f0f] text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

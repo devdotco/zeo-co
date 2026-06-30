@@ -87,7 +87,7 @@ const comparisonRows = [
 
 export default function NonRecourseFactoringPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         breadcrumbs={breadcrumbs}
@@ -97,20 +97,20 @@ export default function NonRecourseFactoringPage() {
       />
 
       {/* What Is It */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 What Is Non-Recourse Factoring?
               </h2>
-              <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-[#737373] leading-relaxed">
                 <p>
                   Factoring is the sale of accounts receivable — your unpaid invoices — to a third party
                   called a factor, who advances most of the invoice value upfront and collects payment
-                  directly from your customers. In a <strong className="text-[#eef2ec] font-medium">recourse</strong> arrangement,
+                  directly from your customers. In a <strong className="text-[#0f0f0f] font-medium">recourse</strong> arrangement,
                   if your customer fails to pay, you are required to buy that invoice back. In a{" "}
-                  <strong className="text-[#eef2ec] font-medium">non-recourse</strong> arrangement, the factor
+                  <strong className="text-[#0f0f0f] font-medium">non-recourse</strong> arrangement, the factor
                   accepts the credit risk of your customer becoming insolvent and absorbs that loss instead
                   of charging it back to your business.
                 </p>
@@ -131,7 +131,7 @@ export default function NonRecourseFactoringPage() {
               </div>
             </div>
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#6b7e69] mb-5">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#a3a3a3] mb-5">
                 Who Commonly Uses It
               </h3>
               <div className="space-y-3">
@@ -159,10 +159,10 @@ export default function NonRecourseFactoringPage() {
                 ].map((item) => (
                   <div
                     key={item.industry}
-                    className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.industry}</p>
-                    <p className="text-xs text-[#9aaa98] leading-relaxed">{item.detail}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.industry}</p>
+                    <p className="text-xs text-[#737373] leading-relaxed">{item.detail}</p>
                   </div>
                 ))}
               </div>
@@ -172,12 +172,12 @@ export default function NonRecourseFactoringPage() {
       </section>
 
       {/* Advance / Reserve Cycle */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             How the Advance and Reserve Cycle Works
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-10 leading-relaxed">
             Non-recourse factoring follows the same mechanical flow as recourse factoring, with a
             distinct difference in how the factor handles unpaid invoices at the end of the cycle.
           </p>
@@ -204,24 +204,24 @@ export default function NonRecourseFactoringPage() {
                   "When the customer pays, the factor deducts its discount fee and releases the reserve balance to you. If the customer becomes insolvent and cannot pay, the factor absorbs that specific loss — you retain the advance with no chargeback obligation.",
               },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
+              <div key={i} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0f2a14] border border-[#22c55e]/30 flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                     {i + 1}
                   </span>
-                  <p className="text-sm font-semibold text-[#eef2ec]">{item.step}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f]">{item.step}</p>
                 </div>
-                <p className="text-xs text-[#9aaa98] leading-relaxed">{item.description}</p>
+                <p className="text-xs text-[#737373] leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
 
           {/* Insolvency-only callout */}
-          <div className="mt-8 rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-6 py-5">
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#22c55e] mb-2">
+          <div className="mt-8 rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-6 py-5">
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#0f0f0f] mb-2">
               What "Non-Recourse" Does Not Cover
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed max-w-3xl">
+            <p className="text-sm text-[#737373] leading-relaxed max-w-3xl">
               Most non-recourse agreements limit protection to verified customer insolvency — formal
               bankruptcy filing, assignment for the benefit of creditors, or similar proceedings. If
               your customer simply refuses to pay, disputes the invoice, claims a product defect,
@@ -235,14 +235,14 @@ export default function NonRecourseFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Eligibility and Invoice Criteria
               </h2>
-              <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-[#737373] leading-relaxed">
                 <p>
                   Non-recourse factoring is generally available to B2B and B2G businesses with
                   established commercial or government customers. The factor&apos;s underwriting focuses
@@ -259,7 +259,7 @@ export default function NonRecourseFactoringPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#6b7e69] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#a3a3a3] mb-4">
                 Common Criteria (Subject to Underwriting)
               </h3>
               {[
@@ -274,12 +274,12 @@ export default function NonRecourseFactoringPage() {
               ].map(([label, value]) => (
                 <div
                   key={label}
-                  className="flex items-start gap-4 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                  className="flex items-start gap-4 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                 >
-                  <span className="text-xs font-medium text-[#6b7e69] w-36 flex-shrink-0 pt-0.5">
+                  <span className="text-xs font-medium text-[#a3a3a3] w-36 flex-shrink-0 pt-0.5">
                     {label}
                   </span>
-                  <span className="text-sm text-[#eef2ec]">{value}</span>
+                  <span className="text-sm text-[#0f0f0f]">{value}</span>
                 </div>
               ))}
             </div>
@@ -288,12 +288,12 @@ export default function NonRecourseFactoringPage() {
       </section>
 
       {/* Advance Rates and Fees */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Advance Rates and Fee Ranges
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-8 leading-relaxed">
             The figures below represent ranges observed across non-recourse factoring programs and
             are provided for educational purposes only. Actual rates and advance percentages are
             subject to underwriting, customer credit quality, industry, invoice volume, and the
@@ -331,12 +331,12 @@ export default function NonRecourseFactoringPage() {
       </section>
 
       {/* Comparison Table */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Non-Recourse vs. Recourse Factoring
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-8 leading-relaxed">
             The right structure depends on your customer base, risk tolerance, and cost sensitivity.
             Neither arrangement is universally better — the comparison below highlights the key
             structural differences to inform your evaluation.
@@ -350,7 +350,7 @@ export default function NonRecourseFactoringPage() {
       </section>
 
       {/* Benefits and Limitations */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-8">
             Potential Benefits and Key Limitations
@@ -358,7 +358,7 @@ export default function NonRecourseFactoringPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Benefits */}
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#22c55e] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#0f0f0f] mb-4">
                 Potential Benefits
               </h3>
               <div className="space-y-3">
@@ -382,10 +382,10 @@ export default function NonRecourseFactoringPage() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="flex gap-3 rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-5 py-4"
+                    className="flex gap-3 rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-5 py-4"
                   >
                     <svg
-                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]"
                       viewBox="0 0 16 16"
                       fill="none"
                     >
@@ -398,8 +398,8 @@ export default function NonRecourseFactoringPage() {
                       />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.title}</p>
-                      <p className="text-xs text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.title}</p>
+                      <p className="text-xs text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -407,7 +407,7 @@ export default function NonRecourseFactoringPage() {
             </div>
             {/* Limitations */}
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#6b7e69] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#a3a3a3] mb-4">
                 Key Limitations
               </h3>
               <div className="space-y-3">
@@ -435,10 +435,10 @@ export default function NonRecourseFactoringPage() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="flex gap-3 rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-5 py-4"
+                    className="flex gap-3 rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-5 py-4"
                   >
                     <svg
-                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]"
                       viewBox="0 0 16 16"
                       fill="none"
                     >
@@ -451,8 +451,8 @@ export default function NonRecourseFactoringPage() {
                       />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.title}</p>
-                      <p className="text-xs text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.title}</p>
+                      <p className="text-xs text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -463,24 +463,24 @@ export default function NonRecourseFactoringPage() {
       </section>
 
       {/* Calculator Link */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-6 py-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 justify-between">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-6 py-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-1">
+              <p className="text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-1">
                 Estimate Your Numbers
               </p>
-              <p className="text-base font-medium text-[#eef2ec] mb-1">
+              <p className="text-base font-medium text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </p>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Model advance amounts, reserve balances, and estimated fee costs based on your
                 invoice volume and terms. Results are estimates only — not offers.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-2.5 rounded-lg border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e] hover:text-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f] hover:text-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

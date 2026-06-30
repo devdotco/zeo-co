@@ -187,17 +187,17 @@ export default function RevenueBasedFinancingPage() {
       />
 
       {/* Who it may fit */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who It May Fit
               </p>
               <h2 className="text-2xl font-semibold text-white leading-snug">
                 Businesses with consistent, recurring revenue
               </h2>
-              <p className="text-[#9aaa98] text-sm mt-4 leading-relaxed">
+              <p className="text-[#737373] text-sm mt-4 leading-relaxed">
                 Revenue-based financing is structurally different from a loan. The repayment mechanism is what defines the product: it scales with your revenue rather than following a fixed calendar. That structure is best suited to businesses whose revenue is predictable enough that a percentage-based holdback won&rsquo;t create operational strain in slow months.
               </p>
             </div>
@@ -222,11 +222,11 @@ export default function RevenueBasedFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e] mb-3" />
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mb-3" />
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -235,15 +235,15 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* How it works */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             The revenue-based financing cycle
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
             Unlike a term loan with a fixed payoff date, revenue-based financing has a variable repayment timeline determined by how quickly your revenue delivers the agreed repayment cap. The steps below reflect the general structure — specific mechanics vary by provider.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -271,15 +271,15 @@ export default function RevenueBasedFinancingPage() {
             ].map((item, i) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-[0.65rem] font-semibold tabular-nums tracking-[0.08em] text-[#22c55e] mb-3">
+                <p className="text-[0.65rem] font-semibold tabular-nums tracking-[0.08em] text-[#0f0f0f] mb-3">
                   {String(i + 1).padStart(2, "0")}
                 </p>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2 leading-snug">
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug">
                   {item.label}
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -287,15 +287,15 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* Common use cases */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common Use Cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             What businesses typically use RBF for
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
             The following represent observed patterns in how revenue-based financing is deployed. They are not guarantees of eligibility or approval for any specific purpose. Lender-specific restrictions on use of proceeds may apply.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -333,17 +333,17 @@ export default function RevenueBasedFinancingPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-md border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
+                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-md border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                      <path d="M2 5l2.5 2.5L8 2.5" stroke="#22c55e" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M2 5l2.5 2.5L8 2.5" stroke="#0f0f0f" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <p className="text-sm font-semibold text-[#eef2ec] leading-snug">{item.title}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] leading-snug">{item.title}</p>
                 </div>
-                <p className="text-xs text-[#6b7e69] leading-relaxed pl-8">{item.detail}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed pl-8">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -351,15 +351,15 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* Typical requirements — MetricCards */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Typical Requirements
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             What providers generally evaluate
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             These are general ranges observed across revenue-based financing providers. Actual criteria vary by provider and product. Subject to underwriting by third-party providers.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
@@ -395,8 +395,8 @@ export default function RevenueBasedFinancingPage() {
               highlight
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-            <p className="text-xs font-semibold text-[#eef2ec] mb-2">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+            <p className="text-xs font-semibold text-[#0f0f0f] mb-2">
               Additional factors providers commonly consider
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1.5 mt-3">
@@ -408,8 +408,8 @@ export default function RevenueBasedFinancingPage() {
                 "Industry vertical and revenue model (subscription, transactional, project-based)",
                 "Personal guarantee — required by some providers even for revenue-based products",
               ].map((item) => (
-                <li key={item} className="flex items-start gap-2 text-xs text-[#6b7e69]">
-                  <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">—</span>
+                <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
+                  <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">—</span>
                   {item}
                 </li>
               ))}
@@ -419,23 +419,23 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* Cost discussion */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 How revenue-based financing is priced
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Revenue-based financing is typically priced using a factor rate rather than an interest rate or APR. The factor rate is applied to the advance amount to determine total repayment. For example, a $200,000 advance with a 1.40 factor rate means total repayment of $280,000 — paid out as a percentage of monthly revenue until that amount is remitted.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Because repayment is variable in timing (not amount), factor rates cannot be meaningfully converted to APR without knowing the actual repayment duration. A 1.30 factor repaid over 8 months carries a very different effective APR than the same factor repaid over 24 months. ZEO does not guarantee any specific factor rate, advance amount, or repayment timeline — all terms are determined by the third-party provider at underwriting.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 When evaluating an RBF offer, focus on: the total repayment cap (advance × factor rate), the holdback percentage and its impact on monthly cash flow, any origination or administrative fees charged separately, and whether the agreement contains a minimum monthly payment floor or early repayment provisions.
               </p>
             </div>
@@ -464,10 +464,10 @@ export default function RevenueBasedFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.label}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.label}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -476,9 +476,9 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* Pros and Cons */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Trade-offs
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8">
@@ -486,14 +486,14 @@ export default function RevenueBasedFinancingPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Pros */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#22c55e]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                    <path d="M2 5l2.5 2.5L8 2.5" stroke="#22c55e" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M2 5l2.5 2.5L8 2.5" stroke="#0f0f0f" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Potential advantages</p>
+                <p className="text-sm font-semibold text-[#0f0f0f]">Potential advantages</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -504,22 +504,22 @@ export default function RevenueBasedFinancingPage() {
                   "Can be appropriate for businesses with limited credit history if revenue is strong",
                   "Repayment term extends naturally if revenue slows — no default triggered by a soft quarter",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">+</span>
+                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#737373] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">+</span>
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
             {/* Cons */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#6b7e69]/40 bg-[#111512] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#a3a3a3]/40 bg-[#f5f5f5] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                    <path d="M2.5 7.5l5-5M7.5 7.5l-5-5" stroke="#9aaa98" strokeWidth="1.3" strokeLinecap="round" />
+                    <path d="M2.5 7.5l5-5M7.5 7.5l-5-5" stroke="#737373" strokeWidth="1.3" strokeLinecap="round" />
                   </svg>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Limitations to be aware of</p>
+                <p className="text-sm font-semibold text-[#0f0f0f]">Limitations to be aware of</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -530,8 +530,8 @@ export default function RevenueBasedFinancingPage() {
                   "Factor rates are harder to compare across providers than APR-based products; analysis requires care",
                   "Personal guarantee or UCC lien may still be required by many providers despite the revenue-based structure",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#6b7e69]">−</span>
+                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#737373] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#a3a3a3]">−</span>
                     {item}
                   </li>
                 ))}
@@ -542,15 +542,15 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* Comparison Table */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Revenue-based financing vs. other structures
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             General overview only. Actual terms vary significantly by lender, borrower profile, and product. Not offers or commitments. Subject to underwriting.
           </p>
           <ComparisonTable
@@ -558,22 +558,22 @@ export default function RevenueBasedFinancingPage() {
             rows={comparisonRows}
             highlightCol="Revenue-Based"
           />
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general market estimates. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own criteria.
           </p>
         </div>
       </section>
 
       {/* Alternatives */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Other structures that may address similar needs
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             Revenue-based financing is one of several non-dilutive capital structures for operating businesses. Depending on your revenue profile, credit, and capital need, these alternatives may be worth evaluating alongside RBF.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -610,23 +610,23 @@ export default function RevenueBasedFinancingPage() {
       </section>
 
       {/* Calculator link */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <p className="text-sm font-semibold text-[#eef2ec]">
+              <p className="text-sm font-semibold text-[#0f0f0f]">
                 Estimate the total cost and repayment timeline for a revenue-based advance
               </p>
-              <p className="text-xs text-[#6b7e69] mt-1">
+              <p className="text-xs text-[#a3a3a3] mt-1">
                 Model factor rate scenarios, holdback percentages, and projected revenue to estimate repayment duration. Estimates only — not a commitment or offer.
               </p>
             </div>
             <Link
               href="/calculators/revenue-based-financing"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>
@@ -651,7 +651,7 @@ export default function RevenueBasedFinancingPage() {
       />
 
       {/* Disclaimer */}
-      <section className="pb-12 border-t border-[#1e2620]">
+      <section className="pb-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-8">
           <ProductDisclaimer type="general" />
         </div>

@@ -218,7 +218,7 @@ const COMPARISON_ROWS = [
 
 export default function AssetBasedLendingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -236,7 +236,7 @@ export default function AssetBasedLendingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -265,17 +265,17 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Who it is for ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who it may fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Asset-heavy businesses that need capital aligned with their cycle
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Asset-based lending is designed for businesses whose balance sheets contain
                 significant, liquid collateral — receivables that turn regularly and inventory
                 that moves. The structure is built around the idea that your capacity to borrow
@@ -309,10 +309,10 @@ export default function AssetBasedLendingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -321,9 +321,9 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── How it works ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
@@ -362,12 +362,12 @@ export default function AssetBasedLendingPage() {
                   "You draw on the facility as needed, up to the borrowing base limit. As invoices are collected, funds are swept to pay down the line, which frees up capacity for future draws.",
               },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#22c55e] bg-[#0f2a14] border border-[#22c55e]/20 rounded-md px-2 py-0.5 mb-3">
+              <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.body}</p>
               </div>
             ))}
           </div>
@@ -375,9 +375,9 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Common use cases ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
@@ -431,17 +431,17 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Typical requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders generally evaluate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 ABL underwriting differs from cash-flow lending in that collateral quality often
                 carries more weight than profitability metrics alone. The benchmarks below
                 represent common patterns among ABL lenders; individual providers set their own
@@ -482,13 +482,13 @@ export default function AssetBasedLendingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -497,46 +497,46 @@ export default function AssetBasedLendingPage() {
 
             {/* ── Cost discussion ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What drives the cost of an ABL facility
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 ZEO.co does not quote, set, or guarantee financing rates. Actual costs depend
                 on the factors below and the specific terms offered by a third-party provider
                 following underwriting. ABL facilities typically carry multiple fee components —
                 evaluate the total cost, not just the stated interest rate.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Interest on drawn balances.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Interest on drawn balances.</span>{" "}
                   ABL facilities are typically priced as a spread over a reference rate (historically
                   LIBOR, now typically SOFR). You pay interest only on the amount you have actually
                   drawn, not the full committed line — which can make them cost-efficient for
                   businesses that draw down and repay frequently.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Unused line fees.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Unused line fees.</span>{" "}
                   Most ABL facilities charge a fee on the undrawn portion of the committed line —
                   typically a fraction of a percent annually. This compensates the lender for
                   holding the commitment available even when you are not drawing on it.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Field exam and audit costs.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Field exam and audit costs.</span>{" "}
                   Initial and ongoing field exams are often passed through to the borrower. These
                   can add meaningful cost, particularly at smaller facility sizes. Understand the
                   exam schedule and cost structure before committing to a facility.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Origination and closing fees.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Origination and closing fees.</span>{" "}
                   Upfront fees to establish the facility vary by lender and deal complexity. On
                   larger transactions, legal fees for negotiating the credit agreement can also be
                   substantial.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Collateral quality.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Collateral quality.</span>{" "}
                   Businesses with clean, diversified, short-cycle receivables and well-documented
                   inventory tend to receive more favorable pricing. Riskier asset profiles —
                   concentrated debtors, slow-paying customers, hard-to-value inventory — may see
@@ -549,17 +549,17 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Pros and cons ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
             Potential advantages and drawbacks
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Potential advantages
               </h3>
               <ul className="space-y-3">
@@ -571,9 +571,9 @@ export default function AssetBasedLendingPage() {
                   "Asset focus rather than pure cash-flow underwriting can benefit seasonal or turnaround businesses with strong balance sheets.",
                   "Larger facilities often carry lower rates than factoring or short-term working capital products, subject to deal terms.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -593,8 +593,8 @@ export default function AssetBasedLendingPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#6b7e69] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#a3a3a3] uppercase tracking-wide mb-4">
                 Potential drawbacks
               </h3>
               <ul className="space-y-3">
@@ -606,9 +606,9 @@ export default function AssetBasedLendingPage() {
                   "If asset quality deteriorates (customers slow to pay, inventory becomes ineligible), available credit can contract quickly — sometimes at the worst time.",
                   "Approval and terms are not guaranteed; subject to full underwriting and third-party lender decisions.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -632,15 +632,15 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-6 text-balance">
             Asset-based lending vs. invoice factoring vs. term loan
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             This table summarizes general structural differences between common approaches to
             receivables-backed financing. Actual terms depend on the lender and your specific situation.
           </p>
@@ -653,15 +653,15 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Alternatives ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Asset-based lending is a powerful tool for the right profile, but it is not always the
             best starting point. Depending on your business size, asset pool, and financing goals,
             one of these alternatives may be a better potential fit or a useful complement.
@@ -700,17 +700,17 @@ export default function AssetBasedLendingPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
               <h3 className="text-lg font-semibold text-white mb-1">
                 Estimate your borrowing base
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Use our working capital calculator to model how receivable and inventory balances
                 translate to potential borrowing capacity under typical ABL advance rates. Results
                 are illustrative only — not an offer or commitment from any lender.
@@ -718,7 +718,7 @@ export default function AssetBasedLendingPage() {
             </div>
             <Link
               href="/calculators/working-capital"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

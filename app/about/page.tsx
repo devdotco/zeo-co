@@ -84,7 +84,7 @@ const coverageItems = [
 
 export default function AboutPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <PageHero
         breadcrumbs={[{ label: "About", href: "/about" }]}
         eyebrow="About ZEO.co"
@@ -93,7 +93,7 @@ export default function AboutPage() {
       />
 
       {/* Mission metrics */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -122,17 +122,17 @@ export default function AboutPage() {
       </section>
 
       {/* The problem + solution */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 The Problem
               </p>
-              <h2 className="text-2xl font-semibold text-[#eef2ec] mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
                 Business financing is fragmented, jargon-heavy, and built for lenders — not borrowers.
               </h2>
-              <div className="space-y-4 text-[#9aaa98] text-sm leading-relaxed">
+              <div className="space-y-4 text-[#737373] text-sm leading-relaxed">
                 <p>
                   A business owner searching for capital encounters dozens of product types — SBA 7(a),
                   MCA, factoring, revenue-based financing, equipment loans — with no clear guide to
@@ -153,10 +153,10 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What ZEO Does Differently
               </p>
-              <h2 className="text-2xl font-semibold text-[#eef2ec] mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
                 Guided intake. Plain-language education. Honest comparison.
               </h2>
               <div className="space-y-3">
@@ -180,12 +180,12 @@ export default function AboutPage() {
                 ].map(({ step, desc }) => (
                   <div
                     key={step}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-4 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-4"
                   >
-                    <span className="flex-shrink-0 mt-0.5 text-[0.6rem] font-bold uppercase tracking-widest text-[#22c55e] w-14">
+                    <span className="flex-shrink-0 mt-0.5 text-[0.6rem] font-bold uppercase tracking-widest text-[#0f0f0f] w-14">
                       {step}
                     </span>
-                    <p className="text-sm text-[#9aaa98] leading-relaxed">{desc}</p>
+                    <p className="text-sm text-[#737373] leading-relaxed">{desc}</p>
                   </div>
                 ))}
               </div>
@@ -195,16 +195,16 @@ export default function AboutPage() {
       </section>
 
       {/* What we cover */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
               Coverage
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec]" style={{ textWrap: "balance" } as React.CSSProperties}>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]" style={{ textWrap: "balance" } as React.CSSProperties}>
               20+ products across three financing categories
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-xl">
               ZEO covers the full commercial financing landscape — not just the products that are
               easiest to place.
             </p>
@@ -214,15 +214,15 @@ export default function AboutPage() {
             {coverageItems.map(({ category, items }) => (
               <div
                 key={category}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-5"
               >
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   {category}
                 </p>
                 <ul className="space-y-2.5">
                   {items.map((item) => (
-                    <li key={item} className="flex items-center gap-2.5 text-sm text-[#9aaa98]">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/40 flex-shrink-0" />
+                    <li key={item} className="flex items-center gap-2.5 text-sm text-[#737373]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/40 flex-shrink-0" />
                       {item}
                     </li>
                   ))}
@@ -234,16 +234,16 @@ export default function AboutPage() {
       </section>
 
       {/* Transparency / compensation */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               How We're Compensated
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-5" style={{ textWrap: "balance" } as React.CSSProperties}>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5" style={{ textWrap: "balance" } as React.CSSProperties}>
               ZEO is a referral platform, not a lender
             </h2>
-            <div className="space-y-4 text-[#9aaa98] text-sm leading-relaxed">
+            <div className="space-y-4 text-[#737373] text-sm leading-relaxed">
               <p>
                 ZEO.co does not originate loans, extend credit, or hold any interest in financing
                 outcomes. We are compensated by third-party providers when a business owner we refer
@@ -266,7 +266,7 @@ export default function AboutPage() {
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link
                 href="/how-it-works"
-                className="inline-flex items-center gap-2 text-sm text-[#22c55e] hover:text-[#16a34a] transition-colors font-medium"
+                className="inline-flex items-center gap-2 text-sm text-[#0f0f0f] hover:text-[#333333] transition-colors font-medium"
               >
                 How the intake works
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
@@ -275,7 +275,7 @@ export default function AboutPage() {
               </Link>
               <Link
                 href="/financing"
-                className="inline-flex items-center gap-2 text-sm text-[#9aaa98] hover:text-[#eef2ec] transition-colors"
+                className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
               >
                 Browse financing products
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
@@ -301,7 +301,7 @@ export default function AboutPage() {
         secondaryHref="/financing"
       />
 
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="general" />
         </div>

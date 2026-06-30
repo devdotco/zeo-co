@@ -42,7 +42,7 @@ const faqs = [
 
 export default function ContactPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <PageHero
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
         eyebrow="Get in Touch"
@@ -55,22 +55,22 @@ export default function ContactPage() {
           {/* Contact Info */}
           <div className="lg:col-span-1 space-y-8">
             <div>
-              <h2 className="text-lg font-semibold text-[#eef2ec] mb-4">Contact Information</h2>
+              <h2 className="text-lg font-semibold text-[#0f0f0f] mb-4">Contact Information</h2>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#22c55e]">
+                  <div className="mt-0.5 h-5 w-5 flex-shrink-0 text-[#0f0f0f]">
                     <svg viewBox="0 0 20 20" fill="currentColor">
                       <path d="M2.003 5.884 10 9.882l7.997-3.998A2 2 0 0 0 16 4H4a2 2 0 0 0-1.997 1.884z" />
                       <path d="m18 8.118-8 4-8-4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.118z" />
                     </svg>
                   </div>
                   <div>
-                    <p className="text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-1">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-1">
                       Email
                     </p>
                     <a
                       href="mailto:info@zeo.co"
-                      className="text-[#eef2ec] hover:text-[#22c55e] transition-colors duration-150"
+                      className="text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors duration-150"
                     >
                       info@zeo.co
                     </a>
@@ -79,15 +79,15 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="border-t border-[#1e2620] pt-8">
-              <h3 className="text-sm font-semibold text-[#eef2ec] mb-3">Looking for Financing?</h3>
-              <p className="text-sm text-[#9aaa98] mb-4">
+            <div className="border-t border-[#e5e5e5] pt-8">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] mb-3">Looking for Financing?</h3>
+              <p className="text-sm text-[#737373] mb-4">
                 To explore your financing options, submit a brief intake through our apply page.
                 We'll identify the best paths for your business.
               </p>
               <Link
                 href="/apply"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#22c55e] hover:text-[#4ade80] transition-colors duration-150"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors duration-150"
               >
                 Start an Application
                 <svg
@@ -106,17 +106,17 @@ export default function ContactPage() {
               </Link>
             </div>
 
-            <div className="border-t border-[#1e2620] pt-8">
-              <h3 className="text-sm font-semibold text-[#eef2ec] mb-3">
+            <div className="border-t border-[#e5e5e5] pt-8">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] mb-3">
                 Lenders &amp; Partners
               </h3>
-              <p className="text-sm text-[#9aaa98] mb-4">
+              <p className="text-sm text-[#737373] mb-4">
                 Interested in a referral arrangement or strategic partnership? Visit our partners
                 page to learn how we work with lenders, brokers, and advisors.
               </p>
               <Link
                 href="/partners"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#22c55e] hover:text-[#4ade80] transition-colors duration-150"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors duration-150"
               >
                 Partner with ZEO
                 <svg
@@ -138,8 +138,8 @@ export default function ContactPage() {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <div className="bg-[#111512] border border-[#1e2620] rounded-2xl p-8">
-              <h2 className="text-lg font-semibold text-[#eef2ec] mb-6">Send a Message</h2>
+            <div className="bg-[#f5f5f5] border border-[#e5e5e5] rounded-2xl p-8">
+              <h2 className="text-lg font-semibold text-[#0f0f0f] mb-6">Send a Message</h2>
               <ContactForm />
             </div>
           </div>

@@ -202,7 +202,7 @@ const COMPARISON_ROWS = [
 
 export default function RecourseFactoringPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -220,7 +220,7 @@ export default function RecourseFactoringPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -250,24 +250,24 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── What it is and who uses it ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Sell your invoices now — you keep the credit risk
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Recourse factoring is a financing arrangement in which you sell your outstanding
                 business-to-business invoices to a third-party factor in exchange for an immediate
                 cash advance — typically 80 to 92 percent of the invoice face value. The factor
                 collects payment directly from your customer. Once collected, the factor releases
                 your reserve: the remaining invoice balance minus their fee.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 The defining feature of recourse factoring is who bears the credit risk. If your
                 customer does not pay — due to insolvency, dispute, or prolonged non-payment — the
                 factor can require you to buy the invoice back or deduct the shortfall from your
@@ -275,7 +275,7 @@ export default function RecourseFactoringPage() {
                 with non-recourse factoring, where the factor assumes certain types of credit risk,
                 but non-recourse programs are less common and typically carry higher fees.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Because the factor&#39;s risk is lower under a recourse structure, fees tend to be
                 more competitive. For businesses whose customers are generally creditworthy and pay
                 predictably, the retained credit risk is often manageable in practice — and the
@@ -303,10 +303,10 @@ export default function RecourseFactoringPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -315,15 +315,15 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Advance and reserve cycle ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
             The advance and reserve cycle
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Each invoice you factor follows the same cycle. Understanding the mechanics helps you
             evaluate the real cost and cash flow impact before signing a factoring agreement.
           </p>
@@ -355,22 +355,22 @@ export default function RecourseFactoringPage() {
                 body: "If your customer has not paid within the agreed collection window — commonly 90 days from invoice date — the factor may trigger a recourse claim. You may need to repurchase the invoice at face value or have the amount offset against future advances or your reserve.",
               },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#22c55e] bg-[#0f2a14] border border-[#22c55e]/20 rounded-md px-2 py-0.5 mb-3">
+              <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.body}</p>
               </div>
             ))}
           </div>
 
           {/* Recourse obligation callout */}
-          <div className="mt-6 rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+          <div className="mt-6 rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
               Understanding the recourse obligation
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed max-w-3xl">
+            <p className="text-sm text-[#737373] leading-relaxed max-w-3xl">
               Recourse does not mean you will always be required to buy invoices back — it means
               the obligation exists if a customer fails to pay. Many businesses factor for years
               without ever triggering a recourse event because their customers pay reliably. The
@@ -384,17 +384,17 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Requirements and invoice criteria ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What factors typically evaluate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Recourse factoring underwriting is primarily driven by the quality of your
                 invoices and your customers — not your own credit score or years in business.
                 That said, factors set their own eligibility standards and the criteria below
@@ -435,13 +435,13 @@ export default function RecourseFactoringPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -450,66 +450,66 @@ export default function RecourseFactoringPage() {
 
             {/* Advance rates and fee ranges */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Advance rates and fees
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Understanding how factoring costs work
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 ZEO.co does not quote, set, or guarantee factoring rates. The ranges below reflect
                 general market patterns — actual terms depend on your invoice profile, debtor
                 quality, volume, and the specific factor. Evaluate the full cost structure, not
                 just the stated rate.
               </p>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">Advance rate</p>
-                  <p className="text-[#9aaa98] leading-relaxed text-sm mb-2">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Advance rate</p>
+                  <p className="text-[#737373] leading-relaxed text-sm mb-2">
                     The advance is the immediate cash you receive, expressed as a percentage of the
                     invoice face value. Recourse factoring advances commonly range from 80 to 92
                     percent, with higher advances available for strong debtor profiles and
                     established factoring relationships. The remainder is held in reserve.
                   </p>
-                  <p className="text-xs text-[#6b7e69]">
+                  <p className="text-xs text-[#a3a3a3]">
                     A higher advance rate means less cash retained in reserve — but the reserve
                     is your money, returned after payment less fees. A lower advance is not
                     necessarily worse if the fee structure is favorable.
                   </p>
                 </div>
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">Factoring fee</p>
-                  <p className="text-[#9aaa98] leading-relaxed text-sm mb-2">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Factoring fee</p>
+                  <p className="text-[#737373] leading-relaxed text-sm mb-2">
                     Fees are typically expressed as a percentage of invoice face value per period —
                     for example, 1.5% per 30 days. Some factors use a flat fee structure; others
                     charge incrementally as the invoice ages unpaid. Recourse programs generally
                     offer lower fees than non-recourse alternatives because the credit risk remains
                     with you.
                   </p>
-                  <p className="text-xs text-[#6b7e69]">
+                  <p className="text-xs text-[#a3a3a3]">
                     A factor quoting 1.5% per 30 days on a $100,000 invoice held for 45 days
                     would charge approximately $2,250. Understand whether fees are calculated on
                     face value or the advance amount, and whether they compound or accrue daily.
                   </p>
                 </div>
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">Other costs to review</p>
-                  <ul className="space-y-1.5 text-xs text-[#6b7e69]">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Other costs to review</p>
+                  <ul className="space-y-1.5 text-xs text-[#a3a3a3]">
                     <li className="flex gap-2">
-                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#6b7e69]" />
-                      <span><span className="text-[#9aaa98] font-medium">Due diligence or setup fees</span> — charged at program inception to cover underwriting and documentation</span>
+                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#a3a3a3]" />
+                      <span><span className="text-[#737373] font-medium">Due diligence or setup fees</span> — charged at program inception to cover underwriting and documentation</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#6b7e69]" />
-                      <span><span className="text-[#9aaa98] font-medium">Monthly minimums</span> — if you factor less than a contractual minimum volume, you may owe a fee for the shortfall</span>
+                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#a3a3a3]" />
+                      <span><span className="text-[#737373] font-medium">Monthly minimums</span> — if you factor less than a contractual minimum volume, you may owe a fee for the shortfall</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#6b7e69]" />
-                      <span><span className="text-[#9aaa98] font-medium">Wire and ACH fees</span> — some factors charge per-transfer fees for disbursements</span>
+                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#a3a3a3]" />
+                      <span><span className="text-[#737373] font-medium">Wire and ACH fees</span> — some factors charge per-transfer fees for disbursements</span>
                     </li>
                     <li className="flex gap-2">
-                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#6b7e69]" />
-                      <span><span className="text-[#9aaa98] font-medium">Early termination fees</span> — long-term contracts may carry penalties for exiting before the term ends</span>
+                      <span className="flex-shrink-0 mt-1 h-1 w-1 rounded-full bg-[#a3a3a3]" />
+                      <span><span className="text-[#737373] font-medium">Early termination fees</span> — long-term contracts may carry penalties for exiting before the term ends</span>
                     </li>
                   </ul>
                 </div>
@@ -520,15 +520,15 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Industries ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common industries
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Industries where recourse factoring is frequently used
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Recourse factoring is common in sectors with regular B2B invoicing, commercial
             customers, and a gap between service delivery and payment collection.
           </p>
@@ -580,17 +580,17 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Benefits and limitations ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
             Potential advantages and limitations
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Potential advantages
               </h3>
               <ul className="space-y-3">
@@ -602,9 +602,9 @@ export default function RecourseFactoringPage() {
                   "Faster setup than asset-based lending — programs can often be established in days rather than weeks.",
                   "Scales with revenue — as you invoice more, your potential factoring capacity grows without renegotiating a fixed credit limit.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -624,8 +624,8 @@ export default function RecourseFactoringPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#6b7e69] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#a3a3a3] uppercase tracking-wide mb-4">
                 Potential limitations
               </h3>
               <ul className="space-y-3">
@@ -637,9 +637,9 @@ export default function RecourseFactoringPage() {
                   "Long-term contracts may include volume minimums and early termination fees that reduce flexibility if your business needs change.",
                   "Only usable for earned, eligible, commercial invoices — it does not help with payroll, rent, inventory purchases, or other cash needs unrelated to outstanding AR.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -663,15 +663,15 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Recourse factoring vs. non-recourse vs. asset-based lending
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             This table summarizes general structural differences. Actual terms depend on your
             specific factoring agreement or credit facility. Always review the full contract.
           </p>
@@ -684,15 +684,15 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Alternatives ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related financing paths
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other options that may be worth comparing
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Recourse factoring is one approach to turning receivables into working capital — but
             depending on your situation, volume, and customer profile, one of these may be a
             better potential fit or a useful complement.
@@ -724,17 +724,17 @@ export default function RecourseFactoringPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
               <h3 className="text-lg font-semibold text-white mb-1">
                 Estimate your factoring advance and fees
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Use our invoice factoring calculator to model how advance rates and fee structures
                 affect your net proceeds on a given invoice. Results are illustrative only — not an
                 offer or commitment from any factor or third-party provider.
@@ -742,7 +742,7 @@ export default function RecourseFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

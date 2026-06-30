@@ -126,7 +126,7 @@ function ArrowRightIcon({ className = "" }: { className?: string }) {
 
 function CheckIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#22c55e]">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#0f0f0f]">
       <path
         d="M3 7l2.5 2.5L11 4.5"
         stroke="currentColor"
@@ -140,7 +140,7 @@ function CheckIcon() {
 
 function CrossIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#6b7e69]">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#a3a3a3]">
       <path d="M4 4l6 6M10 4l-6 6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
     </svg>
   );
@@ -255,7 +255,7 @@ const faqItems = [
 
 export default function TruckingLogisticsPage() {
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       <PageHero
         breadcrumbs={breadcrumbs}
         eyebrow="Industry"
@@ -264,7 +264,7 @@ export default function TruckingLogisticsPage() {
       />
 
       {/* ── Metrics strip ─────────────────────────────────────────────────── */}
-      <section className="border-b border-[#1e2620] py-10">
+      <section className="border-b border-[#e5e5e5] py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -297,17 +297,17 @@ export default function TruckingLogisticsPage() {
       </section>
 
       {/* ── Financing challenges ───────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry Context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 Financing challenges unique to trucking and logistics
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   The trucking industry is defined by a persistent structural mismatch: operating costs hit immediately — fuel, driver wages, insurance, tolls, maintenance — while broker and shipper payments often don&apos;t arrive for 30 to 60 days. For carriers hauling dozens of loads a week, that gap compounds quickly into a meaningful working capital deficit, even when the business is profitable on paper.
                 </p>
@@ -325,8 +325,8 @@ export default function TruckingLogisticsPage() {
 
             {/* Challenge sidebar */}
             <div className="space-y-3">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Common cash flow pressure points
                 </p>
                 <ul className="space-y-3">
@@ -338,7 +338,7 @@ export default function TruckingLogisticsPage() {
                     "Deadhead miles and empty return legs eroding per-load economics",
                     "Slow freight markets compressing spot rates while fixed costs remain constant",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#737373] leading-relaxed">
                       <CheckIcon />
                       {item}
                     </li>
@@ -346,8 +346,8 @@ export default function TruckingLogisticsPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Equipment capital requirements
                 </p>
                 <ul className="space-y-3">
@@ -358,13 +358,13 @@ export default function TruckingLogisticsPage() {
                     "Reefer trailer: $60,000 – $100,000+ new",
                     "Liftgate truck or flatbed: varies significantly by spec",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#9aaa98] leading-relaxed font-variant-numeric tabular-nums">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#737373] leading-relaxed font-variant-numeric tabular-nums">
                       <CheckIcon />
                       {item}
                     </li>
                   ))}
                 </ul>
-                <p className="text-[0.65rem] text-[#6b7e69] mt-3 leading-relaxed">
+                <p className="text-[0.65rem] text-[#a3a3a3] mt-3 leading-relaxed">
                   Ranges are general market observations only and will vary by spec, market conditions, and seller.
                 </p>
               </div>
@@ -374,15 +374,15 @@ export default function TruckingLogisticsPage() {
       </section>
 
       {/* ── Financing products ─────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Financing Options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Products commonly used in trucking and logistics
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             No single financing product fits every trucking business. The right structure depends on your immediate need, operating history, credit profile, and whether you&apos;re addressing cash flow, equipment, or growth capital — all subject to underwriting.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4">
@@ -394,10 +394,10 @@ export default function TruckingLogisticsPage() {
       </section>
 
       {/* ── Body copy — how lenders evaluate trucking businesses ─────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-3 gap-10">
-            <div className="md:col-span-2 space-y-6 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="md:col-span-2 space-y-6 text-sm text-[#737373] leading-relaxed">
               <div>
                 <h2 className="text-lg font-semibold text-white mb-3">
                   What lenders and factors typically evaluate in trucking businesses
@@ -449,8 +449,8 @@ export default function TruckingLogisticsPage() {
 
             {/* Sidebar: lender requirements */}
             <div className="space-y-4">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Typical lender requirements — trucking
                 </p>
                 <ul className="space-y-3">
@@ -463,19 +463,19 @@ export default function TruckingLogisticsPage() {
                     "No open tax liens or recent bankruptcies (some exceptions depending on product)",
                     "Satisfactory or Conditional FMCSA safety rating for most mainstream lenders",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#737373] leading-relaxed">
                       <CheckIcon />
                       {item}
                     </li>
                   ))}
                 </ul>
-                <p className="text-[0.65rem] text-[#6b7e69] mt-3 leading-relaxed">
+                <p className="text-[0.65rem] text-[#a3a3a3] mt-3 leading-relaxed">
                   Requirements listed are general observations. Specific criteria are set by individual third-party lenders and factors and are subject to their own underwriting guidelines.
                 </p>
               </div>
 
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Factors that may limit financing options
                 </p>
                 <ul className="space-y-3">
@@ -486,7 +486,7 @@ export default function TruckingLogisticsPage() {
                     "Significant unresolved tax debt or IRS liens",
                     "Hauling exclusively for a single broker or shipper (concentration risk)",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#6b7e69] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#a3a3a3] leading-relaxed">
                       <CrossIcon />
                       {item}
                     </li>
@@ -494,16 +494,16 @@ export default function TruckingLogisticsPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5">
-                <p className="text-xs font-semibold text-[#22c55e] mb-2">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+                <p className="text-xs font-semibold text-[#0f0f0f] mb-2">
                   Not sure which product fits your situation?
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-4">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   Submit a brief intake describing your fleet size, revenue, and immediate capital need. ZEO will review potential paths against third-party providers, subject to underwriting.
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#22c55e] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
                 >
                   Get started <ArrowRightIcon />
                 </Link>
@@ -514,15 +514,15 @@ export default function TruckingLogisticsPage() {
       </section>
 
       {/* ── Comparison table ──────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Freight factoring vs. equipment financing vs. SBA loans
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Each product addresses a different problem. This table reflects general market characteristics — individual terms are set by third-party providers and are subject to underwriting.
           </p>
           <ComparisonTable
@@ -530,16 +530,16 @@ export default function TruckingLogisticsPage() {
             rows={comparisonRows}
             highlightCol="Freight Factoring"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             All ranges and characteristics are general market observations, not offers or guaranteed terms. Actual terms are determined by individual lenders and factors subject to underwriting.
           </p>
         </div>
       </section>
 
       {/* ── Related financing ─────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Related Options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-6">
@@ -569,13 +569,13 @@ export default function TruckingLogisticsPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group block rounded-xl border border-[#1e2620] bg-[#111512] p-5 hover:border-[#22c55e]/40 hover:bg-[#0f2a14] transition-all"
+                className="group block rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-all"
               >
-                <p className="font-semibold text-[#eef2ec] text-sm mb-2 group-hover:text-white transition-colors">
+                <p className="font-semibold text-[#0f0f0f] text-sm mb-2 group-hover:text-white transition-colors">
                   {item.label}
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-3">{item.description}</p>
-                <span className="inline-flex items-center gap-1 text-xs text-[#22c55e] opacity-0 group-hover:opacity-100 transition-opacity">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{item.description}</p>
+                <span className="inline-flex items-center gap-1 text-xs text-[#0f0f0f] opacity-0 group-hover:opacity-100 transition-opacity">
                   Explore <ArrowRightIcon />
                 </span>
               </Link>

@@ -419,17 +419,17 @@ export default function FinancingPage() {
       />
 
       {/* Product Grid */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="flex items-end justify-between mb-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Products
               </p>
               <h2 className="text-2xl font-semibold text-white">
                 16 commercial financing structures
               </h2>
-              <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+              <p className="text-[#737373] text-sm mt-2 max-w-xl">
                 Each product has different eligibility, collateral, term, and cost characteristics. Select a product to learn more. All subject to third-party underwriting.
               </p>
             </div>
@@ -448,16 +448,16 @@ export default function FinancingPage() {
       </section>
 
       {/* Comparison Table */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Financing structures at a glance
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-xl">
               General overview only. Actual terms, amounts, and eligibility vary by applicant, lender, and product. Not offers or commitments.
             </p>
           </div>
@@ -468,23 +468,23 @@ export default function FinancingPage() {
             highlightCol="SBA 7(a)"
           />
 
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general estimates. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own underwriting criteria. Results may vary significantly.
           </p>
         </div>
       </section>
 
       {/* How to Choose */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Factors that may affect which structures apply
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               No single product fits every business. These are common factors lenders and providers consider during underwriting. Final determinations are made by the applicable third-party provider.
             </p>
           </div>
@@ -518,10 +518,10 @@ export default function FinancingPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -529,10 +529,10 @@ export default function FinancingPage() {
       </section>
 
       {/* Quick-nav: Product Categories */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Quick Navigation
             </p>
             <h2 className="text-2xl font-semibold text-white">Browse by financing category</h2>
@@ -540,8 +540,8 @@ export default function FinancingPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Traditional / Bank-aligned */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                 Traditional &amp; Government-Backed
               </p>
               <ul className="space-y-2">
@@ -556,7 +556,7 @@ export default function FinancingPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-2 text-sm text-[#9aaa98] hover:text-[#22c55e] transition-colors"
+                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
                     >
                       <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                         <path d="M4 2l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
@@ -569,8 +569,8 @@ export default function FinancingPage() {
             </div>
 
             {/* Acquisition & Specialty */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                 Acquisition &amp; Specialty
               </p>
               <ul className="space-y-2">
@@ -584,7 +584,7 @@ export default function FinancingPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-2 text-sm text-[#9aaa98] hover:text-[#22c55e] transition-colors"
+                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
                     >
                       <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                         <path d="M4 2l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
@@ -597,8 +597,8 @@ export default function FinancingPage() {
             </div>
 
             {/* Receivables & Asset-Based */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                 Receivables &amp; Asset-Based
               </p>
               <ul className="space-y-2">
@@ -612,7 +612,7 @@ export default function FinancingPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-2 text-sm text-[#9aaa98] hover:text-[#22c55e] transition-colors"
+                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
                     >
                       <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                         <path d="M4 2l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
@@ -632,7 +632,7 @@ export default function FinancingPage() {
         items={faqItems}
       />
 
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="general" />
         </div>

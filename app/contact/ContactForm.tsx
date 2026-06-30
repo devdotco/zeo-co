@@ -45,19 +45,19 @@ export default function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="rounded-xl border border-[#22c55e]/30 bg-[#22c55e]/10 px-6 py-8 text-center">
-        <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#22c55e]/20">
-          <svg className="h-6 w-6 text-[#22c55e]" viewBox="0 0 20 20" fill="currentColor">
+      <div className="rounded-xl border border-[#0f0f0f]/30 bg-[#0f0f0f]/10 px-6 py-8 text-center">
+        <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#0f0f0f]/20">
+          <svg className="h-6 w-6 text-[#0f0f0f]" viewBox="0 0 20 20" fill="currentColor">
             <path fillRule="evenodd" d="M16.707 5.293a1 1 0 0 1 0 1.414l-8 8a1 1 0 0 1-1.414 0l-4-4a1 1 0 0 1 1.414-1.414L8 12.586l7.293-7.293a1 1 0 0 1 1.414 0z" clipRule="evenodd" />
           </svg>
         </div>
-        <h3 className="text-base font-semibold text-[#eef2ec] mb-2">Message Sent</h3>
-        <p className="text-sm text-[#9aaa98]">
+        <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">Message Sent</h3>
+        <p className="text-sm text-[#737373]">
           Thanks for reaching out. We typically respond within one business day.
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 text-sm font-medium text-[#22c55e] hover:text-[#4ade80] transition-colors duration-150"
+          className="mt-6 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors duration-150"
         >
           Send another message
         </button>
@@ -69,7 +69,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
-          <label htmlFor="name" className="block text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-2">
+          <label htmlFor="name" className="block text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-2">
             Full Name
           </label>
           <input
@@ -80,11 +80,11 @@ export default function ContactForm() {
             value={form.name}
             onChange={handleChange}
             placeholder="Jane Smith"
-            className="w-full rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-2.5 text-sm text-[#eef2ec] placeholder-[#6b7e69] focus:border-[#22c55e] focus:outline-none focus:ring-1 focus:ring-[#22c55e] transition-colors duration-150"
+            className="w-full rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-2.5 text-sm text-[#0f0f0f] placeholder-[#a3a3a3] focus:border-[#0f0f0f] focus:outline-none focus:ring-1 focus:ring-[#0f0f0f] transition-colors duration-150"
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-2">
+          <label htmlFor="email" className="block text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-2">
             Email Address
           </label>
           <input
@@ -95,13 +95,13 @@ export default function ContactForm() {
             value={form.email}
             onChange={handleChange}
             placeholder="jane@company.com"
-            className="w-full rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-2.5 text-sm text-[#eef2ec] placeholder-[#6b7e69] focus:border-[#22c55e] focus:outline-none focus:ring-1 focus:ring-[#22c55e] transition-colors duration-150"
+            className="w-full rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-2.5 text-sm text-[#0f0f0f] placeholder-[#a3a3a3] focus:border-[#0f0f0f] focus:outline-none focus:ring-1 focus:ring-[#0f0f0f] transition-colors duration-150"
           />
         </div>
       </div>
 
       <div>
-        <label htmlFor="subject" className="block text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-2">
+        <label htmlFor="subject" className="block text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-2">
           Subject
         </label>
         <input
@@ -112,12 +112,12 @@ export default function ContactForm() {
           value={form.subject}
           onChange={handleChange}
           placeholder="General inquiry, partnership, press..."
-          className="w-full rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-2.5 text-sm text-[#eef2ec] placeholder-[#6b7e69] focus:border-[#22c55e] focus:outline-none focus:ring-1 focus:ring-[#22c55e] transition-colors duration-150"
+          className="w-full rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-2.5 text-sm text-[#0f0f0f] placeholder-[#a3a3a3] focus:border-[#0f0f0f] focus:outline-none focus:ring-1 focus:ring-[#0f0f0f] transition-colors duration-150"
         />
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-2">
+        <label htmlFor="message" className="block text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-2">
           Message
         </label>
         <textarea
@@ -128,7 +128,7 @@ export default function ContactForm() {
           value={form.message}
           onChange={handleChange}
           placeholder="How can we help you?"
-          className="w-full rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-2.5 text-sm text-[#eef2ec] placeholder-[#6b7e69] focus:border-[#22c55e] focus:outline-none focus:ring-1 focus:ring-[#22c55e] transition-colors duration-150 resize-none"
+          className="w-full rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-2.5 text-sm text-[#0f0f0f] placeholder-[#a3a3a3] focus:border-[#0f0f0f] focus:outline-none focus:ring-1 focus:ring-[#0f0f0f] transition-colors duration-150 resize-none"
         />
       </div>
 
@@ -139,9 +139,9 @@ export default function ContactForm() {
       )}
 
       <div className="flex items-center justify-between pt-1">
-        <p className="text-xs text-[#6b7e69]">
+        <p className="text-xs text-[#a3a3a3]">
           For financing, use{" "}
-          <Link href="/apply" className="text-[#22c55e] hover:underline">
+          <Link href="/apply" className="text-[#0f0f0f] hover:underline">
             /apply
           </Link>
           .
@@ -149,7 +149,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex items-center gap-2 rounded-lg bg-[#22c55e] px-6 py-2.5 text-sm font-semibold text-[#0a0d0b] hover:bg-[#4ade80] disabled:opacity-60 disabled:cursor-not-allowed transition-colors duration-150"
+          className="inline-flex items-center gap-2 rounded-lg bg-[#0f0f0f] px-6 py-2.5 text-sm font-semibold text-[#ffffff] hover:bg-[#4ade80] disabled:opacity-60 disabled:cursor-not-allowed transition-colors duration-150"
         >
           {status === "submitting" ? (
             <>

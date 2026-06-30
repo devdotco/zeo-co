@@ -225,7 +225,7 @@ export default function WorkingCapitalPage() {
       />
 
       {/* 2. Snapshot metrics */}
-      <section className="py-12 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-12 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <MetricCard label="Typical amount" value="$50K – $5M" note="Subject to underwriting" />
@@ -233,27 +233,27 @@ export default function WorkingCapitalPage() {
             <MetricCard label="Funding speed" value="2 – 7" unit="days" note="After approval; varies by provider" />
             <MetricCard label="Min. credit (typical)" value="580+" note="Personal FICO; varies by lender" highlight />
           </div>
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general market estimates. ZEO.co does not set terms or guarantee any specific amount, rate, or timeline. Actual offers are subject to third-party underwriting.
           </p>
         </div>
       </section>
 
       {/* 3. Who it is for */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Who working capital financing may be a fit for
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 Working capital financing is not one-size-fits-all. It tends to be most relevant for businesses with identifiable short-term cash flow needs rather than long-term capital investment projects. Below are common business profiles where this type of financing may be worth evaluating.
               </p>
-              <p className="text-[0.65rem] text-[#6b7e69] mt-4">
+              <p className="text-[0.65rem] text-[#a3a3a3] mt-4">
                 Whether any specific business may qualify is subject to third-party underwriting. ZEO is not a lender.
               </p>
             </div>
@@ -276,9 +276,9 @@ export default function WorkingCapitalPage() {
                   body: "Not every capital need is strategic. Equipment repair, a large vendor invoice, or a temporary payroll shortfall may be addressable with a short-term working capital structure rather than a multi-year term loan.",
                 },
               ].map((item, i) => (
-                <div key={i} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <div key={i} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -287,15 +287,15 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 4. How it works */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Process
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             How working capital financing typically works
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             The process varies by lender and product type. The sequence below reflects a common online-lender flow. Traditional bank and SBA-structured working capital products involve additional documentation and review steps.
           </p>
 
@@ -327,12 +327,12 @@ export default function WorkingCapitalPage() {
                 body: "Funds are deposited to the business bank account. Repayment begins per the agreed schedule — typically monthly or weekly automated ACH debits.",
               },
             ].map((item) => (
-              <div key={item.step} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#1e2620] mb-3">
-                  <span className="text-xs font-semibold text-[#22c55e] tabular-nums">{item.step}</span>
+              <div key={item.step} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+                <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-[#e5e5e5] mb-3">
+                  <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">{item.step}</span>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -340,15 +340,15 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 5. Common use cases */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Use Cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Common uses of working capital financing
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Specific use-of-proceeds restrictions vary by lender. Always confirm with the applicable third-party provider what a working capital product may be used for before accepting an offer.
           </p>
 
@@ -391,15 +391,15 @@ export default function WorkingCapitalPage() {
                 tags: ["Hospitality", "Retail", "Agriculture"],
               },
             ].map(({ Icon, title, body, tags }) => (
-              <div key={title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e] mb-3">
+              <div key={title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f] mb-3">
                   <Icon />
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{title}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-3">{body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{title}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{body}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {tags.map((t) => (
-                    <span key={t} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                    <span key={t} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                       {t}
                     </span>
                   ))}
@@ -411,17 +411,17 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 6. Typical requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Typical requirements
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 Requirements vary meaningfully across lenders and product types. The figures below reflect general market patterns across online working capital lenders. Bank and SBA-backed working capital products typically carry stricter standards. Whether any specific business may qualify is determined solely by the applicable third-party provider.
               </p>
               <ProductDisclaimer type="general" />
@@ -454,14 +454,14 @@ export default function WorkingCapitalPage() {
                   note: "Typically 3–6 months of business bank statements. Some lenders also require 1–2 years of business tax returns, a profit and loss statement, and identification.",
                 },
               ].map((item) => (
-                <div key={item.label} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
+                <div key={item.label} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
                   <div className="flex items-start justify-between gap-4 mb-2">
-                    <p className="text-sm font-semibold text-[#eef2ec]">{item.label}</p>
-                    <span className="flex-shrink-0 text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#22c55e] font-medium tabular-nums whitespace-nowrap">
+                    <p className="text-sm font-semibold text-[#0f0f0f]">{item.label}</p>
+                    <span className="flex-shrink-0 text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#0f0f0f] font-medium tabular-nums whitespace-nowrap">
                       {item.range}
                     </span>
                   </div>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.note}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.note}</p>
                 </div>
               ))}
             </div>
@@ -470,16 +470,16 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 7. Cost discussion */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Cost
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4">
               Understanding the cost of working capital financing
             </h2>
-            <div className="space-y-5 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="space-y-5 text-sm text-[#737373] leading-relaxed">
               <p>
                 Working capital financing can carry a wide range of costs depending on the product structure, lender, borrower credit profile, revenue, and requested term. ZEO does not set or guarantee any specific rate, and nothing on this page constitutes a rate offer.
               </p>
@@ -487,7 +487,7 @@ export default function WorkingCapitalPage() {
                 Short-term working capital loans — particularly those from online or alternative lenders — often carry higher effective rates than conventional bank term loans or SBA products. This reflects the lender's risk exposure: shorter repayment windows, less collateral, and faster underwriting timelines typically correspond to higher pricing.
               </p>
               <p>
-                <span className="text-[#eef2ec] font-medium">How cost is quoted varies:</span> some providers express cost as an APR (Annual Percentage Rate), others use a simple interest rate, and some — particularly MCA providers — use a factor rate (e.g., 1.25 on a $100,000 advance means $125,000 total repayment). Factor rates are not APRs and can be misleading when used for comparison. To compare offers accurately, convert all to either total repayment amount or APR.
+                <span className="text-[#0f0f0f] font-medium">How cost is quoted varies:</span> some providers express cost as an APR (Annual Percentage Rate), others use a simple interest rate, and some — particularly MCA providers — use a factor rate (e.g., 1.25 on a $100,000 advance means $125,000 total repayment). Factor rates are not APRs and can be misleading when used for comparison. To compare offers accurately, convert all to either total repayment amount or APR.
               </p>
               <p>
                 Additional fees may include origination fees, draw fees, prepayment penalties, and monthly maintenance charges. Review the full fee schedule before accepting any offer. Third-party legal and accounting review is advisable for any significant financing commitment.
@@ -495,27 +495,27 @@ export default function WorkingCapitalPage() {
             </div>
 
             <div className="mt-8 grid sm:grid-cols-3 gap-3">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">APR</p>
-                <p className="text-sm font-medium text-[#eef2ec] mb-1">Annual Percentage Rate</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">Standardized basis for cost comparison. Accounts for fees and term length. Use this to compare across lenders.</p>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">APR</p>
+                <p className="text-sm font-medium text-[#0f0f0f] mb-1">Annual Percentage Rate</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">Standardized basis for cost comparison. Accounts for fees and term length. Use this to compare across lenders.</p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">Factor Rate</p>
-                <p className="text-sm font-medium text-[#eef2ec] mb-1">Used by some MCA / short-term providers</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">Expressed as a multiplier (e.g., 1.30). Not an APR — total repayment = advance amount × factor rate.</p>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">Factor Rate</p>
+                <p className="text-sm font-medium text-[#0f0f0f] mb-1">Used by some MCA / short-term providers</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">Expressed as a multiplier (e.g., 1.30). Not an APR — total repayment = advance amount × factor rate.</p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">Total Payback</p>
-                <p className="text-sm font-medium text-[#eef2ec] mb-1">Most direct comparison</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">The total amount repaid across all payments, including principal, interest, and fees. Useful for evaluating absolute cost.</p>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">Total Payback</p>
+                <p className="text-sm font-medium text-[#0f0f0f] mb-1">Most direct comparison</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">The total amount repaid across all payments, including principal, interest, and fees. Useful for evaluating absolute cost.</p>
               </div>
             </div>
 
             <div className="mt-6">
               <Link
                 href="/calculators/working-capital"
-                className="inline-flex items-center gap-2 text-sm text-[#22c55e] hover:text-white transition-colors"
+                className="inline-flex items-center gap-2 text-sm text-[#0f0f0f] hover:text-white transition-colors"
               >
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                   <rect x="1" y="1" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.2" />
@@ -529,9 +529,9 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 8. Pros and cons */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Considerations
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8">
@@ -540,10 +540,10 @@ export default function WorkingCapitalPage() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Potential advantages */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-2 h-2 rounded-full bg-[#22c55e]" />
-                <p className="text-sm font-semibold text-[#eef2ec]">Potential advantages</p>
+                <div className="w-2 h-2 rounded-full bg-[#0f0f0f]" />
+                <p className="text-sm font-semibold text-[#0f0f0f]">Potential advantages</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -553,8 +553,8 @@ export default function WorkingCapitalPage() {
                   "Shorter terms may reduce total interest paid when the capital need is genuinely short-term and the loan is repaid early.",
                   "Accessible to businesses that may not meet the 2+ year history or credit thresholds of conventional lenders.",
                 ].map((point, i) => (
-                  <li key={i} className="flex items-start gap-3 text-xs text-[#6b7e69] leading-relaxed">
-                    <svg className="flex-shrink-0 w-4 h-4 mt-0.5 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                  <li key={i} className="flex items-start gap-3 text-xs text-[#a3a3a3] leading-relaxed">
+                    <svg className="flex-shrink-0 w-4 h-4 mt-0.5 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3 3 7-6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     {point}
@@ -564,10 +564,10 @@ export default function WorkingCapitalPage() {
             </div>
 
             {/* Potential tradeoffs */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-2 h-2 rounded-full bg-[#6b7e69]" />
-                <p className="text-sm font-semibold text-[#eef2ec]">Potential tradeoffs</p>
+                <div className="w-2 h-2 rounded-full bg-[#a3a3a3]" />
+                <p className="text-sm font-semibold text-[#0f0f0f]">Potential tradeoffs</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -577,8 +577,8 @@ export default function WorkingCapitalPage() {
                   "UCC-1 financing statements filed by the lender can affect a business's ability to obtain additional financing until the obligation is retired.",
                   "Repeated stacking of short-term working capital obligations — taking a new loan before the prior one is paid — is associated with elevated default risk.",
                 ].map((point, i) => (
-                  <li key={i} className="flex items-start gap-3 text-xs text-[#6b7e69] leading-relaxed">
-                    <svg className="flex-shrink-0 w-4 h-4 mt-0.5 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                  <li key={i} className="flex items-start gap-3 text-xs text-[#a3a3a3] leading-relaxed">
+                    <svg className="flex-shrink-0 w-4 h-4 mt-0.5 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11v.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.3" />
                     </svg>
@@ -592,15 +592,15 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 9. Comparison table */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Working capital vs. related financing structures
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             General comparison only. Actual terms, eligibility, and cost vary by applicant, lender, and product. Not offers or commitments.
           </p>
 
@@ -610,22 +610,22 @@ export default function WorkingCapitalPage() {
             highlightCol="Working Capital Loan"
           />
 
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general estimates. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own underwriting criteria. Results may vary significantly.
           </p>
         </div>
       </section>
 
       {/* 10. Alternatives */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Related financing options to consider
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Depending on your business profile and use case, one of these structures may be a better potential fit than a general working capital loan.
           </p>
 
@@ -663,23 +663,23 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 11. Calculator link callout */}
-      <section className="py-12 border-t border-[#1e2620]">
+      <section className="py-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
                 Calculator
               </p>
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">
                 Estimate your working capital costs
               </h3>
-              <p className="text-xs text-[#6b7e69] max-w-md">
+              <p className="text-xs text-[#a3a3a3] max-w-md">
                 Enter loan amount, term, and an estimated rate to see projected payment and total cost figures. Results are estimates only — not offers, commitments, or guarantees from any lender.
               </p>
             </div>
             <Link
               href="/calculators/working-capital"
-              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e]/50 transition-colors"
+              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open calculator
             </Link>
@@ -704,7 +704,7 @@ export default function WorkingCapitalPage() {
       />
 
       {/* 14. Disclaimer */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="general" />
         </div>

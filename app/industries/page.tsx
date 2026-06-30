@@ -158,16 +158,16 @@ export default function IndustriesPage() {
       />
 
       {/* Industry Grid */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industries
             </p>
             <h2 className="text-2xl font-semibold text-white">
               15 industry verticals
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-xl">
               Select your industry to explore financing structures commonly relevant to your sector. Eligibility and available products vary by business profile and third-party provider.
             </p>
           </div>
@@ -177,14 +177,14 @@ export default function IndustriesPage() {
               <Link
                 key={industry.slug}
                 href={`/industries/${industry.slug}`}
-                className="group rounded-xl border border-[#1e2620] bg-[#111512] p-5 hover:border-[#22c55e]/40 hover:bg-[#111512] transition-all"
+                className="group rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-all"
               >
                 <div className="flex items-start justify-between mb-3">
-                  <h3 className="text-sm font-semibold text-[#eef2ec] group-hover:text-white transition-colors leading-snug pr-2">
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] group-hover:text-white transition-colors leading-snug pr-2">
                     {industry.title}
                   </h3>
                   <svg
-                    className="w-4 h-4 flex-shrink-0 text-[#6b7e69] group-hover:text-[#22c55e] transition-colors mt-0.5"
+                    className="w-4 h-4 flex-shrink-0 text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors mt-0.5"
                     viewBox="0 0 16 16"
                     fill="none"
                   >
@@ -197,14 +197,14 @@ export default function IndustriesPage() {
                     />
                   </svg>
                 </div>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-4">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   {industry.description}
                 </p>
                 <div className="flex flex-wrap gap-1.5">
                   {industry.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-[0.6rem] font-medium uppercase tracking-wide px-2 py-0.5 rounded-full bg-[#0a0d0b] border border-[#1e2620] text-[#6b7e69]"
+                      className="text-[0.6rem] font-medium uppercase tracking-wide px-2 py-0.5 rounded-full bg-[#ffffff] border border-[#e5e5e5] text-[#a3a3a3]"
                     >
                       {tag}
                     </span>
@@ -221,16 +221,16 @@ export default function IndustriesPage() {
       </section>
 
       {/* Why Industry Matters */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Context
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Why industry context matters in financing
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               Lenders and providers evaluate businesses differently based on the sector they operate in. Understanding industry-specific dynamics can help set accurate expectations.
             </p>
           </div>
@@ -264,10 +264,10 @@ export default function IndustriesPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -275,28 +275,28 @@ export default function IndustriesPage() {
       </section>
 
       {/* Quick Nav to Financing Products */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
                 Also Browse
               </p>
               <p className="text-white font-semibold text-lg">Explore all financing structures</p>
-              <p className="text-[#9aaa98] text-sm mt-1 max-w-md">
+              <p className="text-[#737373] text-sm mt-1 max-w-md">
                 Browse the full range of commercial financing products independent of industry.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <Link
                 href="/financing"
-                className="px-6 py-2.5 rounded-xl bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors"
+                className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 All Financing Products
               </Link>
               <Link
                 href="/use-cases"
-                className="px-6 py-2.5 rounded-xl border border-[#1e2620] text-[#9aaa98] text-sm hover:text-white hover:border-[#22c55e] transition-colors"
+                className="px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-[#737373] text-sm hover:text-white hover:border-[#0f0f0f] transition-colors"
               >
                 Browse Use Cases
               </Link>

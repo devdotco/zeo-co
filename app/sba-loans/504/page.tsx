@@ -290,31 +290,31 @@ export default function SBA504Page() {
       />
 
       {/* 2. Metrics */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             {metrics.map((m) => (
               <MetricCard key={m.label} {...m} />
             ))}
           </div>
-          <p className="text-[0.65rem] text-[#6b7e69] mt-4">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-4">
             Figures are general estimates only. Actual amounts, terms, and eligibility are subject to SBA program rules, CDC guidelines, and lender underwriting. Not offers or commitments.
           </p>
         </div>
       </section>
 
       {/* 3. Who It Is For */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Potential Fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Who may be a potential candidate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-8">
+              <p className="text-[#737373] text-sm leading-relaxed mb-8">
                 The SBA 504 program is not a general-purpose loan. It is specifically designed for businesses making long-term investments in owner-occupied real estate or major fixed assets. The following profiles are commonly associated with 504 inquiries — eligibility is subject to SBA rules and participating lender underwriting in every case.
               </p>
               <ul className="space-y-5">
@@ -337,10 +337,10 @@ export default function SBA504Page() {
                   },
                 ].map((item) => (
                   <li key={item.heading} className="flex gap-3">
-                    <span className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                    <span className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-semibold text-[#eef2ec] mb-1">{item.heading}</p>
-                      <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.heading}</p>
+                      <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -348,13 +348,13 @@ export default function SBA504Page() {
             </div>
 
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Generally Not a Fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Where 504 financing does not typically apply
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-8">
+              <p className="text-[#737373] text-sm leading-relaxed mb-8">
                 The 504 program has specific use restrictions that make it inappropriate for many common financing needs. Businesses with these profiles should explore alternative structures.
               </p>
               <ul className="space-y-5">
@@ -377,10 +377,10 @@ export default function SBA504Page() {
                   },
                 ].map((item) => (
                   <li key={item.heading} className="flex gap-3">
-                    <span className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#6b7e69]" />
+                    <span className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#a3a3a3]" />
                     <div>
-                      <p className="text-sm font-semibold text-[#eef2ec] mb-1">{item.heading}</p>
-                      <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.heading}</p>
+                      <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -391,19 +391,19 @@ export default function SBA504Page() {
       </section>
 
       {/* 4. How It Works */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Program Structure
             </p>
             <h2 className="text-2xl font-semibold text-white">How the 504 program works</h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The 504 is unusual in that it involves two separate lenders — a conventional bank and a Certified Development Company (CDC). Understanding the structure is important before pursuing this path.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-px bg-[#1e2620] rounded-xl overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-px bg-[#e5e5e5] rounded-xl overflow-hidden">
             {[
               {
                 step: "1",
@@ -431,51 +431,51 @@ export default function SBA504Page() {
                 body: "Both the bank loan and the CDC debenture close — typically on the same day for acquisitions, or after construction completion for build-to-suit projects. The borrower makes separate payments to the bank and to the CDC loan servicer.",
               },
             ].map((item) => (
-              <div key={item.step} className="bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <div key={item.step} className="bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                   Step {item.step}
                 </p>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.heading}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.heading}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
 
           {/* Funding Stack Visual */}
-          <div className="mt-10 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-5">
+          <div className="mt-10 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-5">
               Typical 504 Project Funding Stack
             </p>
             <div className="space-y-2">
               <div>
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-xs text-[#9aaa98]">Conventional Lender (first lien)</span>
-                  <span className="text-xs font-semibold tabular-nums text-[#eef2ec]">~50%</span>
+                  <span className="text-xs text-[#737373]">Conventional Lender (first lien)</span>
+                  <span className="text-xs font-semibold tabular-nums text-[#0f0f0f]">~50%</span>
                 </div>
-                <div className="h-7 rounded bg-[#1e2620] w-full overflow-hidden">
+                <div className="h-7 rounded bg-[#e5e5e5] w-full overflow-hidden">
                   <div className="h-full bg-[#2d3b2c] rounded" style={{ width: "50%" }} />
                 </div>
               </div>
               <div>
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-xs text-[#9aaa98]">CDC / SBA Debenture (second lien)</span>
-                  <span className="text-xs font-semibold tabular-nums text-[#eef2ec]">~40%</span>
+                  <span className="text-xs text-[#737373]">CDC / SBA Debenture (second lien)</span>
+                  <span className="text-xs font-semibold tabular-nums text-[#0f0f0f]">~40%</span>
                 </div>
-                <div className="h-7 rounded bg-[#1e2620] w-full overflow-hidden">
-                  <div className="h-full bg-[#22c55e]/30 rounded" style={{ width: "40%" }} />
+                <div className="h-7 rounded bg-[#e5e5e5] w-full overflow-hidden">
+                  <div className="h-full bg-[#0f0f0f]/30 rounded" style={{ width: "40%" }} />
                 </div>
               </div>
               <div>
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-xs text-[#9aaa98]">Borrower Equity Injection</span>
-                  <span className="text-xs font-semibold tabular-nums text-[#eef2ec]">10–20%</span>
+                  <span className="text-xs text-[#737373]">Borrower Equity Injection</span>
+                  <span className="text-xs font-semibold tabular-nums text-[#0f0f0f]">10–20%</span>
                 </div>
-                <div className="h-7 rounded bg-[#1e2620] w-full overflow-hidden">
-                  <div className="h-full bg-[#22c55e]/60 rounded" style={{ width: "15%" }} />
+                <div className="h-7 rounded bg-[#e5e5e5] w-full overflow-hidden">
+                  <div className="h-full bg-[#0f0f0f]/60 rounded" style={{ width: "15%" }} />
                 </div>
               </div>
             </div>
-            <p className="text-[0.65rem] text-[#6b7e69] mt-4">
+            <p className="text-[0.65rem] text-[#a3a3a3] mt-4">
               Percentages are illustrative. Actual allocation varies by project type, lender, and SBA eligibility determination.
             </p>
           </div>
@@ -483,14 +483,14 @@ export default function SBA504Page() {
       </section>
 
       {/* 5. Common Use Cases */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
             <h2 className="text-2xl font-semibold text-white">Common SBA 504 project types</h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               These are frequently cited project types for 504 applications. Each carries its own eligibility nuances under SBA Standard Operating Procedures. Third-party underwriting applies.
             </p>
           </div>
@@ -503,14 +503,14 @@ export default function SBA504Page() {
       </section>
 
       {/* 6. Typical Requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Eligibility
             </p>
             <h2 className="text-2xl font-semibold text-white">Typical requirements</h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The following represent commonly cited thresholds for SBA 504 applications. Actual requirements are set by the SBA and the participating lender and CDC — not by ZEO. These are general reference points only.
             </p>
           </div>
@@ -548,12 +548,12 @@ export default function SBA504Page() {
                 detail: "All owners holding 20% or more of the business must provide an unlimited personal guarantee on the SBA-guaranteed debenture. The conventional lender's portion may have its own guarantee requirements. This is a standard SBA program condition.",
               },
             ].map((req) => (
-              <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1.5">
+              <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1.5">
                   {req.label}
                 </p>
                 <p className="text-xl font-semibold text-white tabular-nums mb-2">{req.value}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{req.detail}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -565,17 +565,17 @@ export default function SBA504Page() {
       </section>
 
       {/* 7. Cost Discussion */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Costs
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Understanding 504 costs
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 SBA 504 financing involves two separate sets of costs: those associated with the conventional bank portion (set by the lender) and those associated with the CDC debenture portion (structured by SBA program rules). ZEO does not quote, guarantee, or imply any particular rate or cost structure. The following is general reference information only.
               </p>
 
@@ -602,27 +602,27 @@ export default function SBA504Page() {
                     body: "Environmental reports, appraisals, title insurance, lender legal fees, and other third-party costs are typical in any commercial real estate transaction and apply to 504 projects as well. For construction projects, additional soft costs may apply.",
                   },
                 ].map((item) => (
-                  <div key={item.heading} className="border-l-2 border-[#1e2620] pl-4">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1">{item.heading}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div key={item.heading} className="border-l-2 border-[#e5e5e5] pl-4">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.heading}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-5">
                 Prepayment Considerations
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-4">
+              <p className="text-sm text-[#737373] leading-relaxed mb-4">
                 The CDC debenture portion of a 504 loan carries a prepayment premium during the early years of the loan. For a 20-year debenture, the premium is assessed for the first 10 years, typically starting at a percentage equal to the debenture rate and declining by that amount each year until it reaches zero.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-4">
+              <p className="text-sm text-[#737373] leading-relaxed mb-4">
                 Businesses anticipating an early sale or refinance should factor this into their analysis. The conventional lender's portion may also carry prepayment penalties — those terms are set by the individual lender.
               </p>
-              <div className="border border-[#1e2620] rounded-lg p-4 bg-[#0a0d0b]">
-                <p className="text-xs font-semibold text-[#6b7e69] uppercase tracking-[0.08em] mb-2">Note</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">
+              <div className="border border-[#e5e5e5] rounded-lg p-4 bg-[#ffffff]">
+                <p className="text-xs font-semibold text-[#a3a3a3] uppercase tracking-[0.08em] mb-2">Note</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
                   Prepayment terms, premium amounts, and the structure of declining penalties vary by debenture and should be confirmed with the CDC and participating lender before closing. Nothing on this page constitutes legal, tax, or financial advice.
                 </p>
               </div>
@@ -632,47 +632,47 @@ export default function SBA504Page() {
       </section>
 
       {/* 8. Pros and Cons */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Considerations
             </p>
             <h2 className="text-2xl font-semibold text-white">Potential advantages and trade-offs</h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The following are general observations about the 504 structure. Whether these characteristics are advantages or disadvantages depends on the specific business, project, and financial situation — subject to underwriting.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-5">
                 Potential Advantages
               </p>
               <ul className="space-y-4">
                 {prosAndCons.pros.map((item) => (
                   <li key={item} className="flex gap-3">
-                    <svg className="mt-0.5 flex-shrink-0 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="mt-0.5 flex-shrink-0 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <p className="text-sm text-[#9aaa98] leading-relaxed">{item}</p>
+                    <p className="text-sm text-[#737373] leading-relaxed">{item}</p>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-5">
                 Trade-Offs to Consider
               </p>
               <ul className="space-y-4">
                 {prosAndCons.cons.map((item) => (
                   <li key={item} className="flex gap-3">
-                    <svg className="mt-0.5 flex-shrink-0 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="mt-0.5 flex-shrink-0 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 4v4M8 10.5v1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.3" />
                     </svg>
-                    <p className="text-sm text-[#9aaa98] leading-relaxed">{item}</p>
+                    <p className="text-sm text-[#737373] leading-relaxed">{item}</p>
                   </li>
                 ))}
               </ul>
@@ -682,14 +682,14 @@ export default function SBA504Page() {
       </section>
 
       {/* 9. Comparison Table */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white">SBA 504 vs. alternatives</h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               General overview only. Actual terms, amounts, and eligibility vary by applicant, lender, and product. Not offers or commitments. Subject to third-party underwriting.
             </p>
           </div>
@@ -700,21 +700,21 @@ export default function SBA504Page() {
             highlightCol="SBA 504"
           />
 
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general estimates. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own underwriting criteria.
           </p>
         </div>
       </section>
 
       {/* 10. Alternatives */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
             <h2 className="text-2xl font-semibold text-white">Related financing structures to evaluate</h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               Depending on your use of proceeds, credit profile, and timeline, one of these alternatives may be a better potential fit. Each has distinct eligibility and cost characteristics.
             </p>
           </div>
@@ -749,21 +749,21 @@ export default function SBA504Page() {
       </section>
 
       {/* 11. Calculator Link */}
-      <section className="py-12 border-t border-[#1e2620]">
+      <section className="py-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Tools
               </p>
-              <p className="text-sm font-semibold text-[#eef2ec]">Estimate SBA 504 payment ranges</p>
-              <p className="text-xs text-[#6b7e69] mt-1 max-w-lg">
+              <p className="text-sm font-semibold text-[#0f0f0f]">Estimate SBA 504 payment ranges</p>
+              <p className="text-xs text-[#a3a3a3] mt-1 max-w-lg">
                 Use the SBA loan calculator to explore estimated payment ranges based on project size and term. Results are estimates only and are not offers, commitments, or guarantees of any rate or approval.
               </p>
             </div>
             <Link
               href="/calculators/sba-loan"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -789,7 +789,7 @@ export default function SBA504Page() {
       />
 
       {/* 14. Disclaimer */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="sba" />
         </div>

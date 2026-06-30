@@ -206,17 +206,17 @@ export default function RefinanceBusinessDebtPage() {
       />
 
       {/* 2 — The Business Scenario */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5">
                 When existing debt becomes a constraint
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Business debt that made sense at the time of origination can become a constraint
                   as conditions change. A merchant cash advance taken during a slow quarter may carry
@@ -272,16 +272,16 @@ export default function RefinanceBusinessDebtPage() {
       </section>
 
       {/* 3 — Relevant Financing Options */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Options
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Structures that may be relevant
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               The right structure depends on the business profile, the debt being refinanced, and
               lender eligibility. These options are commonly evaluated for debt refinancing
               scenarios — each has distinct trade-offs.
@@ -323,16 +323,16 @@ export default function RefinanceBusinessDebtPage() {
       </section>
 
       {/* 4 — How to Evaluate Which Option Fits */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               How to evaluate which option fits
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               Refinancing is a financial decision with multiple variables. Working through these
               factors before applying will improve the quality of any lender conversation and
               help identify whether a given structure is a realistic fit.
@@ -343,16 +343,16 @@ export default function RefinanceBusinessDebtPage() {
             {evaluationCriteria.map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
 
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
               Option Comparison
             </p>
             <ComparisonTable
@@ -360,7 +360,7 @@ export default function RefinanceBusinessDebtPage() {
               rows={comparisonRows}
               highlightCol="SBA 7(a)"
             />
-            <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+            <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
               All figures are illustrative ranges. Actual terms are set by third-party lenders
               and subject to underwriting. ZEO.co does not guarantee any particular rate, term,
               or approval outcome.
@@ -370,23 +370,23 @@ export default function RefinanceBusinessDebtPage() {
       </section>
 
       {/* 5 — Common Requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5">
                 What lenders typically look for
               </h2>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-sm text-[#737373] leading-relaxed mb-6">
                 Lenders evaluating a debt refinancing request assess the business's ability to
                 service the proposed new obligation, the value and condition of any collateral,
                 and whether refinancing the existing debt makes structural sense. Requirements
                 vary significantly between lender types and programs.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 SBA 7(a) refinancing carries additional eligibility requirements: the debt being
                 refinanced must generally have been used for business purposes, the existing terms
                 must be demonstrably unreasonable, and the original lender cannot hold an SBA
@@ -424,12 +424,12 @@ export default function RefinanceBusinessDebtPage() {
               ].map((req) => (
                 <div
                   key={req.label}
-                  className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-5 py-4"
+                  className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-5 py-4"
                 >
-                  <div className="mt-0.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-2" />
+                  <div className="mt-0.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-2" />
                   <div>
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1">{req.label}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{req.desc}</p>
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{req.label}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{req.desc}</p>
                   </div>
                 </div>
               ))}

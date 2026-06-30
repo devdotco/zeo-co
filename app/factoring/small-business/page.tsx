@@ -94,7 +94,7 @@ const comparisonRows = [
 
 export default function SmallBusinessFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -107,7 +107,7 @@ export default function SmallBusinessFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -133,24 +133,24 @@ export default function SmallBusinessFactoringPage() {
               note="Many factors set minimums of $500–$5,000 per invoice"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             All figures are general market ranges for illustrative purposes only. They do not constitute offers or guarantees. Terms are subject to underwriting by third-party providers.
           </p>
         </div>
       </section>
 
       {/* What is it / who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Overview
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What Is Small Business Invoice Factoring?
               </h2>
-              <div className="space-y-4 text-[0.9375rem] text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-[0.9375rem] text-[#737373] leading-relaxed">
                 <p>
                   Invoice factoring is a form of accounts receivable financing in which a business sells its outstanding invoices to a third-party company — a factor — at a discount in exchange for immediate cash. The factor advances a percentage of the invoice face value upfront, then collects directly from your customer. Once your customer pays, the factor releases the remaining balance minus its fee.
                 </p>
@@ -163,7 +163,7 @@ export default function SmallBusinessFactoringPage() {
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Who Typically Uses It
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
@@ -197,13 +197,13 @@ export default function SmallBusinessFactoringPage() {
                       "Startups or newly formed LLCs that are generating revenue but don't yet qualify for a bank line of credit or SBA loan.",
                   },
                 ].map((item) => (
-                  <li key={item.label} className="flex gap-3 p-4 rounded-xl border border-[#1e2620] bg-[#0a0d0b]">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                  <li key={item.label} className="flex gap-3 p-4 rounded-xl border border-[#e5e5e5] bg-[#ffffff]">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.label}</p>
-                      <p className="text-xs text-[#9aaa98] leading-relaxed">{item.detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.label}</p>
+                      <p className="text-xs text-[#737373] leading-relaxed">{item.detail}</p>
                     </div>
                   </li>
                 ))}
@@ -214,16 +214,16 @@ export default function SmallBusinessFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               How It Works
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               The Advance and Reserve Cycle
             </h2>
-            <p className="text-[0.9375rem] text-[#9aaa98] leading-relaxed">
+            <p className="text-[0.9375rem] text-[#737373] leading-relaxed">
               Understanding how money moves through a factoring arrangement helps you evaluate whether it fits your cash flow pattern. The cycle repeats with each invoice you submit.
             </p>
           </div>
@@ -250,18 +250,18 @@ export default function SmallBusinessFactoringPage() {
                 body: "Once your customer pays in full, the factor releases the reserve — the remaining invoice balance — less its factoring fee. You receive the net reserve amount.",
               },
             ].map((item) => (
-              <div key={item.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <div className="w-8 h-8 rounded-full border border-[#1e2620] flex items-center justify-center mb-4">
-                  <span className="text-xs font-semibold text-[#22c55e] tabular-nums">{item.step}</span>
+              <div key={item.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <div className="w-8 h-8 rounded-full border border-[#e5e5e5] flex items-center justify-center mb-4">
+                  <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">{item.step}</span>
                 </div>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</h3>
-                <p className="text-xs text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</h3>
+                <p className="text-xs text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
-          <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Example (illustrative only): </span>
+          <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Example (illustrative only): </span>
               You submit a $10,000 invoice. The factor advances 85% ($8,500) to your account. Your customer pays 45 days later. The factor charges a 2.5% fee ($250) for the first 30 days plus an additional 0.75% ($75) for the extra 15 days, totaling $325 in fees. You receive the $1,500 reserve minus $325 in fees — a net reserve release of $1,175. Total received: $8,500 + $1,175 = $9,675 on a $10,000 invoice. This is an illustration only and does not reflect any actual offer or product.
             </p>
           </div>
@@ -269,22 +269,22 @@ export default function SmallBusinessFactoringPage() {
       </section>
 
       {/* Requirements and invoice criteria */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Eligibility
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Requirements and Invoice Criteria
             </h2>
-            <p className="text-[0.9375rem] text-[#9aaa98] leading-relaxed">
+            <p className="text-[0.9375rem] text-[#737373] leading-relaxed">
               Factoring companies evaluate both your business and your invoices. Requirements differ across factors; the criteria below are common but not universal.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-sm font-semibold text-[#eef2ec] uppercase tracking-wide mb-4">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Business Requirements
               </h3>
               <ul className="space-y-3">
@@ -296,8 +296,8 @@ export default function SmallBusinessFactoringPage() {
                   "Ability to provide basic business documents: formation docs, voided check, and accounts receivable aging report",
                   "Customers with verifiable commercial credit — the factor will run credit checks on your customers, not just you",
                 ].map((item) => (
-                  <li key={item} className="flex gap-3 text-sm text-[#9aaa98]">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                  <li key={item} className="flex gap-3 text-sm text-[#737373]">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     {item}
@@ -306,7 +306,7 @@ export default function SmallBusinessFactoringPage() {
               </ul>
             </div>
             <div>
-              <h3 className="text-sm font-semibold text-[#eef2ec] uppercase tracking-wide mb-4">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Invoice Criteria
               </h3>
               <ul className="space-y-3">
@@ -318,8 +318,8 @@ export default function SmallBusinessFactoringPage() {
                   "Clear payment terms (net-30, net-60, net-90) — open-ended or indefinite terms are harder to factor",
                   "Meet the factor's minimum invoice size — commonly $500 to $5,000 per invoice, varying by program",
                 ].map((item) => (
-                  <li key={item} className="flex gap-3 text-sm text-[#9aaa98]">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                  <li key={item} className="flex gap-3 text-sm text-[#737373]">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     {item}
@@ -332,55 +332,55 @@ export default function SmallBusinessFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Pricing
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Advance Rates and Fee Ranges
             </h2>
-            <p className="text-[0.9375rem] text-[#9aaa98] leading-relaxed">
+            <p className="text-[0.9375rem] text-[#737373] leading-relaxed">
               Factoring costs vary significantly by factor, industry, invoice volume, customer quality, and payment terms. The figures below represent general market ranges and are for illustrative purposes only. They are not offers, commitments, or indicative of any specific transaction — all terms are subject to underwriting by a third-party provider.
             </p>
           </div>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">70 – 90%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">70 – 90%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The percentage of an invoice&apos;s face value funded upfront. Higher advance rates are more common with established customers, strong payment histories, and lower dispute risk. Smaller businesses with shorter track records may receive more conservative advance rates on initial accounts, with the potential to improve as the relationship develops.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee Structure</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">1 – 5% per invoice</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee Structure</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">1 – 5% per invoice</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Fees may be expressed as a flat percentage of the invoice face value, or as a tiered rate that increases the longer an invoice remains outstanding — for example, 2% for the first 30 days, then an additional 0.5–1% per 10-day period. Since slow-paying customers increase costs significantly, understanding how fees compound on extended payment cycles is important before committing to a factoring program.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Additional Fees to Review</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Varies by factor</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Additional Fees to Review</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Varies by factor</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Beyond the core factoring discount, agreements may include: origination or account setup fees; monthly minimum volume fees that apply whether or not you factor; ACH or wire transfer fees per funding; credit check fees for new customers; early termination or contract breakage fees; and invoice processing or admin fees. Request a complete fee schedule and model total cost against your actual invoice volume and customer payment patterns before signing.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Estimate your costs with the calculator. </span>
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Estimate your costs with the calculator. </span>
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -391,16 +391,16 @@ export default function SmallBusinessFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Small Business Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single product is the right fit for every business. This comparison highlights structural differences — not cost rankings or endorsements. All options are subject to underwriting; terms vary by provider.
             </p>
           </div>
@@ -413,11 +413,11 @@ export default function SmallBusinessFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Factoring Can Offer Small Businesses</h2>
@@ -441,19 +441,19 @@ export default function SmallBusinessFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -477,13 +477,13 @@ export default function SmallBusinessFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4" />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -500,23 +500,23 @@ export default function SmallBusinessFactoringPage() {
       />
 
       {/* Calculator callout */}
-      <section className="py-10 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Model advance amounts, factoring fees, and reserve releases based on your invoice amounts and customer payment term assumptions.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -535,7 +535,7 @@ export default function SmallBusinessFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

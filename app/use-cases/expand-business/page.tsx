@@ -143,7 +143,7 @@ function IconCash() {
 
 export default function ExpandBusinessPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         breadcrumbs={breadcrumbs}
@@ -153,17 +153,17 @@ export default function ExpandBusinessPage() {
       />
 
       {/* Business scenario */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 The Scenario
               </p>
-              <h2 className="text-2xl font-semibold text-[#eef2ec] mb-5 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug">
                 When growth outpaces what cash flow can cover
               </h2>
-              <div className="space-y-4 text-[#9aaa98] text-sm leading-relaxed">
+              <div className="space-y-4 text-[#737373] text-sm leading-relaxed">
                 <p>
                   A business poised for expansion — whether opening a second location, purchasing a
                   building, acquiring a competitor, or adding production capacity — frequently
@@ -213,16 +213,16 @@ export default function ExpandBusinessPage() {
       </section>
 
       {/* Financing options */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Financing Paths
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Products that may apply to business expansion
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               Each option below is a potential fit depending on your expansion type, financials, and
               lender eligibility — not a guarantee of approval or specific terms.
             </p>
@@ -262,17 +262,17 @@ export default function ExpandBusinessPage() {
       </section>
 
       {/* How to evaluate */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             <div className="lg:col-span-2">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 Fit Evaluation
               </p>
-              <h2 className="text-2xl font-semibold text-[#eef2ec] mb-4 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
                 Matching the product to your expansion type
               </h2>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The financing product that fits your expansion depends on what you are buying and
                 how quickly you need to close. Use the table as a starting reference — actual terms
                 are set by individual lenders after underwriting.
@@ -284,7 +284,7 @@ export default function ExpandBusinessPage() {
                 rows={comparisonRows}
                 highlightCol="SBA 7(a)"
               />
-              <p className="text-xs text-[#6b7e69] mt-3">
+              <p className="text-xs text-[#a3a3a3] mt-3">
                 Ranges shown are illustrative based on commonly available products. Actual terms are
                 subject to lender underwriting and approval.
               </p>
@@ -294,16 +294,16 @@ export default function ExpandBusinessPage() {
       </section>
 
       {/* Common requirements */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               What Lenders Evaluate
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Common requirements for expansion financing
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               These factors appear across most commercial expansion deals. Meeting them does not
               guarantee approval — lenders apply their own credit policies and may require additional
               documentation.
@@ -344,10 +344,10 @@ export default function ExpandBusinessPage() {
             ].map(({ heading, body }) => (
               <div
                 key={heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <h3 className="font-semibold text-[#eef2ec] text-sm mb-2">{heading}</h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{body}</p>
+                <h3 className="font-semibold text-[#0f0f0f] text-sm mb-2">{heading}</h3>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{body}</p>
               </div>
             ))}
           </div>

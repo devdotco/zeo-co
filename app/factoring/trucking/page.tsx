@@ -95,7 +95,7 @@ const comparisonRows = [
 
 export default function TruckingFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -108,7 +108,7 @@ export default function TruckingFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -134,22 +134,22 @@ export default function TruckingFactoringPage() {
               note="Available from many trucking factors upon load acceptance"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only. Actual advance rates, fuel advance availability, and fees are subject to underwriting by third-party providers and are not guaranteed.
           </p>
         </div>
       </section>
 
       {/* What is trucking factoring */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Trucking Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Trucking factoring — also called freight factoring or freight bill factoring — is a form of accounts receivable financing designed specifically for the cash flow structure of the trucking industry. After a carrier completes a load and submits the invoice along with a signed proof of delivery, the factoring company advances a large percentage of the invoice value — often the same day — rather than waiting the 30, 45, or 60 days it takes the broker or shipper to pay.
             </p>
@@ -167,35 +167,35 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Carriers and Transportation Businesses That Commonly Use Trucking Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Trucking factoring is used across the transportation industry wherever invoices are issued to brokers or shippers with net payment terms. The common thread is a mismatch between when operating costs come due and when customers pay.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-3">
             {/* Owner-operators */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="6" r="2.5" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M3 15c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Owner-Operators</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Owner-Operators</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 A single-truck carrier operating under their own authority faces the same cash timing problem as a large fleet. Fuel, insurance premiums, and truck payments are due regardless of when brokers remit. Factoring may allow owner-operators to keep cash flowing between loads without drawing on personal savings or high-cost credit.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["New authority", "Single truck", "Lease-operator"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -203,8 +203,8 @@ export default function TruckingFactoringPage() {
             </div>
 
             {/* Small fleets */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="1" y="9" width="10" height="6" rx="1" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M11 12h3l2-3V9h-5v3z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
@@ -213,13 +213,13 @@ export default function TruckingFactoringPage() {
                   <path d="M3 9V6a2 2 0 012-2h4a2 2 0 012 2v3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Small and Mid-Size Fleets</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Small and Mid-Size Fleets</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Growing fleets often outpace their available working capital before they qualify for bank credit lines. When adding trucks means adding drivers and fuel obligations weeks before new receivables are collected, factoring can provide the bridge. Fleets with diversified broker relationships and consistent load volume are often well-positioned for factoring programs.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["2–20 trucks", "Mixed freight", "Growing authority"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -227,20 +227,20 @@ export default function TruckingFactoringPage() {
             </div>
 
             {/* Specialized carriers */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M2 13h14M2 13V8l4-5h6l4 5v5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M7 13V9h4v4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Specialized Carriers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Specialized Carriers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Flatbed, refrigerated, tanker, heavy haul, and intermodal carriers often have higher per-load operating costs and can face longer invoice terms on specialized freight contracts. Some factors have specific programs for these segments. Eligibility and advance rates may differ from standard dry-van programs — confirm with individual factors.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Flatbed", "Reefer", "Tanker", "Heavy haul"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -251,15 +251,15 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works — trucking specific */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Trucking Factoring Cycle: From Load Acceptance to Reserve Release
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Trucking factoring follows a load-by-load cycle that mirrors how carriers actually operate. Each step maps to a document you already produce as part of doing business.
           </p>
           <ol className="space-y-6">
@@ -291,14 +291,14 @@ export default function TruckingFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -307,16 +307,16 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Trucking Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Qualification criteria vary significantly by factor. The items below represent commonly reviewed requirements. No approval or outcome is guaranteed — all decisions are subject to underwriting by third-party providers.
             </p>
           </div>
@@ -349,12 +349,12 @@ export default function TruckingFactoringPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -362,62 +362,62 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures in Trucking Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Trucking factoring generally offers higher advance rates than many other industries due to the standardized, short-term nature of freight invoices. The figures below are illustrative market ranges only — they are not offers, commitments, or guarantees. All terms are subject to underwriting by a third-party provider.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">85 – 97%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">85 – 97%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Trucking factoring advance rates tend to be higher than general invoice factoring because freight invoices are short-term, standardized, and backed by verifiable delivery documentation. High-volume carriers with established broker relationships and consistent payment records may qualify for advance rates at the higher end of this range. Lower rates may apply to newer accounts, concentrated broker exposure, or carriers with limited track records.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">1.5 – 5% per load</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">1.5 – 5% per load</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Fees in trucking factoring are commonly structured as a flat rate per invoice or a tiered rate that steps up if the broker or shipper pays beyond a defined window — for example, 2% for payment within 30 days, with an additional 0.5% for each subsequent 10-day period. Because trucking brokers typically pay within 30 to 45 days, the initial rate is usually the dominant cost. Carriers with higher monthly volume often negotiate lower per-load rates. Always confirm the full fee schedule including minimum monthly fees, wire or ACH fees, and any termination penalties.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Fuel Advance Programs</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">30 – 50% of load value</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Fuel Advance Programs</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">30 – 50% of load value</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Many trucking-focused factors offer fuel advances — same-day disbursements issued when you accept a load, before delivery. A fuel advance is deducted from the final settlement when the full invoice is funded after delivery. Some factors issue fuel advances to a fuel card rather than a bank account. Fuel advance availability, amounts, and any associated fees vary by factor and program — confirm terms during onboarding.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Recourse vs. Non-Recourse</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Affects fee and risk</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Recourse vs. Non-Recourse</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Affects fee and risk</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Recourse factoring — the more common structure — means you remain liable if the broker or shipper fails to pay. Non-recourse programs shift the credit risk of the debtor's insolvency to the factor, typically in exchange for higher fees or more stringent broker approval criteria. Non-recourse does not protect against disputes, short payments, or claims of defective delivery. Understand exactly what scenarios your agreement covers before choosing between structures.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Model your factoring cost before you sign.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Model your factoring cost before you sign.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -428,16 +428,16 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Trucking Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single product fits every situation. This table highlights structural differences between common working capital options for carriers — not endorsements or cost rankings. All terms are subject to underwriting; results vary by provider.
             </p>
           </div>
@@ -450,11 +450,11 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Trucking Factoring Can Offer</h2>
@@ -478,19 +478,19 @@ export default function TruckingFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -514,13 +514,13 @@ export default function TruckingFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -531,23 +531,23 @@ export default function TruckingFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Estimate advance amounts, factoring fees, and reserve releases based on your load invoice values and broker payment timing assumptions. Outputs are estimates only.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -572,7 +572,7 @@ export default function TruckingFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

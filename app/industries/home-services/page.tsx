@@ -294,7 +294,7 @@ const faqItems = [
 
 export default function HomeServicesFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -305,16 +305,16 @@ export default function HomeServicesFinancingPage() {
       />
 
       {/* 2 — Key financing challenges */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industry Challenges
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Why home services businesses seek outside financing
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Home services operators often run profitable businesses that are nonetheless capital-constrained — either because of seasonal patterns, fleet investment cycles, or the lag between winning new business and having the working capital to service it. The financing challenges below reflect structural realities of the sector, not individual business weakness.
             </p>
           </div>
@@ -322,15 +322,15 @@ export default function HomeServicesFinancingPage() {
             {challenges.map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -340,16 +340,16 @@ export default function HomeServicesFinancingPage() {
       </section>
 
       {/* 3 — Financing products */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Paths
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Products home services businesses most commonly explore
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               No single financing structure fits every business. The most appropriate path depends on what the capital is being used for, how the business is structured, and the owner's financial profile. All options below are subject to underwriting by third-party providers — approval and terms are not guaranteed.
             </p>
           </div>
@@ -369,24 +369,24 @@ export default function HomeServicesFinancingPage() {
           </div>
 
           {/* Inline note on route acquisitions */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <WrenchIcon />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                     Note on route and account acquisitions
                   </p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed max-w-2xl">
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed max-w-2xl">
                     Pest control, lawn care, pool service, and water treatment businesses often grow through acquiring competitors' customer routes. This type of acquisition — purchasing recurring revenue rather than physical assets — is a distinct financing scenario with its own underwriting criteria. SBA 7(a) programs are a commonly evaluated path, with lenders assessing both the buyer's strength and the quality of the accounts being acquired. Subject to underwriting.
                   </p>
                 </div>
               </div>
               <Link
                 href="/business-acquisition-loans"
-                className="flex-shrink-0 text-sm text-[#22c55e] hover:text-white transition-colors flex items-center gap-1.5"
+                className="flex-shrink-0 text-sm text-[#0f0f0f] hover:text-white transition-colors flex items-center gap-1.5"
               >
                 Learn more
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
@@ -405,16 +405,16 @@ export default function HomeServicesFinancingPage() {
       </section>
 
       {/* 4 — Typical requirements and metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Lender Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               What lenders typically evaluate in home services applications
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The benchmarks below reflect general patterns across lenders who work with home services businesses. Actual requirements vary by lender, product type, loan size, and individual business profile. Meeting these thresholds does not guarantee approval — all financing is subject to underwriting by third-party providers.
             </p>
           </div>
@@ -437,12 +437,12 @@ export default function HomeServicesFinancingPage() {
             {requirements.map((req) => (
               <div
                 key={req.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">
                   {req.label}
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -450,17 +450,17 @@ export default function HomeServicesFinancingPage() {
       </section>
 
       {/* 5 — Industry context: preparation and underwriting */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Underwriting Context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 How lenders think about home services risk
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Home services is generally viewed by commercial lenders as a moderately favorable sector — businesses tend to have recurring customer relationships, relatively predictable service economics, and asset collateral in the form of vehicles and equipment. This compares favorably to sectors like restaurants, where margins are thinner and customer relationships are less sticky.
                 </p>
@@ -476,7 +476,7 @@ export default function HomeServicesFinancingPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">
                 Factors That Strengthen a Home Services Application
               </p>
               {[
@@ -507,12 +507,12 @@ export default function HomeServicesFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.factor}
-                  className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                  className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}

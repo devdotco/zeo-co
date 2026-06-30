@@ -208,7 +208,7 @@ const STEPS = [
 
 export default function DebtRefinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       {/* ── Hero ── */}
       <PageHero
         breadcrumbs={BREADCRUMBS}
@@ -218,7 +218,7 @@ export default function DebtRefinancingPage() {
       />
 
       {/* ── Metrics snapshot ── */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#0a0d0b]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -243,23 +243,23 @@ export default function DebtRefinancingPage() {
               highlight
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-3">
+          <p className="text-xs text-[#a3a3a3] mt-3">
             Figures above are general market observations, not offers or guarantees. All financing is subject to underwriting and approval by third-party lenders.
           </p>
         </div>
       </section>
 
       {/* ── Who it's for ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Potential fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2 leading-snug">
               Who may be a candidate for debt refinancing
             </h2>
-            <p className="text-[#9aaa98] text-sm mb-8 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Refinancing is not universally beneficial — its value depends on your current obligations, your improved financial profile, and what new terms you may qualify for. These are common situations where a business might explore refinancing. All outcomes are subject to individual lender underwriting.
             </p>
           </div>
@@ -284,13 +284,13 @@ export default function DebtRefinancingPage() {
             ].map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-2" />
-                  <h3 className="font-medium text-[#eef2ec] text-sm leading-snug">{item.heading}</h3>
+                  <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-2" />
+                  <h3 className="font-medium text-[#0f0f0f] text-sm leading-snug">{item.heading}</h3>
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed pl-4">{item.body}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed pl-4">{item.body}</p>
               </div>
             ))}
           </div>
@@ -298,30 +298,30 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── How it works ── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               How business debt refinancing works
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               Refinancing involves more upfront analysis than taking on new debt — you must understand your existing obligations before you can evaluate whether a new structure genuinely improves your position. The steps below reflect a deliberate, informed approach.
             </p>
           </div>
           <div className="relative">
-            <div className="absolute left-[15px] top-6 bottom-6 w-px bg-[#1e2620] md:hidden" aria-hidden="true" />
+            <div className="absolute left-[15px] top-6 bottom-6 w-px bg-[#e5e5e5] md:hidden" aria-hidden="true" />
             <div className="space-y-4">
               {STEPS.map((step, i) => (
                 <div key={step.label} className="flex gap-4 items-start">
-                  <div className="relative flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full border border-[#1e2620] bg-[#0a0d0b] text-[0.6875rem] font-semibold text-[#22c55e] tabular-nums">
+                  <div className="relative flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full border border-[#e5e5e5] bg-[#ffffff] text-[0.6875rem] font-semibold text-[#0f0f0f] tabular-nums">
                     {i + 1}
                   </div>
-                  <div className="flex-1 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1">{step.label}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{step.body}</p>
+                  <div className="flex-1 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1">{step.label}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{step.body}</p>
                   </div>
                 </div>
               ))}
@@ -331,16 +331,16 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── Common use cases ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use cases
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Common refinancing scenarios
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               The motivations for refinancing business debt vary. Below are the most common scenarios businesses explore when evaluating whether a refinancing may be beneficial. Actual eligibility depends on your specific financial profile and lender requirements.
             </p>
           </div>
@@ -373,10 +373,10 @@ export default function DebtRefinancingPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <h3 className="text-sm font-medium text-[#eef2ec] mb-2">{item.title}</h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <h3 className="text-sm font-medium text-[#0f0f0f] mb-2">{item.title}</h3>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -384,17 +384,17 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
               <h2 className="text-2xl font-semibold text-white mb-3 leading-snug">
                 Typical lender requirements
               </h2>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-sm text-[#737373] leading-relaxed mb-6">
                 Refinancing lenders evaluate both your current financial profile and the structure of the debt being refinanced. Requirements below reflect general market observations — not any specific lender. All financing is subject to third-party underwriting.
               </p>
               <div className="space-y-3">
@@ -420,21 +420,21 @@ export default function DebtRefinancingPage() {
                     note: "After refinancing, the business must demonstrate cash flow adequate to cover the new payment with a meaningful margin.",
                   },
                 ].map((req) => (
-                  <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
+                  <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
                     <div className="flex items-baseline justify-between gap-3 mb-1">
-                      <span className="text-xs font-medium text-[#9aaa98]">{req.label}</span>
-                      <span className="text-sm font-semibold text-[#eef2ec] tabular-nums flex-shrink-0">{req.value}</span>
+                      <span className="text-xs font-medium text-[#737373]">{req.label}</span>
+                      <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">{req.value}</span>
                     </div>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{req.note}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{req.note}</p>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Documentation checklist
               </p>
-              <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] overflow-hidden">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] overflow-hidden">
                 {[
                   { doc: "Business tax returns", detail: "Typically 2 most recent years" },
                   { doc: "Bank statements", detail: "3–12 months business checking" },
@@ -447,19 +447,19 @@ export default function DebtRefinancingPage() {
                 ].map((item, i, arr) => (
                   <div
                     key={item.doc}
-                    className={`flex items-start gap-3 px-4 py-3 ${i < arr.length - 1 ? "border-b border-[#1e2620]" : ""}`}
+                    className={`flex items-start gap-3 px-4 py-3 ${i < arr.length - 1 ? "border-b border-[#e5e5e5]" : ""}`}
                   >
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M4 8.5L6.5 11L12 5.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div>
-                      <p className="text-xs font-medium text-[#eef2ec]">{item.doc}</p>
-                      <p className="text-xs text-[#6b7e69]">{item.detail}</p>
+                      <p className="text-xs font-medium text-[#0f0f0f]">{item.doc}</p>
+                      <p className="text-xs text-[#a3a3a3]">{item.detail}</p>
                     </div>
                   </div>
                 ))}
               </div>
-              <p className="text-xs text-[#6b7e69] mt-2 leading-relaxed">
+              <p className="text-xs text-[#a3a3a3] mt-2 leading-relaxed">
                 Actual documentation requirements vary by lender, loan size, and whether refinancing proceeds are used for new capital in addition to debt payoff.
               </p>
             </div>
@@ -468,16 +468,16 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── Cost discussion ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Understanding cost
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3 leading-snug">
               What actually determines refinancing economics
             </h2>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               The value of refinancing is not simply a lower rate — it's the net difference between total cost under existing obligations and total cost under the proposed new structure, including all fees and penalties on both sides. Understanding each factor prevents decisions that appear beneficial on the surface but increase total cost.
             </p>
           </div>
@@ -508,37 +508,37 @@ export default function DebtRefinancingPage() {
                 explanation: "Some refinancing transactions include net new capital above the payoff amount — effectively a term loan with debt consolidation built in. The incremental cost of those new proceeds should be evaluated separately from the savings on the refinanced portion.",
               },
             ].map((item) => (
-              <div key={item.factor} className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <h3 className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.factor}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.explanation}</p>
+              <div key={item.factor} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <h3 className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.factor}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.explanation}</p>
               </div>
             ))}
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5 max-w-3xl">
-            <p className="text-xs text-[#9aaa98] leading-relaxed">
-              <span className="font-medium text-[#eef2ec]">Important:</span> ZEO.co does not quote, guarantee, or negotiate interest rates or terms. All cost discussions on this page are educational. Actual rates, fees, and terms are determined solely by third-party lenders through their own underwriting processes.
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5 max-w-3xl">
+            <p className="text-xs text-[#737373] leading-relaxed">
+              <span className="font-medium text-[#0f0f0f]">Important:</span> ZEO.co does not quote, guarantee, or negotiate interest rates or terms. All cost discussions on this page are educational. Actual rates, fees, and terms are determined solely by third-party lenders through their own underwriting processes.
             </p>
           </div>
         </div>
       </section>
 
       {/* ── Pros and Cons ── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Potential advantages and limitations
             </h2>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               Debt refinancing can meaningfully improve a business's financial position in the right circumstances — and produce a worse outcome in the wrong ones. Evaluate these considerations against your specific debt profile and business situation.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-4 max-w-4xl">
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Potential advantages
               </p>
               <ul className="space-y-3">
@@ -551,16 +551,16 @@ export default function DebtRefinancingPage() {
                   "Longer repayment terms reduce per-period obligation, though total interest may increase",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M4 8.5L6.5 11L12 5.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="text-sm text-[#9aaa98] leading-relaxed">{item}</span>
+                    <span className="text-sm text-[#737373] leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 Limitations to consider
               </p>
               <ul className="space-y-3">
@@ -573,10 +573,10 @@ export default function DebtRefinancingPage() {
                   "Not all existing debt can be refinanced — some agreements restrict payoff or have unfavorable terms",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M4 8L12 8M4 8l3-3M4 8l3 3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="text-sm text-[#9aaa98] leading-relaxed">{item}</span>
+                    <span className="text-sm text-[#737373] leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -586,16 +586,16 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               How it compares
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Debt refinancing vs. other financing structures
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               Refinancing is distinct from taking on entirely new financing — it's specifically about replacing existing obligations. Depending on your situation, one of the alternative structures below may be a better fit or a complementary option.
             </p>
           </div>
@@ -608,16 +608,16 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── Alternatives ── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Other financing options to explore
             </h2>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               Debt refinancing is one path for addressing high-cost or poorly structured business obligations. Depending on your profile and goals, one of these alternatives may be a better primary solution or a complementary fit — subject to availability and underwriting by third-party providers.
             </p>
           </div>
@@ -655,23 +655,23 @@ export default function DebtRefinancingPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-10 border-b border-[#1e2620]">
+      <section className="py-10 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Planning tool
               </p>
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-1">
                 Model your refinancing payment
               </h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed max-w-md">
+              <p className="text-sm text-[#a3a3a3] leading-relaxed max-w-md">
                 Use the loan payment calculator to estimate how a refinanced loan at different amounts, terms, and rates would affect your monthly payment. Results are estimates only — not offers or commitments.
               </p>
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#9aaa98] hover:text-[#eef2ec] hover:border-[#22c55e]/50 transition-colors"
+              className="flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
             >
               Loan payment calculator
               <ChevronRightIcon />

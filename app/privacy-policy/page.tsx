@@ -27,14 +27,14 @@ const privacyPageSchema = {
 
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-[#22c55e] font-mono mb-4">
+    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-[#0f0f0f] font-mono mb-4">
       {children}
     </p>
   );
 }
 
 function Divider() {
-  return <hr className="border-t border-[#1e2620] my-10" />;
+  return <hr className="border-t border-[#e5e5e5] my-10" />;
 }
 
 function H2({
@@ -47,7 +47,7 @@ function H2({
   return (
     <h2
       id={id}
-      className="text-lg font-semibold text-[#eef2ec] mb-3 scroll-mt-8"
+      className="text-lg font-semibold text-[#0f0f0f] mb-3 scroll-mt-8"
     >
       {children}
     </h2>
@@ -56,7 +56,7 @@ function H2({
 
 function Body({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-sm text-[#9aaa98] leading-relaxed mb-4">{children}</p>
+    <p className="text-sm text-[#737373] leading-relaxed mb-4">{children}</p>
   );
 }
 
@@ -68,9 +68,9 @@ function BulletList({ children }: { children: React.ReactNode }) {
 
 function Bullet({ children }: { children: React.ReactNode }) {
   return (
-    <li className="flex items-start gap-3 text-sm text-[#9aaa98] leading-relaxed">
+    <li className="flex items-start gap-3 text-sm text-[#737373] leading-relaxed">
       <span
-        className="mt-2 flex-shrink-0 w-1 h-1 rounded-full bg-[#6b7e69]"
+        className="mt-2 flex-shrink-0 w-1 h-1 rounded-full bg-[#a3a3a3]"
         aria-hidden="true"
       />
       <span>{children}</span>
@@ -80,7 +80,7 @@ function Bullet({ children }: { children: React.ReactNode }) {
 
 function InfoBox({ children }: { children: React.ReactNode }) {
   return (
-    <div className="rounded-lg border border-[#1e2620] bg-[#111512] p-4 mb-4">
+    <div className="rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] p-4 mb-4">
       {children}
     </div>
   );
@@ -92,7 +92,7 @@ function WarnBox({ children }: { children: React.ReactNode }) {
       <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-amber-500/80 font-mono mb-2">
         Important
       </p>
-      <div className="text-sm text-[#9aaa98] leading-relaxed space-y-2">
+      <div className="text-sm text-[#737373] leading-relaxed space-y-2">
         {children}
       </div>
     </div>
@@ -118,7 +118,7 @@ const sections = [
 // ── Page ──────────────────────────────────────────────────────────────────────
 export default function PrivacyPolicyPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       <JsonLd data={privacyPageSchema} />
 
       <PageHero
@@ -134,9 +134,9 @@ export default function PrivacyPolicyPage() {
         {/* ── Table of contents ──────────────────────────────────────────── */}
         <nav
           aria-label="Privacy policy sections"
-          className="rounded-lg border border-[#1e2620] bg-[#111512] p-5 mb-12"
+          className="rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] p-5 mb-12"
         >
-          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-[#6b7e69] font-mono mb-3">
+          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-[#a3a3a3] font-mono mb-3">
             Contents
           </p>
           <ol className="grid sm:grid-cols-2 gap-x-6 gap-y-1.5 list-none">
@@ -144,9 +144,9 @@ export default function PrivacyPolicyPage() {
               <li key={s.id}>
                 <a
                   href={`#${s.id}`}
-                  className="flex items-baseline gap-2 text-sm text-[#9aaa98] hover:text-[#22c55e] transition-colors group"
+                  className="flex items-baseline gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors group"
                 >
-                  <span className="text-[0.6rem] font-mono text-[#6b7e69] group-hover:text-[#22c55e] transition-colors tabular-nums">
+                  <span className="text-[0.6rem] font-mono text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors tabular-nums">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   {s.label}
@@ -188,7 +188,7 @@ export default function PrivacyPolicyPage() {
           <SectionLabel>02 — Information We Collect</SectionLabel>
           <H2 id="information-we-collect">Information we collect about you</H2>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Business and contact information
           </p>
           <Body>
@@ -197,7 +197,7 @@ export default function PrivacyPolicyPage() {
             phone number, and your role at the business.
           </Body>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Financing inquiry information
           </p>
           <Body>
@@ -209,7 +209,7 @@ export default function PrivacyPolicyPage() {
             type.
           </Body>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Uploaded documents
           </p>
           <Body>
@@ -222,7 +222,7 @@ export default function PrivacyPolicyPage() {
 
           <WarnBox>
             <p>
-              <strong className="text-[#eef2ec]">Do not submit through ordinary web forms:</strong>{" "}
+              <strong className="text-[#0f0f0f]">Do not submit through ordinary web forms:</strong>{" "}
               full Social Security Numbers, online banking usernames or passwords,
               full consumer credit card numbers, or complete consumer credit
               report data. These items should only be provided through the
@@ -233,7 +233,7 @@ export default function PrivacyPolicyPage() {
             </p>
           </WarnBox>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Device and analytics information
           </p>
           <Body>
@@ -305,7 +305,7 @@ export default function PrivacyPolicyPage() {
             circumstances described below.
           </Body>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Third-party financing providers, brokers, lenders, and funders
           </p>
           <Body>
@@ -318,7 +318,7 @@ export default function PrivacyPolicyPage() {
             policy of any provider you engage with directly.
           </Body>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Service providers and vendors
           </p>
           <Body>
@@ -327,23 +327,23 @@ export default function PrivacyPolicyPage() {
           </Body>
           <BulletList>
             <Bullet>
-              <strong className="text-[#eef2ec]">CRM and data management vendors</strong>{" "}
+              <strong className="text-[#0f0f0f]">CRM and data management vendors</strong>{" "}
               — to manage contact records, inquiry workflows, and follow-up
               communications.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Analytics providers</strong>{" "}
+              <strong className="text-[#0f0f0f]">Analytics providers</strong>{" "}
               — to understand site usage and improve the platform experience.
               These vendors are configured to minimize collection of personally
               identifiable information where feasible.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Email and SMS vendors</strong>{" "}
+              <strong className="text-[#0f0f0f]">Email and SMS vendors</strong>{" "}
               — to deliver transactional messages and, where you have consented,
               marketing communications.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Legal and compliance vendors</strong>{" "}
+              <strong className="text-[#0f0f0f]">Legal and compliance vendors</strong>{" "}
               — to assist with identity verification, fraud prevention, regulatory
               compliance, and legal recordkeeping obligations.
             </Bullet>
@@ -355,7 +355,7 @@ export default function PrivacyPolicyPage() {
             service.
           </Body>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Legal requirements and protection of rights
           </p>
           <Body>
@@ -364,7 +364,7 @@ export default function PrivacyPolicyPage() {
             rights, property, or safety of ZEO.co, our users, or others.
           </Body>
 
-          <p className="text-sm font-medium text-[#eef2ec] mb-2">
+          <p className="text-sm font-medium text-[#0f0f0f] mb-2">
             Business transfers
           </p>
           <Body>
@@ -388,19 +388,19 @@ export default function PrivacyPolicyPage() {
           </Body>
           <BulletList>
             <Bullet>
-              <strong className="text-[#eef2ec]">Essential cookies</strong>{" "}
+              <strong className="text-[#0f0f0f]">Essential cookies</strong>{" "}
               — required for basic site functionality, security, and session
               management. These cannot be disabled without impairing your use
               of the site.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Analytics cookies</strong>{" "}
+              <strong className="text-[#0f0f0f]">Analytics cookies</strong>{" "}
               — used to measure page views, traffic sources, and user behavior
               in aggregate form. We use tools such as Google Analytics or similar
               providers, configured to respect applicable privacy settings.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Marketing and attribution cookies</strong>{" "}
+              <strong className="text-[#0f0f0f]">Marketing and attribution cookies</strong>{" "}
               — used to attribute traffic sources, measure the effectiveness of
               advertising campaigns, and, where applicable, serve relevant
               content.
@@ -413,7 +413,7 @@ export default function PrivacyPolicyPage() {
               href="https://tools.google.com/dlpage/gaoptout"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2"
+              className="text-[#0f0f0f] hover:text-[#333333] transition-colors underline underline-offset-2"
             >
               Google Analytics Opt-out Browser Add-on
             </Link>
@@ -435,25 +435,25 @@ export default function PrivacyPolicyPage() {
           </Body>
           <BulletList>
             <Bullet>
-              <strong className="text-[#eef2ec]">Transactional communications</strong>{" "}
+              <strong className="text-[#0f0f0f]">Transactional communications</strong>{" "}
               — messages relating to your inquiry, application status, or account
               activity. These are required for service delivery and cannot be
               fully opted out of while your inquiry is active.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Marketing emails</strong>{" "}
+              <strong className="text-[#0f0f0f]">Marketing emails</strong>{" "}
               — you may opt out of marketing emails at any time by clicking the
               unsubscribe link in any marketing email or by contacting us at{" "}
               <Link
                 href="mailto:privacy@zeo.co"
-                className="text-[#22c55e] hover:text-[#16a34a] transition-colors"
+                className="text-[#0f0f0f] hover:text-[#333333] transition-colors"
               >
                 privacy@zeo.co
               </Link>
               .
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">SMS communications</strong>{" "}
+              <strong className="text-[#0f0f0f]">SMS communications</strong>{" "}
               — if you have opted into SMS, you may opt out at any time by
               replying STOP to any message. Standard message and data rates may
               apply.
@@ -479,7 +479,7 @@ export default function PrivacyPolicyPage() {
           </Body>
           <BulletList>
             <Bullet>
-              <strong className="text-[#eef2ec]">Right to know.</strong>{" "}
+              <strong className="text-[#0f0f0f]">Right to know.</strong>{" "}
               You have the right to request that we disclose the categories and
               specific pieces of personal information we have collected about
               you, the categories of sources, the business or commercial purposes
@@ -487,18 +487,18 @@ export default function PrivacyPolicyPage() {
               third parties with whom we share it.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Right to delete.</strong>{" "}
+              <strong className="text-[#0f0f0f]">Right to delete.</strong>{" "}
               You have the right to request deletion of personal information we
               have collected from you, subject to certain exceptions (such as
               legal obligations or completion of a transaction you requested).
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Right to correct.</strong>{" "}
+              <strong className="text-[#0f0f0f]">Right to correct.</strong>{" "}
               You have the right to request correction of inaccurate personal
               information we maintain about you.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Right to opt out of sale or sharing.</strong>{" "}
+              <strong className="text-[#0f0f0f]">Right to opt out of sale or sharing.</strong>{" "}
               ZEO.co does not sell personal information in the traditional sense.
               However, certain sharing of information with financing providers
               and referral partners as part of our referral marketplace function
@@ -506,7 +506,7 @@ export default function PrivacyPolicyPage() {
               may contact us to exercise opt-out rights.
             </Bullet>
             <Bullet>
-              <strong className="text-[#eef2ec]">Right to non-discrimination.</strong>{" "}
+              <strong className="text-[#0f0f0f]">Right to non-discrimination.</strong>{" "}
               We will not discriminate against you for exercising any of your
               CCPA rights.
             </Bullet>
@@ -515,7 +515,7 @@ export default function PrivacyPolicyPage() {
             To exercise your California privacy rights, please contact us at{" "}
             <Link
               href="mailto:privacy@zeo.co"
-              className="text-[#22c55e] hover:text-[#16a34a] transition-colors"
+              className="text-[#0f0f0f] hover:text-[#333333] transition-colors"
             >
               privacy@zeo.co
             </Link>
@@ -523,10 +523,10 @@ export default function PrivacyPolicyPage() {
             respond within 45 days as required by law.
           </Body>
           <InfoBox>
-            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono mb-2">
+            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono mb-2">
               Note on B2B data
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               ZEO.co operates primarily as a commercial marketplace serving
               businesses. Much of the information collected relates to business
               entities and their authorized representatives acting in a commercial
@@ -557,7 +557,7 @@ export default function PrivacyPolicyPage() {
             at{" "}
             <Link
               href="mailto:privacy@zeo.co"
-              className="text-[#22c55e] hover:text-[#16a34a] transition-colors"
+              className="text-[#0f0f0f] hover:text-[#333333] transition-colors"
             >
               privacy@zeo.co
             </Link>
@@ -567,7 +567,7 @@ export default function PrivacyPolicyPage() {
             For detailed information about our security practices, see our{" "}
             <Link
               href="/security"
-              className="text-[#22c55e] hover:text-[#16a34a] transition-colors"
+              className="text-[#0f0f0f] hover:text-[#333333] transition-colors"
             >
               Security page
             </Link>
@@ -599,7 +599,7 @@ export default function PrivacyPolicyPage() {
             You may request deletion of your information by contacting{" "}
             <Link
               href="mailto:privacy@zeo.co"
-              className="text-[#22c55e] hover:text-[#16a34a] transition-colors"
+              className="text-[#0f0f0f] hover:text-[#333333] transition-colors"
             >
               privacy@zeo.co
             </Link>
@@ -629,7 +629,7 @@ export default function PrivacyPolicyPage() {
             18, please contact us at{" "}
             <Link
               href="mailto:privacy@zeo.co"
-              className="text-[#22c55e] hover:text-[#16a34a] transition-colors"
+              className="text-[#0f0f0f] hover:text-[#333333] transition-colors"
             >
               privacy@zeo.co
             </Link>
@@ -669,19 +669,19 @@ export default function PrivacyPolicyPage() {
             Policy or our data practices, please reach out to us directly.
           </Body>
 
-          <div className="rounded-lg border border-[#1e2620] bg-[#111512] p-5 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-5">
+          <div className="rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] p-5 flex flex-col sm:flex-row sm:items-start sm:justify-between gap-5">
             <div>
-              <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono mb-1">
+              <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono mb-1">
                 Privacy contact
               </p>
               <Link
                 href="mailto:privacy@zeo.co"
-                className="text-sm font-medium text-[#22c55e] hover:text-[#16a34a] transition-colors font-mono"
+                className="text-sm font-medium text-[#0f0f0f] hover:text-[#333333] transition-colors font-mono"
               >
                 privacy@zeo.co
               </Link>
             </div>
-            <p className="text-xs text-[#6b7e69] leading-relaxed sm:max-w-xs">
+            <p className="text-xs text-[#a3a3a3] leading-relaxed sm:max-w-xs">
               For CCPA requests, deletion requests, corrections, or any other
               privacy concern. We aim to respond to all requests within 45
               calendar days.

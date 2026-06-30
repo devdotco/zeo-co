@@ -200,7 +200,7 @@ const COMPARISON_ROWS = [
 
 export default function AccountsReceivableFactoringPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -218,7 +218,7 @@ export default function AccountsReceivableFactoringPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -248,17 +248,17 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── What it is / who uses it ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Liquidity tied directly to the invoices your business already generates
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Accounts receivable factoring is a financing arrangement in which a business sells
                 its outstanding B2B invoices to a third-party factoring company at a discount in
                 exchange for immediate cash. Rather than waiting 30, 60, or 90 days for customers
@@ -266,7 +266,7 @@ export default function AccountsReceivableFactoringPage() {
                 it working capital to cover payroll, restock inventory, or fund operations while the
                 collection cycle runs its course.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Unlike a traditional loan, factoring is not structured as debt in every case —
                 you are selling an asset (the receivable) rather than borrowing against it.
                 The factor collects directly from your customers and remits the remaining balance to
@@ -275,7 +275,7 @@ export default function AccountsReceivableFactoringPage() {
                 include UCC filings and other contractual obligations that should be reviewed
                 carefully with qualified legal and financial counsel.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Factoring is not a fit for every business. It works best when you invoice
                 creditworthy commercial or government customers on net terms, have a predictable
                 volume of receivables, and need liquidity faster than your payment cycle delivers it.
@@ -309,10 +309,10 @@ export default function AccountsReceivableFactoringPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -321,15 +321,15 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── How the advance / reserve cycle works ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
             The advance and reserve cycle
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Every factoring transaction moves through the same basic cycle. Understanding each
             stage helps you evaluate the true cost and structure of any agreement.
           </p>
@@ -366,12 +366,12 @@ export default function AccountsReceivableFactoringPage() {
                   "Once your customer pays the invoice in full, the factor deducts its factoring fee and any other applicable charges from the reserve, then remits the remaining balance to you. The cycle is then complete for that invoice.",
               },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#22c55e] bg-[#0f2a14] border border-[#22c55e]/20 rounded-md px-2 py-0.5 mb-3">
+              <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.body}</p>
               </div>
             ))}
           </div>
@@ -379,17 +379,17 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── Requirements and invoice criteria ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Requirements and invoice criteria
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 The standards below reflect common patterns across factoring programs. Individual
                 providers set their own criteria, and meeting general thresholds does not
                 guarantee approval from any specific factor.
@@ -434,13 +434,13 @@ export default function AccountsReceivableFactoringPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-1.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -449,13 +449,13 @@ export default function AccountsReceivableFactoringPage() {
 
             {/* ── Common use cases ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Common use cases
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Industries that commonly use AR factoring
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Factoring is particularly common in industries with predictable B2B invoice volumes
                 and creditworthy commercial customers. The following sectors represent common
                 factoring use cases — this is not exhaustive.
@@ -503,43 +503,43 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── Advance rates and fee ranges ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Pricing overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
             Advance rates and fee ranges
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             ZEO.co does not set, quote, or guarantee factoring rates. The information below
             describes how factoring pricing is generally structured to help you evaluate any
             offer. Actual terms are set by third-party factors based on your specific profile.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="space-y-4">
-              <h3 className="text-base font-semibold text-[#eef2ec]">How advance rates work</h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <h3 className="text-base font-semibold text-[#0f0f0f]">How advance rates work</h3>
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The advance is the percentage of the invoice face value the factor pays you
                 immediately when it purchases the invoice. Common advance rates range from
                 70% to 95%, though the specific figure depends on the factor, your industry,
                 the creditworthiness of the specific debtor, and the overall quality of your
                 receivables portfolio.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Higher-credit debtors — large corporations, government agencies — typically
                 support higher advance rates because the factor's risk of non-payment is lower.
                 Concentrated portfolios (where one or two customers represent most of your
                 volume) or industries with higher dispute rates may see lower advances.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The reserve is simply the difference between the invoice face value and the
                 advance. It is held by the factor until your customer pays and is then returned
                 to you after the factor deducts its fees and any other charges.
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-base font-semibold text-[#eef2ec]">How factoring fees are typically structured</h3>
+              <h3 className="text-base font-semibold text-[#0f0f0f]">How factoring fees are typically structured</h3>
               <div className="space-y-3">
                 {[
                   {
@@ -559,9 +559,9 @@ export default function AccountsReceivableFactoringPage() {
                     body: "A 2% flat fee for 30 days equates to roughly 24% on an annualized basis. If your customers take 60 days to pay and you are charged for each period, the effective cost compounds. Evaluate total cost over your actual average collection cycle.",
                   },
                 ].map((item) => (
-                  <div key={item.label} className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.label}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div key={item.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.label}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 ))}
               </div>
@@ -571,17 +571,17 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── Benefits and limitations ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
             Potential advantages and limitations of AR factoring
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Potential advantages
               </h3>
               <ul className="space-y-3">
@@ -593,9 +593,9 @@ export default function AccountsReceivableFactoringPage() {
                   "Does not create traditional debt in all structures — selling an asset rather than borrowing may affect how the transaction appears on your balance sheet.",
                   "Accessible in many industries and for a wide range of business sizes, from early-stage companies to established mid-market businesses.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -615,8 +615,8 @@ export default function AccountsReceivableFactoringPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#6b7e69] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#a3a3a3] uppercase tracking-wide mb-4">
                 Potential limitations
               </h3>
               <ul className="space-y-3">
@@ -628,9 +628,9 @@ export default function AccountsReceivableFactoringPage() {
                   "Not suitable for consumer invoices, disputed invoices, or receivables from financially distressed customers.",
                   "Approval, advance rates, and terms are not guaranteed and depend on the specific factor and your customer base.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -654,15 +654,15 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             AR factoring vs. asset-based lending vs. business line of credit
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             These three structures all involve receivables in some form but differ significantly
             in how they work, who they suit, and what they cost. Actual terms vary by provider
             and are not guaranteed.
@@ -676,15 +676,15 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── Alternatives to consider ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related financing paths
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other options that may be relevant
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Factoring may be the right starting point for your business, or one of these
             alternatives may be a better potential fit depending on your profile, size, and goals.
           </p>
@@ -722,17 +722,17 @@ export default function AccountsReceivableFactoringPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
               <h3 className="text-lg font-semibold text-white mb-1">
                 Estimate your factoring proceeds
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Use our invoice factoring calculator to model how advance rates and fee structures
                 translate to net proceeds for a given invoice. Estimates are illustrative only —
                 not an offer or commitment from any factoring provider.
@@ -740,7 +740,7 @@ export default function AccountsReceivableFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

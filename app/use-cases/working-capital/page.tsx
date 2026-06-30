@@ -161,17 +161,17 @@ export default function WorkingCapitalPage() {
       />
 
       {/* 2. The Business Scenario */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 When revenue is real but timing is the problem
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Working capital is the difference between what your business currently has coming in and what it currently owes. When that gap is negative — or about to become negative — you are in a working capital crunch. This does not necessarily mean your business is unprofitable. It often means your receivables are slow, your payables are front-loaded, or you are growing faster than your cash flow can keep up with.
                 </p>
@@ -214,16 +214,16 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 3. Relevant Financing Options */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Options
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Structures that may be relevant
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               Each of the following structures is commonly used for working capital purposes. Availability, terms, and eligibility vary by lender and business profile. All financing is subject to third-party underwriting.
             </p>
           </div>
@@ -263,16 +263,16 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 4. How to Evaluate Which Option Fits */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Comparing common working capital structures
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl mb-8">
+            <p className="text-sm text-[#737373] max-w-2xl mb-8">
               The table below is a general reference. Actual terms, costs, and eligibility depend on the specific lender, your business financials, and current market conditions. This is not an offer or commitment.
             </p>
           </div>
@@ -318,12 +318,12 @@ export default function WorkingCapitalPage() {
             ].map((item) => (
               <div
                 key={item.question}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2 leading-snug">
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug">
                   {item.question}
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.guidance}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.guidance}</p>
               </div>
             ))}
           </div>
@@ -331,17 +331,17 @@ export default function WorkingCapitalPage() {
       </section>
 
       {/* 5. Common Requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Common Requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 What lenders typically evaluate
               </h2>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-sm text-[#737373] leading-relaxed mb-6">
                 Requirements vary by product type and individual lender. The following are general factors commonly reviewed during underwriting for working capital products. Meeting these thresholds does not guarantee approval — all financing is subject to underwriting by third-party providers.
               </p>
               <ul className="space-y-3">
@@ -384,12 +384,12 @@ export default function WorkingCapitalPage() {
                 ].map((req) => (
                   <li key={req.label} className="flex gap-3">
                     <span
-                      className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e]"
+                      className="mt-1 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f]"
                       aria-hidden="true"
                     />
                     <span>
-                      <span className="text-sm font-medium text-[#eef2ec]">{req.label}: </span>
-                      <span className="text-sm text-[#6b7e69]">{req.detail}</span>
+                      <span className="text-sm font-medium text-[#0f0f0f]">{req.label}: </span>
+                      <span className="text-sm text-[#a3a3a3]">{req.detail}</span>
                     </span>
                   </li>
                 ))}
@@ -397,8 +397,8 @@ export default function WorkingCapitalPage() {
             </div>
 
             {/* Document checklist */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Typical Document Checklist
               </p>
               <div className="space-y-5">
@@ -430,12 +430,12 @@ export default function WorkingCapitalPage() {
                   },
                 ].map((group) => (
                   <div key={group.category}>
-                    <p className="text-xs font-semibold text-[#9aaa98] mb-2">{group.category}</p>
+                    <p className="text-xs font-semibold text-[#737373] mb-2">{group.category}</p>
                     <ul className="space-y-1.5">
                       {group.items.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-xs text-[#6b7e69]">
+                        <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
                           <svg
-                            className="mt-0.5 flex-shrink-0 w-3.5 h-3.5 text-[#22c55e]/60"
+                            className="mt-0.5 flex-shrink-0 w-3.5 h-3.5 text-[#0f0f0f]/60"
                             viewBox="0 0 14 14"
                             fill="none"
                             aria-hidden="true"
@@ -455,8 +455,8 @@ export default function WorkingCapitalPage() {
                   </div>
                 ))}
               </div>
-              <div className="mt-5 pt-5 border-t border-[#1e2620]">
-                <p className="text-xs text-[#6b7e69] leading-relaxed">
+              <div className="mt-5 pt-5 border-t border-[#e5e5e5]">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
                   Document requirements vary by lender and product. ZEO's intake process is designed to surface the most relevant requirements for your specific scenario before you engage with a provider.
                 </p>
               </div>

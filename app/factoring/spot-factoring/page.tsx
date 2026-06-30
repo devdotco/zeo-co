@@ -94,7 +94,7 @@ const comparisonRows = [
 
 export default function SpotFactoringPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         breadcrumbs={breadcrumbs}
@@ -104,17 +104,17 @@ export default function SpotFactoringPage() {
       />
 
       {/* What is spot factoring */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Overview
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 leading-snug">
                 What is spot factoring?
               </h2>
-              <div className="space-y-4 text-[#9aaa98] text-sm leading-relaxed">
+              <div className="space-y-4 text-[#737373] text-sm leading-relaxed">
                 <p>
                   Spot factoring — sometimes called selective invoice factoring or single-invoice
                   factoring — is a transaction in which a business sells one or more individual
@@ -140,7 +140,7 @@ export default function SpotFactoringPage() {
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Common Users
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 leading-snug">
@@ -171,13 +171,13 @@ export default function SpotFactoringPage() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="flex gap-3 p-4 rounded-xl border border-[#1e2620] bg-[#111512]"
+                    className="flex gap-3 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
                   >
-                    <div className="mt-0.5 flex-shrink-0 h-5 w-5 rounded-full bg-[#0f2a14] border border-[#22c55e]/30 flex items-center justify-center">
+                    <div className="mt-0.5 flex-shrink-0 h-5 w-5 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center">
                       <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                         <path
                           d="M2.5 5L4.5 7L7.5 3"
-                          stroke="#22c55e"
+                          stroke="#0f0f0f"
                           strokeWidth="1.2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -185,10 +185,10 @@ export default function SpotFactoringPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-[0.8125rem] font-medium text-[#eef2ec] mb-0.5">
+                      <p className="text-[0.8125rem] font-medium text-[#0f0f0f] mb-0.5">
                         {item.title}
                       </p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -199,16 +199,16 @@ export default function SpotFactoringPage() {
       </section>
 
       {/* Advance/reserve cycle */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               How it works
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4">
               The advance and reserve cycle
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               Spot factoring follows a defined transaction cycle from invoice submission to final
               settlement. Understanding how the advance, reserve, and fee interact helps you
               evaluate the actual cost and net proceeds of any transaction.
@@ -240,44 +240,44 @@ export default function SpotFactoringPage() {
             ].map((item) => (
               <div
                 key={item.step}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-[#22c55e] mb-3">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.15em] text-[#0f0f0f] mb-3">
                   Step {item.step}
                 </p>
                 <p className="text-sm font-semibold text-white mb-2">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
 
           {/* Worked example */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
               Illustrative example — not a quote or guarantee
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               <div>
-                <p className="text-xs text-[#6b7e69] mb-1">Invoice face value</p>
+                <p className="text-xs text-[#a3a3a3] mb-1">Invoice face value</p>
                 <p className="text-xl font-semibold text-white tabular-nums">$50,000</p>
               </div>
               <div>
-                <p className="text-xs text-[#6b7e69] mb-1">Advance (80%)</p>
-                <p className="text-xl font-semibold text-[#22c55e] tabular-nums">$40,000</p>
-                <p className="text-xs text-[#6b7e69] mt-1">Received at funding</p>
+                <p className="text-xs text-[#a3a3a3] mb-1">Advance (80%)</p>
+                <p className="text-xl font-semibold text-[#0f0f0f] tabular-nums">$40,000</p>
+                <p className="text-xs text-[#a3a3a3] mt-1">Received at funding</p>
               </div>
               <div>
-                <p className="text-xs text-[#6b7e69] mb-1">Reserve (20%)</p>
+                <p className="text-xs text-[#a3a3a3] mb-1">Reserve (20%)</p>
                 <p className="text-xl font-semibold text-white tabular-nums">$10,000</p>
-                <p className="text-xs text-[#6b7e69] mt-1">Held until customer pays</p>
+                <p className="text-xs text-[#a3a3a3] mt-1">Held until customer pays</p>
               </div>
               <div>
-                <p className="text-xs text-[#6b7e69] mb-1">Reserve release (after 3% fee)</p>
+                <p className="text-xs text-[#a3a3a3] mb-1">Reserve release (after 3% fee)</p>
                 <p className="text-xl font-semibold text-white tabular-nums">$8,500</p>
-                <p className="text-xs text-[#6b7e69] mt-1">$10,000 − $1,500 fee</p>
+                <p className="text-xs text-[#a3a3a3] mt-1">$10,000 − $1,500 fee</p>
               </div>
             </div>
-            <p className="text-xs text-[#6b7e69] mt-5 border-t border-[#1e2620] pt-4">
+            <p className="text-xs text-[#a3a3a3] mt-5 border-t border-[#e5e5e5] pt-4">
               This is a simplified illustration only. Actual advance rates, reserve percentages,
               and fee structures vary by provider, invoice size, debtor credit quality, and invoice
               terms. Subject to underwriting and third-party provider approval.
@@ -287,17 +287,17 @@ export default function SpotFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Eligibility
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5">
                 Business and invoice requirements
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 Spot factoring underwriting centers on the quality of the invoice and the
                 creditworthiness of your customer. Requirements vary by provider; the following
                 represent commonly cited criteria across the market — not a guarantee of approval.
@@ -305,7 +305,7 @@ export default function SpotFactoringPage() {
 
               <div className="space-y-4">
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#eef2ec] mb-3">
+                  <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-3">
                     Business requirements
                   </p>
                   <div className="space-y-2">
@@ -316,9 +316,9 @@ export default function SpotFactoringPage() {
                       "No open tax liens or existing blanket UCC liens that conflict with the factoring facility",
                       "Goods or services must be fully delivered or rendered before factoring",
                     ].map((item) => (
-                      <div key={item} className="flex gap-2.5 text-xs text-[#6b7e69]">
+                      <div key={item} className="flex gap-2.5 text-xs text-[#a3a3a3]">
                         <svg
-                          className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                          className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                           width="12"
                           height="12"
                           viewBox="0 0 12 12"
@@ -339,7 +339,7 @@ export default function SpotFactoringPage() {
                 </div>
 
                 <div className="pt-2">
-                  <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#eef2ec] mb-3">
+                  <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-3">
                     Invoice criteria
                   </p>
                   <div className="space-y-2">
@@ -351,9 +351,9 @@ export default function SpotFactoringPage() {
                       "Debtor must be verifiable with a satisfactory commercial credit profile",
                       "Invoice must be assignable — some contracts with debtors prohibit assignment",
                     ].map((item) => (
-                      <div key={item} className="flex gap-2.5 text-xs text-[#6b7e69]">
+                      <div key={item} className="flex gap-2.5 text-xs text-[#a3a3a3]">
                         <svg
-                          className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                          className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                           width="12"
                           height="12"
                           viewBox="0 0 12 12"
@@ -376,13 +376,13 @@ export default function SpotFactoringPage() {
             </div>
 
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Documentation
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5">
                 Typical documentation checklist
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 Most spot factoring applications require a focused set of documents. Exact
                 requirements depend on the provider and invoice size — larger transactions may
                 involve additional diligence.
@@ -420,13 +420,13 @@ export default function SpotFactoringPage() {
                 ].map((item) => (
                   <div
                     key={item.doc}
-                    className="flex items-start gap-3 p-3 rounded-lg border border-[#1e2620] bg-[#111512]"
+                    className="flex items-start gap-3 p-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5]"
                   >
-                    <div className="mt-0.5 flex-shrink-0 h-4 w-4 rounded bg-[#1e2620] flex items-center justify-center">
+                    <div className="mt-0.5 flex-shrink-0 h-4 w-4 rounded bg-[#e5e5e5] flex items-center justify-center">
                       <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
                         <path
                           d="M1.5 4L3.5 6L6.5 2"
-                          stroke="#22c55e"
+                          stroke="#0f0f0f"
                           strokeWidth="1.2"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -434,8 +434,8 @@ export default function SpotFactoringPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs font-medium text-[#eef2ec]">{item.doc}</p>
-                      <p className="text-xs text-[#6b7e69]">{item.note}</p>
+                      <p className="text-xs font-medium text-[#0f0f0f]">{item.doc}</p>
+                      <p className="text-xs text-[#a3a3a3]">{item.note}</p>
                     </div>
                   </div>
                 ))}
@@ -446,16 +446,16 @@ export default function SpotFactoringPage() {
       </section>
 
       {/* Advance rates and fees */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-2xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Rates and fees
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4">
               Advance rates and fee ranges
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               The ranges below reflect general market observations and are not quotes, offers, or
               guarantees. Actual terms are determined by individual providers based on debtor
               credit quality, invoice size, industry, payment history, and other underwriting
@@ -488,32 +488,32 @@ export default function SpotFactoringPage() {
             />
           </div>
 
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-            <p className="text-sm font-semibold text-[#eef2ec] mb-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+            <p className="text-sm font-semibold text-[#0f0f0f] mb-4">
               Fee structure variations to understand
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               <div>
-                <p className="text-xs font-medium text-[#eef2ec] mb-2">Flat fee per invoice</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <p className="text-xs font-medium text-[#0f0f0f] mb-2">Flat fee per invoice</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
                   Some providers charge a single percentage of the invoice face value regardless of
                   how quickly the debtor pays. This is straightforward to model but may be more
                   expensive if your customers pay early.
                 </p>
               </div>
               <div>
-                <p className="text-xs font-medium text-[#eef2ec] mb-2">Tiered per-period fee</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <p className="text-xs font-medium text-[#0f0f0f] mb-2">Tiered per-period fee</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
                   Other providers charge a base fee for the first period (often 30 days) with an
                   additional increment for each subsequent period the invoice is outstanding. Early
                   customer payment reduces your effective cost; late payment increases it.
                 </p>
               </div>
               <div>
-                <p className="text-xs font-medium text-[#eef2ec] mb-2">
+                <p className="text-xs font-medium text-[#0f0f0f] mb-2">
                   Additional fees to review
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">
                   Application fees, due diligence fees, wire transfer fees, UCC filing fees, and
                   early termination charges may apply. Request a full fee schedule before signing
                   any agreement and review it with qualified counsel.
@@ -525,16 +525,16 @@ export default function SpotFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-2xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Fit assessment
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4">
               Potential benefits and limitations
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               Spot factoring may be a useful tool in certain situations and a poor fit in others.
               Consider both dimensions carefully before pursuing any financing arrangement.
             </p>
@@ -542,8 +542,8 @@ export default function SpotFactoringPage() {
 
           <div className="grid lg:grid-cols-2 gap-6 mb-12">
             {/* Benefits */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-5">
                 Potential benefits
               </p>
               <div className="space-y-4">
@@ -572,10 +572,10 @@ export default function SpotFactoringPage() {
                   <div key={item.title} className="flex gap-3">
                     <div className="mt-0.5 flex-shrink-0">
                       <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                        <circle cx="7" cy="7" r="6.5" stroke="#22c55e" strokeOpacity="0.3" />
+                        <circle cx="7" cy="7" r="6.5" stroke="#0f0f0f" strokeOpacity="0.3" />
                         <path
                           d="M4.5 7L6.5 9L9.5 5"
-                          stroke="#22c55e"
+                          stroke="#0f0f0f"
                           strokeWidth="1.3"
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -583,8 +583,8 @@ export default function SpotFactoringPage() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                      <p className="text-xs font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -592,8 +592,8 @@ export default function SpotFactoringPage() {
             </div>
 
             {/* Limitations */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#9aaa98] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#737373] mb-5">
                 Limitations and considerations
               </p>
               <div className="space-y-4">
@@ -622,18 +622,18 @@ export default function SpotFactoringPage() {
                   <div key={item.title} className="flex gap-3">
                     <div className="mt-0.5 flex-shrink-0">
                       <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                        <circle cx="7" cy="7" r="6.5" stroke="#6b7e69" strokeOpacity="0.4" />
+                        <circle cx="7" cy="7" r="6.5" stroke="#a3a3a3" strokeOpacity="0.4" />
                         <path
                           d="M5 9L9 5M5 5L9 9"
-                          stroke="#6b7e69"
+                          stroke="#a3a3a3"
                           strokeWidth="1.2"
                           strokeLinecap="round"
                         />
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                      <p className="text-xs font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -643,7 +643,7 @@ export default function SpotFactoringPage() {
 
           {/* Comparison table */}
           <div>
-            <p className="text-sm font-semibold text-[#eef2ec] mb-4">
+            <p className="text-sm font-semibold text-[#0f0f0f] mb-4">
               Spot factoring vs. related financing options
             </p>
             <ComparisonTable
@@ -651,7 +651,7 @@ export default function SpotFactoringPage() {
               rows={comparisonRows}
               highlightCol="Spot Factoring"
             />
-            <p className="text-xs text-[#6b7e69] mt-3">
+            <p className="text-xs text-[#a3a3a3] mt-3">
               Comparison reflects general market characteristics and is not a representation of
               any specific provider's product terms. All options are subject to underwriting and
               third-party provider approval.
@@ -661,16 +661,16 @@ export default function SpotFactoringPage() {
       </section>
 
       {/* Related factoring types */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-2xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Related options
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Other factoring structures to evaluate
             </h2>
-            <p className="text-[#9aaa98] text-sm">
+            <p className="text-[#737373] text-sm">
               Spot factoring is one of several invoice-based financing structures. Depending on
               your invoice volume, industry, and debtor mix, another approach may be a better fit.
             </p>
@@ -740,11 +740,11 @@ export default function SpotFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-5 rounded-xl border border-[#1e2620] bg-[#111512]">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 p-5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 h-10 w-10 rounded-lg bg-[#0a0d0b] border border-[#1e2620] flex items-center justify-center text-[#22c55e]">
+              <div className="flex-shrink-0 h-10 w-10 rounded-lg bg-[#ffffff] border border-[#e5e5e5] flex items-center justify-center text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect
                     x="3"
@@ -764,8 +764,8 @@ export default function SpotFactoringPage() {
                 </svg>
               </div>
               <div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Invoice Factoring Calculator</p>
-                <p className="text-xs text-[#6b7e69] mt-0.5">
+                <p className="text-sm font-semibold text-[#0f0f0f]">Invoice Factoring Calculator</p>
+                <p className="text-xs text-[#a3a3a3] mt-0.5">
                   Estimate advance amounts, reserve balances, and net proceeds for a factoring
                   scenario. Results are illustrative estimates only — not offers or guarantees.
                 </p>
@@ -773,7 +773,7 @@ export default function SpotFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-lg bg-[#111512] border border-[#1e2620] text-[#9aaa98] text-sm hover:text-white hover:border-[#22c55e]/50 transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#737373] text-sm hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open calculator
             </Link>

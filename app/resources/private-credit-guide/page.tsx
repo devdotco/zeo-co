@@ -103,22 +103,22 @@ function StackLayer({
     <div
       className={`flex items-start gap-4 rounded-lg border px-4 py-3 ${
         accent
-          ? "border-[#22c55e]/30 bg-[#0f2a14]"
-          : "border-[#1e2620] bg-[#111512]"
+          ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
+          : "border-[#e5e5e5] bg-[#f5f5f5]"
       }`}
     >
       <span
         className={`flex-shrink-0 text-[0.6rem] font-semibold uppercase tracking-widest mt-0.5 w-16 ${
-          accent ? "text-[#22c55e]" : "text-[#6b7e69]"
+          accent ? "text-[#0f0f0f]" : "text-[#a3a3a3]"
         }`}
       >
         {position}
       </span>
       <div>
-        <p className={`text-sm font-semibold mb-0.5 ${accent ? "text-[#22c55e]" : "text-[#eef2ec]"}`}>
+        <p className={`text-sm font-semibold mb-0.5 ${accent ? "text-[#0f0f0f]" : "text-[#0f0f0f]"}`}>
           {label}
         </p>
-        <p className="text-xs text-[#6b7e69] leading-relaxed">{detail}</p>
+        <p className="text-xs text-[#a3a3a3] leading-relaxed">{detail}</p>
       </div>
     </div>
   );
@@ -238,7 +238,7 @@ const faqItems = [
 
 export default function PrivateCreditGuidePage() {
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       <PageHero
         breadcrumbs={[
           { label: "Resources", href: "/resources" },
@@ -250,7 +250,7 @@ export default function PrivateCreditGuidePage() {
       />
 
       {/* ── Metrics strip ─────────────────────────────────────────────────── */}
-      <section className="border-b border-[#1e2620] py-10">
+      <section className="border-b border-[#e5e5e5] py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -282,27 +282,27 @@ export default function PrivateCreditGuidePage() {
       </section>
 
       {/* ── What is private credit ────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Basics
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 What private credit is — and what it is not
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Private credit encompasses any loan or debt instrument originated by a non-bank lender and held on that lender's balance sheet rather than syndicated into a public market. Unlike a broadly syndicated loan that trades among institutional investors, a private credit facility is typically negotiated directly between borrower and lender — a bilateral or club arrangement with customized terms.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 The private credit market grew substantially after the 2008 financial crisis as regulatory constraints reduced banks' appetite for leveraged and middle-market lending. Private credit funds, business development companies (BDCs), insurance company credit arms, and family office lenders stepped into that space. Today, private credit is often the primary path for middle-market businesses — those too large for standard bank credit but too small or complex for public bond markets — seeking meaningful amounts of term debt capital.
               </p>
             </div>
 
             {/* Capital stack diagram */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-5">
                 Typical capital stack (senior to junior)
               </p>
               <div className="space-y-2">
@@ -329,7 +329,7 @@ export default function PrivateCreditGuidePage() {
                   detail="Last in repayment priority. Absorbs losses before any debt is impaired."
                 />
               </div>
-              <p className="text-[0.65rem] text-[#6b7e69] mt-4">
+              <p className="text-[0.65rem] text-[#a3a3a3] mt-4">
                 Private credit lenders operate across multiple layers of this stack. Unitranche structures collapse senior and junior layers into a single facility.
               </p>
             </div>
@@ -338,10 +338,10 @@ export default function PrivateCreditGuidePage() {
       </section>
 
       {/* ── How private credit underwriting works ────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-3 gap-10">
-            <div className="md:col-span-2 space-y-6 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="md:col-span-2 space-y-6 text-sm text-[#737373] leading-relaxed">
               <div>
                 <h2 className="text-lg font-semibold text-white mb-3">
                   How private lenders underwrite deals
@@ -396,8 +396,8 @@ export default function PrivateCreditGuidePage() {
 
             {/* Sidebar */}
             <div className="space-y-4">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Factors that may support private credit eligibility
                 </p>
                 <ul className="space-y-3">
@@ -409,8 +409,8 @@ export default function PrivateCreditGuidePage() {
                     "Defensible market position and experienced management team",
                     "Clear use of proceeds tied to value creation or cash flow improvement",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#22c55e]">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#737373] leading-relaxed">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#0f0f0f]">
                         <path d="M3 7l2.5 2.5L11 4.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                       {item}
@@ -419,8 +419,8 @@ export default function PrivateCreditGuidePage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Factors that may complicate or limit access
                 </p>
                 <ul className="space-y-3">
@@ -431,8 +431,8 @@ export default function PrivateCreditGuidePage() {
                     "Incomplete financial reporting or lack of audited statements",
                     "Existing covenant breaches or pending litigation",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#6b7e69] leading-relaxed">
-                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#6b7e69]">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#a3a3a3] leading-relaxed">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#a3a3a3]">
                         <path d="M4 4l6 6M10 4l-6 6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
                       </svg>
                       {item}
@@ -441,14 +441,14 @@ export default function PrivateCreditGuidePage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5">
-                <p className="text-xs font-semibold text-[#22c55e] mb-2">Exploring private credit options?</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-4">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+                <p className="text-xs font-semibold text-[#0f0f0f] mb-2">Exploring private credit options?</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   ZEO reviews business financing profiles and may identify potential third-party private credit paths, subject to underwriting and approval. Not a guarantee of terms or funding.
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#22c55e] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
                 >
                   Start your intake <ArrowRightIcon />
                 </Link>
@@ -459,15 +459,15 @@ export default function PrivateCreditGuidePage() {
       </section>
 
       {/* ── Private credit product types ─────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Deal Structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Major forms of private credit
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Private credit is not a single product. Lenders operate across different parts of the capital stack with distinct risk profiles, pricing, and structural features. Understanding the landscape helps identify which instrument may align with a given business situation.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -479,15 +479,15 @@ export default function PrivateCreditGuidePage() {
       </section>
 
       {/* ── Comparison table ──────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Private credit vs. bank and SBA alternatives
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             The right debt structure depends on business size, leverage required, collateral availability, and timeline constraints. This table reflects general market characteristics — individual lender terms vary significantly and are subject to underwriting.
           </p>
           <ComparisonTable
@@ -495,16 +495,16 @@ export default function PrivateCreditGuidePage() {
             rows={comparisonRows}
             highlightCol="Private Credit"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             All ranges are general market observations and are not offers, commitments, or guaranteed terms. Actual terms are subject to underwriting and approval by third-party providers.
           </p>
         </div>
       </section>
 
       {/* ── Related financing options ─────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Related Options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-6">
@@ -534,13 +534,13 @@ export default function PrivateCreditGuidePage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group block rounded-xl border border-[#1e2620] bg-[#111512] p-5 hover:border-[#22c55e]/40 hover:bg-[#0f2a14] transition-all"
+                className="group block rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-all"
               >
-                <p className="font-semibold text-[#eef2ec] text-sm mb-2 group-hover:text-white transition-colors">
+                <p className="font-semibold text-[#0f0f0f] text-sm mb-2 group-hover:text-white transition-colors">
                   {item.label}
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-3">{item.description}</p>
-                <span className="inline-flex items-center gap-1 text-xs text-[#22c55e] opacity-0 group-hover:opacity-100 transition-opacity">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{item.description}</p>
+                <span className="inline-flex items-center gap-1 text-xs text-[#0f0f0f] opacity-0 group-hover:opacity-100 transition-opacity">
                   Explore <ArrowRightIcon />
                 </span>
               </Link>

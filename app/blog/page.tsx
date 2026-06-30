@@ -39,20 +39,20 @@ function PostCard({ post }: { post: BlogPost }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group flex flex-col gap-3 rounded-xl border border-[#1e2620] bg-[#111512] p-6 transition-colors hover:border-[#22c55e]/30 hover:bg-[#0f1410]"
+      className="group flex flex-col gap-3 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 transition-colors hover:border-[#0f0f0f]/30 hover:bg-[#0f1410]"
     >
       {post.category && (
-        <span className="self-start rounded-full border border-[#22c55e]/20 bg-[#22c55e]/10 px-2.5 py-0.5 text-xs font-medium text-[#22c55e]">
+        <span className="self-start rounded-full border border-[#0f0f0f]/20 bg-[#0f0f0f]/10 px-2.5 py-0.5 text-xs font-medium text-[#0f0f0f]">
           {post.category}
         </span>
       )}
 
-      <h2 className="text-base font-semibold leading-snug text-[#eef2ec] transition-colors group-hover:text-[#22c55e] line-clamp-2">
+      <h2 className="text-base font-semibold leading-snug text-[#0f0f0f] transition-colors group-hover:text-[#0f0f0f] line-clamp-2">
         {post.title}
       </h2>
 
       {post.intro && (
-        <p className="text-sm leading-relaxed text-[#9aaa98] line-clamp-3">
+        <p className="text-sm leading-relaxed text-[#737373] line-clamp-3">
           {post.intro}
         </p>
       )}
@@ -61,14 +61,14 @@ function PostCard({ post }: { post: BlogPost }) {
         {post.date ? (
           <time
             dateTime={post.date}
-            className="text-xs text-[#6b7e69] font-mono"
+            className="text-xs text-[#a3a3a3] font-mono"
           >
             {formatDate(post.date)}
           </time>
         ) : (
           <span />
         )}
-        <span className="text-xs font-medium text-[#22c55e] opacity-0 transition-opacity group-hover:opacity-100">
+        <span className="text-xs font-medium text-[#0f0f0f] opacity-0 transition-opacity group-hover:opacity-100">
           Read more →
         </span>
       </div>
@@ -78,14 +78,14 @@ function PostCard({ post }: { post: BlogPost }) {
 
 function EmptyState() {
   return (
-    <div className="flex flex-col items-center justify-center gap-4 rounded-xl border border-[#1e2620] bg-[#111512] py-24 text-center">
-      <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#1e2620] bg-[#0a0d0b]">
+    <div className="flex flex-col items-center justify-center gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] py-24 text-center">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#e5e5e5] bg-[#ffffff]">
         <svg
           width="20"
           height="20"
           viewBox="0 0 20 20"
           fill="none"
-          className="text-[#6b7e69]"
+          className="text-[#a3a3a3]"
         >
           <rect
             x="3"
@@ -116,8 +116,8 @@ function EmptyState() {
           />
         </svg>
       </div>
-      <p className="text-base font-medium text-[#9aaa98]">No posts yet</p>
-      <p className="text-sm text-[#6b7e69]">Check back soon for articles on business financing.</p>
+      <p className="text-base font-medium text-[#737373]">No posts yet</p>
+      <p className="text-sm text-[#a3a3a3]">Check back soon for articles on business financing.</p>
     </div>
   );
 }
@@ -164,7 +164,7 @@ function Pagination({
       {prev !== null ? (
         <Link
           href={pageUrl(prev)}
-          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#1e2620] bg-[#111512] text-[#9aaa98] transition-colors hover:border-[#22c55e]/30 hover:text-[#eef2ec]"
+          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#0f0f0f]"
           aria-label="Previous page"
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -178,7 +178,7 @@ function Pagination({
           </svg>
         </Link>
       ) : (
-        <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#1e2620] bg-[#0a0d0b] text-[#6b7e69] opacity-40 cursor-not-allowed">
+        <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#ffffff] text-[#a3a3a3] opacity-40 cursor-not-allowed">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path
               d="M10 12L6 8L10 4"
@@ -195,7 +195,7 @@ function Pagination({
         p === "ellipsis" ? (
           <span
             key={`ellipsis-${i}`}
-            className="flex h-9 w-9 items-center justify-center text-[#6b7e69] text-sm"
+            className="flex h-9 w-9 items-center justify-center text-[#a3a3a3] text-sm"
           >
             …
           </span>
@@ -206,8 +206,8 @@ function Pagination({
             aria-current={p === page ? "page" : undefined}
             className={
               p === page
-                ? "flex h-9 w-9 items-center justify-center rounded-lg border border-[#22c55e]/40 bg-[#22c55e]/10 text-sm font-semibold text-[#22c55e]"
-                : "flex h-9 w-9 items-center justify-center rounded-lg border border-[#1e2620] bg-[#111512] text-sm text-[#9aaa98] transition-colors hover:border-[#22c55e]/30 hover:text-[#eef2ec]"
+                ? "flex h-9 w-9 items-center justify-center rounded-lg border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 text-sm font-semibold text-[#0f0f0f]"
+                : "flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-sm text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#0f0f0f]"
             }
           >
             {p}
@@ -218,7 +218,7 @@ function Pagination({
       {next !== null ? (
         <Link
           href={pageUrl(next)}
-          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#1e2620] bg-[#111512] text-[#9aaa98] transition-colors hover:border-[#22c55e]/30 hover:text-[#eef2ec]"
+          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#0f0f0f]"
           aria-label="Next page"
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -232,7 +232,7 @@ function Pagination({
           </svg>
         </Link>
       ) : (
-        <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#1e2620] bg-[#0a0d0b] text-[#6b7e69] opacity-40 cursor-not-allowed">
+        <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#ffffff] text-[#a3a3a3] opacity-40 cursor-not-allowed">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path
               d="M6 4L10 8L6 12"
@@ -269,15 +269,15 @@ export default async function BlogPage({
   }
 
   return (
-    <main className="min-h-screen bg-[#0a0d0b]">
+    <main className="min-h-screen bg-[#ffffff]">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
         <Breadcrumbs items={[{ label: "Blog", href: "/blog" }]} />
 
         <div className="mt-8 mb-10">
-          <h1 className="text-3xl font-bold tracking-tight text-[#eef2ec] sm:text-4xl">
+          <h1 className="text-3xl font-bold tracking-tight text-[#0f0f0f] sm:text-4xl">
             Business Financing Blog
           </h1>
-          <p className="mt-3 max-w-2xl text-base text-[#9aaa98]">
+          <p className="mt-3 max-w-2xl text-base text-[#737373]">
             Practical guides and insights on funding your business — from SBA
             loans and equipment financing to lines of credit and alternative
             lending.
@@ -293,7 +293,7 @@ export default async function BlogPage({
         ) : (
           <>
             {total > PER_PAGE && (
-              <p className="mb-6 text-sm text-[#6b7e69]">
+              <p className="mb-6 text-sm text-[#a3a3a3]">
                 {total} articles — page {page} of {Math.ceil(total / PER_PAGE)}
               </p>
             )}

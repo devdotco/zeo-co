@@ -126,17 +126,17 @@ export default function FinanceEquipmentPage() {
       />
 
       {/* 2. The Business Scenario */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
-              <h2 className="text-2xl font-semibold text-[#eef2ec] mb-5 leading-snug">
+              <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-5 leading-snug">
                 You need a capital asset. You want to preserve operating cash.
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Equipment purchases are among the most common capital needs for growing businesses — a new CNC machine, a commercial vehicle, a diagnostic system, HVAC infrastructure, or a fleet upgrade. The asset creates productive capacity, but writing a large check to buy it outright drains the working capital you need to operate.
                 </p>
@@ -176,8 +176,8 @@ export default function FinanceEquipmentPage() {
                 value="0–20%"
                 note="Many programs require little to no down payment; varies by lender"
               />
-              <div className="col-span-2 rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">
+              <div className="col-span-2 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
                   Common equipment types financed
                 </p>
                 <div className="flex flex-wrap gap-2">
@@ -194,7 +194,7 @@ export default function FinanceEquipmentPage() {
                   ].map((tag) => (
                     <span
                       key={tag}
-                      className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#0a0d0b] border border-[#1e2620] text-[#9aaa98]"
+                      className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#ffffff] border border-[#e5e5e5] text-[#737373]"
                     >
                       {tag}
                     </span>
@@ -207,16 +207,16 @@ export default function FinanceEquipmentPage() {
       </section>
 
       {/* 3. Relevant Financing Options */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Options
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               Structures commonly used for equipment
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-xl">
+            <p className="text-sm text-[#737373] max-w-xl">
               Each structure has a different ownership model, repayment profile, and lender requirement set. Eligibility is determined by the third-party provider.
             </p>
           </div>
@@ -281,16 +281,16 @@ export default function FinanceEquipmentPage() {
       </section>
 
       {/* 4. How to Evaluate Which Option Fits */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Decision Framework
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               How to evaluate which structure fits
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               There is no single right answer for every equipment purchase. The factors below can help narrow down which structure is worth pursuing — but the final determination is made by the lender, subject to their underwriting criteria.
             </p>
           </div>
@@ -324,17 +324,17 @@ export default function FinanceEquipmentPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2 leading-snug">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
 
           {/* Comparison Table */}
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
               Side-by-side comparison
             </p>
             <ComparisonTable
@@ -342,7 +342,7 @@ export default function FinanceEquipmentPage() {
               rows={comparisonRows}
               highlightCol="Equipment Loan"
             />
-            <p className="text-[0.6875rem] text-[#6b7e69] mt-3">
+            <p className="text-[0.6875rem] text-[#a3a3a3] mt-3">
               Terms are illustrative and vary by lender, borrower profile, and equipment type. Subject to underwriting by third-party providers.
             </p>
           </div>
@@ -350,24 +350,24 @@ export default function FinanceEquipmentPage() {
       </section>
 
       {/* 5. Common Requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Requirements
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-2">
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-2">
               What lenders commonly evaluate
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-xl">
+            <p className="text-sm text-[#737373] max-w-xl">
               Requirements vary by lender and product. The following represent common criteria — not a guarantee of approval or a universal standard. Eligibility is determined by the third-party lender.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {/* Borrower Profile */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Borrower profile
               </p>
               <ul className="space-y-3">
@@ -378,10 +378,10 @@ export default function FinanceEquipmentPage() {
                   { label: "Profitability", detail: "Some lenders assess cash flow and DSCR; others focus primarily on collateral value" },
                 ].map((req) => (
                   <li key={req.label} className="flex gap-3">
-                    <span className="mt-0.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-[0.4rem]" />
+                    <span className="mt-0.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-[0.4rem]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-xs text-[#6b7e69] mt-0.5 leading-relaxed">{req.detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-0.5 leading-relaxed">{req.detail}</p>
                     </div>
                   </li>
                 ))}
@@ -389,8 +389,8 @@ export default function FinanceEquipmentPage() {
             </div>
 
             {/* Equipment & Documentation */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Equipment & documentation
               </p>
               <ul className="space-y-3">
@@ -401,10 +401,10 @@ export default function FinanceEquipmentPage() {
                   { label: "Personal financial statement", detail: "Owners with 20%+ stake are typically required to provide personal financial information and may need to sign a personal guarantee" },
                 ].map((req) => (
                   <li key={req.label} className="flex gap-3">
-                    <span className="mt-0.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-[0.4rem]" />
+                    <span className="mt-0.5 flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-[0.4rem]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-xs text-[#6b7e69] mt-0.5 leading-relaxed">{req.detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-0.5 leading-relaxed">{req.detail}</p>
                     </div>
                   </li>
                 ))}
@@ -412,8 +412,8 @@ export default function FinanceEquipmentPage() {
             </div>
 
             {/* SBA-Specific */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 sm:col-span-2">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 sm:col-span-2">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Additional requirements for SBA 7(a)
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
@@ -424,10 +424,10 @@ export default function FinanceEquipmentPage() {
                   { label: "Collateral", detail: "SBA requires all available collateral to be pledged when the loan amount exceeds certain thresholds, including personal real estate in some cases" },
                 ].map((req) => (
                   <div key={req.label} className="flex gap-3">
-                    <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-[0.35rem]" />
+                    <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-[0.35rem]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-xs text-[#6b7e69] mt-0.5 leading-relaxed">{req.detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-0.5 leading-relaxed">{req.detail}</p>
                     </div>
                   </div>
                 ))}

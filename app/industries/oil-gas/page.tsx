@@ -210,7 +210,7 @@ const COMPARISON_ROWS = [
 
 export default function OilGasFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* ── Hero ── */}
       <PageHero
@@ -221,7 +221,7 @@ export default function OilGasFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -250,17 +250,17 @@ export default function OilGasFinancingPage() {
       </section>
 
       {/* ── Industry challenges ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Why oil and gas financing is structurally different
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Few industries carry the combination of capital intensity and revenue uncertainty that
                 characterizes oil and gas. Operators, drillers, and oilfield services companies all
                 face a common challenge: the work requires significant upfront capital — equipment,
@@ -268,7 +268,7 @@ export default function OilGasFinancingPage() {
                 commodity prices that can shift sharply between the time a project is planned and
                 when it generates cash.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 For lenders, this creates an underwriting environment that differs from most
                 commercial sectors. Businesses with strong fundamentals at one price environment
                 may look materially different on paper when prices fall. Understanding how lenders
@@ -297,10 +297,10 @@ export default function OilGasFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -309,15 +309,15 @@ export default function OilGasFinancingPage() {
       </section>
 
       {/* ── Financing products ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Relevant financing structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Products commonly used in the oil and gas industry
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             No single financing product fits every situation. The right structure depends on what
             the capital is needed for, your business type within the sector, your credit profile,
             and current market conditions. All financing is subject to underwriting by third-party
@@ -372,17 +372,17 @@ export default function OilGasFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Lender criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders typically evaluate for oil and gas businesses
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These are general benchmarks drawn from common lender practices in the energy
                 sector. Each provider sets its own criteria. Meeting these thresholds does not
                 guarantee approval, and requirements will vary significantly by product type,
@@ -423,13 +423,13 @@ export default function OilGasFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -438,48 +438,48 @@ export default function OilGasFinancingPage() {
 
             {/* ── Preparing your application ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Preparation
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 How oil and gas businesses can strengthen a financing application
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Energy businesses that present well-organized financials and a clear picture of
                 their customer relationships, contract pipeline, and asset base tend to move
                 through lender underwriting more efficiently. These are general considerations
                 — not a guarantee of any outcome.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Document your active service contracts.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Document your active service contracts.</span>{" "}
                   A pipeline of signed agreements with E&P operators — showing scope, term, and
                   counterparty — gives lenders forward-looking revenue visibility that historical
                   financials alone cannot provide during a volatile commodity price environment.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Demonstrate client quality and diversification.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Demonstrate client quality and diversification.</span>{" "}
                   Lenders assess not just your financials but the credit quality of your clients.
                   If a significant share of revenue comes from a single operator, be prepared to
                   address that concentration. If you work with multiple well-capitalized operators,
                   document it clearly.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Maintain clear equipment records.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Maintain clear equipment records.</span>{" "}
                   For businesses pursuing equipment financing or asset-based lending, organized
                   records of what you own, maintenance history, and current condition are important.
                   Recent appraisals or vendor quotes for equipment being financed can expedite
                   the lender's collateral assessment.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Address commodity price context in your narrative.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Address commodity price context in your narrative.</span>{" "}
                   If your historical financials were generated at significantly different price
                   levels than today, provide context. Lenders appreciate borrowers who understand
                   how price cycles affect their business and can articulate how their model
                   performs across scenarios.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Separate business and personal finances.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Separate business and personal finances.</span>{" "}
                   Commingled accounts complicate underwriting. Clean business bank statements
                   — reflecting business deposits and operational expenses — help lenders assess
                   actual cash flow without needing to reconstruct it from mixed records.
@@ -491,15 +491,15 @@ export default function OilGasFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Side-by-side comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Oil and gas financing structures at a glance
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             General structural differences between common products used by oil and gas businesses.
             Actual terms depend on the lender, your credit profile, and your specific situation.
           </p>
@@ -512,24 +512,24 @@ export default function OilGasFinancingPage() {
       </section>
 
       {/* ── Industry-specific notes ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Oil and gas consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Oilfield equipment financing: sector-specific dynamics
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Oilfield equipment occupies an unusual position as collateral. During periods of
                 high activity, specialized assets — drilling rigs, frac pumps, workover units —
                 command strong secondary market prices and may support favorable advance rates
                 from lenders. During downturns, the same equipment can be difficult to move
                 quickly, and lenders may apply more conservative valuations.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Lenders who specialize in the energy sector generally have a more calibrated view
                 of oilfield equipment values than generalist lenders who apply a uniform depreciation
                 schedule. If you are evaluating equipment financing, working with lenders who have
@@ -537,21 +537,21 @@ export default function OilGasFinancingPage() {
                 qualify for. All financing is subject to lender underwriting.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Oil and gas consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Invoice factoring for oilfield services companies
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Oilfield services companies — trucking, well servicing, water hauling, pipe
                 inspection, rental tools — often carry significant accounts receivable from
                 E&P operators on net-30 to net-60 payment terms. Invoice factoring allows
                 these businesses to convert outstanding invoices to immediate cash, with the
                 factoring company collecting directly from the operator.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Factoring in the oil and gas sector requires factors who understand the
                 payment structures common in E&P contracts, including division orders, joint
                 interest billing, and operator-specific payment cycles. Not all factoring
@@ -565,15 +565,15 @@ export default function OilGasFinancingPage() {
       </section>
 
       {/* ── Oilfield subsectors note ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Sector context
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             How financing needs vary across oil and gas subsectors
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             The oil and gas industry spans a range of business types with meaningfully different
             financing profiles. The same lender may approach an E&P operator, an oilfield services
             company, and a midstream pipeline business very differently.
@@ -607,10 +607,10 @@ export default function OilGasFinancingPage() {
             ].map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
               >
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{item.heading}</h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.heading}</h3>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>

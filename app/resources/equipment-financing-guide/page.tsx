@@ -212,7 +212,7 @@ const COMPARISON_ROWS = [
 
 export default function EquipmentFinancingGuidePage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -230,7 +230,7 @@ export default function EquipmentFinancingGuidePage() {
       />
 
       {/* ── At-a-glance metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -259,29 +259,29 @@ export default function EquipmentFinancingGuidePage() {
       </section>
 
       {/* ── Section 1: What equipment financing is ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Equipment financing: the core concept
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Equipment financing refers to a category of commercial lending specifically
                 structured around the acquisition of physical business assets — machinery,
                 vehicles, technology hardware, medical devices, restaurant equipment, and
                 similar items with productive, long-lived value.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 The defining characteristic is that the financed asset typically serves as the
                 primary collateral. Because the lender holds a security interest in the
                 equipment itself, this structure often makes credit available to businesses
                 that might not qualify for unsecured financing of the same amount.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Equipment financing is offered by banks, credit unions, captive finance arms
                 of equipment manufacturers, specialty equipment lenders, and non-bank
                 commercial lenders. Terms, pricing, and qualification criteria vary
@@ -291,43 +291,43 @@ export default function EquipmentFinancingGuidePage() {
               </p>
             </div>
             <div className="space-y-3">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">
                   Equipment loans (term financing)
                 </h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">
                   You borrow a lump sum to purchase the asset. You repay principal and interest
                   over a fixed term, typically two to seven years. At payoff, you own the
                   equipment outright. The asset and your business cash flow both factor into
                   underwriting.
                 </p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">
                   Equipment leases (use-based financing)
                 </h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">
                   You pay for the right to use the asset over a defined period. At the end of
                   the lease you may return the equipment, renew, or purchase it for a residual
                   amount. Monthly payments are often lower than a loan, but you do not build
                   ownership equity.
                 </p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">
                   Sale-leaseback arrangements
                 </h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">
                   A business sells equipment it already owns to a financing company, then leases
                   it back. This unlocks capital from an existing asset while retaining use.
                   Less common than standard financing but available for certain asset categories.
                 </p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">
                   Captive and vendor financing
                 </h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">
                   Many equipment manufacturers offer financing directly through their own
                   captive finance arms (e.g., Caterpillar Financial, John Deere Financial).
                   These programs can be competitive for new equipment purchases from that
@@ -340,15 +340,15 @@ export default function EquipmentFinancingGuidePage() {
       </section>
 
       {/* ── Section 2: Industries and use cases ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Who uses it
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Industries and asset types commonly financed
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Equipment financing applies across a wide range of industries. The common thread
             is a physical asset with a productive life long enough to support a multi-year
             repayment structure.
@@ -401,18 +401,18 @@ export default function EquipmentFinancingGuidePage() {
       </section>
 
       {/* ── Section 3: How lenders evaluate applications ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             {/* Requirements */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Underwriting factors
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders typically evaluate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These represent general patterns across the equipment lending market.
                 Individual lenders set their own criteria, and requirements vary by loan size,
                 industry, asset type, and credit structure. Meeting these benchmarks does not
@@ -453,13 +453,13 @@ export default function EquipmentFinancingGuidePage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-[#22c55e] flex-shrink-0" />
+                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f] flex-shrink-0" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -468,53 +468,53 @@ export default function EquipmentFinancingGuidePage() {
 
             {/* Cost factors */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What drives the cost of equipment financing
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 ZEO.co does not quote, set, or guarantee financing rates. Actual costs are
                 determined entirely by the third-party lender after underwriting your
                 application. The factors below explain what typically influences pricing.
               </p>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Borrower credit profile.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Borrower credit profile.</span>{" "}
                   Lenders price for risk. A borrower with strong personal and business credit
                   history, consistent revenue, and demonstrated debt repayment capacity will
                   generally see more favorable terms than a borrower with a thin or impaired
                   credit profile.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Asset type, age, and residual value.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Asset type, age, and residual value.</span>{" "}
                   Equipment that holds its value well — certain vehicles, construction assets,
                   medical devices — is generally easier and less expensive to finance than
                   highly specialized or rapidly depreciating assets. Lenders factor in what
                   the equipment would be worth if they had to repossess and sell it.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Loan-to-value ratio.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Loan-to-value ratio.</span>{" "}
                   Financing 100% of an asset's value carries more risk for the lender than
                   financing 80%. A larger down payment reduces the lender's exposure and may
                   improve the terms you are offered.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Term length.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Term length.</span>{" "}
                   Longer terms spread payments out but typically result in more total interest
                   paid. Shorter terms mean higher monthly payments but lower overall cost of
                   capital, all else equal. Match the term to the equipment's useful life when
                   possible.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Origination and documentation fees.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Origination and documentation fees.</span>{" "}
                   Many lenders charge upfront fees separate from interest. Always evaluate
                   the total cost — not just the stated rate — before accepting any offer. Ask
                   for the APR and total repayment amount before signing.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Lender channel.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Lender channel.</span>{" "}
                   Captive lenders tied to specific manufacturers, bank lenders, and specialty
                   non-bank lenders all price differently. Comparing multiple sources before
                   committing gives you context for evaluating any individual offer.
@@ -526,23 +526,23 @@ export default function EquipmentFinancingGuidePage() {
       </section>
 
       {/* ── Section 4: Loan vs. lease decision framework ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Loan vs. lease
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Choosing between ownership and use-based financing
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             The loan versus lease decision turns on several factors — some financial, some
             operational. Neither is inherently better; the right choice depends on the
             asset, your business model, and your cash flow priorities. Consult a CPA before
             deciding, as tax treatment differs meaningfully between structures.
           </p>
           <div className="grid md:grid-cols-2 gap-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Lean toward a loan when...
               </h3>
               <ul className="space-y-3">
@@ -553,9 +553,9 @@ export default function EquipmentFinancingGuidePage() {
                   "You plan to use Section 179 or bonus depreciation to accelerate tax deductions — consult a tax advisor.",
                   "The total cost of ownership calculation favors buying when amortized across the asset's full life.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -575,8 +575,8 @@ export default function EquipmentFinancingGuidePage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#9aaa98] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#737373] uppercase tracking-wide mb-4">
                 Lean toward a lease when...
               </h3>
               <ul className="space-y-3">
@@ -587,9 +587,9 @@ export default function EquipmentFinancingGuidePage() {
                   "The asset does not need to be owned to serve its operational purpose.",
                   "Your accounting or lender covenants benefit from keeping the obligation off your balance sheet — confirm with a CPA.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -607,7 +607,7 @@ export default function EquipmentFinancingGuidePage() {
           </div>
 
           {/* Comparison table */}
-          <p className="text-sm text-[#9aaa98] mb-4 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-4 max-w-2xl">
             The table below summarizes general structural differences. Actual terms depend
             on the lender and your specific situation.
           </p>
@@ -620,15 +620,15 @@ export default function EquipmentFinancingGuidePage() {
       </section>
 
       {/* ── Section 5: Preparing your application ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Application preparation
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             How to prepare a stronger equipment financing application
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Preparation does not guarantee approval — that is determined by the lender's
             underwriting. But a well-organized application reduces delays and gives
             underwriters a clear picture of your business and the asset.
@@ -668,24 +668,24 @@ export default function EquipmentFinancingGuidePage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
 
           {/* Calculator promo */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Free tool
               </p>
               <h3 className="text-base font-semibold text-white mb-1">
                 Estimate your monthly payment before you apply
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Use our equipment loan calculator to run a rough payment estimate based on
                 loan amount, term, and a hypothetical rate. Results are illustrative only —
                 not an offer or commitment from any lender.
@@ -693,7 +693,7 @@ export default function EquipmentFinancingGuidePage() {
             </div>
             <Link
               href="/calculators/equipment-loan"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>
@@ -702,15 +702,15 @@ export default function EquipmentFinancingGuidePage() {
       </section>
 
       {/* ── Related financing options ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Equipment financing is one tool among many. Depending on your business profile,
             the asset involved, and how you plan to deploy the capital, one of these
             alternatives may be a better potential fit — or a complement to equipment

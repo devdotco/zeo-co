@@ -102,12 +102,12 @@ function HowItWorksSection() {
   ];
 
   return (
-    <section className="py-20 border-t border-[#1e2620]">
+    <section className="py-20 border-t border-[#e5e5e5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-12">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Process</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process</p>
           <h2 className="text-2xl md:text-3xl font-semibold text-white mb-3">One intake. Multiple capital paths.</h2>
-          <p className="text-[#9aaa98] max-w-xl">
+          <p className="text-[#737373] max-w-xl">
             ZEO is not a lender. It&apos;s a financing decision engine that evaluates your situation against the full range of commercial financing structures.
           </p>
         </div>
@@ -115,12 +115,12 @@ function HowItWorksSection() {
           {steps.map((s, i) => (
             <div key={s.n} className="relative">
               {i < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-5 left-[calc(100%+8px)] w-4 h-px border-t border-dashed border-[#1e2620] z-10" />
+                <div className="hidden lg:block absolute top-5 left-[calc(100%+8px)] w-4 h-px border-t border-dashed border-[#e5e5e5] z-10" />
               )}
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <span className="text-[0.625rem] font-semibold uppercase tracking-[0.15em] text-[#22c55e] mb-2 block">{s.n}</span>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <span className="text-[0.625rem] font-semibold uppercase tracking-[0.15em] text-[#0f0f0f] mb-2 block">{s.n}</span>
                 <p className="text-sm font-semibold text-white mb-2">{s.title}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -194,14 +194,14 @@ function FinancingOptionsGrid() {
   ];
 
   return (
-    <section className="py-20 border-t border-[#1e2620]">
+    <section className="py-20 border-t border-[#e5e5e5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="flex items-end justify-between mb-10">
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Financing Options</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Financing Options</p>
             <h2 className="text-2xl md:text-3xl font-semibold text-white">Commercial financing products</h2>
           </div>
-          <Link href="/financing" className="hidden md:block text-sm text-[#22c55e] hover:underline">
+          <Link href="/financing" className="hidden md:block text-sm text-[#0f0f0f] hover:underline">
             View all →
           </Link>
         </div>
@@ -219,25 +219,25 @@ function FinancingOptionsGrid() {
 
 function FactoringSection() {
   return (
-    <section className="py-20 border-t border-[#1e2620] bg-[#0a0d0b]">
+    <section className="py-20 border-t border-[#e5e5e5] bg-[#ffffff]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Factoring</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Factoring</p>
             <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">
               Deep factoring expertise, now part of ZEO
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed mb-5">
+            <p className="text-[#737373] leading-relaxed mb-5">
               Invoice factoring allows B2B businesses to convert outstanding invoices into immediate working capital — without taking on traditional debt. The factoring experience from Factoring.io is now fully integrated into ZEO&apos;s financing platform.
             </p>
-            <p className="text-[#9aaa98] leading-relaxed mb-6">
+            <p className="text-[#737373] leading-relaxed mb-6">
               Trucking, staffing, healthcare, manufacturing, oilfield, construction, agriculture, and government contractors each have specific factoring requirements. ZEO evaluates your industry and receivable structure to identify relevant factoring options.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors">
+              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors">
                 Explore Factoring
               </Link>
-              <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors">
+              <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors">
                 Factoring Calculator
               </Link>
             </div>
@@ -245,19 +245,19 @@ function FactoringSection() {
 
           {/* Waterfall visual */}
           <div className="space-y-3">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">Invoice Factoring Waterfall</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">Invoice Factoring Waterfall</p>
             {[
-              { label: "Invoice Face Value", value: "$100,000", color: "bg-[#22c55e]", pct: 100 },
-              { label: "Initial Advance (85%)", value: "$85,000", color: "bg-[#16a34a]", pct: 85 },
-              { label: "Reserve (15%)", value: "$15,000", color: "bg-[#1e2620]", pct: 15 },
+              { label: "Invoice Face Value", value: "$100,000", color: "bg-[#0f0f0f]", pct: 100 },
+              { label: "Initial Advance (85%)", value: "$85,000", color: "bg-[#333333]", pct: 85 },
+              { label: "Reserve (15%)", value: "$15,000", color: "bg-[#e5e5e5]", pct: 15 },
               { label: "Factoring Fee (~2%)", value: "−$2,000", color: "bg-[#2a1212]", pct: 20 },
               { label: "Reserve Release", value: "$13,000", color: "bg-[#14301a]", pct: 13 },
             ].map((row) => (
               <div key={row.label} className="flex items-center gap-3">
                 <div className="w-32 flex-shrink-0">
-                  <div className="h-6 rounded-sm" style={{ width: `${row.pct}%`, background: row.color === "bg-[#22c55e]" ? "#22c55e" : row.color === "bg-[#16a34a]" ? "#16a34a" : row.color === "bg-[#1e2620]" ? "#1e2620" : row.color === "bg-[#2a1212]" ? "#2a1212" : "#14301a" }} />
+                  <div className="h-6 rounded-sm" style={{ width: `${row.pct}%`, background: row.color === "bg-[#0f0f0f]" ? "#0f0f0f" : row.color === "bg-[#333333]" ? "#333333" : row.color === "bg-[#e5e5e5]" ? "#e5e5e5" : row.color === "bg-[#2a1212]" ? "#2a1212" : "#14301a" }} />
                 </div>
-                <span className="text-xs text-[#9aaa98] flex-1">{row.label}</span>
+                <span className="text-xs text-[#737373] flex-1">{row.label}</span>
                 <span className="text-xs font-medium tabular-nums text-white">{row.value}</span>
               </div>
             ))}
@@ -273,34 +273,34 @@ function FactoringSection() {
 
 function AcquisitionSection() {
   return (
-    <section className="py-20 border-t border-[#1e2620]">
+    <section className="py-20 border-t border-[#e5e5e5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Acquisition Financing</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Acquisition Financing</p>
             <h2 className="text-2xl font-semibold text-white mb-4">Financing the purchase of an existing business</h2>
-            <p className="text-[#9aaa98] leading-relaxed mb-4">
+            <p className="text-[#737373] leading-relaxed mb-4">
               Business acquisitions typically involve a combination of financing structures: SBA 7(a) loans, seller notes, buyer equity injection, and sometimes mezzanine or private credit. DSCR — debt service coverage ratio — is the primary underwriting metric.
             </p>
-            <p className="text-[#9aaa98] leading-relaxed mb-6">
+            <p className="text-[#737373] leading-relaxed mb-6">
               ZEO helps buyers evaluate acquisition financing options based on purchase price, EBITDA/SDE, down payment capacity, and target debt service coverage.
             </p>
-            <Link href="/acquisition-financing" className="text-sm text-[#22c55e] hover:underline">
+            <Link href="/acquisition-financing" className="text-sm text-[#0f0f0f] hover:underline">
               Acquisition financing overview →
             </Link>
           </div>
 
           {/* Sources & Uses */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] overflow-hidden">
-            <div className="px-5 py-3 border-b border-[#1e2620]">
-              <p className="text-xs font-semibold text-[#6b7e69]">Illustrative Sources & Uses — $1.5M Acquisition</p>
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] overflow-hidden">
+            <div className="px-5 py-3 border-b border-[#e5e5e5]">
+              <p className="text-xs font-semibold text-[#a3a3a3]">Illustrative Sources & Uses — $1.5M Acquisition</p>
             </div>
             <table className="table-zeo">
               <thead>
                 <tr><th>Source / Use</th><th>Amount</th><th>%</th></tr>
               </thead>
               <tbody>
-                <tr><td className="text-[#22c55e] font-medium">SBA 7(a) Loan</td><td>$1,050,000</td><td>70%</td></tr>
+                <tr><td className="text-[#0f0f0f] font-medium">SBA 7(a) Loan</td><td>$1,050,000</td><td>70%</td></tr>
                 <tr><td>Seller Note</td><td>$225,000</td><td>15%</td></tr>
                 <tr><td>Buyer Equity Injection</td><td>$225,000</td><td>15%</td></tr>
                 <tr className="font-semibold"><td className="text-white">Total Sources</td><td className="text-white">$1,500,000</td><td className="text-white">100%</td></tr>
@@ -308,7 +308,7 @@ function AcquisitionSection() {
             </table>
             <p className="px-5 pb-4 pt-2 text-[0.65rem] text-[#3a4a38]">
               Illustrative only. Actual structure, amounts, and eligibility depend on lender underwriting, SBA rules, and business financials. Use the{" "}
-              <Link href="/calculators/business-acquisition-loan-calculator" className="text-[#22c55e] hover:underline">
+              <Link href="/calculators/business-acquisition-loan-calculator" className="text-[#0f0f0f] hover:underline">
                 acquisition calculator
               </Link>
               .
@@ -333,15 +333,15 @@ function CalculatorsSection() {
   ];
 
   return (
-    <section className="py-20 border-t border-[#1e2620] bg-[#111512]">
+    <section className="py-20 border-t border-[#e5e5e5] bg-[#f5f5f5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="flex items-end justify-between mb-10">
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Calculators</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Calculators</p>
             <h2 className="text-2xl font-semibold text-white">Financial modeling tools</h2>
-            <p className="text-[#9aaa98] text-sm mt-2">Estimate payments, DSCR, cost of capital, and more. Results are estimates, not offers.</p>
+            <p className="text-[#737373] text-sm mt-2">Estimate payments, DSCR, cost of capital, and more. Results are estimates, not offers.</p>
           </div>
-          <Link href="/calculators" className="hidden md:block text-sm text-[#22c55e] hover:underline">
+          <Link href="/calculators" className="hidden md:block text-sm text-[#0f0f0f] hover:underline">
             All 14 calculators →
           </Link>
         </div>
@@ -350,16 +350,16 @@ function CalculatorsSection() {
             <Link
               key={c.href}
               href={c.href}
-              className="group rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5 hover:border-[#22c55e]/40 transition-all"
+              className="group rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5 hover:border-[#0f0f0f]/40 transition-all"
             >
               <div className="flex items-center gap-2 mb-2">
-                <svg className="w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                <svg className="w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                   <rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.3"/>
                   <path d="M5 8h6M8 5v6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
                 </svg>
-                <p className="text-sm font-semibold text-[#eef2ec] group-hover:text-[#22c55e] transition-colors">{c.label}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors">{c.label}</p>
               </div>
-              <p className="text-xs text-[#6b7e69]">{c.desc}</p>
+              <p className="text-xs text-[#a3a3a3]">{c.desc}</p>
             </Link>
           ))}
         </div>
@@ -378,12 +378,12 @@ function IndustriesSection() {
   ];
 
   return (
-    <section className="py-20 border-t border-[#1e2620]">
+    <section className="py-20 border-t border-[#e5e5e5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-10">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Industries</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Industries</p>
           <h2 className="text-2xl font-semibold text-white">Industry-specific financing</h2>
-          <p className="text-[#9aaa98] text-sm mt-2">Financing requirements vary significantly by industry. ZEO evaluates industry-specific factors.</p>
+          <p className="text-[#737373] text-sm mt-2">Financing requirements vary significantly by industry. ZEO evaluates industry-specific factors.</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
           {industries.map((ind) => {
@@ -392,7 +392,7 @@ function IndustriesSection() {
               <Link
                 key={ind}
                 href={`/industries/${slug}`}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] px-4 py-3 text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e]/40 transition-all"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/40 transition-all"
               >
                 {ind}
               </Link>
@@ -415,24 +415,24 @@ function DocumentsSection() {
   ];
 
   return (
-    <section className="py-20 border-t border-[#1e2620]">
+    <section className="py-20 border-t border-[#e5e5e5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-10">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Preparation</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Preparation</p>
           <h2 className="text-2xl font-semibold text-white">Common documents required for business financing</h2>
-          <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+          <p className="text-[#737373] text-sm mt-2 max-w-xl">
             Requirements vary by product, lender, and business profile. This is a general reference.{" "}
-            <Link href="/resources/documents-needed" className="text-[#22c55e] hover:underline">Full document guide →</Link>
+            <Link href="/resources/documents-needed" className="text-[#0f0f0f] hover:underline">Full document guide →</Link>
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {docs.map((d) => (
-            <div key={d.cat} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div key={d.cat} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <p className="text-xs font-semibold text-white mb-3">{d.cat}</p>
               <ul className="space-y-2">
                 {d.items.map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-xs text-[#6b7e69]">
-                    <svg className="w-3 h-3 text-[#22c55e] mt-0.5 flex-shrink-0" viewBox="0 0 12 12" fill="none">
+                  <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
+                    <svg className="w-3 h-3 text-[#0f0f0f] mt-0.5 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                       <path d="M2 6L5 9L10 3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     {item}
@@ -451,12 +451,12 @@ function DocumentsSection() {
 
 function ComparisonSection() {
   return (
-    <section className="py-20 border-t border-[#1e2620] bg-[#111512]">
+    <section className="py-20 border-t border-[#e5e5e5] bg-[#f5f5f5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="mb-10">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Comparison</p>
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Comparison</p>
           <h2 className="text-2xl font-semibold text-white">Commercial financing at a glance</h2>
-          <p className="text-[#9aaa98] text-sm mt-2">General overview only. Actual terms vary significantly by applicant, lender, and product.</p>
+          <p className="text-[#737373] text-sm mt-2">General overview only. Actual terms vary significantly by applicant, lender, and product.</p>
         </div>
         <ComparisonTable
           highlightCol="SBA 7(a)"
@@ -481,7 +481,7 @@ function ComparisonSection() {
 
 function ComplianceSection() {
   return (
-    <section className="py-16 border-t border-[#1e2620]">
+    <section className="py-16 border-t border-[#e5e5e5]">
       <div className="max-w-7xl mx-auto px-5 lg:px-8">
         <div className="grid md:grid-cols-3 gap-6">
           {[
@@ -501,10 +501,10 @@ function ComplianceSection() {
               href: "/state-disclosures",
             },
           ].map((item) => (
-            <div key={item.title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <p className="text-sm font-semibold text-white mb-2">{item.title}</p>
-              <p className="text-xs text-[#6b7e69] leading-relaxed mb-3">{item.desc}</p>
-              <Link href={item.href} className="text-xs text-[#22c55e] hover:underline">
+              <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{item.desc}</p>
+              <Link href={item.href} className="text-xs text-[#0f0f0f] hover:underline">
                 Learn more →
               </Link>
             </div>
@@ -548,33 +548,33 @@ const faqItems = [
 
 function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center border-b border-[#1e2620] overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center border-b border-[#e5e5e5] overflow-hidden">
       {/* Background grid */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden>
         <svg className="absolute inset-0 w-full h-full opacity-[0.04]" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#22c55e" strokeWidth="0.5"/>
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0f0f0f" strokeWidth="0.5"/>
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)"/>
         </svg>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0d0b]" />
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-[#22c55e] rounded-full blur-[180px] opacity-[0.04]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#ffffff]" />
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-[#0f0f0f] rounded-full blur-[180px] opacity-[0.04]" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-5 lg:px-8 pt-20 pb-16 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left: Copy */}
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#1e2620] bg-[#111512] text-xs text-[#22c55e] mb-6">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#22c55e] animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] text-xs text-[#0f0f0f] mb-6">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f] animate-pulse" />
               Commercial financing · Not a lender
             </div>
             <h1 className="text-4xl md:text-5xl font-semibold text-white mb-5 leading-tight tracking-tight">
               Business financing matched to how your company actually makes money.
             </h1>
-            <p className="text-[#9aaa98] text-lg leading-relaxed mb-8 max-w-lg">
+            <p className="text-[#737373] text-lg leading-relaxed mb-8 max-w-lg">
               Compare SBA loans, working capital, invoice factoring, equipment financing, private lending, acquisition financing, and other commercial financing options through one guided intake.
             </p>
 
@@ -588,13 +588,13 @@ function HeroSection() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="#intake-form"
-                className="px-6 py-3 rounded-xl bg-[#22c55e] text-black font-semibold hover:bg-[#16a34a] transition-colors"
+                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-black font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>
               <Link
                 href="/financing"
-                className="px-6 py-3 rounded-xl border border-[#1e2620] text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors"
+                className="px-6 py-3 rounded-xl border border-[#e5e5e5] text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
               >
                 Explore Financing Options
               </Link>
@@ -602,13 +602,13 @@ function HeroSection() {
           </div>
 
           {/* Right: Multi-step form */}
-          <div id="intake-form" className="rounded-2xl border border-[#1e2620] bg-[#111512] p-6">
+          <div id="intake-form" className="rounded-2xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
             <div className="flex items-center gap-2 mb-5">
-              <svg className="w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+              <svg className="w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                 <path d="M8 1l2 4h4l-3 2.5 1 4L8 9l-4 2.5 1-4L2 5h4L8 1z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round"/>
               </svg>
               <p className="text-sm font-semibold text-white">Financing Match Intake</p>
-              <span className="ml-auto text-[0.625rem] text-[#6b7e69] bg-[#1e2620] px-2 py-0.5 rounded-full">Not an application</span>
+              <span className="ml-auto text-[0.625rem] text-[#a3a3a3] bg-[#e5e5e5] px-2 py-0.5 rounded-full">Not an application</span>
             </div>
             <MultiStepFinancingForm />
           </div>

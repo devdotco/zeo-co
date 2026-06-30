@@ -37,7 +37,7 @@ function CheckIcon() {
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5">
       <path
         d="M2.5 7L5.5 10L11.5 4"
-        stroke="#22c55e"
+        stroke="#0f0f0f"
         strokeWidth="1.5"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -51,7 +51,7 @@ function XIcon() {
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5">
       <path
         d="M4 4L10 10M10 4L4 10"
-        stroke="#6b7e69"
+        stroke="#a3a3a3"
         strokeWidth="1.5"
         strokeLinecap="round"
       />
@@ -405,16 +405,16 @@ export default function SBA7aPage() {
       />
 
       {/* Key Metrics */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Program Parameters
             </p>
             <h2 className="text-xl font-semibold text-white">
               SBA 7(a) program at a glance
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               These are the SBA's published program parameters as of 2025. Lender-specific underwriting, eligibility determinations, and actual terms may differ. Confirm current program rules with a participating lender.
             </p>
           </div>
@@ -427,17 +427,17 @@ export default function SBA7aPage() {
       </section>
 
       {/* Who It Is For */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Fit Assessment
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Who SBA 7(a) may be a potential fit for
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-[#737373] leading-relaxed mb-6">
                 SBA 7(a) is not a universal product. It is best suited to businesses that can document profitability or a credible path to it, can tolerate a 30–90 day process, have owners prepared to provide personal guarantees, and have a specific capital need that maps to SBA-eligible use of proceeds. It is one of the most relevant structures for business acquisitions, owner-occupied real estate, and long-horizon equipment needs.
               </p>
               <ul className="space-y-3">
@@ -449,7 +449,7 @@ export default function SBA7aPage() {
                   "Entrepreneurs purchasing a franchise listed on the SBA Franchise Directory",
                   "Businesses carrying higher-rate or short-term debt that may be eligible for refinancing under SBA rules",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#9aaa98]">
+                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#737373]">
                     <CheckIcon />
                     {item}
                   </li>
@@ -458,13 +458,13 @@ export default function SBA7aPage() {
             </div>
 
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Common Non-Fits
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 When SBA 7(a) may not be the right path
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-[#737373] leading-relaxed mb-6">
                 No product is right for every situation. SBA 7(a) involves government program eligibility requirements, documentation-intensive underwriting, and timelines that may not work for every business need.
               </p>
               <ul className="space-y-3">
@@ -476,7 +476,7 @@ export default function SBA7aPage() {
                   "Pure investment real estate — the SBA 504 program has specific occupancy requirements",
                   "Businesses seeking to pay off personal debts, speculate, or engage in non-eligible use of proceeds",
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#9aaa98]">
+                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#737373]">
                     <XIcon />
                     {item}
                   </li>
@@ -488,16 +488,16 @@ export default function SBA7aPage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process
             </p>
             <h2 className="text-2xl font-semibold text-white">
               How the SBA 7(a) process typically works
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               Actual steps, requirements, and timelines vary by lender, loan purpose, and transaction complexity. This is a general overview, not a guarantee of process or outcome.
             </p>
           </div>
@@ -505,16 +505,16 @@ export default function SBA7aPage() {
             {howItWorksSteps.map((s) => (
               <div
                 key={s.step}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 grid sm:grid-cols-[3rem_1fr] gap-4"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 grid sm:grid-cols-[3rem_1fr] gap-4"
               >
                 <div className="flex-shrink-0">
-                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#22c55e]/30 bg-[#0f2a14] text-[#22c55e] text-xs font-semibold tabular-nums">
+                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#0f0f0f]/30 bg-[#0f2a14] text-[#0f0f0f] text-xs font-semibold tabular-nums">
                     {s.step}
                   </span>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{s.body}</p>
+                  <h3 className="font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                  <p className="text-sm text-[#737373] leading-relaxed">{s.body}</p>
                 </div>
               </div>
             ))}
@@ -523,16 +523,16 @@ export default function SBA7aPage() {
       </section>
 
       {/* Common Use Cases */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Common purposes for SBA 7(a) financing
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               SBA 7(a) supports a broad range of eligible business purposes. Each has distinct structural considerations, eligibility nuances, and lender preferences. Subject to third-party underwriting and SBA program rules.
             </p>
           </div>
@@ -545,16 +545,16 @@ export default function SBA7aPage() {
       </section>
 
       {/* Typical Requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Eligibility
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Typical underwriting criteria
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               These are general criteria commonly applied by SBA participating lenders. Individual lenders set their own standards within SBA program rules. Meeting these thresholds does not guarantee approval. Subject to underwriting.
             </p>
           </div>
@@ -562,14 +562,14 @@ export default function SBA7aPage() {
             {requirements.map((group) => (
               <div
                 key={group.category}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                   {group.category}
                 </p>
                 <ul className="space-y-2.5">
                   {group.items.map((item, i) => (
-                    <li key={i} className="flex items-start gap-2.5 text-sm text-[#9aaa98]">
+                    <li key={i} className="flex items-start gap-2.5 text-sm text-[#737373]">
                       <CheckIcon />
                       {item}
                     </li>
@@ -582,27 +582,27 @@ export default function SBA7aPage() {
       </section>
 
       {/* Cost Discussion */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Considerations
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Understanding SBA 7(a) costs
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed mb-4">
+              <p className="text-[#737373] leading-relaxed mb-4">
                 SBA 7(a) costs include the interest rate charged by the lender, the SBA guaranty fee paid at closing, and potentially other lender-specific fees. ZEO does not quote rates and cannot guarantee the terms any lender will offer. The following describes how the cost structure generally works — not what any borrower may actually pay.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed mb-4">
-                <span className="text-[#eef2ec] font-medium">Interest rate:</span> The SBA caps the maximum spread lenders may charge above a base rate (prime rate, SOFR, or SBA optional peg). As of 2025, for loans over $50,000 with maturities exceeding 7 years, the maximum spread is typically 2.75%. Shorter maturities and smaller loans have different caps. Rates may be variable or fixed; variable-rate loans carry rate risk over the loan term.
+              <p className="text-[#737373] leading-relaxed mb-4">
+                <span className="text-[#0f0f0f] font-medium">Interest rate:</span> The SBA caps the maximum spread lenders may charge above a base rate (prime rate, SOFR, or SBA optional peg). As of 2025, for loans over $50,000 with maturities exceeding 7 years, the maximum spread is typically 2.75%. Shorter maturities and smaller loans have different caps. Rates may be variable or fixed; variable-rate loans carry rate risk over the loan term.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed mb-4">
-                <span className="text-[#eef2ec] font-medium">SBA guaranty fee:</span> Paid to the SBA at closing and typically ranges from 0.25% to 3.75% of the guaranteed portion of the loan, depending on loan size and term. The SBA periodically waives guaranty fees for loans under certain thresholds — confirm current fee schedules with your lender at the time of application.
+              <p className="text-[#737373] leading-relaxed mb-4">
+                <span className="text-[#0f0f0f] font-medium">SBA guaranty fee:</span> Paid to the SBA at closing and typically ranges from 0.25% to 3.75% of the guaranteed portion of the loan, depending on loan size and term. The SBA periodically waives guaranty fees for loans under certain thresholds — confirm current fee schedules with your lender at the time of application.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed">
-                <span className="text-[#eef2ec] font-medium">Prepayment penalty:</span> SBA 7(a) loans with terms of 15 years or more are subject to a prepayment penalty if prepaid within the first three years (5% in year 1, 3% in year 2, 1% in year 3). Loans under 15 years typically have no SBA-mandated prepayment penalty, though lenders may have their own terms.
+              <p className="text-[#737373] leading-relaxed">
+                <span className="text-[#0f0f0f] font-medium">Prepayment penalty:</span> SBA 7(a) loans with terms of 15 years or more are subject to a prepayment penalty if prepaid within the first three years (5% in year 1, 3% in year 2, 1% in year 3). Loans under 15 years typically have no SBA-mandated prepayment penalty, though lenders may have their own terms.
               </p>
             </div>
             <div className="space-y-3">
@@ -630,13 +630,13 @@ export default function SBA7aPage() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
                 >
-                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1.5">
+                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1.5">
                     {item.label}
                   </p>
-                  <p className="text-lg font-semibold text-[#eef2ec] mb-1">{item.value}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.note}</p>
+                  <p className="text-lg font-semibold text-[#0f0f0f] mb-1">{item.value}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.note}</p>
                 </div>
               ))}
               <ProductDisclaimer type="sba" />
@@ -646,40 +646,40 @@ export default function SBA7aPage() {
       </section>
 
       {/* Pros & Cons */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Pros and cons of SBA 7(a)
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-xl">
               No financing product is right for every situation. Evaluate these tradeoffs in the context of your business, timeline, and risk tolerance.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                 Potential Advantages
               </p>
               <ul className="space-y-3">
                 {pros.map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#9aaa98]">
+                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#737373]">
                     <CheckIcon />
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">
                 Potential Drawbacks
               </p>
               <ul className="space-y-3">
                 {cons.map((item, i) => (
-                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#9aaa98]">
+                  <li key={i} className="flex items-start gap-2.5 text-sm text-[#737373]">
                     <XIcon />
                     {item}
                   </li>
@@ -691,16 +691,16 @@ export default function SBA7aPage() {
       </section>
 
       {/* Comparison Table */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white">
               SBA 7(a) vs. other financing structures
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               General comparisons only. Actual terms depend on the lender, borrower profile, and transaction. Not offers or commitments. All subject to third-party underwriting.
             </p>
           </div>
@@ -709,23 +709,23 @@ export default function SBA7aPage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general estimates based on publicly available program information. ZEO.co does not guarantee rates, terms, or approval. Lenders set their own criteria within applicable program guidelines.
           </p>
         </div>
       </section>
 
       {/* Alternatives */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Related financing structures to consider
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-xl">
               Depending on your use of proceeds and profile, one of these may be a more relevant fit than SBA 7(a) — or used in combination with it.
             </p>
           </div>
@@ -755,15 +755,15 @@ export default function SBA7aPage() {
               <Link
                 key={alt.href}
                 href={alt.href}
-                className="group block rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5 hover:border-[#22c55e]/40 hover:bg-[#0f2a14] transition-all"
+                className="group block rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-all"
               >
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="font-semibold text-[#eef2ec] text-sm">{alt.label}</h3>
-                  <span className="text-[#6b7e69] group-hover:text-[#22c55e] transition-colors flex-shrink-0 mt-0.5">
+                  <h3 className="font-semibold text-[#0f0f0f] text-sm">{alt.label}</h3>
+                  <span className="text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors flex-shrink-0 mt-0.5">
                     <ArrowRightIcon />
                   </span>
                 </div>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{alt.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{alt.desc}</p>
               </Link>
             ))}
           </div>
@@ -771,23 +771,23 @@ export default function SBA7aPage() {
       </section>
 
       {/* Calculator Link */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">
                 Estimator Tool
               </p>
-              <h3 className="font-semibold text-[#eef2ec] mb-1">
+              <h3 className="font-semibold text-[#0f0f0f] mb-1">
                 SBA 7(a) payment estimator
               </h3>
-              <p className="text-sm text-[#9aaa98] max-w-xl">
+              <p className="text-sm text-[#737373] max-w-xl">
                 Estimate potential monthly payments based on loan amount and term. Results are illustrative only — not offers or commitments. Subject to underwriting by third-party providers.
               </p>
             </div>
             <Link
               href="/calculators/sba-loan"
-              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>
@@ -813,7 +813,7 @@ export default function SBA7aPage() {
       />
 
       {/* Disclaimer */}
-      <section className="pb-12 border-t border-[#1e2620]">
+      <section className="pb-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-10">
           <ProductDisclaimer type="sba" />
         </div>

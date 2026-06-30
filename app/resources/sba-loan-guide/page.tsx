@@ -166,7 +166,7 @@ const RELATED_PATHS = [
 
 export default function SbaLoanGuidePage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -183,9 +183,9 @@ export default function SbaLoanGuidePage() {
       />
 
       {/* At-a-Glance Metrics */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-6">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-6">
             Program Snapshot
           </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
@@ -203,12 +203,12 @@ export default function SbaLoanGuidePage() {
       </section>
 
       {/* Section 1: What SBA Loans Are */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-5">
             What Are SBA Loans?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+          <div className="space-y-4 text-[#737373] leading-relaxed">
             <p>
               SBA loans are commercial financing products made by approved private lenders — banks, credit unions, and non-bank lenders — that carry a partial guarantee from the U.S. Small Business Administration. The SBA does not typically lend money directly; instead, it assumes responsibility for a portion of the outstanding balance if a borrower defaults, which may allow participating lenders to extend credit to businesses that might not qualify under conventional underwriting alone.
             </p>
@@ -220,11 +220,11 @@ export default function SbaLoanGuidePage() {
             </p>
           </div>
 
-          <div className="mt-8 p-4 rounded-xl border border-[#1e2620] bg-[#111512]">
-            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-2">
+          <div className="mt-8 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]">
+            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-2">
               Important Note
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               ZEO.co is not the SBA, an SBA lender, or a government agency. This page is educational. Financing eligibility, terms, and approval decisions are determined entirely by participating lenders and the SBA&apos;s own program guidelines.
             </p>
           </div>
@@ -232,12 +232,12 @@ export default function SbaLoanGuidePage() {
       </section>
 
       {/* Section 2: Main Programs */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             The Main SBA Loan Programs
           </h2>
-          <p className="text-[#6b7e69] text-sm mb-8">
+          <p className="text-[#a3a3a3] text-sm mb-8">
             Each program serves a different financing purpose. Understanding which one aligns with your need is the starting point for any SBA inquiry.
           </p>
 
@@ -245,12 +245,12 @@ export default function SbaLoanGuidePage() {
             {/* 7(a) */}
             <div>
               <div className="flex items-center gap-3 mb-3">
-                <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] px-2.5 py-1 rounded-md bg-[#0f2a14] text-[#22c55e] border border-[#22c55e]/20">
+                <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] px-2.5 py-1 rounded-md bg-[#0f2a14] text-[#0f0f0f] border border-[#0f0f0f]/20">
                   Most Common
                 </span>
                 <h3 className="text-lg font-semibold text-white">SBA 7(a) Loan</h3>
               </div>
-              <div className="space-y-3 text-[#9aaa98] text-sm leading-relaxed">
+              <div className="space-y-3 text-[#737373] text-sm leading-relaxed">
                 <p>
                   The 7(a) program is the SBA&apos;s flagship product and the most widely used. It can accommodate a broad range of financing needs: working capital, equipment purchases, leasehold improvements, commercial real estate, business acquisitions, and debt refinancing in some cases. Maximum loan amounts reach $5 million under the standard program.
                 </p>
@@ -264,9 +264,9 @@ export default function SbaLoanGuidePage() {
             </div>
 
             {/* 504 */}
-            <div className="pt-6 border-t border-[#1e2620]">
+            <div className="pt-6 border-t border-[#e5e5e5]">
               <h3 className="text-lg font-semibold text-white mb-3">SBA 504 Loan</h3>
-              <div className="space-y-3 text-[#9aaa98] text-sm leading-relaxed">
+              <div className="space-y-3 text-[#737373] text-sm leading-relaxed">
                 <p>
                   The 504 program is specifically designed for major fixed-asset purchases — primarily owner-occupied commercial real estate and long-term machinery or equipment with a useful life of at least 10 years. It is not suitable for working capital, inventory, or operating expenses.
                 </p>
@@ -280,9 +280,9 @@ export default function SbaLoanGuidePage() {
             </div>
 
             {/* Microloans */}
-            <div className="pt-6 border-t border-[#1e2620]">
+            <div className="pt-6 border-t border-[#e5e5e5]">
               <h3 className="text-lg font-semibold text-white mb-3">SBA Microloans</h3>
-              <div className="space-y-3 text-[#9aaa98] text-sm leading-relaxed">
+              <div className="space-y-3 text-[#737373] text-sm leading-relaxed">
                 <p>
                   The Microloan program provides small, short-term financing of up to $50,000 to small businesses and certain nonprofit childcare centers. The SBA funds nonprofit, community-based intermediary organizations, which in turn lend to eligible borrowers and often provide technical assistance alongside financing.
                 </p>
@@ -299,12 +299,12 @@ export default function SbaLoanGuidePage() {
       </section>
 
       {/* Section 3: Comparison Table */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-5xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Program Comparison
           </h2>
-          <p className="text-[#6b7e69] text-sm mb-8">
+          <p className="text-[#a3a3a3] text-sm mb-8">
             Key structural differences across the three primary SBA programs, subject to program changes and lender-specific underwriting.
           </p>
           <ComparisonTable
@@ -312,19 +312,19 @@ export default function SbaLoanGuidePage() {
             rows={COMPARISON_ROWS}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+          <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
             All figures are general reference points based on current SBA program guidelines and are subject to change. Actual terms are set by participating lenders and may vary.
           </p>
         </div>
       </section>
 
       {/* Section 4: Eligibility */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-5">
             General Eligibility Considerations
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+          <div className="space-y-4 text-[#737373] leading-relaxed">
             <p>
               SBA loan programs have both SBA-level eligibility requirements and lender-specific underwriting standards. Meeting SBA criteria is a prerequisite, but lenders apply their own overlays and may impose stricter requirements. A business may technically meet SBA eligibility while still being declined by a specific lender.
             </p>
@@ -365,15 +365,15 @@ export default function SbaLoanGuidePage() {
             ].map(({ label, detail }) => (
               <div
                 key={label}
-                className="flex gap-3 p-4 rounded-xl border border-[#1e2620] bg-[#111512]"
+                className="flex gap-3 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
               >
-                <div className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#0f2a14] border border-[#22c55e]/30 flex items-center justify-center">
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                <div className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center">
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-[#eef2ec] mb-1">{label}</p>
+                  <p className="text-sm font-medium text-[#0f0f0f] mb-1">{label}</p>
                   <p
-                    className="text-sm text-[#6b7e69] leading-relaxed"
+                    className="text-sm text-[#a3a3a3] leading-relaxed"
                     dangerouslySetInnerHTML={{ __html: detail }}
                   />
                 </div>
@@ -384,12 +384,12 @@ export default function SbaLoanGuidePage() {
       </section>
 
       {/* Section 5: Application Process */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-5">
             How the Application Process Generally Works
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+          <div className="space-y-4 text-[#737373] leading-relaxed">
             <p>
               The SBA loan application process involves the borrower, the participating lender, and — depending on lender authorization level — the SBA itself. Understanding the sequence helps set realistic timeline expectations.
             </p>
@@ -425,16 +425,16 @@ export default function SbaLoanGuidePage() {
             ].map(({ step, title, body }) => (
               <div
                 key={step}
-                className="flex gap-4 p-5 first:rounded-t-xl last:rounded-b-xl border border-[#1e2620] bg-[#111512] border-b-0 last:border-b"
+                className="flex gap-4 p-5 first:rounded-t-xl last:rounded-b-xl border border-[#e5e5e5] bg-[#f5f5f5] border-b-0 last:border-b"
               >
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0a0d0b] border border-[#1e2620] flex items-center justify-center">
-                  <span className="text-[0.625rem] font-semibold tabular-nums text-[#22c55e]">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#ffffff] border border-[#e5e5e5] flex items-center justify-center">
+                  <span className="text-[0.625rem] font-semibold tabular-nums text-[#0f0f0f]">
                     {step}
                   </span>
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{title}</p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{body}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{title}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{body}</p>
                 </div>
               </div>
             ))}
@@ -443,10 +443,10 @@ export default function SbaLoanGuidePage() {
       </section>
 
       {/* Related Paths */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-xl font-semibold text-white mb-2">Related Resources</h2>
-          <p className="text-sm text-[#6b7e69] mb-6">
+          <p className="text-sm text-[#a3a3a3] mb-6">
             Tools and guides that may be useful alongside this overview.
           </p>
           <div className="grid md:grid-cols-3 gap-3">

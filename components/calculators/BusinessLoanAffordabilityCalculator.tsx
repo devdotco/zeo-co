@@ -75,7 +75,7 @@ export default function BusinessLoanAffordabilityCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* ── Inputs ── */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Business Cash Flow</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Business Cash Flow</p>
 
           <CalcInput
             label="Annual EBITDA"
@@ -112,7 +112,7 @@ export default function BusinessLoanAffordabilityCalculator() {
             note="Annual payments on existing loans, leases, and obligations"
           />
 
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] pt-2">New Loan Terms</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] pt-2">New Loan Terms</p>
 
           <CalcInput
             label="Annual Interest Rate"
@@ -141,7 +141,7 @@ export default function BusinessLoanAffordabilityCalculator() {
 
         {/* ── Results ── */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Affordability Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Affordability Summary</p>
 
           <CalcResult
             label="Maximum Supportable Loan"
@@ -166,17 +166,17 @@ export default function BusinessLoanAffordabilityCalculator() {
           <div
             className={`rounded-xl border p-4 ${
               dscrHealthy
-                ? "border-[#22c55e]/30 bg-[#0f2a14]"
+                ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
                 : "border-[#a16207]/30 bg-[#1a1400]"
             }`}
           >
-            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">
+            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
               Implied DSCR
             </p>
             <div className="flex items-baseline gap-2">
               <p
                 className={`text-xl font-semibold tabular-nums ${
-                  dscrHealthy ? "text-[#22c55e]" : "text-[#eab308]"
+                  dscrHealthy ? "text-[#0f0f0f]" : "text-[#eab308]"
                 }`}
               >
                 {isFinite(actualDscr) && actualDscr > 0 ? actualDscr.toFixed(2) : "—"}x
@@ -184,7 +184,7 @@ export default function BusinessLoanAffordabilityCalculator() {
               <span
                 className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                   dscrHealthy
-                    ? "bg-[#22c55e]/15 text-[#22c55e]"
+                    ? "bg-[#0f0f0f]/15 text-[#0f0f0f]"
                     : "bg-[#eab308]/15 text-[#eab308]"
                 }`}
               >
@@ -209,10 +209,10 @@ export default function BusinessLoanAffordabilityCalculator() {
       {/* ── Sensitivity Table ── */}
       {maxAnnualPayment > 0 && (
         <div className="mt-6">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+                <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
                   Max Loan · Rate vs. Term Sensitivity
                 </p>
                 <p className="text-[0.625rem] text-[#3a4a38] mt-0.5">
@@ -225,14 +225,14 @@ export default function BusinessLoanAffordabilityCalculator() {
               <table className="w-full text-xs tabular-nums" style={{ minWidth: "380px" }}>
                 <thead>
                   <tr>
-                    <th className="text-left text-[#6b7e69] font-semibold pb-2 pr-3 whitespace-nowrap">
+                    <th className="text-left text-[#a3a3a3] font-semibold pb-2 pr-3 whitespace-nowrap">
                       Rate ↓ / Term →
                     </th>
                     {terms.map((t) => (
                       <th
                         key={t}
                         className={`text-right pb-2 px-2 font-semibold whitespace-nowrap ${
-                          t === termYears ? "text-[#22c55e]" : "text-[#9aaa98]"
+                          t === termYears ? "text-[#0f0f0f]" : "text-[#737373]"
                         }`}
                       >
                         {t} yr
@@ -244,11 +244,11 @@ export default function BusinessLoanAffordabilityCalculator() {
                   {rates.map((r, ri) => (
                     <tr
                       key={r}
-                      className="border-t border-[#1e2620]"
+                      className="border-t border-[#e5e5e5]"
                     >
                       <td
                         className={`py-2 pr-3 font-medium whitespace-nowrap ${
-                          r === interestRatePct ? "text-[#22c55e]" : "text-[#9aaa98]"
+                          r === interestRatePct ? "text-[#0f0f0f]" : "text-[#737373]"
                         }`}
                       >
                         {r.toFixed(1)}%
@@ -262,8 +262,8 @@ export default function BusinessLoanAffordabilityCalculator() {
                             key={t}
                             className={`text-right py-2 px-2 ${
                               isActive
-                                ? "text-[#22c55e] font-semibold"
-                                : "text-[#eef2ec]"
+                                ? "text-[#0f0f0f] font-semibold"
+                                : "text-[#0f0f0f]"
                             }`}
                           >
                             {fmt(val)}

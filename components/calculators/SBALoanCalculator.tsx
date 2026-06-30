@@ -62,7 +62,7 @@ export default function SBALoanCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* ── Inputs ── */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Loan Parameters</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Loan Parameters</p>
 
           <CalcInput
             label="Loan Amount"
@@ -125,10 +125,10 @@ export default function SBALoanCalculator() {
           />
 
           {/* Guarantee Fee Toggle */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-4 py-3">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-4 py-3">
             <label className="flex items-center justify-between gap-3 cursor-pointer">
               <div>
-                <p className="text-xs font-medium text-[#9aaa98]">SBA Guarantee Fee</p>
+                <p className="text-xs font-medium text-[#737373]">SBA Guarantee Fee</p>
                 <p className="text-[0.625rem] text-[#3a4a38] mt-0.5">
                   3.5% on guaranteed portion above $150k
                 </p>
@@ -138,10 +138,10 @@ export default function SBALoanCalculator() {
                 role="switch"
                 aria-checked={includeGuaranteeFee}
                 onClick={() => setIncludeGuaranteeFee((v) => !v)}
-                className={`relative inline-flex h-5 w-9 shrink-0 rounded-full border transition-colors focus:outline-none focus:ring-1 focus:ring-[#22c55e] focus:ring-offset-1 focus:ring-offset-[#0a0d0b] ${
+                className={`relative inline-flex h-5 w-9 shrink-0 rounded-full border transition-colors focus:outline-none focus:ring-1 focus:ring-[#0f0f0f] focus:ring-offset-1 focus:ring-offset-[#ffffff] ${
                   includeGuaranteeFee
-                    ? "bg-[#22c55e] border-[#22c55e]"
-                    : "bg-[#1e2620] border-[#1e2620]"
+                    ? "bg-[#0f0f0f] border-[#0f0f0f]"
+                    : "bg-[#e5e5e5] border-[#e5e5e5]"
                 }`}
               >
                 <span
@@ -156,7 +156,7 @@ export default function SBALoanCalculator() {
 
         {/* ── Results ── */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Payment Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Payment Summary</p>
 
           <CalcResult
             label="Monthly Payment"
@@ -184,29 +184,29 @@ export default function SBALoanCalculator() {
           />
 
           <div className="mt-1">
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Cash Required at Closing
             </p>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] divide-y divide-[#1e2620] overflow-hidden">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] divide-y divide-[#e5e5e5] overflow-hidden">
               <div className="flex justify-between items-center px-4 py-2.5">
-                <span className="text-xs text-[#9aaa98]">Down Payment</span>
-                <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(downPayment)}</span>
+                <span className="text-xs text-[#737373]">Down Payment</span>
+                <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(downPayment)}</span>
               </div>
               {includeGuaranteeFee && (
                 <div className="flex justify-between items-center px-4 py-2.5">
-                  <span className="text-xs text-[#9aaa98]">SBA Guarantee Fee</span>
-                  <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(guaranteeFee)}</span>
+                  <span className="text-xs text-[#737373]">SBA Guarantee Fee</span>
+                  <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(guaranteeFee)}</span>
                 </div>
               )}
               {closingCosts > 0 && (
                 <div className="flex justify-between items-center px-4 py-2.5">
-                  <span className="text-xs text-[#9aaa98]">Closing Costs</span>
-                  <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(closingCosts)}</span>
+                  <span className="text-xs text-[#737373]">Closing Costs</span>
+                  <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(closingCosts)}</span>
                 </div>
               )}
               <div className="flex justify-between items-center px-4 py-2.5 bg-[#0f1a10]">
-                <span className="text-xs font-semibold text-[#eef2ec]">Total Cash Required</span>
-                <span className="text-sm font-semibold tabular-nums text-[#22c55e]">{fmt(cashRequired)}</span>
+                <span className="text-xs font-semibold text-[#0f0f0f]">Total Cash Required</span>
+                <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">{fmt(cashRequired)}</span>
               </div>
             </div>
           </div>
@@ -215,27 +215,27 @@ export default function SBALoanCalculator() {
 
       {/* Cost Breakdown Bar */}
       {isFinite(totalRepayment) && totalRepayment > 0 && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Cost Breakdown
           </p>
           <div className="flex rounded-full overflow-hidden h-2 mb-3">
             <div
-              className="bg-[#22c55e] transition-all duration-300"
+              className="bg-[#0f0f0f] transition-all duration-300"
               style={{ width: `${principalPct}%` }}
             />
             <div
-              className="bg-[#6b7e69] transition-all duration-300"
+              className="bg-[#a3a3a3] transition-all duration-300"
               style={{ width: `${interestPct}%` }}
             />
           </div>
-          <div className="flex gap-4 text-xs text-[#9aaa98]">
+          <div className="flex gap-4 text-xs text-[#737373]">
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#22c55e]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#0f0f0f]" />
               Principal {principalPct.toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#6b7e69]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#a3a3a3]" />
               Interest {interestPct.toFixed(1)}%
             </span>
           </div>

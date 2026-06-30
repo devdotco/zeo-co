@@ -185,7 +185,7 @@ const COMPARISON_ROWS = [
 
 export default function PurchaseOrderFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* ── Hero ── */}
       <PageHero
@@ -196,7 +196,7 @@ export default function PurchaseOrderFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -226,23 +226,23 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── What is it / Who uses it ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What it is
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Financing the gap between receiving an order and issuing an invoice
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Purchase order financing addresses one of the most common cash flow gaps
                 in product-based businesses: you have a confirmed, creditworthy customer
                 who wants to buy — but you need capital now to pay your supplier or
                 manufacturer before you can ship and bill.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Traditional invoice factoring operates after a sale is complete and an
                 invoice has been issued. PO financing steps in earlier, using the purchase
                 order itself as the basis for advancing funds. Once the order is fulfilled
@@ -251,7 +251,7 @@ export default function PurchaseOrderFinancingPage() {
                 supplier directly, receives the invoice, advances the seller a portion
                 of its face value, and collects from the end buyer when the invoice comes due.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 This structure is not available from every factoring company, and it
                 carries additional complexity and cost compared to standard invoice
                 factoring. It may be worth evaluating when a specific order is large
@@ -284,10 +284,10 @@ export default function PurchaseOrderFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -296,15 +296,15 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Advance / reserve cycle ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How the cycle works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             From purchase order to reserve release
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             PO financing through a factoring arrangement typically follows a structured
             sequence. Each lender structures deals differently — this reflects common
             practice, not a guarantee of how any specific provider operates.
@@ -348,16 +348,16 @@ export default function PurchaseOrderFinancingPage() {
                   "The buyer pays the factor directly. The factor deducts fees and the advance, then releases any reserve balance to your business.",
               },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#22c55e] bg-[#0f2a14] border border-[#22c55e]/20 rounded-md px-2 py-0.5 mb-3">
+              <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.body}</p>
               </div>
             ))}
           </div>
-          <p className="text-xs text-[#6b7e69] mt-6 max-w-3xl leading-relaxed">
+          <p className="text-xs text-[#a3a3a3] mt-6 max-w-3xl leading-relaxed">
             The reserve is the portion of the invoice value held back by the factor after
             the initial advance. It is released — minus fees — once the buyer pays in full.
             Fees accrue from the date of the advance to the date of buyer payment, which
@@ -367,17 +367,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Requirements and invoice criteria ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders generally evaluate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 PO financing underwriting focuses differently from traditional credit —
                 the end buyer's payment history and creditworthiness often carry more
                 weight than the borrowing business's credit score. These are general
@@ -418,13 +418,13 @@ export default function PurchaseOrderFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-[#22c55e] flex-shrink-0" />
+                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f] flex-shrink-0" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -433,45 +433,45 @@ export default function PurchaseOrderFinancingPage() {
 
             {/* ── Invoice criteria ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Invoice criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What makes an invoice eligible for the factoring component
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Once goods are shipped and an invoice is generated, that invoice typically
                 enters a factoring arrangement. Factorable invoices generally must meet
                 these criteria — though each provider sets its own standards.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Unconditional obligation to pay.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Unconditional obligation to pay.</span>{" "}
                   The invoice must reflect goods that have been delivered and accepted
                   without dispute. Invoices subject to return rights, offset claims,
                   or ongoing disputes are typically ineligible until the issue is resolved.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">No pre-existing liens on receivables.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">No pre-existing liens on receivables.</span>{" "}
                   If another lender holds a blanket UCC lien on your receivables, the
                   factor will typically require that lien to be subordinated or released
                   before purchasing the invoice. This is one of the first things a factor
                   checks.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Net 30 to Net 90 payment terms.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Net 30 to Net 90 payment terms.</span>{" "}
                   Most factors prefer invoices with standard commercial payment terms.
                   Invoices with very extended terms (Net 120+) may be subject to higher
                   fees or excluded, as fees accrue until the buyer pays.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">B2B or B2G only.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">B2B or B2G only.</span>{" "}
                   Factoring — and by extension PO financing — applies to commercial and
                   government receivables. Consumer invoices are generally not eligible,
                   and healthcare receivables are handled under separate specialty programs.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Accurate buyer information.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Accurate buyer information.</span>{" "}
                   Invoices must include complete and accurate buyer contact information
                   so the factor can send a notice of assignment to the buyer and arrange
                   direct payment. Discrepancies between the PO buyer and the invoice
@@ -484,66 +484,66 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Advance rates and fees ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Advance rates and fee ranges
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Understanding cost — without promises
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             ZEO.co does not quote, set, or guarantee financing rates. The figures below
             reflect commonly published ranges observed in the market. Actual terms are
             set by third-party providers subject to their own underwriting. All terms
             are subject to change and are not offers or commitments.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 PO advance rate
               </p>
               <p className="text-2xl font-semibold text-white tabular-nums mb-2">
                 Up to 70 – 90%
               </p>
-              <p className="text-xs text-[#6b7e69] leading-relaxed">
+              <p className="text-xs text-[#a3a3a3] leading-relaxed">
                 Percentage of the purchase order value the lender may advance to pay
                 your supplier. The remainder is withheld until the invoice is paid by
                 the buyer. Actual rate depends on buyer quality, deal margin, and
                 supplier payment terms.
               </p>
             </div>
-            <div className="rounded-xl border border-[#22c55e]/30 bg-[#0f2a14] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <div className="rounded-xl border border-[#0f0f0f]/30 bg-[#0f2a14] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 PO financing fee (common range)
               </p>
-              <p className="text-2xl font-semibold text-[#22c55e] tabular-nums mb-2">
-                1 – 5% <span className="text-sm font-normal text-[#6b7e69]">per 30 days</span>
+              <p className="text-2xl font-semibold text-[#0f0f0f] tabular-nums mb-2">
+                1 – 5% <span className="text-sm font-normal text-[#a3a3a3]">per 30 days</span>
               </p>
-              <p className="text-xs text-[#6b7e69] leading-relaxed">
+              <p className="text-xs text-[#a3a3a3] leading-relaxed">
                 Fees typically accrue on the outstanding advance balance from funding
                 date to buyer payment. A deal that takes 60 days from supplier payment
                 to buyer settlement will accrue fees across both periods. Evaluate the
                 total annualized cost, not just the per-period rate.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Reserve release
               </p>
               <p className="text-2xl font-semibold text-white tabular-nums mb-2">
                 On buyer payment
               </p>
-              <p className="text-xs text-[#6b7e69] leading-relaxed">
+              <p className="text-xs text-[#a3a3a3] leading-relaxed">
                 The reserve — the portion of the invoice not advanced upfront — is
                 returned to you after the buyer pays, minus any fees that accrued
                 during the financing period. Early buyer payment reduces total fee cost.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-            <p className="text-xs text-[#6b7e69] leading-relaxed">
-              <span className="text-[#9aaa98] font-medium">Worked illustration (not an offer):</span>{" "}
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+            <p className="text-xs text-[#a3a3a3] leading-relaxed">
+              <span className="text-[#737373] font-medium">Worked illustration (not an offer):</span>{" "}
               A business receives a $500,000 PO from a national retailer. A lender advances
               85% ($425,000) directly to the supplier. The goods ship in 30 days; the buyer
               pays the invoice in 60 days. At a 3% per-30-day fee on the $425,000 outstanding
@@ -557,17 +557,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Benefits and limitations ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
             Potential benefits and limitations of PO financing through factoring
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Potential benefits
               </h3>
               <ul className="space-y-3">
@@ -579,9 +579,9 @@ export default function PurchaseOrderFinancingPage() {
                   "When paired with factoring, the entire order-to-cash cycle can be financed through a single provider with a streamlined process.",
                   "May scale with order volume — as your buyer relationships and order sizes grow, the financing facility may be able to grow with them.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -601,8 +601,8 @@ export default function PurchaseOrderFinancingPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#6b7e69] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#a3a3a3] uppercase tracking-wide mb-4">
                 Potential limitations
               </h3>
               <ul className="space-y-3">
@@ -615,9 +615,9 @@ export default function PurchaseOrderFinancingPage() {
                   "Approval is not guaranteed; existing UCC liens on receivables or prior factoring arrangements may need to be resolved first.",
                   "Complex deal structures can extend due diligence timelines, and funding is not instantaneous — plan for 3–10 business days after documentation is complete.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -641,15 +641,15 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Industry use cases ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Industries and deal types where PO financing is commonly evaluated
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             These are illustrative examples of business types that commonly explore PO
             financing. Eligibility depends on each individual deal and lender criteria.
           </p>
@@ -701,15 +701,15 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             PO financing vs. invoice factoring vs. working capital
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             This table summarizes general structural differences. Actual terms depend
             on the lender, your deal, and your business profile.
           </p>
@@ -722,15 +722,15 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Alternatives to consider ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may address similar needs
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             PO financing is one tool for a specific scenario. Depending on your
             business model, existing credit history, and the nature of the capital
             need, one of these alternatives may be a better potential fit.
@@ -762,17 +762,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
               <h3 className="text-lg font-semibold text-white mb-1">
                 Estimate invoice factoring costs
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Use our invoice factoring calculator to model how advance rates and fee
                 structures affect net proceeds. Results are illustrative estimates only —
                 not an offer or commitment from any lender.
@@ -780,7 +780,7 @@ export default function PurchaseOrderFinancingPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

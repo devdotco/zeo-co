@@ -223,7 +223,7 @@ const COMPARISON_ROWS = [
 
 export default function InventoryFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -241,7 +241,7 @@ export default function InventoryFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -270,17 +270,17 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Who it is for ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who it may fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Businesses where inventory is both the product and the bottleneck
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Inventory financing is most relevant for businesses where a significant portion
                 of capital is tied up in physical goods — retailers, wholesalers, distributors,
                 and manufacturers who need to stock product before they can generate revenue.
@@ -313,10 +313,10 @@ export default function InventoryFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -325,9 +325,9 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── How it works ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
@@ -366,12 +366,12 @@ export default function InventoryFinancingPage() {
                   "Revolving facilities are repaid as goods sell, freeing availability to fund new purchases. Term loans follow a fixed schedule. The lender may monitor inventory levels periodically.",
               },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#22c55e] bg-[#0f2a14] border border-[#22c55e]/20 rounded-md px-2 py-0.5 mb-3">
+              <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.body}</p>
               </div>
             ))}
           </div>
@@ -379,9 +379,9 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Common use cases ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
@@ -435,17 +435,17 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Typical requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders generally evaluate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These are general benchmarks drawn from common lender practices. Each provider
                 sets its own criteria, and requirements vary significantly by industry, inventory
                 type, deal size, and your business credit profile. Meeting these thresholds does
@@ -481,13 +481,13 @@ export default function InventoryFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="mt-0.5 h-1.5 w-1.5 rounded-full bg-[#22c55e] flex-shrink-0 mt-1.5" />
+                    <div className="mt-0.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f] flex-shrink-0 mt-1.5" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -496,47 +496,47 @@ export default function InventoryFinancingPage() {
 
             {/* ── Cost discussion ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What drives the cost of inventory financing
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 ZEO.co does not quote, set, or guarantee financing rates. Actual costs depend on
                 the factors below and the specific terms offered by a third-party provider after
                 underwriting your application.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Inventory quality and turn rate.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Inventory quality and turn rate.</span>{" "}
                   Lenders price the risk of the collateral. Inventory that sells quickly and has
                   a clear resale market represents lower risk than slow-moving or specialized
                   goods. Higher-quality collateral may result in better advance rates and
                   potentially more favorable pricing, subject to underwriting.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Business credit and revenue history.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Business credit and revenue history.</span>{" "}
                   A business with a strong track record of consistent revenue, clean financials,
                   and a solid credit profile is generally viewed more favorably by lenders. Thin
                   credit history or recent financial stress typically results in more conservative
                   terms.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Facility type and structure.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Facility type and structure.</span>{" "}
                   Revolving lines may carry different pricing than term loans. Some lenders charge
                   a commitment fee on the total credit line in addition to interest on drawn
                   balances. Others charge collateral monitoring or field examination fees.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Advance rate and LTV.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Advance rate and LTV.</span>{" "}
                   The gap between the inventory's appraised value and the amount advanced
                   represents the lender's cushion. Requesting a higher advance rate than the
                   lender's standard may result in pricing adjustments or require additional
                   collateral.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Short-term vs. revolving.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Short-term vs. revolving.</span>{" "}
                   Very short-term inventory bridge financing (under 90 days) may carry higher
                   annualized costs than a revolving facility with annual renewal, even if the
                   absolute dollar cost is lower. Always evaluate the total cost of the facility —
@@ -549,17 +549,17 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Pros and cons ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
             Potential advantages and drawbacks
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Potential advantages
               </h3>
               <ul className="space-y-3">
@@ -571,9 +571,9 @@ export default function InventoryFinancingPage() {
                   "The inventory itself serves as the primary collateral, which may reduce reliance on real estate or personal guarantees for the right borrower.",
                   "Can support growth by enabling you to fulfill larger orders or expand into new product categories.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -593,8 +593,8 @@ export default function InventoryFinancingPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#6b7e69] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#a3a3a3] uppercase tracking-wide mb-4">
                 Potential drawbacks
               </h3>
               <ul className="space-y-3">
@@ -606,9 +606,9 @@ export default function InventoryFinancingPage() {
                   "Costs can be higher than traditional term financing when accounting for commitment fees, monitoring fees, and interest on revolving balances.",
                   "Default risk: the lender holds a security interest in your inventory and may liquidate it if obligations are not met.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -632,15 +632,15 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-6 text-balance">
             Inventory financing vs. line of credit vs. purchase order financing
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             This table summarizes general structural differences between common approaches.
             Actual terms depend on the lender and your specific situation.
           </p>
@@ -653,15 +653,15 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Alternatives ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Inventory financing is one option. Depending on your business model, revenue profile,
             and how you plan to use the capital, one of these alternatives may be a better
             potential fit — or a useful complement.
@@ -700,17 +700,17 @@ export default function InventoryFinancingPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
               <h3 className="text-lg font-semibold text-white mb-1">
                 Estimate your inventory line availability
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Use our working capital calculator to run a rough estimate based on your
                 inventory value and a hypothetical advance rate. Results are illustrative
                 only — not an offer or commitment from any lender.
@@ -718,7 +718,7 @@ export default function InventoryFinancingPage() {
             </div>
             <Link
               href="/calculators/working-capital"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

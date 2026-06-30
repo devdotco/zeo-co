@@ -22,19 +22,19 @@ export default function CalculatorShell({
   return (
     <div className="max-w-4xl mx-auto px-5 lg:px-8 py-8">
       <div className="mb-6">
-        <p className="text-xs text-[#6b7e69] mb-2">Results are estimates only — not offers, commitments, or guaranteed terms.</p>
+        <p className="text-xs text-[#a3a3a3] mb-2">Results are estimates only — not offers, commitments, or guaranteed terms.</p>
       </div>
 
-      <div className="rounded-2xl border border-[#1e2620] bg-[#111512] overflow-hidden">
-        <div className="px-6 py-5 border-b border-[#1e2620]">
+      <div className="rounded-2xl border border-[#e5e5e5] bg-[#f5f5f5] overflow-hidden">
+        <div className="px-6 py-5 border-b border-[#e5e5e5]">
           <div className="flex items-center gap-2 mb-1">
-            <svg className="w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+            <svg className="w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
               <rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.3"/>
               <path d="M5 8h6M8 5v6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
             </svg>
             <h1 className="text-base font-semibold text-white">{title}</h1>
           </div>
-          <p className="text-sm text-[#6b7e69]">{description}</p>
+          <p className="text-sm text-[#a3a3a3]">{description}</p>
         </div>
 
         <div className="p-6">{children}</div>
@@ -46,13 +46,13 @@ export default function CalculatorShell({
 
       {relatedCalcs && relatedCalcs.length > 0 && (
         <div className="mt-6">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">Related Calculators</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">Related Calculators</p>
           <div className="flex flex-wrap gap-2">
             {relatedCalcs.map((c) => (
               <Link
                 key={c.href}
                 href={c.href}
-                className="text-xs px-3 py-1.5 rounded-lg border border-[#1e2620] text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors"
+                className="text-xs px-3 py-1.5 rounded-lg border border-[#e5e5e5] text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
               >
                 {c.label}
               </Link>
@@ -91,12 +91,12 @@ export function CalcInput({
 }) {
   return (
     <div>
-      <label htmlFor={id} className="block text-xs font-medium text-[#9aaa98] mb-1.5">
+      <label htmlFor={id} className="block text-xs font-medium text-[#737373] mb-1.5">
         {label}
       </label>
       <div className="relative">
         {prefix && (
-          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm text-[#6b7e69]">{prefix}</span>
+          <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm text-[#a3a3a3]">{prefix}</span>
         )}
         <input
           id={id}
@@ -106,10 +106,10 @@ export function CalcInput({
           min={min}
           max={max}
           step={step ?? 1}
-          className={`w-full bg-[#0a0d0b] border border-[#1e2620] rounded-lg py-2.5 text-sm text-[#eef2ec] tabular-nums focus:outline-none focus:border-[#22c55e] transition-colors ${prefix ? "pl-7" : "pl-3"} ${suffix ? "pr-12" : "pr-3"}`}
+          className={`w-full bg-[#ffffff] border border-[#e5e5e5] rounded-lg py-2.5 text-sm text-[#0f0f0f] tabular-nums focus:outline-none focus:border-[#0f0f0f] transition-colors ${prefix ? "pl-7" : "pl-3"} ${suffix ? "pr-12" : "pr-3"}`}
         />
         {suffix && (
-          <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-[#6b7e69]">{suffix}</span>
+          <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-[#a3a3a3]">{suffix}</span>
         )}
       </div>
       {note && <p className="text-[0.625rem] text-[#3a4a38] mt-1">{note}</p>}
@@ -129,9 +129,9 @@ export function CalcResult({
   note?: string;
 }) {
   return (
-    <div className={`rounded-xl border p-4 ${highlight ? "border-[#22c55e]/30 bg-[#0f2a14]" : "border-[#1e2620] bg-[#0a0d0b]"}`}>
-      <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">{label}</p>
-      <p className={`text-xl font-semibold tabular-nums ${highlight ? "text-[#22c55e]" : "text-white"}`}>{value}</p>
+    <div className={`rounded-xl border p-4 ${highlight ? "border-[#0f0f0f]/30 bg-[#0f2a14]" : "border-[#e5e5e5] bg-[#ffffff]"}`}>
+      <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">{label}</p>
+      <p className={`text-xl font-semibold tabular-nums ${highlight ? "text-[#0f0f0f]" : "text-white"}`}>{value}</p>
       {note && <p className="text-[0.625rem] text-[#3a4a38] mt-1.5">{note}</p>}
     </div>
   );

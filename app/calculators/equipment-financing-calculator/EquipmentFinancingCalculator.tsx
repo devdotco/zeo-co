@@ -78,7 +78,7 @@ export default function EquipmentFinancingCalculator() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
         {/* ── Inputs ── */}
         <div className="space-y-4">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69]">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3]">
             Loan Parameters
           </p>
 
@@ -140,11 +140,11 @@ export default function EquipmentFinancingCalculator() {
           />
 
           {/* Summary row */}
-          <div className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-3 flex items-center justify-between">
-            <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+          <div className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-3 flex items-center justify-between">
+            <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
               Amount Financed
             </span>
-            <span className="text-sm font-semibold tabular-nums text-[#eef2ec]">
+            <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">
               {fmt(results.financed)}
             </span>
           </div>
@@ -152,7 +152,7 @@ export default function EquipmentFinancingCalculator() {
 
         {/* ── Results ── */}
         <div className="space-y-3 lg:sticky lg:top-6 lg:self-start">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69]">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3]">
             Estimated Results
           </p>
 
@@ -194,21 +194,21 @@ export default function EquipmentFinancingCalculator() {
           />
 
           {/* Rate context bar */}
-          <div className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-3 space-y-2">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+          <div className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-3 space-y-2">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
               Cost of Financing
             </p>
             <div className="flex items-center justify-between">
-              <span className="text-xs text-[#9aaa98]">Interest as % of cost</span>
-              <span className="text-xs font-semibold tabular-nums text-[#eef2ec]">
+              <span className="text-xs text-[#737373]">Interest as % of cost</span>
+              <span className="text-xs font-semibold tabular-nums text-[#0f0f0f]">
                 {equipmentCost > 0
                   ? ((results.totalInterest / equipmentCost) * 100).toFixed(1) + "%"
                   : "—"}
               </span>
             </div>
-            <div className="w-full h-1 rounded-full bg-[#1e2620] overflow-hidden">
+            <div className="w-full h-1 rounded-full bg-[#e5e5e5] overflow-hidden">
               <div
-                className="h-full rounded-full bg-[#22c55e] transition-all duration-300"
+                className="h-full rounded-full bg-[#0f0f0f] transition-all duration-300"
                 style={{
                   width:
                     equipmentCost > 0

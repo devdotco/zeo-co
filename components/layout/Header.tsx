@@ -36,11 +36,11 @@ function ZeoLogo() {
   return (
     <Link href="/" className="flex items-center gap-2 group" aria-label="ZEO.co Home">
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="flex-shrink-0">
-        <rect width="32" height="32" rx="6" fill="#22c55e"/>
+        <rect width="32" height="32" rx="6" fill="#0f0f0f"/>
         <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#000"/>
       </svg>
-      <span className="text-[1.0625rem] font-semibold tracking-tight text-white group-hover:text-[#22c55e] transition-colors">
-        zeo<span className="text-[#22c55e]">.</span>co
+      <span className="text-[1.0625rem] font-semibold tracking-tight text-white group-hover:text-[#0f0f0f] transition-colors">
+        zeo<span className="text-[#0f0f0f]">.</span>co
       </span>
     </Link>
   );
@@ -50,18 +50,18 @@ function ZeoLogo() {
 
 function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
   return (
-    <div className="absolute top-full left-0 mt-2 w-[900px] max-w-[calc(100vw-2rem)] bg-[#111512] border border-[#1e2620] rounded-xl shadow-2xl p-6 z-50">
+    <div className="absolute top-full left-0 mt-2 w-[900px] max-w-[calc(100vw-2rem)] bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl shadow-2xl p-6 z-50">
       <div className="grid grid-cols-5 gap-4">
         {NAV.financing.columns.map((col) => (
           <div key={col.heading}>
-            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">{col.heading}</p>
+            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">{col.heading}</p>
             <ul className="space-y-1">
               {col.items.map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
                     onClick={onClose}
-                    className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                    className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -71,14 +71,14 @@ function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
           </div>
         ))}
       </div>
-      <div className="mt-5 pt-4 border-t border-[#1e2620] flex items-center justify-between">
-        <Link href="/financing" onClick={onClose} className="text-sm text-[#22c55e] hover:underline">
+      <div className="mt-5 pt-4 border-t border-[#e5e5e5] flex items-center justify-between">
+        <Link href="/financing" onClick={onClose} className="text-sm text-[#0f0f0f] hover:underline">
           View all financing options →
         </Link>
         <Link
           href="/apply"
           onClick={onClose}
-          className="px-4 py-1.5 rounded-lg bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors"
+          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -91,18 +91,18 @@ function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
 
 function FactoringMegaMenu({ onClose }: { onClose: () => void }) {
   return (
-    <div className="absolute top-full left-0 mt-2 w-[760px] max-w-[calc(100vw-2rem)] bg-[#111512] border border-[#1e2620] rounded-xl shadow-2xl p-6 z-50">
+    <div className="absolute top-full left-0 mt-2 w-[760px] max-w-[calc(100vw-2rem)] bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl shadow-2xl p-6 z-50">
       <div className="grid grid-cols-3 gap-6">
         {NAV.factoring.columns.map((col) => (
           <div key={col.heading}>
-            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">{col.heading}</p>
+            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">{col.heading}</p>
             <ul className="space-y-1">
               {col.items.map((item) => (
                 <li key={item.href}>
                   <Link
                     href={item.href}
                     onClick={onClose}
-                    className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                    className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -112,14 +112,14 @@ function FactoringMegaMenu({ onClose }: { onClose: () => void }) {
           </div>
         ))}
       </div>
-      <div className="mt-5 pt-4 border-t border-[#1e2620] flex items-center justify-between">
-        <Link href="/factoring" onClick={onClose} className="text-sm text-[#22c55e] hover:underline">
+      <div className="mt-5 pt-4 border-t border-[#e5e5e5] flex items-center justify-between">
+        <Link href="/factoring" onClick={onClose} className="text-sm text-[#0f0f0f] hover:underline">
           Factoring overview →
         </Link>
         <Link
           href="/calculators/invoice-factoring-calculator"
           onClick={onClose}
-          className="text-sm text-[#9aaa98] hover:text-white transition-colors"
+          className="text-sm text-[#737373] hover:text-white transition-colors"
         >
           Factoring calculator →
         </Link>
@@ -132,7 +132,7 @@ function FactoringMegaMenu({ onClose }: { onClose: () => void }) {
 
 function UseCasesMegaMenu({ onClose }: { onClose: () => void }) {
   return (
-    <div className="absolute top-full left-0 mt-2 w-[400px] bg-[#111512] border border-[#1e2620] rounded-xl shadow-2xl p-5 z-50">
+    <div className="absolute top-full left-0 mt-2 w-[400px] bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl shadow-2xl p-5 z-50">
       <div className="grid grid-cols-2 gap-1">
         {NAV.useCases.items.map((item) => (
           <Link
@@ -141,8 +141,8 @@ function UseCasesMegaMenu({ onClose }: { onClose: () => void }) {
             onClick={onClose}
             className="block rounded-lg px-3 py-2.5 hover:bg-[#181d16] transition-colors"
           >
-            <p className="text-sm font-medium text-[#eef2ec]">{item.label}</p>
-            <p className="text-xs text-[#6b7e69] mt-0.5">{item.desc}</p>
+            <p className="text-sm font-medium text-[#0f0f0f]">{item.label}</p>
+            <p className="text-xs text-[#a3a3a3] mt-0.5">{item.desc}</p>
           </Link>
         ))}
       </div>
@@ -154,14 +154,14 @@ function UseCasesMegaMenu({ onClose }: { onClose: () => void }) {
 
 function IndustriesMegaMenu({ onClose }: { onClose: () => void }) {
   return (
-    <div className="absolute top-full left-0 mt-2 w-[360px] bg-[#111512] border border-[#1e2620] rounded-xl shadow-2xl p-5 z-50">
+    <div className="absolute top-full left-0 mt-2 w-[360px] bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl shadow-2xl p-5 z-50">
       <div className="grid grid-cols-2 gap-1">
         {NAV.industries.items.map((item) => (
           <Link
             key={item.href}
             href={item.href}
             onClick={onClose}
-            className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-3 py-2 transition-colors"
+            className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-3 py-2 transition-colors"
           >
             {item.label}
           </Link>
@@ -175,38 +175,38 @@ function IndustriesMegaMenu({ onClose }: { onClose: () => void }) {
 
 function ResourcesMegaMenu({ onClose }: { onClose: () => void }) {
   return (
-    <div className="absolute top-full right-0 mt-2 w-[720px] max-w-[calc(100vw-2rem)] bg-[#111512] border border-[#1e2620] rounded-xl shadow-2xl p-6 z-50">
+    <div className="absolute top-full right-0 mt-2 w-[720px] max-w-[calc(100vw-2rem)] bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl shadow-2xl p-6 z-50">
       <div className="grid grid-cols-3 gap-6">
         <div>
-          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">Calculators</p>
+          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">Calculators</p>
           <ul className="space-y-1">
             {NAV.resources.calculators.slice(0, 7).map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                  className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                 >
                   {item.label}
                 </Link>
               </li>
             ))}
             <li>
-              <Link href="/calculators" onClick={onClose} className="text-xs text-[#22c55e] hover:underline mt-1 block">
+              <Link href="/calculators" onClick={onClose} className="text-xs text-[#0f0f0f] hover:underline mt-1 block">
                 All calculators →
               </Link>
             </li>
           </ul>
         </div>
         <div>
-          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">More Calculators</p>
+          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">More Calculators</p>
           <ul className="space-y-1">
             {NAV.resources.calculators.slice(7).map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                  className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -215,21 +215,21 @@ function ResourcesMegaMenu({ onClose }: { onClose: () => void }) {
           </ul>
         </div>
         <div>
-          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">Guides</p>
+          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">Guides</p>
           <ul className="space-y-1">
             {NAV.resources.guides.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                  className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                 >
                   {item.label}
                 </Link>
               </li>
             ))}
             <li>
-              <Link href="/blog" onClick={onClose} className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors">
+              <Link href="/blog" onClick={onClose} className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors">
                 Blog
               </Link>
             </li>
@@ -244,29 +244,29 @@ function ResourcesMegaMenu({ onClose }: { onClose: () => void }) {
 
 function CompanyMegaMenu({ onClose }: { onClose: () => void }) {
   return (
-    <div className="absolute top-full right-0 mt-2 w-[340px] bg-[#111512] border border-[#1e2620] rounded-xl shadow-2xl p-5 z-50">
+    <div className="absolute top-full right-0 mt-2 w-[340px] bg-[#f5f5f5] border border-[#e5e5e5] rounded-xl shadow-2xl p-5 z-50">
       <div className="grid grid-cols-2 gap-4">
         <div>
-          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">Company</p>
+          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">Company</p>
           {NAV.company.items.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={onClose}
-              className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+              className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
             >
               {item.label}
             </Link>
           ))}
         </div>
         <div>
-          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">Legal</p>
+          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">Legal</p>
           {NAV.company.legal.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={onClose}
-              className="block text-sm text-[#9aaa98] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+              className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
             >
               {item.label}
             </Link>
@@ -302,7 +302,7 @@ function NavItem({
     <div className="relative" onMouseEnter={onCancelClose}>
       <button
         className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
-          isOpen ? "text-white bg-[#181d16]" : "text-[#9aaa98] hover:text-white hover:bg-[#181d16]"
+          isOpen ? "text-white bg-[#181d16]" : "text-[#737373] hover:text-white hover:bg-[#181d16]"
         }`}
         onMouseEnter={() => setActiveMenu(menuKey)}
         onClick={() => setActiveMenu(isOpen ? null : menuKey)}
@@ -322,10 +322,10 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-40 bg-[#0a0d0b] flex flex-col overflow-y-auto">
-      <div className="flex items-center justify-between px-5 py-4 border-b border-[#1e2620]">
+    <div className="fixed inset-0 z-40 bg-[#ffffff] flex flex-col overflow-y-auto">
+      <div className="flex items-center justify-between px-5 py-4 border-b border-[#e5e5e5]">
         <ZeoLogo />
-        <button onClick={onClose} className="p-2 text-[#9aaa98]" aria-label="Close menu">
+        <button onClick={onClose} className="p-2 text-[#737373]" aria-label="Close menu">
           <CloseIcon />
         </button>
       </div>
@@ -337,11 +337,11 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
         <MobileSection label="Resources" href="/resources" items={[...NAV.resources.calculators, ...NAV.resources.guides]} onClose={onClose} />
         <MobileSection label="Company" href="/about" items={[...NAV.company.items, ...NAV.company.legal]} onClose={onClose} />
       </nav>
-      <div className="p-5 mt-auto border-t border-[#1e2620]">
+      <div className="p-5 mt-auto border-t border-[#e5e5e5]">
         <Link
           href="/apply"
           onClick={onClose}
-          className="block w-full text-center py-3 rounded-xl bg-[#22c55e] text-black font-semibold hover:bg-[#16a34a] transition-colors"
+          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-black font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -365,22 +365,22 @@ function MobileSection({
   return (
     <div>
       <button
-        className="flex w-full items-center justify-between py-3 text-base font-medium text-[#eef2ec]"
+        className="flex w-full items-center justify-between py-3 text-base font-medium text-[#0f0f0f]"
         onClick={() => setOpen(!open)}
       >
-        <Link href={href} onClick={onClose} className="hover:text-[#22c55e]">
+        <Link href={href} onClick={onClose} className="hover:text-[#0f0f0f]">
           {label}
         </Link>
         <ChevronDown className={`transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
-        <div className="ml-3 mb-2 border-l border-[#1e2620] pl-3 space-y-1">
+        <div className="ml-3 mb-2 border-l border-[#e5e5e5] pl-3 space-y-1">
           {items.slice(0, 10).map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={onClose}
-              className="block py-1.5 text-sm text-[#9aaa98] hover:text-white"
+              className="block py-1.5 text-sm text-[#737373] hover:text-white"
             >
               {item.label}
             </Link>
@@ -440,7 +440,7 @@ export default function Header() {
         ref={headerRef}
         className={`fixed top-0 left-0 right-0 z-30 transition-all duration-200 ${
           scrolled
-            ? "bg-[#0a0d0b]/95 backdrop-blur-sm border-b border-[#1e2620]"
+            ? "bg-[#ffffff]/95 backdrop-blur-sm border-b border-[#e5e5e5]"
             : "bg-transparent"
         }`}
       >
@@ -476,14 +476,14 @@ export default function Header() {
             <div className="ml-auto flex items-center gap-3">
               <Link
                 href="/apply"
-                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors"
+                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>
 
               {/* Mobile toggle */}
               <button
-                className="lg:hidden p-2 text-[#9aaa98] hover:text-white"
+                className="lg:hidden p-2 text-[#737373] hover:text-white"
                 onClick={() => setMobileOpen(true)}
                 aria-label="Open menu"
               >

@@ -164,17 +164,17 @@ export default function BuyABusinessPage() {
       />
 
       {/* 2. The Scenario */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 What business acquisition financing actually covers
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   When a buyer acquires an existing business, the purchase price typically includes the value of tangible assets, intangible assets, goodwill, and — in some cases — real estate. Lenders evaluate the business being acquired, not just the buyer, which means historical cash flow, DSCR, customer concentration, industry, and owner-dependency all factor into the underwriting decision.
                 </p>
@@ -220,16 +220,16 @@ export default function BuyABusinessPage() {
       </section>
 
       {/* 3. Financing Options */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Structures
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Common options for buying a business
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               Multiple financing paths may be relevant depending on deal size, business type, buyer profile, and whether real estate is involved. These are the structures most commonly used for small to mid-market acquisitions.
             </p>
           </div>
@@ -269,16 +269,16 @@ export default function BuyABusinessPage() {
       </section>
 
       {/* 4. How to Evaluate Which Option Fits */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               How to evaluate which structure may fit your deal
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               No two acquisitions are identical. The right structure depends on deal size, business cash flow, how much goodwill is involved, your equity position, and the timeline required. The following questions are a starting framework — not a guarantee of eligibility.
             </p>
           </div>
@@ -318,17 +318,17 @@ export default function BuyABusinessPage() {
             ].map((item) => (
               <div
                 key={item.question}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.question}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.guidance}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.question}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.guidance}</p>
               </div>
             ))}
           </div>
 
           {/* Comparison table */}
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
               Structure Comparison
             </p>
             <ComparisonTable
@@ -336,7 +336,7 @@ export default function BuyABusinessPage() {
               rows={comparisonRows}
               highlightCol="SBA 7(a)"
             />
-            <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+            <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
               Figures above are general ranges based on commonly published program guidelines and are not offers or guarantees. Actual terms are set by individual lenders and subject to underwriting. All financing is provided by third-party providers.
             </p>
           </div>
@@ -344,16 +344,16 @@ export default function BuyABusinessPage() {
       </section>
 
       {/* 5. Common Requirements */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Common Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               What buyers typically need to document
             </h2>
-            <p className="text-sm text-[#9aaa98] max-w-2xl">
+            <p className="text-sm text-[#737373] max-w-2xl">
               Documentation requirements vary by lender and loan type, but the following items are routinely requested for business acquisitions. Incomplete documentation is one of the most common causes of delays. All requirements are subject to lender-specific underwriting criteria.
             </p>
           </div>
@@ -422,15 +422,15 @@ export default function BuyABusinessPage() {
             ].map((group) => (
               <div
                 key={group.category}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                   {group.category}
                 </p>
                 <ul className="space-y-2">
                   {group.items.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-xs text-[#9aaa98] leading-relaxed">
-                      <span className="mt-1 flex-shrink-0 w-1 h-1 rounded-full bg-[#22c55e]/50" />
+                    <li key={item} className="flex items-start gap-2 text-xs text-[#737373] leading-relaxed">
+                      <span className="mt-1 flex-shrink-0 w-1 h-1 rounded-full bg-[#0f0f0f]/50" />
                       {item}
                     </li>
                   ))}
@@ -462,7 +462,7 @@ export default function BuyABusinessPage() {
       />
 
       {/* 8. ProductDisclaimer */}
-      <section className="pb-12 bg-[#111512] border-t border-[#1e2620]">
+      <section className="pb-12 bg-[#f5f5f5] border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-8">
           <ProductDisclaimer type="general" />
         </div>

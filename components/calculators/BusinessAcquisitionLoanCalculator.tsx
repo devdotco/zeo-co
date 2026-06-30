@@ -73,7 +73,7 @@ export default function BusinessAcquisitionLoanCalculator() {
 
   const dscrColor =
     results.dscr >= 1.25
-      ? "text-[#22c55e]"
+      ? "text-[#0f0f0f]"
       : results.dscr >= 1.0
       ? "text-yellow-400"
       : "text-red-400";
@@ -102,7 +102,7 @@ export default function BusinessAcquisitionLoanCalculator() {
         <div className="flex flex-col gap-5">
           {/* Deal Structure */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Deal Structure
             </p>
             <div className="flex flex-col gap-3">
@@ -144,7 +144,7 @@ export default function BusinessAcquisitionLoanCalculator() {
 
           {/* Sources of Capital */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Sources of Capital
             </p>
             <div className="flex flex-col gap-3">
@@ -186,7 +186,7 @@ export default function BusinessAcquisitionLoanCalculator() {
 
           {/* Loan Terms */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Senior Loan Terms
             </p>
             <div className="flex flex-col gap-3">
@@ -220,26 +220,26 @@ export default function BusinessAcquisitionLoanCalculator() {
         <div className="flex flex-col gap-4">
           {/* DSCR — hero metric */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Debt Service Coverage
             </p>
             <div
               className={`rounded-xl border p-4 ${
                 results.dscr >= 1.25
-                  ? "border-[#22c55e]/30 bg-[#0f2a14]"
+                  ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
                   : results.dscr >= 1.0
                   ? "border-yellow-400/20 bg-[#1a1a00]"
                   : "border-red-500/20 bg-[#1a0606]"
               }`}
             >
-              <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 DSCR
               </p>
               <p className={`text-3xl font-semibold tabular-nums ${dscrColor}`}>
                 {isFinite(results.dscr) ? results.dscr.toFixed(2) + "x" : "—"}
               </p>
               <p className={`text-xs mt-1 ${dscrColor}`}>{dscrLabel}</p>
-              <p className="text-[0.625rem] text-[#6b7e69] mt-1.5">
+              <p className="text-[0.625rem] text-[#a3a3a3] mt-1.5">
                 Lenders typically require ≥ 1.25x. EBITDA ÷ total annual debt service.
               </p>
             </div>
@@ -271,46 +271,46 @@ export default function BusinessAcquisitionLoanCalculator() {
           </div>
 
           {/* Sources & Uses Table */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Sources &amp; Uses
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-xs tabular-nums">
                 <thead>
-                  <tr className="border-b border-[#1e2620]">
-                    <th className="text-left pb-2 font-medium text-[#6b7e69]">Sources</th>
-                    <th className="text-right pb-2 font-medium text-[#6b7e69]">Amount</th>
-                    <th className="text-left pb-2 pl-6 font-medium text-[#6b7e69]">Uses</th>
-                    <th className="text-right pb-2 font-medium text-[#6b7e69]">Amount</th>
+                  <tr className="border-b border-[#e5e5e5]">
+                    <th className="text-left pb-2 font-medium text-[#a3a3a3]">Sources</th>
+                    <th className="text-right pb-2 font-medium text-[#a3a3a3]">Amount</th>
+                    <th className="text-left pb-2 pl-6 font-medium text-[#a3a3a3]">Uses</th>
+                    <th className="text-right pb-2 font-medium text-[#a3a3a3]">Amount</th>
                   </tr>
                 </thead>
-                <tbody className="text-[#eef2ec]">
-                  <tr className="border-b border-[#1e2620]/50">
-                    <td className="py-2 text-[#9aaa98]">SBA / Bank Loan</td>
+                <tbody className="text-[#0f0f0f]">
+                  <tr className="border-b border-[#e5e5e5]/50">
+                    <td className="py-2 text-[#737373]">SBA / Bank Loan</td>
                     <td className="py-2 text-right">{fmt(loanAmount)}</td>
-                    <td className="py-2 pl-6 text-[#9aaa98]">Purchase Price</td>
+                    <td className="py-2 pl-6 text-[#737373]">Purchase Price</td>
                     <td className="py-2 text-right">{fmt(purchasePrice)}</td>
                   </tr>
-                  <tr className="border-b border-[#1e2620]/50">
-                    <td className="py-2 text-[#9aaa98]">Seller Note</td>
+                  <tr className="border-b border-[#e5e5e5]/50">
+                    <td className="py-2 text-[#737373]">Seller Note</td>
                     <td className="py-2 text-right">{fmt(sellerNote)}</td>
-                    <td className="py-2 pl-6 text-[#9aaa98]">Working Capital</td>
+                    <td className="py-2 pl-6 text-[#737373]">Working Capital</td>
                     <td className="py-2 text-right">{fmt(workingCapital)}</td>
                   </tr>
-                  <tr className="border-b border-[#1e2620]/50">
-                    <td className="py-2 text-[#9aaa98]">Buyer Equity</td>
+                  <tr className="border-b border-[#e5e5e5]/50">
+                    <td className="py-2 text-[#737373]">Buyer Equity</td>
                     <td className="py-2 text-right">{fmt(downPayment)}</td>
                     <td className="py-2 pl-6" />
                     <td className="py-2 text-right" />
                   </tr>
                   <tr>
-                    <td className="pt-2.5 font-semibold text-[#eef2ec]">Total Sources</td>
-                    <td className="pt-2.5 text-right font-semibold text-[#22c55e]">
+                    <td className="pt-2.5 font-semibold text-[#0f0f0f]">Total Sources</td>
+                    <td className="pt-2.5 text-right font-semibold text-[#0f0f0f]">
                       {fmt(results.totalSources)}
                     </td>
-                    <td className="pt-2.5 pl-6 font-semibold text-[#eef2ec]">Total Uses</td>
-                    <td className="pt-2.5 text-right font-semibold text-[#22c55e]">
+                    <td className="pt-2.5 pl-6 font-semibold text-[#0f0f0f]">Total Uses</td>
+                    <td className="pt-2.5 text-right font-semibold text-[#0f0f0f]">
                       {fmt(results.totalUses)}
                     </td>
                   </tr>
@@ -323,7 +323,7 @@ export default function BusinessAcquisitionLoanCalculator() {
               <div
                 className={`mt-3 rounded-lg px-3 py-2 text-xs flex items-center gap-2 ${
                   Math.abs(results.gap) < 1000
-                    ? "bg-[#0f2a14] text-[#22c55e]"
+                    ? "bg-[#0f2a14] text-[#0f0f0f]"
                     : results.gap > 0
                     ? "bg-[#0d1f18] text-yellow-400"
                     : "bg-[#1a0606] text-red-400"
@@ -344,20 +344,20 @@ export default function BusinessAcquisitionLoanCalculator() {
 
           {/* DSCR visual bar */}
           {isFinite(results.dscr) && results.dscr > 0 && (
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
               <div className="flex justify-between items-center mb-2">
-                <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+                <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
                   Coverage Ratio vs. Required
                 </p>
-                <span className="text-[0.625rem] text-[#6b7e69] tabular-nums">
+                <span className="text-[0.625rem] text-[#a3a3a3] tabular-nums">
                   {isFinite(results.dscr) ? results.dscr.toFixed(2) : "—"}x of {TARGET_DSCR}x min
                 </span>
               </div>
-              <div className="h-1.5 bg-[#1e2620] rounded-full overflow-hidden">
+              <div className="h-1.5 bg-[#e5e5e5] rounded-full overflow-hidden">
                 <div
                   className={`h-full rounded-full transition-all duration-300 ${
                     results.dscr >= 1.25
-                      ? "bg-[#22c55e]"
+                      ? "bg-[#0f0f0f]"
                       : results.dscr >= 1.0
                       ? "bg-yellow-400"
                       : "bg-red-400"
@@ -365,7 +365,7 @@ export default function BusinessAcquisitionLoanCalculator() {
                   style={{ width: `${Math.min((results.dscr / 2) * 100, 100)}%` }}
                 />
               </div>
-              <div className="flex justify-between mt-1.5 text-[0.5rem] text-[#6b7e69]">
+              <div className="flex justify-between mt-1.5 text-[0.5rem] text-[#a3a3a3]">
                 <span>0x</span>
                 <span>1.0x</span>
                 <span>1.25x min</span>

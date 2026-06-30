@@ -201,7 +201,7 @@ const COMPARISON_ROWS = [
 
 export default function ConstructionFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* ── Hero ── */}
       <PageHero
@@ -212,7 +212,7 @@ export default function ConstructionFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -241,24 +241,24 @@ export default function ConstructionFinancingPage() {
       </section>
 
       {/* ── Industry challenges ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Why construction financing is structurally different
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Construction is one of the more complex industries to finance from a lender's
                 perspective. Revenue is lumpy, margins fluctuate with material and labor costs,
                 and receivables can sit unpaid for months due to retainage provisions and
                 payment waterfalls between project owners, general contractors, and
                 subcontractors.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 For the business owner, this creates a persistent tension: you may be winning
                 contracts and growing your backlog while simultaneously running short on cash.
                 Knowing which financing tools are structured for this dynamic — rather than
@@ -287,10 +287,10 @@ export default function ConstructionFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -299,15 +299,15 @@ export default function ConstructionFinancingPage() {
       </section>
 
       {/* ── Financing products ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Relevant financing structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Products commonly used in the construction industry
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Not every product is a fit for every business. The right structure depends on your
             specific situation, credit profile, and what the capital is actually needed for.
             All financing is subject to underwriting by third-party providers.
@@ -361,17 +361,17 @@ export default function ConstructionFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Lender criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders typically evaluate for construction businesses
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These are general benchmarks drawn from common lender practices in the
                 construction sector. Each provider sets its own criteria. Meeting these
                 thresholds does not guarantee approval, and requirements will differ
@@ -412,13 +412,13 @@ export default function ConstructionFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -427,46 +427,46 @@ export default function ConstructionFinancingPage() {
 
             {/* ── Preparing your application ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Preparation
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 How construction businesses can strengthen a financing application
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Construction businesses that present well-organized financial documentation and
                 a clear business narrative tend to move through lender underwriting more
                 smoothly. These are general considerations — not a guarantee of any outcome.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Organize your contract backlog.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Organize your contract backlog.</span>{" "}
                   A documented pipeline of signed contracts and pending awards gives lenders
                   forward-looking revenue visibility that tax returns alone can't provide.
                   Include the contract value, start and expected completion dates, and the
                   identity of the project owner.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Separate your business and personal finances.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Separate your business and personal finances.</span>{" "}
                   Commingled accounts are a common issue for small contractors. Lenders want
                   clean business bank statements — deposits and withdrawals that reflect
                   business activity, not personal expenses run through the company account.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Understand your receivables aging.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Understand your receivables aging.</span>{" "}
                   Know how much you're owed, from whom, and how long those invoices have been
                   outstanding. A large retainage balance can look like poor collections to a
                   lender who doesn't understand construction — be prepared to explain it.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Document equipment and assets.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Document equipment and assets.</span>{" "}
                   For equipment financing, have vendor quotes or appraisals ready. For general
                   financing applications, a clear picture of your existing equipment — what you
                   own, what you lease, and estimated values — helps lenders assess your
                   collateral position.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Maintain current licensing and insurance.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Maintain current licensing and insurance.</span>{" "}
                   Lapsed licenses or coverage gaps can stop a financing process entirely.
                   Verify your contractor's license, general liability, and workers'
                   compensation are current before submitting any application.
@@ -478,15 +478,15 @@ export default function ConstructionFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Side-by-side comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Construction financing structures at a glance
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             General structural differences between common products used by construction
             businesses. Actual terms depend on the lender, your credit profile, and your
             specific situation.
@@ -500,24 +500,24 @@ export default function ConstructionFinancingPage() {
       </section>
 
       {/* ── Industry-specific note on factoring ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Construction-specific consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Factoring in construction: what makes it different
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Invoice factoring works differently in construction than in industries where a
                 simple invoice triggers immediate payment. Construction billing typically
                 involves pay applications, conditional lien waivers, notarized certifications,
                 and payment waterfall provisions that require the factoring company to
                 understand construction law and contract mechanics.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Not all factoring companies work with construction receivables. Those that do
                 typically specialize in the sector and will review the underlying contract,
                 verify the project owner's creditworthiness (not just yours), and assess
@@ -526,14 +526,14 @@ export default function ConstructionFinancingPage() {
                 the client does not pay.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Construction-specific consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Equipment as collateral: a relative advantage
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Construction businesses often hold an asset-based advantage when seeking
                 equipment financing: heavy machinery — excavators, cranes, bulldozers, dump
                 trucks — tends to hold its value better than office equipment or technology
@@ -541,7 +541,7 @@ export default function ConstructionFinancingPage() {
                 resale markets may underwrite more favorably than for abstract working capital
                 requests.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 This doesn't mean approval is easier — credit history, business revenue, and
                 time in business still matter significantly. But for contractors with a strong
                 asset base and a clear equipment need, this can be a productive financing
@@ -553,15 +553,15 @@ export default function ConstructionFinancingPage() {
       </section>
 
       {/* ── Alternatives ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Additional options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Depending on your business profile and what the capital is needed for, one of
             these paths may be a better fit — or a useful complement to a primary financing
             structure.

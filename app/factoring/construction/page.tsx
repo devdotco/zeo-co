@@ -96,7 +96,7 @@ const comparisonRows = [
 
 export default function ConstructionFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -109,7 +109,7 @@ export default function ConstructionFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -137,22 +137,22 @@ export default function ConstructionFactoringPage() {
               note="Public projects and large GCs often run longer cycles"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only and reflect general market conditions. Actual advance rates and fees are subject to underwriting by third-party providers and are not guaranteed. Construction factoring involves project-specific risks — including retainage, backcharges, and lien rights — not present in standard commercial factoring.
           </p>
         </div>
       </section>
 
       {/* What is construction factoring */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Construction Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Construction factoring — sometimes called contractor invoice factoring or progress billing factoring — is a form of accounts receivable financing in which a contractor or subcontractor sells its outstanding approved invoices or draw requests to a specialized factoring company at a discount in exchange for an immediate cash advance. Rather than waiting 30 to 90 days for a general contractor or project owner to process and pay a submitted billing, the contractor receives a large portion of the invoice value upfront.
             </p>
@@ -167,16 +167,16 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Contractor and Subcontractor Types That Commonly Use Construction Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Construction factoring is most relevant to firms that perform work on net payment terms — billing a GC or owner after completing a measurable phase of work — and that experience cash flow gaps during the period between invoice submission and receipt. It is generally less suited to owner-operators who collect at project completion on small, short-cycle projects, or to firms whose contracts prohibit invoice assignment without prior consent.
             </p>
           </div>
@@ -223,15 +223,15 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Construction Invoice Advance and Reserve Cycle
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Construction factoring follows the same structural logic as commercial invoice factoring — advance, reserve, payer collection, reserve release — but with additional steps specific to progress billing documentation, lien compliance, and account debtor verification. Understanding each phase helps clarify what the arrangement costs and when funds move.
           </p>
           <ol className="space-y-6">
@@ -263,14 +263,14 @@ export default function ConstructionFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -279,16 +279,16 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Construction Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Construction factoring involves more documentation and due diligence than standard commercial factoring, given the project-specific nature of construction receivables and the additional legal rights — including lien rights, retainage, and backcharge provisions — that affect collectibility. The criteria below are commonly assessed, though requirements vary by factor and no approval is guaranteed. All decisions are subject to underwriting by third-party providers.
             </p>
           </div>
@@ -321,12 +321,12 @@ export default function ConstructionFactoringPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -334,53 +334,53 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures in Construction Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Construction factoring fees vary based on the account debtor's credit quality, typical payment terms, the size and frequency of invoices, and whether the arrangement is recourse or non-recourse. The figures below are illustrative market ranges only — not offers, commitments, or indicative of any specific transaction. All terms are subject to underwriting by a third-party provider.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">70 – 90%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">70 – 90%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Construction factors advance against the eligible, non-retainage portion of approved invoices. A $200,000 progress billing that includes $20,000 in retainage has an eligible base of $180,000 — an 80% advance against the eligible amount yields $144,000 at funding. The advance rate reflects the account debtor's credit quality, the risk of backcharges or disputes, and the overall project and contract structure. Understanding how your factor defines the eligible base — and how retainage is treated — is essential to accurately modeling your liquidity benefit.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">1.5 – 5% per invoice</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">1.5 – 5% per invoice</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Construction factoring fees typically range from 1.5% to 5% of the invoice face value, with the actual rate driven by the account debtor's payment speed, the volume and frequency of invoices submitted, and whether the arrangement is recourse or non-recourse. Fee structures may be flat per funding cycle or tiered by days outstanding — accruing weekly after an initial period. Invoices with government account debtors that pay promptly under prompt-payment statutes often see lower effective costs than invoices billed to privately funded projects with less predictable payment timelines.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Additional Fees to Evaluate</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Varies</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Additional Fees to Evaluate</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Varies</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Construction factoring agreements may include setup and onboarding fees, per-invoice document processing fees, monthly minimum volume requirements, wire or ACH transfer charges, and early termination penalties. Some factors also charge fees for account debtor verification on new project relationships or for handling lien waiver coordination on your behalf. Review the complete fee schedule — including any volume minimums that could create costs in slower billing months — before executing any agreement.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Estimate your net advance and costs.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Estimate your net advance and costs.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -391,16 +391,16 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Construction Factoring vs. Other Contractor Financing Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single financing structure suits every contractor or project type. This table highlights structural differences between commonly considered options — not cost rankings, endorsements, or guarantees of any specific outcome. Subject to underwriting; terms vary by provider.
             </p>
           </div>
@@ -413,11 +413,11 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Construction Factoring May Offer</h2>
@@ -441,19 +441,19 @@ export default function ConstructionFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -477,13 +477,13 @@ export default function ConstructionFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -494,23 +494,23 @@ export default function ConstructionFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Model net advance amounts, estimated factoring fees, and reserve releases based on your construction invoice balances, advance rate assumptions, and fee structure. All outputs are estimates only.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -535,7 +535,7 @@ export default function ConstructionFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

@@ -17,8 +17,8 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
   return (
     <>
       <JsonLd data={breadcrumbSchema(schemaItems)} />
-      <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-[#6b7e69]">
-        <Link href="/" className="hover:text-[#9aaa98] transition-colors">
+      <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-xs text-[#a3a3a3]">
+        <Link href="/" className="hover:text-[#737373] transition-colors">
           Home
         </Link>
         {items.map((item, i) => (
@@ -27,11 +27,11 @@ export default function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
               <path d="M3 2L7 5L3 8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
             </svg>
             {item.href && i < items.length - 1 ? (
-              <Link href={item.href} className="hover:text-[#9aaa98] transition-colors">
+              <Link href={item.href} className="hover:text-[#737373] transition-colors">
                 {item.label}
               </Link>
             ) : (
-              <span className="text-[#9aaa98]">{item.label}</span>
+              <span className="text-[#737373]">{item.label}</span>
             )}
           </span>
         ))}

@@ -220,7 +220,7 @@ const COMPARISON_ROWS = [
 
 export default function AgricultureFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* ── Hero ── */}
       <PageHero
@@ -231,7 +231,7 @@ export default function AgricultureFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -260,24 +260,24 @@ export default function AgricultureFinancingPage() {
       </section>
 
       {/* ── Industry challenges ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Why agriculture requires financing structures built around production cycles
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Most business financing products are designed around monthly revenue and monthly
                 repayment. Agriculture rarely works that way. A row-crop farmer may spend
                 heavily in March and April on seed, fertilizer, fuel, and custom hire, generate
                 no meaningful revenue until harvest in September or October, and not receive
                 final payment until grain is priced and delivered months later.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Lenders who specialize in agriculture understand this — and structure operating
                 lines, equipment loans, and repayment terms around production calendars rather
                 than forcing agricultural cash flow into conventional monthly templates. Working
@@ -306,10 +306,10 @@ export default function AgricultureFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -318,15 +318,15 @@ export default function AgricultureFinancingPage() {
       </section>
 
       {/* ── Financing products ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Relevant financing structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Products commonly used in agriculture and agribusiness
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             The right financing structure depends on your operation type, production calendar,
             credit profile, and what the capital is needed for. All financing is subject to
             underwriting by third-party providers.
@@ -380,17 +380,17 @@ export default function AgricultureFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Lender criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders typically evaluate for agricultural operations
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These are general benchmarks drawn from common lender practices in agricultural
                 finance. Individual lenders set their own criteria, and requirements vary
                 significantly between equipment financing, operating lines, and real estate
@@ -431,13 +431,13 @@ export default function AgricultureFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -446,22 +446,22 @@ export default function AgricultureFinancingPage() {
 
             {/* ── Preparing your application ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Preparation
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 How agricultural operations can strengthen a financing application
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Agricultural lenders evaluate risk differently than general business lenders.
                 Presenting your operation clearly — including the seasonal dynamics and
                 risk management measures you have in place — helps underwriters make an
                 informed assessment. These are general considerations, not a guarantee
                 of any outcome.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Prepare a current farm balance sheet.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Prepare a current farm balance sheet.</span>{" "}
                   Unlike a standard business P&L, a farm balance sheet captures the full picture
                   of an agricultural operation: land values, equipment, growing crops, stored
                   grain or livestock inventory, and all liabilities including operating debt and
@@ -469,28 +469,28 @@ export default function AgricultureFinancingPage() {
                   debt-to-asset ratio.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Document your acres and lease agreements.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Document your acres and lease agreements.</span>{" "}
                   Know your exact total acres — owned and cash-rented — and have current farm
                   leases in hand. Lenders want to confirm the operational scale of the business
                   and that your lease arrangements are stable. Multi-year leases with documented
                   terms are viewed more favorably than year-to-year verbal arrangements.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Show your risk management position.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Show your risk management position.</span>{" "}
                   Document your current crop insurance coverage levels, any forward-contracted
                   bushels or livestock, and any commodity price risk management you use. This
                   signals to lenders that you actively manage downside risk rather than leaving
                   revenue entirely exposed to market conditions.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Separate business and personal finances.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Separate business and personal finances.</span>{" "}
                   Farm finances are frequently commingled with personal accounts, particularly on
                   smaller operations. Lenders want to see business cash flow that reflects farm
                   income and expenses — not personal purchases running through the farm account.
                   Clean bank statements accelerate underwriting.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Know your existing debt structure.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Know your existing debt structure.</span>{" "}
                   Have a clear list of all current obligations: FSA loans, commercial operating
                   lines, equipment notes, real estate mortgages, and any dealer or co-op
                   financing. Lenders will ask, and a clear picture of your debt service
@@ -503,15 +503,15 @@ export default function AgricultureFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Side-by-side comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Agriculture financing structures at a glance
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             General structural differences between common products used in agricultural
             finance. Actual terms depend on the lender, your credit profile, and your
             specific operation.
@@ -525,17 +525,17 @@ export default function AgricultureFinancingPage() {
       </section>
 
       {/* ── Industry-specific considerations ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Agriculture-specific consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 USDA Farm Service Agency programs
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 The USDA Farm Service Agency administers direct loan programs and guaranteed
                 loan programs specifically for farmers and ranchers that are not available
                 through the commercial lending system. Direct FSA loans are made by the
@@ -543,7 +543,7 @@ export default function AgricultureFinancingPage() {
                 loans with an FSA guarantee that reduces their risk and may improve your
                 access to financing.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 FSA programs include farm ownership loans, operating loans, and targeted
                 programs for beginning farmers, socially disadvantaged producers, and those
                 who cannot obtain credit elsewhere. Eligibility requirements, loan limits, and
@@ -552,21 +552,21 @@ export default function AgricultureFinancingPage() {
                 center directly for program information.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Agriculture-specific consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Factoring for produce and perishable-commodity businesses
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Produce distributors, packing operations, and agricultural commodity suppliers
                 that sell to grocery chains, food service distributors, or processors frequently
                 operate on tight margins with slow-paying accounts. The Perishable Agricultural
                 Commodities Act (PACA) governs trust provisions on produce sales that factoring
                 companies must understand and navigate carefully.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Factoring companies that work with produce and perishable agricultural
                 commodities typically have experience with PACA trust requirements, buyer
                 creditworthiness in the food distribution sector, and the speed required to
@@ -579,15 +579,15 @@ export default function AgricultureFinancingPage() {
       </section>
 
       {/* ── Additional financing paths ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Additional options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may apply to agricultural operations
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Depending on your operation type and capital need, one of these paths may be a
             better fit or a useful complement to a primary financing structure.
           </p>

@@ -88,7 +88,7 @@ function ArrowRightIcon({ className = "" }: { className?: string }) {
 
 function CheckIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#22c55e]">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#0f0f0f]">
       <path d="M3 7l2.5 2.5L11 4.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -96,7 +96,7 @@ function CheckIcon() {
 
 function AlertIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#6b7e69]">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#a3a3a3]">
       <path d="M7 2L1.5 12h11L7 2z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
       <path d="M7 6v2.5M7 10.5v.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" />
     </svg>
@@ -212,7 +212,7 @@ const faqItems = [
 
 export default function StaffingIndustryPage() {
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       <PageHero
         breadcrumbs={[
           { label: "Industries", href: "/industries" },
@@ -224,7 +224,7 @@ export default function StaffingIndustryPage() {
       />
 
       {/* ── Metrics strip ───────────────────────────────────────────────────── */}
-      <section className="border-b border-[#1e2620] py-10">
+      <section className="border-b border-[#e5e5e5] py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -256,20 +256,20 @@ export default function StaffingIndustryPage() {
       </section>
 
       {/* ── Key financing challenges ─────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry Challenges
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 Why staffing agencies need specialized financing
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 The staffing industry operates on a model that creates a fundamental cash flow problem by design. Workers are placed with client companies, hours are tracked, and invoices are issued — but payroll runs on a weekly cycle regardless of where client invoices are in the payment process. The business can be profitable on paper while struggling to make payroll on Thursday because a major client has not yet approved and remitted on invoices from three weeks ago.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 This is not a sign of poor financial management — it is a structural feature of how staffing businesses work. The challenge compounds as an agency grows: winning a large contract or landing an enterprise client means a larger payroll obligation hits before any of the corresponding revenue has been collected. Understanding the specific financing tools built to address this dynamic is essential for agency operators planning for growth.
               </p>
             </div>
@@ -300,10 +300,10 @@ export default function StaffingIndustryPage() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] p-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4"
                 >
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1">{item.title}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.title}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -312,15 +312,15 @@ export default function StaffingIndustryPage() {
       </section>
 
       {/* ── Financing products ──────────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Financing Products
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Structures commonly used by staffing agencies
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Not every financing product fits every staffing agency. The right structure depends on the agency&apos;s size, client mix, credit history, and how quickly funds are needed. These are general options — terms are set by third-party providers subject to underwriting.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -332,10 +332,10 @@ export default function StaffingIndustryPage() {
       </section>
 
       {/* ── Body copy ───────────────────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-3 gap-10">
-            <div className="md:col-span-2 space-y-7 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="md:col-span-2 space-y-7 text-sm text-[#737373] leading-relaxed">
               <div>
                 <h2 className="text-lg font-semibold text-white mb-3">
                   Invoice factoring: the most common staffing financing structure
@@ -390,11 +390,11 @@ export default function StaffingIndustryPage() {
 
             {/* Sidebar: lender requirements */}
             <div className="space-y-4">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   What lenders typically look for
                 </p>
-                <p className="text-xs text-[#6b7e69] mb-4 leading-relaxed">
+                <p className="text-xs text-[#a3a3a3] mb-4 leading-relaxed">
                   Requirements vary by product and provider. These are common signals — not guaranteed criteria.
                 </p>
                 <ul className="space-y-3">
@@ -408,7 +408,7 @@ export default function StaffingIndustryPage() {
                     "No prior UCC liens on A/R that cannot be subordinated",
                     "Payroll records and client contracts for larger facilities",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#737373] leading-relaxed">
                       <CheckIcon />
                       {item}
                     </li>
@@ -416,8 +416,8 @@ export default function StaffingIndustryPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Factors that may complicate approval
                 </p>
                 <ul className="space-y-3">
@@ -428,7 +428,7 @@ export default function StaffingIndustryPage() {
                     "Clients with poor payment history or in financial difficulty",
                     "Tax liens or unresolved legal judgments against the agency",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#6b7e69] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#a3a3a3] leading-relaxed">
                       <AlertIcon />
                       {item}
                     </li>
@@ -436,14 +436,14 @@ export default function StaffingIndustryPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5">
-                <p className="text-xs font-semibold text-[#22c55e] mb-2">Not sure where to start?</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-4">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+                <p className="text-xs font-semibold text-[#0f0f0f] mb-2">Not sure where to start?</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   Submit a brief intake and ZEO will review your agency&apos;s profile against financing options that may be a potential fit, subject to third-party underwriting and approval.
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#22c55e] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
                 >
                   Get started <ArrowRightIcon />
                 </Link>
@@ -454,15 +454,15 @@ export default function StaffingIndustryPage() {
       </section>
 
       {/* ── Comparison table ────────────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Staffing financing options side by side
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             This is a general reference only. Actual terms are set by third-party providers subject to their own underwriting criteria and are not offers or guarantees.
           </p>
           <ComparisonTable
@@ -470,7 +470,7 @@ export default function StaffingIndustryPage() {
             rows={comparisonRows}
             highlightCol="Staffing Factoring"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges and characteristics shown are general market observations. Individual product terms vary by provider and are subject to underwriting.
           </p>
         </div>

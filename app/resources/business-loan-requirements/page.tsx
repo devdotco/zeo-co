@@ -86,7 +86,7 @@ const comparisonRows = [
 
 export default function BusinessLoanRequirementsPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <PageHero
         eyebrow="Guide"
         title="Business Loan Requirements"
@@ -99,7 +99,7 @@ export default function BusinessLoanRequirementsPage() {
       />
 
       {/* Intro metrics */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <MetricCard
@@ -128,64 +128,64 @@ export default function BusinessLoanRequirementsPage() {
               highlight
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Figures are general market benchmarks and not guarantees of eligibility. Actual thresholds vary by lender, product, and underwriting criteria.
           </p>
         </div>
       </section>
 
       {/* Section 1: The Five Pillars */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-[#eef2ec] mb-4">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
             The Five Pillars of Business Loan Underwriting
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-6">
+          <p className="text-[#737373] leading-relaxed mb-6">
             Most commercial lenders — whether traditional banks, credit unions, or online platforms — evaluate applications through a consistent framework. Understanding these pillars helps you assess your readiness before submitting an application and identify areas where additional preparation may improve your position.
           </p>
 
           <div className="space-y-6">
-            <div className="border border-[#1e2620] bg-[#111512] rounded-xl p-5">
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-2">
+            <div className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">
                 1. Creditworthiness
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Lenders review both your personal credit history and your business credit profile. Personal FICO scores signal how you have managed debt obligations historically. Business credit — tracked by agencies such as Dun &amp; Bradstreet, Experian Business, and Equifax Business — reflects your company&apos;s payment history with vendors, creditors, and trade partners. Derogatory marks, collections, judgments, and recent late payments all factor into underwriting risk assessment. Even if your score falls within an acceptable range, the composition of that score — recent delinquencies, high utilization, thin file — shapes the offer you may qualify for.
               </p>
             </div>
 
-            <div className="border border-[#1e2620] bg-[#111512] rounded-xl p-5">
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-2">
+            <div className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">
                 2. Cash Flow and Revenue
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Lenders want to see that your business generates enough revenue to service the debt it is taking on. The debt service coverage ratio (DSCR) measures net operating income relative to annual debt obligations; most lenders look for a ratio of 1.25x or higher, meaning the business earns $1.25 for every $1.00 of debt payment. Seasonal businesses and those with lumpy revenue cycles may need to demonstrate annualized averages or provide additional context about cash flow timing. Bank statement analysis — typically 3 to 6 months — is standard across most lending products to verify actual deposit patterns against tax-reported figures.
               </p>
             </div>
 
-            <div className="border border-[#1e2620] bg-[#111512] rounded-xl p-5">
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-2">
+            <div className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">
                 3. Time in Business
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Operating history is a proxy for business viability. A longer track record reduces the lender&apos;s risk exposure and provides more data for underwriting. The two-year threshold common to SBA loan programs and most bank products reflects the statistical reality that new businesses carry higher default risk. Some online lenders and revenue-based financing providers will consider businesses with six months to one year of history, but these products typically carry different cost structures to reflect the elevated risk. Time is measured from the date of business formation or first revenue activity, not from when you hired your first employee or reached profitability.
               </p>
             </div>
 
-            <div className="border border-[#1e2620] bg-[#111512] rounded-xl p-5">
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-2">
+            <div className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">
                 4. Collateral and Assets
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Collateral provides the lender a secondary repayment source if the borrower defaults. Common forms include real estate, equipment, inventory, accounts receivable, and business vehicles. Not all financing products require collateral in the traditional sense, but most include some form of lien — a UCC-1 blanket lien on business assets is standard across many working capital products, even those marketed as &quot;unsecured.&quot; Personal guarantees, which make the business owner personally liable for the debt, are also common and should be understood before signing. For SBA loans, lenders are required to take available collateral but may not decline a loan solely due to insufficient collateral.
               </p>
             </div>
 
-            <div className="border border-[#1e2620] bg-[#111512] rounded-xl p-5">
-              <h3 className="text-base font-semibold text-[#eef2ec] mb-2">
+            <div className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5">
+              <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">
                 5. Business Purpose and Use of Funds
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Lenders evaluate whether the stated use of funds makes sense for the business and whether the loan type aligns with the need. Working capital to bridge a seasonal gap, equipment purchases, commercial real estate acquisition, and inventory financing all carry different risk profiles and lend themselves to different products. A mismatch between use of funds and loan structure can result in underwriting concerns. Being specific and consistent about how proceeds will be deployed across your application and supporting documents reduces the likelihood of follow-up requests and delays.
               </p>
             </div>
@@ -194,12 +194,12 @@ export default function BusinessLoanRequirementsPage() {
       </section>
 
       {/* Section 2: Documentation */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-[#eef2ec] mb-4">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
             Documentation You Will Likely Need
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-8">
+          <p className="text-[#737373] leading-relaxed mb-8">
             Documentation requirements differ across lenders and products. Traditional bank loans and SBA programs require the most extensive packages. Online lenders and fintech platforms often use automated bank statement analysis and may require fewer documents upfront, though they may request more during underwriting. The list below reflects what a complete commercial lending package typically includes — having these ready before you apply reduces friction and may shorten time to decision.
           </p>
 
@@ -245,15 +245,15 @@ export default function BusinessLoanRequirementsPage() {
             ].map((group) => (
               <div
                 key={group.category}
-                className="border border-[#1e2620] bg-[#111512] rounded-xl p-5"
+                className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5"
               >
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                   {group.category}
                 </p>
                 <ul className="space-y-1.5">
                   {group.items.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm text-[#9aaa98]">
-                      <span className="mt-1.5 w-1 h-1 rounded-full bg-[#22c55e] flex-shrink-0" />
+                    <li key={item} className="flex items-start gap-2 text-sm text-[#737373]">
+                      <span className="mt-1.5 w-1 h-1 rounded-full bg-[#0f0f0f] flex-shrink-0" />
                       {item}
                     </li>
                   ))}
@@ -265,12 +265,12 @@ export default function BusinessLoanRequirementsPage() {
       </section>
 
       {/* Section 3: Comparison table */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-5xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-[#eef2ec] mb-3">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-3">
             How Requirements Vary by Financing Type
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-8 max-w-2xl">
+          <p className="text-[#737373] leading-relaxed mb-8 max-w-2xl">
             There is no single set of requirements across all business financing. The thresholds below reflect general market patterns and are subject to change based on lender appetite, economic conditions, and individual underwriting decisions.
           </p>
           <ComparisonTable
@@ -278,19 +278,19 @@ export default function BusinessLoanRequirementsPage() {
             rows={comparisonRows}
             highlightCol="Bank / SBA"
           />
-          <p className="text-xs text-[#6b7e69] mt-3">
+          <p className="text-xs text-[#a3a3a3] mt-3">
             Ranges are representative and not guarantees. Actual requirements are set by individual lenders and are subject to underwriting. Third-party provider terms apply.
           </p>
         </div>
       </section>
 
       {/* Section 4: Strengthening your application */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-[#eef2ec] mb-4">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
             Strengthening Your Application Before You Apply
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-6">
+          <p className="text-[#737373] leading-relaxed mb-6">
             The period before you apply is often more valuable than the application itself. Businesses that review and address gaps in their financial profile before submitting tend to see faster decisions and a wider range of potential offers. The following steps are worth considering in the months leading up to a financing request.
           </p>
 
@@ -318,12 +318,12 @@ export default function BusinessLoanRequirementsPage() {
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-4">
-                <div className="flex-shrink-0 mt-0.5 w-6 h-6 rounded-full border border-[#22c55e]/40 bg-[#0f2a14] flex items-center justify-center">
-                  <span className="text-[0.6rem] font-semibold text-[#22c55e] tabular-nums">{i + 1}</span>
+                <div className="flex-shrink-0 mt-0.5 w-6 h-6 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center">
+                  <span className="text-[0.6rem] font-semibold text-[#0f0f0f] tabular-nums">{i + 1}</span>
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1">{item.title}</h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.title}</h3>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </div>
             ))}
@@ -332,12 +332,12 @@ export default function BusinessLoanRequirementsPage() {
       </section>
 
       {/* Section 5: Common reasons for decline */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-2xl font-semibold text-[#eef2ec] mb-4">
+          <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4">
             Common Reasons Applications Are Not Approved
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-8">
+          <p className="text-[#737373] leading-relaxed mb-8">
             Understanding why applications are declined helps you address gaps before they affect your outcome. The most frequent reasons lenders cite include the following. Note that a decline from one lender does not mean you will not qualify through a different product or lender — underwriting criteria vary considerably across the market.
           </p>
 
@@ -354,16 +354,16 @@ export default function BusinessLoanRequirementsPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="border border-[#1e2620] bg-[#111512] rounded-lg px-4 py-3"
+                className="border border-[#e5e5e5] bg-[#f5f5f5] rounded-lg px-4 py-3"
               >
-                <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.label}</p>
-                <p className="text-xs text-[#6b7e69]">{item.note}</p>
+                <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3]">{item.note}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 border border-[#1e2620] bg-[#111512] rounded-xl p-5">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+          <div className="mt-8 border border-[#e5e5e5] bg-[#f5f5f5] rounded-xl p-5">
+            <p className="text-sm text-[#737373] leading-relaxed">
               If you have received a decline, lenders subject to the Equal Credit Opportunity Act (ECOA) are required to provide an adverse action notice that identifies the principal reasons. Reviewing this notice carefully — and addressing the specific factors cited — is the most targeted way to improve your position before reapplying. Each lender has different criteria, so a decline from one institution may not predict the outcome at another.
             </p>
           </div>
@@ -371,9 +371,9 @@ export default function BusinessLoanRequirementsPage() {
       </section>
 
       {/* Related resources */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <h2 className="text-xl font-semibold text-[#eef2ec] mb-6">Related Guides</h2>
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-6">Related Guides</h2>
           <div className="grid sm:grid-cols-3 gap-3">
             {[
               { label: "SBA Loan Guide", href: "/resources/sba-loan-guide", desc: "7(a), 504, and SBA Express programs" },
@@ -383,12 +383,12 @@ export default function BusinessLoanRequirementsPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group border border-[#1e2620] bg-[#111512] hover:border-[#22c55e]/30 rounded-xl p-4 transition-colors"
+                className="group border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/30 rounded-xl p-4 transition-colors"
               >
-                <p className="text-sm font-medium text-[#eef2ec] group-hover:text-[#22c55e] transition-colors mb-1">
+                <p className="text-sm font-medium text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors mb-1">
                   {item.label}
                 </p>
-                <p className="text-xs text-[#6b7e69]">{item.desc}</p>
+                <p className="text-xs text-[#a3a3a3]">{item.desc}</p>
               </Link>
             ))}
           </div>

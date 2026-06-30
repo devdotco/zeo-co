@@ -68,9 +68,9 @@ export default async function BlogPostPage({
     : "";
 
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       {/* ── Article header ─────────────────────────────────────────── */}
-      <div className="border-b border-[#1e2620]">
+      <div className="border-b border-[#e5e5e5]">
         <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
           <Breadcrumbs
             items={[
@@ -82,26 +82,26 @@ export default async function BlogPostPage({
           {/* Category pill */}
           {post.category && (
             <div className="mt-6">
-              <span className="inline-flex items-center rounded-full border border-[#22c55e]/20 bg-[#22c55e]/8 px-2.5 py-0.5 text-xs font-medium text-[#22c55e] tracking-wide uppercase">
+              <span className="inline-flex items-center rounded-full border border-[#0f0f0f]/20 bg-[#0f0f0f]/8 px-2.5 py-0.5 text-xs font-medium text-[#0f0f0f] tracking-wide uppercase">
                 {post.category}
               </span>
             </div>
           )}
 
           {/* Title */}
-          <h1 className="mt-4 text-2xl font-semibold leading-tight text-[#eef2ec] sm:text-3xl lg:text-4xl" style={{ textWrap: "balance" }}>
+          <h1 className="mt-4 text-2xl font-semibold leading-tight text-[#0f0f0f] sm:text-3xl lg:text-4xl" style={{ textWrap: "balance" }}>
             {post.title}
           </h1>
 
           {/* Intro */}
           {post.intro && (
-            <p className="mt-4 text-base leading-relaxed text-[#9aaa98] sm:text-lg">
+            <p className="mt-4 text-base leading-relaxed text-[#737373] sm:text-lg">
               {post.intro}
             </p>
           )}
 
           {/* Meta row */}
-          <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-[#6b7e69]">
+          <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-[#a3a3a3]">
             {post.date && (
               <time dateTime={post.date}>
                 {formatDate(post.date)}
@@ -109,13 +109,13 @@ export default async function BlogPostPage({
             )}
             {post.author && (
               <>
-                <span aria-hidden className="text-[#1e2620]">·</span>
+                <span aria-hidden className="text-[#e5e5e5]">·</span>
                 <span>{post.author}</span>
               </>
             )}
             {post.readTime && (
               <>
-                <span aria-hidden className="text-[#1e2620]">·</span>
+                <span aria-hidden className="text-[#e5e5e5]">·</span>
                 <span>{post.readTime} min read</span>
               </>
             )}
@@ -131,11 +131,11 @@ export default async function BlogPostPage({
             dangerouslySetInnerHTML={{ __html: bodyHtml }}
           />
         ) : (
-          <p className="text-[#6b7e69]">No content available.</p>
+          <p className="text-[#a3a3a3]">No content available.</p>
         )}
 
         {/* ── Disclaimer ───────────────────────────────────────────── */}
-        <div className="mt-12 border-t border-[#1e2620] pt-8">
+        <div className="mt-12 border-t border-[#e5e5e5] pt-8">
           <ProductDisclaimer type="general" />
         </div>
       </div>
@@ -143,7 +143,7 @@ export default async function BlogPostPage({
       {/* Prose styles scoped to this page */}
       <style>{`
         .prose-zeo {
-          color: #c8d4c6;
+          color: #373737;
           font-size: 1rem;
           line-height: 1.75;
           max-width: 65ch;
@@ -155,7 +155,7 @@ export default async function BlogPostPage({
           margin-bottom: 0;
         }
         .prose-zeo h2 {
-          color: #eef2ec;
+          color: #0f0f0f;
           font-size: 1.25rem;
           font-weight: 600;
           line-height: 1.35;
@@ -174,45 +174,45 @@ export default async function BlogPostPage({
           margin-bottom: 0.35em;
         }
         .prose-zeo blockquote {
-          border-left: 2px solid #22c55e;
+          border-left: 2px solid #0f0f0f;
           margin: 1.5em 0;
           padding: 0.5em 0 0.5em 1.25em;
-          color: #9aaa98;
+          color: #737373;
           font-style: italic;
         }
         .prose-zeo strong {
-          color: #eef2ec;
+          color: #0f0f0f;
           font-weight: 600;
         }
         .prose-zeo em {
-          color: #9aaa98;
+          color: #737373;
         }
         .prose-zeo code {
           font-family: var(--font-mono, "IBM Plex Mono", monospace);
           font-size: 0.875em;
-          color: #22c55e;
-          background: #111512;
-          border: 1px solid #1e2620;
+          color: #0f0f0f;
+          background: #f5f5f5;
+          border: 1px solid #e5e5e5;
           border-radius: 3px;
           padding: 0.1em 0.35em;
         }
         .prose-zeo hr {
           border: none;
-          border-top: 1px solid #1e2620;
+          border-top: 1px solid #e5e5e5;
           margin: 2em 0;
         }
         .prose-zeo a {
-          color: #22c55e;
+          color: #0f0f0f;
           text-decoration: underline;
-          text-decoration-color: rgba(34, 197, 94, 0.3);
+          text-decoration-color: rgba(0, 0, 0, 0.25);
           text-underline-offset: 2px;
           transition: text-decoration-color 0.15s;
         }
         .prose-zeo a:hover {
-          text-decoration-color: #22c55e;
+          text-decoration-color: #0f0f0f;
         }
         .prose-zeo a:focus-visible {
-          outline: 2px solid #22c55e;
+          outline: 2px solid #0f0f0f;
           outline-offset: 2px;
           border-radius: 2px;
         }

@@ -108,7 +108,7 @@ function ArrowRightIcon({ className = "" }: { className?: string }) {
 
 function CheckIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#22c55e]">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#0f0f0f]">
       <path d="M3 7l2.5 2.5L11 4.5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -116,7 +116,7 @@ function CheckIcon() {
 
 function AlertIcon() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#6b7e69]">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-[#a3a3a3]">
       <path d="M7 2L1.5 12h11L7 2z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
       <path d="M7 6v3M7 10.5v.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
     </svg>
@@ -312,7 +312,7 @@ const challenges = [
 
 export default function ManufacturingPage() {
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       <PageHero
         breadcrumbs={[
           { label: "Industries", href: "/industries" },
@@ -324,7 +324,7 @@ export default function ManufacturingPage() {
       />
 
       {/* ── Key metrics ──────────────────────────────────────────────────────── */}
-      <section className="border-b border-[#1e2620] py-10">
+      <section className="border-b border-[#e5e5e5] py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -355,25 +355,25 @@ export default function ManufacturingPage() {
       </section>
 
       {/* ── Financing challenges ──────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Industry Context
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
             Key financing challenges in manufacturing
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Understanding the structural cash flow dynamics of manufacturing helps clarify which financing structures are most relevant — and why the same approach that works for a service business may not fit a manufacturer.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {challenges.map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <h3 className="font-semibold text-[#eef2ec] text-sm mb-2">{item.title}</h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <h3 className="font-semibold text-[#0f0f0f] text-sm mb-2">{item.title}</h3>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -381,10 +381,10 @@ export default function ManufacturingPage() {
       </section>
 
       {/* ── Body copy ─────────────────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-3 gap-10">
-            <div className="md:col-span-2 space-y-8 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="md:col-span-2 space-y-8 text-sm text-[#737373] leading-relaxed">
               <div>
                 <h2 className="text-lg font-semibold text-white mb-3">
                   Why manufacturing financing is structurally different
@@ -436,8 +436,8 @@ export default function ManufacturingPage() {
 
             {/* Sidebar */}
             <div className="space-y-4">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Signals lenders look for
                 </p>
                 <ul className="space-y-3">
@@ -450,7 +450,7 @@ export default function ManufacturingPage() {
                     "2+ years operating history with tax returns",
                     "Owners able to provide personal guarantee",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#737373] leading-relaxed">
                       <CheckIcon />
                       {item}
                     </li>
@@ -458,8 +458,8 @@ export default function ManufacturingPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Common underwriting concerns
                 </p>
                 <ul className="space-y-3">
@@ -471,7 +471,7 @@ export default function ManufacturingPage() {
                     "Existing blanket lien that cannot be subordinated",
                     "Negative DSCR or declining revenue trend",
                   ].map((item, i) => (
-                    <li key={i} className="flex gap-2.5 text-xs text-[#6b7e69] leading-relaxed">
+                    <li key={i} className="flex gap-2.5 text-xs text-[#a3a3a3] leading-relaxed">
                       <AlertIcon />
                       {item}
                     </li>
@@ -479,16 +479,16 @@ export default function ManufacturingPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5">
-                <p className="text-xs font-semibold text-[#22c55e] mb-2">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+                <p className="text-xs font-semibold text-[#0f0f0f] mb-2">
                   Not sure which structure fits?
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-4">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   Submit a brief intake describing your financing need, revenue, and asset base. ZEO will review potential paths subject to third-party underwriting.
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#22c55e] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
                 >
                   Get started <ArrowRightIcon />
                 </Link>
@@ -499,15 +499,15 @@ export default function ManufacturingPage() {
       </section>
 
       {/* ── Financing path cards ──────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Financing Structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Products manufacturers commonly consider
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             No single financing structure fits every manufacturing operation. The right path depends on what the capital is for, the business&apos;s asset base, and its credit and revenue profile — all subject to third-party underwriting.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -519,27 +519,27 @@ export default function ManufacturingPage() {
       </section>
 
       {/* ── Lender requirements ───────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             What Lenders Evaluate
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Typical requirements for manufacturing financing
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Requirements vary by lender, program, and loan type. The items below reflect common criteria across conventional bank, SBA, and alternative lender underwriting for manufacturing businesses — not a guarantee of eligibility.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {lenderRequirements.map((req) => (
               <div
                 key={req.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-4"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4"
               >
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
                   {req.label}
                 </p>
-                <p className="text-xs text-[#9aaa98] leading-relaxed">{req.detail}</p>
+                <p className="text-xs text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -547,15 +547,15 @@ export default function ManufacturingPage() {
       </section>
 
       {/* ── Comparison table ──────────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Manufacturing financing structures side by side
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             This is a general reference — actual terms from third-party providers will vary. Subject to underwriting and approval.
           </p>
           <ComparisonTable
@@ -563,7 +563,7 @@ export default function ManufacturingPage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are general market observations and are not offers, commitments, or guaranteed terms. ZEO.co is not a lender.
           </p>
         </div>

@@ -60,7 +60,7 @@ export default function SBA7aLoanCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Inputs */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Deal Structure</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Deal Structure</p>
 
           <CalcInput
             label="Purchase / Project Price"
@@ -122,7 +122,7 @@ export default function SBA7aLoanCalculator() {
             note="Lender fees, appraisals, title, packaging fees"
           />
 
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mt-2">DSCR Check</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mt-2">DSCR Check</p>
 
           <CalcInput
             label="Annual Net Operating Income (NOI)"
@@ -139,7 +139,7 @@ export default function SBA7aLoanCalculator() {
 
         {/* Results */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Payment Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Payment Summary</p>
 
           <CalcResult
             label="Monthly Payment"
@@ -163,27 +163,27 @@ export default function SBA7aLoanCalculator() {
           {/* DSCR Result */}
           <div
             className={`rounded-xl border p-4 ${
-              dscrOk ? "border-[#22c55e]/30 bg-[#0f1a10]" : "border-amber-700/40 bg-amber-950/20"
+              dscrOk ? "border-[#0f0f0f]/30 bg-[#0f1a10]" : "border-amber-700/40 bg-amber-950/20"
             }`}
           >
             <div className="flex justify-between items-start">
               <div>
-                <p className="text-xs text-[#9aaa98]">Debt Service Coverage Ratio</p>
-                <p className={`text-2xl font-bold tabular-nums mt-0.5 ${dscrOk ? "text-[#22c55e]" : "text-amber-400"}`}>
+                <p className="text-xs text-[#737373]">Debt Service Coverage Ratio</p>
+                <p className={`text-2xl font-bold tabular-nums mt-0.5 ${dscrOk ? "text-[#0f0f0f]" : "text-amber-400"}`}>
                   {isFinite(dscr) && dscr > 0 ? dscr.toFixed(2) : "—"}x
                 </p>
               </div>
               <span
                 className={`text-[0.6rem] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full ${
                   dscrOk
-                    ? "bg-[#22c55e]/10 text-[#22c55e]"
+                    ? "bg-[#0f0f0f]/10 text-[#0f0f0f]"
                     : "bg-amber-400/10 text-amber-400"
                 }`}
               >
                 {dscrOk ? "Passes 1.25x" : "Below 1.25x"}
               </span>
             </div>
-            <p className="text-[0.625rem] text-[#6b7e69] mt-2">
+            <p className="text-[0.625rem] text-[#a3a3a3] mt-2">
               {dscrOk
                 ? "DSCR meets typical SBA minimum threshold. Lenders set their own standards."
                 : "DSCR is below the common 1.25x SBA threshold. Actual lender requirements vary."}
@@ -192,33 +192,33 @@ export default function SBA7aLoanCalculator() {
 
           {/* Sources & Uses */}
           <div className="mt-1">
-            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Sources &amp; Uses
             </p>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] divide-y divide-[#1e2620] overflow-hidden">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] divide-y divide-[#e5e5e5] overflow-hidden">
               <div className="flex justify-between items-center px-4 py-2.5">
-                <span className="text-xs text-[#9aaa98]">SBA Loan Proceeds</span>
-                <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(loanAmount)}</span>
+                <span className="text-xs text-[#737373]">SBA Loan Proceeds</span>
+                <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(loanAmount)}</span>
               </div>
               <div className="flex justify-between items-center px-4 py-2.5">
-                <span className="text-xs text-[#9aaa98]">Equity Injection</span>
-                <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(equityInjection)}</span>
+                <span className="text-xs text-[#737373]">Equity Injection</span>
+                <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(equityInjection)}</span>
               </div>
               <div className="flex justify-between items-center px-4 py-2.5 bg-[#0f1a10]">
-                <span className="text-xs font-semibold text-[#eef2ec]">Total Project Cost</span>
-                <span className="text-sm font-semibold tabular-nums text-[#22c55e]">{fmt(purchasePrice)}</span>
+                <span className="text-xs font-semibold text-[#0f0f0f]">Total Project Cost</span>
+                <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">{fmt(purchasePrice)}</span>
               </div>
               <div className="flex justify-between items-center px-4 py-2.5 mt-1">
-                <span className="text-xs text-[#9aaa98]">SBA Guarantee Fee</span>
-                <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(guaranteeFee)}</span>
+                <span className="text-xs text-[#737373]">SBA Guarantee Fee</span>
+                <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(guaranteeFee)}</span>
               </div>
               <div className="flex justify-between items-center px-4 py-2.5">
-                <span className="text-xs text-[#9aaa98]">Closing Costs</span>
-                <span className="text-xs tabular-nums text-[#eef2ec]">{fmt(closingCosts)}</span>
+                <span className="text-xs text-[#737373]">Closing Costs</span>
+                <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(closingCosts)}</span>
               </div>
               <div className="flex justify-between items-center px-4 py-2.5 bg-[#0f1a10]">
-                <span className="text-xs font-semibold text-[#eef2ec]">Total Cash Required</span>
-                <span className="text-sm font-semibold tabular-nums text-[#22c55e]">{fmt(totalCashRequired)}</span>
+                <span className="text-xs font-semibold text-[#0f0f0f]">Total Cash Required</span>
+                <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">{fmt(totalCashRequired)}</span>
               </div>
             </div>
           </div>
@@ -227,21 +227,21 @@ export default function SBA7aLoanCalculator() {
 
       {/* Cost Breakdown Bar */}
       {isFinite(totalRepayment) && totalRepayment > 0 && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Total Repayment Breakdown
           </p>
           <div className="flex rounded-full overflow-hidden h-2 mb-3">
-            <div className="bg-[#22c55e] transition-all duration-300" style={{ width: `${principalPct}%` }} />
-            <div className="bg-[#6b7e69] transition-all duration-300" style={{ width: `${interestPct}%` }} />
+            <div className="bg-[#0f0f0f] transition-all duration-300" style={{ width: `${principalPct}%` }} />
+            <div className="bg-[#a3a3a3] transition-all duration-300" style={{ width: `${interestPct}%` }} />
           </div>
-          <div className="flex gap-4 text-xs text-[#9aaa98]">
+          <div className="flex gap-4 text-xs text-[#737373]">
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#22c55e]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#0f0f0f]" />
               Principal {principalPct.toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#6b7e69]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#a3a3a3]" />
               Interest {interestPct.toFixed(1)}%
             </span>
           </div>

@@ -96,7 +96,7 @@ const comparisonRows = [
 
 export default function HealthcareFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -109,7 +109,7 @@ export default function HealthcareFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -137,22 +137,22 @@ export default function HealthcareFactoringPage() {
               note="Government payers often remit on longer cycles"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only and reflect general market conditions. Actual advance rates and fees are subject to underwriting by third-party providers and are not guaranteed. Healthcare factoring involves regulatory complexity not present in standard commercial factoring.
           </p>
         </div>
       </section>
 
       {/* What is healthcare factoring */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Healthcare Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Healthcare factoring — sometimes called medical receivables factoring or medical A/R financing — is a form of accounts receivable financing in which a healthcare provider sells its outstanding insurance claims, patient invoices, or third-party payer receivables to a specialized factoring company at a discount in exchange for an immediate cash advance. Rather than waiting for a payer to process and remit on a submitted claim, the provider receives a large portion of the expected collectible amount upfront.
             </p>
@@ -167,16 +167,16 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Provider Types That Commonly Use Healthcare Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Healthcare factoring is most relevant to providers that bill commercial insurance payers, managed care organizations, or self-pay patients on a net-terms basis and experience cash flow gaps during the period between claim submission and remittance. The arrangement is generally not suited to providers that collect at point of service or that operate primarily on a cash or concierge basis.
             </p>
           </div>
@@ -223,15 +223,15 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Healthcare A/R Advance and Reserve Cycle
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Healthcare factoring follows a similar structure to commercial invoice factoring, but with additional steps to account for payer verification, expected collection rates, and remittance redirection. Understanding each phase helps clarify what the arrangement costs and when funds move.
           </p>
           <ol className="space-y-6">
@@ -263,14 +263,14 @@ export default function HealthcareFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -279,16 +279,16 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Healthcare Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Healthcare factoring involves additional due diligence beyond standard commercial factoring, including billing practices, payer mix review, and compliance verification. The criteria below are commonly assessed, though requirements vary by factor and no approval is guaranteed. All decisions are subject to underwriting by third-party providers.
             </p>
           </div>
@@ -321,12 +321,12 @@ export default function HealthcareFactoringPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -334,53 +334,53 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures in Healthcare Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Healthcare factoring fees are generally higher than those for standard commercial factoring, reflecting the additional operational complexity, longer payer remittance cycles, and higher variance in collection outcomes. The figures below are illustrative market ranges only — not offers, commitments, or indicative of any specific transaction. All terms are subject to underwriting by a third-party provider.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">65 – 85%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">65 – 85%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Healthcare factors advance against estimated net collectible value rather than gross billed charges. A practice billing $100,000 in gross charges with a 70% collection rate has an estimated net collectible of $70,000 — an 80% advance against net collectibles would yield approximately $56,000 at funding. Understanding the factor's methodology for estimating net collectibles is important when modeling your actual liquidity benefit.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">2 – 6% per claim batch</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">2 – 6% per claim batch</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Healthcare factoring fees vary more widely than standard commercial factoring, reflecting payer type, average days-to-pay, denial rates, and the volume of claims submitted. Fee structures may be flat per funding cycle, tiered by days outstanding, or blended based on payer mix. Slow payers — commercial plans with high prior authorization burdens or managed Medicaid programs — will tend to produce higher effective costs, particularly if the fee accrues daily or weekly after a threshold period.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Additional Fees to Evaluate</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Varies</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Additional Fees to Evaluate</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Varies</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Healthcare factoring agreements may include setup and onboarding fees, per-claim processing fees, monthly minimum volume requirements, payer notification fees, wire or ACH transfer charges, and early termination penalties. Some factors also charge fees for accessing practice management data or for handling unusually high denial volumes. Review the complete fee schedule before executing any agreement.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Estimate your net advance and costs.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Estimate your net advance and costs.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -391,16 +391,16 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Healthcare Factoring vs. Other Practice Financing Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single financing structure suits every practice. This table highlights structural differences between commonly considered options — not cost rankings, endorsements, or guarantees of any specific outcome. Subject to underwriting; terms vary by provider.
             </p>
           </div>
@@ -413,11 +413,11 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Healthcare Factoring May Offer</h2>
@@ -441,19 +441,19 @@ export default function HealthcareFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -477,13 +477,13 @@ export default function HealthcareFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -494,23 +494,23 @@ export default function HealthcareFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Model net advance amounts, estimated factoring fees, and reserve releases based on your receivable balance, collection rate, and fee assumptions. All outputs are estimates only.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -535,7 +535,7 @@ export default function HealthcareFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

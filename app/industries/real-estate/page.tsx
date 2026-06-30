@@ -191,7 +191,7 @@ const COMPARISON_ROWS = [
 
 export default function RealEstateFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* ── Hero ── */}
       <PageHero
@@ -202,7 +202,7 @@ export default function RealEstateFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -232,17 +232,17 @@ export default function RealEstateFinancingPage() {
       </section>
 
       {/* ── Industry challenges ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Why real estate operator financing is structurally complex
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Real estate operators — investors, landlords, developers, and portfolio managers —
                 operate across a capital stack that conventional business lenders aren't always
                 built to serve. A single-property owner looking for a 30-year mortgage is a
@@ -250,7 +250,7 @@ export default function RealEstateFinancingPage() {
                 it to mixed-use, and financing the next acquisition against stabilized equity is
                 a different conversation entirely.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 The financing challenges aren't just about size — they're structural. Income comes
                 from rents, not payroll. Tax returns often show significant depreciation that
                 suppresses reported income. Properties carry debt that needs to be understood as
@@ -280,10 +280,10 @@ export default function RealEstateFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -292,15 +292,15 @@ export default function RealEstateFinancingPage() {
       </section>
 
       {/* ── Financing products ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Relevant financing structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Products commonly used by real estate operators
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Each structure below addresses a different stage of the real estate capital cycle.
             The right product depends on the property type, current occupancy, operator experience,
             and what the capital is needed for. All financing is subject to underwriting by
@@ -355,17 +355,17 @@ export default function RealEstateFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Lender criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders typically evaluate for real estate operators
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These are general benchmarks drawn from common lender practices in the commercial
                 real estate sector. Each provider sets its own criteria. Meeting these thresholds
                 does not guarantee approval, and requirements differ significantly by product
@@ -406,13 +406,13 @@ export default function RealEstateFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -421,48 +421,48 @@ export default function RealEstateFinancingPage() {
 
             {/* ── Strengthening a financing application ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Preparation
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 How real estate operators can strengthen a financing application
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Operators who present organized property financials, a clear capital stack, and
                 a credible exit or hold strategy tend to move through lender underwriting more
                 smoothly. These are general considerations — not a guarantee of any outcome.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Prepare a Schedule of Real Estate Owned (SREO).</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Prepare a Schedule of Real Estate Owned (SREO).</span>{" "}
                   Lenders evaluating portfolio borrowers expect a clean summary of all properties
                   held — address, property type, current value, outstanding debt, monthly payment,
                   gross rent, and net cash flow. An up-to-date SREO signals operational maturity
                   and makes the lender's due diligence faster.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Document operating income at the property level.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Document operating income at the property level.</span>{" "}
                   Lenders want trailing 12-month income and expense statements for each
                   subject property. Keep utility costs, insurance, taxes, maintenance, and
                   management fees clearly itemized. Blended or estimated figures require
                   more back-and-forth and can slow underwriting.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Have an exit strategy for bridge financing.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Have an exit strategy for bridge financing.</span>{" "}
                   Bridge lenders underwrite the exit, not just the entry. Know your plan — sale,
                   refinance into permanent debt, or lease-up to a stabilization threshold — and
                   be prepared to explain what triggers the repayment and how realistic the
                   timeline is given current market conditions.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Separate entity structure matters.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Separate entity structure matters.</span>{" "}
                   Operating through distinct LLCs or other entities for different properties
                   simplifies lender due diligence and limits cross-collateralization exposure.
                   Commingled entity structures — multiple properties under one entity with
                   shared liabilities — can complicate underwriting significantly.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Know your depreciation-adjusted cash flow.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Know your depreciation-adjusted cash flow.</span>{" "}
                   Real estate investors often show low taxable income due to depreciation. Be
                   prepared to walk lenders through your actual economic income versus reported
                   taxable income, and have your CPA available to explain the add-backs. Lenders
@@ -476,15 +476,15 @@ export default function RealEstateFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Side-by-side comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Real estate financing structures at a glance
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             General structural differences between common products used by real estate operators.
             Actual terms depend on the lender, property type, and borrower profile.
           </p>
@@ -497,44 +497,44 @@ export default function RealEstateFinancingPage() {
       </section>
 
       {/* ── Industry-specific considerations ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Real estate–specific consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 When DSCR underwriting works in your favor
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 DSCR-based lending evaluates whether a property pays for itself. For operators
                 with strong-performing properties but complex personal tax returns — or whose
                 income is distributed across multiple entities — DSCR products may offer a
                 cleaner path than programs that rely heavily on W-2 income or personal financial
                 statement analysis.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 DSCR programs are not available for all property types or all borrower profiles.
                 They typically apply to non-owner-occupied investment property. Lenders set their
                 own DSCR minimums, LTV limits, and property class restrictions. Subject to
                 lender underwriting. Review all terms carefully before proceeding.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Real estate–specific consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Portfolio loans: consolidation vs. cross-collateralization risk
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Blanket or portfolio loans can simplify the capital stack for operators holding
                 multiple properties by replacing individual mortgages with a single facility.
                 This can reduce administrative overhead, improve borrowing capacity, and allow
                 properties to cross-support each other in underwriting.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The tradeoff is cross-collateralization: underperformance or default on one
                 property may have implications for the entire portfolio. Release provisions —
                 allowing individual properties to be sold out of the blanket — vary by lender
@@ -548,17 +548,17 @@ export default function RealEstateFinancingPage() {
       </section>
 
       {/* ── Working capital note ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-3 gap-6">
             <div className="md:col-span-2">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Operating capital
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Working capital needs for real estate operating companies
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Holding companies that own properties are generally not the borrowing entity
                 for working capital — lenders prefer to see an active operating business with
                 revenue and expenses flowing through a business bank account. Real estate
@@ -566,7 +566,7 @@ export default function RealEstateFinancingPage() {
                 alongside their holding company may qualify for working capital products
                 through that operating entity.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 Uses might include covering payroll for in-house property management staff,
                 financing smaller renovation scopes that don't justify a full bridge loan,
                 bridging the gap between property acquisitions, or funding legal and
@@ -576,32 +576,32 @@ export default function RealEstateFinancingPage() {
               </p>
             </div>
             <div className="space-y-3">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-1.5">
                   Operating entity requirement
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">
+                <p className="text-sm text-[#737373] leading-relaxed">
                   Most working capital lenders require an active operating business, not a
                   passive holding company. Ensure the entity you apply under has meaningful
                   revenue and expense activity in its bank statements.
                 </p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-1.5">
                   Equity-based liquidity
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">
+                <p className="text-sm text-[#737373] leading-relaxed">
                   Some operators access liquidity by refinancing stabilized properties above
                   their current debt balance — a cash-out refinance. This is a property-level
                   transaction, not a business loan, and is subject to LTV limits and
                   underwriting by the refinancing lender.
                 </p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4">
-                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-1.5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4">
+                <p className="text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-1.5">
                   Private credit options
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">
+                <p className="text-sm text-[#737373] leading-relaxed">
                   Private lenders may offer liquidity facilities against stabilized portfolio
                   equity for experienced operators with a demonstrable track record. Terms
                   and availability vary significantly. Subject to underwriting.

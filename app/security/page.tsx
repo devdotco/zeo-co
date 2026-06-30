@@ -26,7 +26,7 @@ const securityPageSchema = {
 // ── Section label component ───────────────────────────────────────────────────
 function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-[#22c55e] font-mono mb-4">
+    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.14em] text-[#0f0f0f] font-mono mb-4">
       {children}
     </p>
   );
@@ -34,15 +34,15 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 
 // ── Divider ───────────────────────────────────────────────────────────────────
 function Divider() {
-  return <hr className="border-t border-[#1e2620] my-10" />;
+  return <hr className="border-t border-[#e5e5e5] my-10" />;
 }
 
 // ── Inline check list item ────────────────────────────────────────────────────
 function CheckItem({ children }: { children: React.ReactNode }) {
   return (
-    <li className="flex items-start gap-3 text-sm text-[#9aaa98] leading-relaxed">
+    <li className="flex items-start gap-3 text-sm text-[#737373] leading-relaxed">
       <svg
-        className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]"
+        className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]"
         viewBox="0 0 16 16"
         fill="none"
         aria-hidden="true"
@@ -63,7 +63,7 @@ function CheckItem({ children }: { children: React.ReactNode }) {
 // ── Warning list item ─────────────────────────────────────────────────────────
 function WarnItem({ children }: { children: React.ReactNode }) {
   return (
-    <li className="flex items-start gap-3 text-sm text-[#9aaa98] leading-relaxed">
+    <li className="flex items-start gap-3 text-sm text-[#737373] leading-relaxed">
       <svg
         className="flex-shrink-0 mt-0.5 w-4 h-4 text-amber-500"
         viewBox="0 0 16 16"
@@ -100,14 +100,14 @@ function DataRow({
   purpose: string;
 }) {
   return (
-    <tr className="border-t border-[#1e2620] group">
-      <td className="py-3 pr-6 text-sm text-[#eef2ec] font-medium align-top w-40">
+    <tr className="border-t border-[#e5e5e5] group">
+      <td className="py-3 pr-6 text-sm text-[#0f0f0f] font-medium align-top w-40">
         {label}
       </td>
-      <td className="py-3 pr-6 text-xs font-mono text-[#22c55e] align-top w-32">
+      <td className="py-3 pr-6 text-xs font-mono text-[#0f0f0f] align-top w-32">
         {stored}
       </td>
-      <td className="py-3 text-sm text-[#9aaa98] align-top">{purpose}</td>
+      <td className="py-3 text-sm text-[#737373] align-top">{purpose}</td>
     </tr>
   );
 }
@@ -139,7 +139,7 @@ const faqItems = [
 // ── Page ──────────────────────────────────────────────────────────────────────
 export default function SecurityPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       <JsonLd data={securityPageSchema} />
 
       <PageHero
@@ -158,11 +158,11 @@ export default function SecurityPage() {
           <SectionLabel>Transport &amp; Storage</SectionLabel>
           <h2
             id="transport-heading"
-            className="text-lg font-semibold text-[#eef2ec] mb-3"
+            className="text-lg font-semibold text-[#0f0f0f] mb-3"
           >
             Encryption in transit and at rest
           </h2>
-          <p className="text-sm text-[#9aaa98] leading-relaxed mb-5">
+          <p className="text-sm text-[#737373] leading-relaxed mb-5">
             All data exchanged with ZEO.co is encrypted using TLS 1.2 or higher.
             Stored data — including application details, documents, and contact
             information — is encrypted at rest using AES-256. Connections that
@@ -195,26 +195,26 @@ export default function SecurityPage() {
           <SectionLabel>Data Collected</SectionLabel>
           <h2
             id="collection-heading"
-            className="text-lg font-semibold text-[#eef2ec] mb-3"
+            className="text-lg font-semibold text-[#0f0f0f] mb-3"
           >
             What we collect and how it is protected
           </h2>
-          <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+          <p className="text-sm text-[#737373] leading-relaxed mb-6">
             ZEO.co collects only the information necessary to match your
             business with relevant financing options. The table below summarizes
             the data categories, how they are stored, and why.
           </p>
-          <div className="overflow-x-auto rounded-lg border border-[#1e2620]">
-            <table className="w-full min-w-[560px] bg-[#111512]">
+          <div className="overflow-x-auto rounded-lg border border-[#e5e5e5]">
+            <table className="w-full min-w-[560px] bg-[#f5f5f5]">
               <thead>
-                <tr className="bg-[#0a0d0b]">
-                  <th className="py-2.5 px-4 text-left text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono w-40">
+                <tr className="bg-[#ffffff]">
+                  <th className="py-2.5 px-4 text-left text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono w-40">
                     Data type
                   </th>
-                  <th className="py-2.5 px-4 text-left text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono w-32">
+                  <th className="py-2.5 px-4 text-left text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono w-32">
                     Stored as
                   </th>
-                  <th className="py-2.5 px-4 text-left text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono">
+                  <th className="py-2.5 px-4 text-left text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono">
                     Purpose
                   </th>
                 </tr>
@@ -279,11 +279,11 @@ export default function SecurityPage() {
           </div>
 
           {/* SSN / bank credentials callout */}
-          <div className="mt-5 rounded-lg border border-[#1e2620] bg-[#111512] p-4">
-            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono mb-2">
+          <div className="mt-5 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+            <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono mb-2">
               Important
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               ZEO.co does not store full Social Security Numbers on its servers.
               We also do not collect or store your online banking login
               credentials. If a bank connection is required for a specific
@@ -301,11 +301,11 @@ export default function SecurityPage() {
           <SectionLabel>Form Safety</SectionLabel>
           <h2
             id="do-not-submit-heading"
-            className="text-lg font-semibold text-[#eef2ec] mb-3"
+            className="text-lg font-semibold text-[#0f0f0f] mb-3"
           >
             What not to submit through web forms
           </h2>
-          <p className="text-sm text-[#9aaa98] leading-relaxed mb-5">
+          <p className="text-sm text-[#737373] leading-relaxed mb-5">
             General contact forms and inquiry forms on this site are not
             designed to receive sensitive personal or financial data. Please do
             not submit the following through any general contact or message
@@ -329,7 +329,7 @@ export default function SecurityPage() {
               policy numbers
             </WarnItem>
           </ul>
-          <p className="mt-4 text-sm text-[#6b7e69] leading-relaxed">
+          <p className="mt-4 text-sm text-[#a3a3a3] leading-relaxed">
             Sensitive documents required for underwriting should be submitted
             exclusively through the secured application portal, which enforces
             encryption and access controls. If you are unsure which channel to
@@ -344,11 +344,11 @@ export default function SecurityPage() {
           <SectionLabel>Third-Party Vendors</SectionLabel>
           <h2
             id="vendors-heading"
-            className="text-lg font-semibold text-[#eef2ec] mb-3"
+            className="text-lg font-semibold text-[#0f0f0f] mb-3"
           >
             Third-party vendor security
           </h2>
-          <p className="text-sm text-[#9aaa98] leading-relaxed mb-5">
+          <p className="text-sm text-[#737373] leading-relaxed mb-5">
             ZEO.co uses a limited set of vetted third-party services to operate
             the platform. Vendors that handle personal or financial data are
             required to maintain security standards consistent with our own and
@@ -376,7 +376,7 @@ export default function SecurityPage() {
               breach notification obligations
             </CheckItem>
           </ul>
-          <p className="mt-4 text-sm text-[#6b7e69] leading-relaxed">
+          <p className="mt-4 text-sm text-[#a3a3a3] leading-relaxed">
             ZEO.co reviews third-party vendor security posture on a periodic
             basis. Vendors with access to personal data are not permitted to
             use that data for their own purposes beyond providing the contracted
@@ -391,11 +391,11 @@ export default function SecurityPage() {
           <SectionLabel>Responsible Disclosure</SectionLabel>
           <h2
             id="disclosure-heading"
-            className="text-lg font-semibold text-[#eef2ec] mb-3"
+            className="text-lg font-semibold text-[#0f0f0f] mb-3"
           >
             Reporting a security concern
           </h2>
-          <p className="text-sm text-[#9aaa98] leading-relaxed mb-5">
+          <p className="text-sm text-[#737373] leading-relaxed mb-5">
             If you believe you have discovered a vulnerability, data exposure,
             or security issue affecting ZEO.co or its users, please report it
             to us promptly and responsibly. We review all reports and will
@@ -403,19 +403,19 @@ export default function SecurityPage() {
           </p>
 
           {/* Contact block */}
-          <div className="rounded-lg border border-[#1e2620] bg-[#111512] p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-              <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] font-mono mb-1">
+              <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] font-mono mb-1">
                 Security contact
               </p>
               <Link
                 href="mailto:security@zeo.co"
-                className="text-sm font-medium text-[#22c55e] hover:text-[#16a34a] transition-colors font-mono"
+                className="text-sm font-medium text-[#0f0f0f] hover:text-[#333333] transition-colors font-mono"
               >
                 security@zeo.co
               </Link>
             </div>
-            <p className="text-xs text-[#6b7e69] leading-relaxed max-w-xs">
+            <p className="text-xs text-[#a3a3a3] leading-relaxed max-w-xs">
               Please include a clear description of the issue, steps to
               reproduce, and any supporting evidence. Do not share vulnerability
               details publicly before we have had a reasonable opportunity to
@@ -423,7 +423,7 @@ export default function SecurityPage() {
             </p>
           </div>
 
-          <p className="mt-4 text-sm text-[#6b7e69] leading-relaxed">
+          <p className="mt-4 text-sm text-[#a3a3a3] leading-relaxed">
             We ask that researchers act in good faith: do not access, modify,
             or delete data beyond what is necessary to demonstrate the
             vulnerability; do not disrupt ZEO.co services or perform

@@ -298,7 +298,7 @@ const strengthFactors = [
 
 export default function FranchiseFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -309,16 +309,16 @@ export default function FranchiseFinancingPage() {
       />
 
       {/* 2 — Key financing challenges */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Industry Challenges
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               What makes franchise financing different
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Franchise financing sits at the intersection of small business lending and commercial real estate — with the added layer of a franchisor whose approval, documentation requirements, and ongoing obligations shape how lenders evaluate every deal. Understanding these dynamics before approaching a lender puts franchisees in a stronger position.
             </p>
           </div>
@@ -326,15 +326,15 @@ export default function FranchiseFinancingPage() {
             {challenges.map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -344,16 +344,16 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 3 — Financing products */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Paths
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Products franchise buyers and franchisees most commonly explore
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The right financing structure depends on whether you are opening a new unit, acquiring an existing one, or expanding a portfolio — as well as the brand, your financial profile, and available collateral. The options below cover the most relevant paths for franchise transactions.
             </p>
           </div>
@@ -373,24 +373,24 @@ export default function FranchiseFinancingPage() {
           </div>
 
           {/* SBA 504 callout */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <SBAIcon />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                     SBA 504 for Real Estate and Major Equipment
                   </p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed max-w-2xl">
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed max-w-2xl">
                     Franchisees purchasing the real estate where their unit will operate — or financing large fixed-asset purchases — may evaluate SBA 504 as an alternative to 7(a). SBA 504 is structured with a conventional first mortgage, a CDC second mortgage backed by the SBA, and a borrower equity injection. It is primarily suited for owner-occupied real estate and major long-lived equipment, not working capital or soft costs. Subject to SBA eligibility and lender underwriting.
                   </p>
                 </div>
               </div>
               <Link
                 href="/sba-loans"
-                className="flex-shrink-0 text-sm text-[#22c55e] hover:text-white transition-colors flex items-center gap-1.5"
+                className="flex-shrink-0 text-sm text-[#0f0f0f] hover:text-white transition-colors flex items-center gap-1.5"
               >
                 Learn more
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -409,16 +409,16 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 4 — Requirements and metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Lender Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               What lenders typically look for in franchise applications
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Requirements vary by lender, program, deal type, and whether the unit is a new build or an existing resale. The following reflects general patterns across franchise financing — not a guarantee of eligibility or terms. All financing is subject to underwriting and approval by third-party providers.
             </p>
           </div>
@@ -441,12 +441,12 @@ export default function FranchiseFinancingPage() {
             {requirements.map((req) => (
               <div
                 key={req.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">
                   {req.label}
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -454,16 +454,16 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 5 — Deal type comparison + strength factors */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Underwriting Context
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               How lenders approach different franchise deal types
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The financing structure and underwriting emphasis shift meaningfully depending on whether the transaction is a new-unit build-out, a resale acquisition, or a multi-unit expansion. Understanding those differences helps franchisees prepare the right documentation and set realistic expectations.
             </p>
           </div>
@@ -479,26 +479,26 @@ export default function FranchiseFinancingPage() {
           {/* Strength factors */}
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">
                 Factors that strengthen a franchise application
               </p>
               <div className="space-y-3">
                 {strengthFactors.map((item) => (
                   <div
                     key={item.factor}
-                    className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                    className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                   >
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
-            <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+            <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
                 The SBA franchise landscape
               </p>
               <p>

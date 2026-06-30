@@ -23,7 +23,7 @@ const DEFAULT_OPTIONS: LoanOption[] = [
 ];
 
 const OPTION_COLORS = [
-  { accent: "#22c55e", bg: "#0f2a14", border: "#22c55e" },
+  { accent: "#0f0f0f", bg: "#0f2a14", border: "#0f0f0f" },
   { accent: "#60a5fa", bg: "#0c1e35", border: "#60a5fa" },
   { accent: "#f59e0b", bg: "#221a06", border: "#f59e0b" },
   { accent: "#a78bfa", bg: "#1a1030", border: "#a78bfa" },
@@ -126,7 +126,7 @@ export default function LoanComparisonCalculator() {
         {options.length < 4 && (
           <button
             onClick={addOption}
-            className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border border-[#1e2620] text-[#9aaa98] hover:text-[#22c55e] hover:border-[#22c55e] transition-colors"
+            className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border border-[#e5e5e5] text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
           >
             <span className="text-base leading-none">+</span>
             Add Option
@@ -160,7 +160,7 @@ export default function LoanComparisonCalculator() {
                     value={opt.label}
                     maxLength={20}
                     onChange={(e) => updateOption(i, "label", e.target.value)}
-                    className="text-xs font-semibold bg-transparent border-none outline-none text-[#eef2ec] w-28 cursor-text"
+                    className="text-xs font-semibold bg-transparent border-none outline-none text-[#0f0f0f] w-28 cursor-text"
                     aria-label="Option label"
                   />
                   <span
@@ -223,7 +223,7 @@ export default function LoanComparisonCalculator() {
 
         {/* Right: Results ranked by total cost */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
             Ranked by Total Cost
           </p>
 
@@ -236,8 +236,8 @@ export default function LoanComparisonCalculator() {
                 key={result.index}
                 className="rounded-xl border p-4 transition-all duration-200"
                 style={{
-                  borderColor: isLowest ? color.border + "55" : "#1e2620",
-                  backgroundColor: isLowest ? color.bg : "#0a0d0b",
+                  borderColor: isLowest ? color.border + "55" : "#e5e5e5",
+                  backgroundColor: isLowest ? color.bg : "#ffffff",
                 }}
               >
                 {/* Result header */}
@@ -248,15 +248,15 @@ export default function LoanComparisonCalculator() {
                   />
                   <span
                     className="text-xs font-semibold"
-                    style={{ color: isLowest ? color.accent : "#eef2ec" }}
+                    style={{ color: isLowest ? color.accent : "#0f0f0f" }}
                   >
                     {opt.label}
                   </span>
                   <span
                     className="ml-auto text-[0.625rem] font-semibold uppercase tracking-[0.08em] px-2 py-0.5 rounded"
                     style={{
-                      backgroundColor: isLowest ? color.accent + "22" : "#1e2620",
-                      color: isLowest ? color.accent : "#6b7e69",
+                      backgroundColor: isLowest ? color.accent + "22" : "#e5e5e5",
+                      color: isLowest ? color.accent : "#a3a3a3",
                     }}
                   >
                     #{rankIdx + 1} {isLowest ? "· Lowest Cost" : ""}
@@ -264,32 +264,32 @@ export default function LoanComparisonCalculator() {
                 </div>
 
                 <div className="grid grid-cols-3 gap-2">
-                  <div className="rounded-lg bg-[#111512] border border-[#1e2620] p-3">
-                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-1.5">
+                  <div className="rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] p-3">
+                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-1.5">
                       Monthly
                     </p>
                     <p
                       className="text-sm font-semibold tabular-nums"
-                      style={{ color: isLowest ? color.accent : "#eef2ec" }}
+                      style={{ color: isLowest ? color.accent : "#0f0f0f" }}
                     >
                       {fmt(result.monthlyPayment)}
                     </p>
                   </div>
 
-                  <div className="rounded-lg bg-[#111512] border border-[#1e2620] p-3">
-                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-1.5">
+                  <div className="rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] p-3">
+                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-1.5">
                       Total Repaid
                     </p>
-                    <p className="text-sm font-semibold tabular-nums text-[#eef2ec]">
+                    <p className="text-sm font-semibold tabular-nums text-[#0f0f0f]">
                       {fmt(result.totalRepayment)}
                     </p>
                   </div>
 
-                  <div className="rounded-lg bg-[#111512] border border-[#1e2620] p-3">
-                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-1.5">
+                  <div className="rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] p-3">
+                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-1.5">
                       Cost of Capital
                     </p>
-                    <p className="text-sm font-semibold tabular-nums text-[#9aaa98]">
+                    <p className="text-sm font-semibold tabular-nums text-[#737373]">
                       {fmt(result.costOfCapital)}
                     </p>
                   </div>
@@ -299,12 +299,12 @@ export default function LoanComparisonCalculator() {
                 {rankIdx > 0 && ranked[0].totalRepayment > 0 && (
                   <div className="mt-3">
                     <div className="flex items-center justify-between mb-1">
-                      <span className="text-[0.6rem] text-[#6b7e69]">Extra cost vs lowest</span>
-                      <span className="text-[0.6rem] font-semibold tabular-nums text-[#9aaa98]">
+                      <span className="text-[0.6rem] text-[#a3a3a3]">Extra cost vs lowest</span>
+                      <span className="text-[0.6rem] font-semibold tabular-nums text-[#737373]">
                         +{fmt(result.totalRepayment - ranked[0].totalRepayment)}
                       </span>
                     </div>
-                    <div className="h-1 rounded-full bg-[#1e2620] overflow-hidden">
+                    <div className="h-1 rounded-full bg-[#e5e5e5] overflow-hidden">
                       <div
                         className="h-full rounded-full transition-all duration-300"
                         style={{
@@ -330,8 +330,8 @@ export default function LoanComparisonCalculator() {
 
       {/* Summary comparison bar */}
       {ranked.length >= 2 && ranked[0].totalRepayment > 0 && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Total Repayment Comparison
           </p>
           <div className="flex flex-col gap-2.5">
@@ -344,10 +344,10 @@ export default function LoanComparisonCalculator() {
                   : 0;
               return (
                 <div key={result.index} className="flex items-center gap-3">
-                  <span className="text-[0.625rem] w-16 flex-shrink-0 font-medium text-[#9aaa98] truncate">
+                  <span className="text-[0.625rem] w-16 flex-shrink-0 font-medium text-[#737373] truncate">
                     {opt.label}
                   </span>
-                  <div className="flex-1 h-2 rounded-full bg-[#1e2620] overflow-hidden">
+                  <div className="flex-1 h-2 rounded-full bg-[#e5e5e5] overflow-hidden">
                     <div
                       className="h-full rounded-full transition-all duration-300"
                       style={{
@@ -356,7 +356,7 @@ export default function LoanComparisonCalculator() {
                       }}
                     />
                   </div>
-                  <span className="text-[0.625rem] tabular-nums text-[#9aaa98] w-20 text-right flex-shrink-0">
+                  <span className="text-[0.625rem] tabular-nums text-[#737373] w-20 text-right flex-shrink-0">
                     {fmt(result.totalRepayment)}
                   </span>
                 </div>

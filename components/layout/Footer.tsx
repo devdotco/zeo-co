@@ -4,7 +4,7 @@ import { FOOTER_DISCLOSURE } from "@/data/navigation";
 function ZeoLogoSvg() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
-      <rect width="32" height="32" rx="6" fill="#22c55e"/>
+      <rect width="32" height="32" rx="6" fill="#0f0f0f"/>
       <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#000"/>
     </svg>
   );
@@ -12,7 +12,7 @@ function ZeoLogoSvg() {
 
 export default function Footer() {
   return (
-    <footer className="border-t border-[#1e2620] bg-[#0a0d0b]">
+    <footer className="border-t border-[#e5e5e5] bg-[#ffffff]">
       {/* Main footer links */}
       <div className="max-w-7xl mx-auto px-5 lg:px-8 py-14">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
@@ -21,15 +21,15 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 mb-4">
               <ZeoLogoSvg />
               <span className="text-base font-semibold text-white">
-                zeo<span className="text-[#22c55e]">.</span>co
+                zeo<span className="text-[#0f0f0f]">.</span>co
               </span>
             </Link>
-            <p className="text-sm text-[#6b7e69] leading-relaxed max-w-xs">
+            <p className="text-sm text-[#a3a3a3] leading-relaxed max-w-xs">
               Business financing matched to how your company actually makes money. Compare SBA loans, working capital, factoring, and more.
             </p>
             <Link
               href="/apply"
-              className="inline-flex mt-5 items-center px-5 py-2.5 rounded-lg bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors"
+              className="inline-flex mt-5 items-center px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Find Financing
             </Link>
@@ -37,7 +37,7 @@ export default function Footer() {
 
           {/* Financing Options */}
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">Financing</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">Financing</p>
             <ul className="space-y-2.5">
               {[
                 ["SBA Loans", "/sba-loans"],
@@ -49,7 +49,7 @@ export default function Footer() {
                 ["All Financing", "/financing"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#6b7e69] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -59,7 +59,7 @@ export default function Footer() {
 
           {/* Factoring */}
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">Factoring</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">Factoring</p>
             <ul className="space-y-2.5">
               {[
                 ["Invoice Factoring", "/factoring/invoice-factoring"],
@@ -71,7 +71,7 @@ export default function Footer() {
                 ["All Factoring", "/factoring"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#6b7e69] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -81,7 +81,7 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">Resources</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">Resources</p>
             <ul className="space-y-2.5">
               {[
                 ["Calculators", "/calculators"],
@@ -93,7 +93,7 @@ export default function Footer() {
                 ["Blog", "/blog"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#6b7e69] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -103,7 +103,7 @@ export default function Footer() {
 
           {/* Company + Legal */}
           <div>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">Company</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">Company</p>
             <ul className="space-y-2.5">
               {[
                 ["About", "/about"],
@@ -113,13 +113,13 @@ export default function Footer() {
                 ["Contact", "/contact"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#6b7e69] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
               ))}
             </ul>
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mt-5 mb-3">Legal</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mt-5 mb-3">Legal</p>
             <ul className="space-y-2.5">
               {[
                 ["Privacy Policy", "/privacy-policy"],
@@ -129,7 +129,7 @@ export default function Footer() {
                 ["Security", "/security"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#6b7e69] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -140,7 +140,7 @@ export default function Footer() {
       </div>
 
       {/* Legal disclosure */}
-      <div className="border-t border-[#1e2620]">
+      <div className="border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 py-8">
           <p className="text-xs text-[#3a4a38] leading-relaxed whitespace-pre-line">
             {FOOTER_DISCLOSURE}

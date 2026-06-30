@@ -191,20 +191,20 @@ export default function PayrollFundingPage() {
       />
 
       {/* What it is / who uses it */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What It Is
               </p>
               <h2 className="text-2xl font-semibold text-white leading-snug">
                 Turning outstanding invoices into same-week payroll
               </h2>
-              <p className="text-[#9aaa98] text-sm mt-4 leading-relaxed">
+              <p className="text-[#737373] text-sm mt-4 leading-relaxed">
                 Payroll funding through factoring addresses a structural cash flow problem common in service and staffing businesses: labor costs are incurred and must be paid now, but client payment terms push revenue collection out 30, 60, or even 90 days. Factoring bridges that gap by allowing a business to sell its outstanding invoices to a third-party factor in exchange for an immediate cash advance.
               </p>
-              <p className="text-[#9aaa98] text-sm mt-3 leading-relaxed">
+              <p className="text-[#737373] text-sm mt-3 leading-relaxed">
                 Unlike a line of credit or term loan, payroll factoring is not debt in the traditional sense — it is the sale or assignment of a receivable. The factor takes on collection responsibility (in most arrangements) and is repaid directly by your client. Your business receives the remaining reserve balance, minus the factor's fee, once the invoice is paid. This structure means the financing scales naturally with your revenue: as you generate more invoices, more capital becomes available.
               </p>
             </div>
@@ -229,11 +229,11 @@ export default function PayrollFundingPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e] mb-3" />
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mb-3" />
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -242,15 +242,15 @@ export default function PayrollFundingPage() {
       </section>
 
       {/* How the advance / reserve cycle works */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             The advance and reserve cycle
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
             Payroll factoring follows a repeatable cycle. Understanding each stage helps you evaluate what to expect from a factoring arrangement and how cash actually flows between your business, the factor, and your clients.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -283,15 +283,15 @@ export default function PayrollFundingPage() {
             ].map((item) => (
               <div
                 key={item.step}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-[0.65rem] font-semibold tabular-nums tracking-[0.08em] text-[#22c55e] mb-3">
+                <p className="text-[0.65rem] font-semibold tabular-nums tracking-[0.08em] text-[#0f0f0f] mb-3">
                   {item.step}
                 </p>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2 leading-snug">
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug">
                   {item.label}
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -299,15 +299,15 @@ export default function PayrollFundingPage() {
       </section>
 
       {/* Requirements and invoice criteria */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Eligibility
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Requirements and invoice criteria
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             Payroll factoring underwriting focuses more on invoice quality and client creditworthiness than on the business owner's personal credit. General criteria below — actual requirements are set by the third-party factor at underwriting and vary by provider.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
@@ -346,8 +346,8 @@ export default function PayrollFundingPage() {
 
           {/* Invoice criteria detail */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-              <p className="text-xs font-semibold text-[#eef2ec] mb-3">Invoice must generally meet these criteria</p>
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+              <p className="text-xs font-semibold text-[#0f0f0f] mb-3">Invoice must generally meet these criteria</p>
               <ul className="space-y-2">
                 {[
                   "Issued to a creditworthy commercial or government entity (not a consumer)",
@@ -357,15 +357,15 @@ export default function PayrollFundingPage() {
                   "Supported by proof of delivery or a signed timesheet/work order",
                   "Payable on terms the factor accepts — typically net-15 to net-90",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-xs text-[#6b7e69] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">—</span>
+                  <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">—</span>
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-              <p className="text-xs font-semibold text-[#eef2ec] mb-3">Business-level criteria factors commonly review</p>
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+              <p className="text-xs font-semibold text-[#0f0f0f] mb-3">Business-level criteria factors commonly review</p>
               <ul className="space-y-2">
                 {[
                   "Accounts receivable aging report — concentration and days-outstanding distribution",
@@ -375,8 +375,8 @@ export default function PayrollFundingPage() {
                   "Clean corporate documentation — valid entity in good standing",
                   "Personal guarantee of owners — commonly required, especially for recourse factoring",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-xs text-[#6b7e69] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">—</span>
+                  <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">—</span>
                     {item}
                   </li>
                 ))}
@@ -387,23 +387,23 @@ export default function PayrollFundingPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 Advance rates and fee ranges
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Payroll factoring costs are typically quoted as a factoring rate — expressed as a percentage of the invoice face value — charged for each period (often each 30-day increment) that the invoice remains outstanding. ZEO does not guarantee specific rates or terms. All pricing is set by the third-party factor at underwriting based on invoice quality, client creditworthiness, volume, and industry.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Advance rates for payroll factoring tend to be relatively high compared to other factoring product types — often 85–95% of invoice face value — because the underlying invoices are typically to creditworthy employers (staffing clients) with predictable payment behavior. Lower-quality debtor rosters or industries with higher dispute rates may see lower advance rates.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 When evaluating a factoring proposal, focus on the total effective cost over your expected collection timeline — not just the stated rate. An invoice that pays in 20 days has a lower total factoring cost than one that pays in 60 days, even at the same daily or periodic rate. Also review the full fee schedule: origination fees, wire fees, minimum volume requirements, and termination clauses can materially affect total cost.
               </p>
             </div>
@@ -437,18 +437,18 @@ export default function PayrollFundingPage() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-5 py-4"
                 >
                   <div className="flex items-start justify-between gap-4 mb-1.5">
-                    <p className="text-sm font-semibold text-[#eef2ec]">{item.label}</p>
-                    <span className="flex-shrink-0 text-sm font-semibold tabular-nums text-[#22c55e]">
+                    <p className="text-sm font-semibold text-[#0f0f0f]">{item.label}</p>
+                    <span className="flex-shrink-0 text-sm font-semibold tabular-nums text-[#0f0f0f]">
                       {item.value}
                     </span>
                   </div>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
-              <p className="text-[0.65rem] text-[#6b7e69] pt-1">
+              <p className="text-[0.65rem] text-[#a3a3a3] pt-1">
                 All ranges are general market observations. ZEO.co does not guarantee rates, advance percentages, or approval. Subject to underwriting by third-party providers.
               </p>
             </div>
@@ -457,9 +457,9 @@ export default function PayrollFundingPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Trade-offs
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8">
@@ -467,14 +467,14 @@ export default function PayrollFundingPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Benefits */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#22c55e]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                    <path d="M2 5l2.5 2.5L8 2.5" stroke="#22c55e" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M2 5l2.5 2.5L8 2.5" stroke="#0f0f0f" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Potential benefits</p>
+                <p className="text-sm font-semibold text-[#0f0f0f]">Potential benefits</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -485,22 +485,22 @@ export default function PayrollFundingPage() {
                   "Can enable a business to take on larger contracts or staffing engagements it could not otherwise fund",
                   "Many factors specialize in payroll-driven industries (staffing, construction, healthcare) and understand the operating context",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">+</span>
+                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#737373] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">+</span>
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
             {/* Limitations */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#6b7e69]/40 bg-[#111512] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#a3a3a3]/40 bg-[#f5f5f5] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                    <path d="M2.5 7.5l5-5M7.5 7.5l-5-5" stroke="#9aaa98" strokeWidth="1.3" strokeLinecap="round" />
+                    <path d="M2.5 7.5l5-5M7.5 7.5l-5-5" stroke="#737373" strokeWidth="1.3" strokeLinecap="round" />
                   </svg>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Limitations to be aware of</p>
+                <p className="text-sm font-semibold text-[#0f0f0f]">Limitations to be aware of</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -511,8 +511,8 @@ export default function PayrollFundingPage() {
                   "Factoring is a relationship with ongoing contractual obligations, minimums, and potentially term commitments — it is not as simple as drawing on a credit line",
                   "Does not build business credit history in the same way a term loan or line of credit with a bank would",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#6b7e69]">−</span>
+                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#737373] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#a3a3a3]">−</span>
                     {item}
                   </li>
                 ))}
@@ -523,15 +523,15 @@ export default function PayrollFundingPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Payroll factoring vs. other payroll funding structures
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             General overview only. Actual terms vary significantly by lender, borrower profile, and product. Not offers or commitments. Subject to underwriting.
           </p>
           <ComparisonTable
@@ -539,22 +539,22 @@ export default function PayrollFundingPage() {
             rows={comparisonRows}
             highlightCol="Payroll Factoring"
           />
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general market observations. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own criteria.
           </p>
         </div>
       </section>
 
       {/* Related factoring structures */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Related Options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Other structures that may address similar needs
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             Payroll factoring is one approach to closing the gap between labor delivery and client payment. Depending on your situation, these alternatives may be worth evaluating alongside or instead of factoring.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -591,23 +591,23 @@ export default function PayrollFundingPage() {
       </section>
 
       {/* Calculator link */}
-      <section className="py-10 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <p className="text-sm font-semibold text-[#eef2ec]">
+              <p className="text-sm font-semibold text-[#0f0f0f]">
                 Estimate the cost of invoice factoring for payroll
               </p>
-              <p className="text-xs text-[#6b7e69] mt-1">
+              <p className="text-xs text-[#a3a3a3] mt-1">
                 Model total factoring cost across different advance rates, fee percentages, and invoice payment timelines. Estimates only — not a commitment or offer.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>
@@ -632,7 +632,7 @@ export default function PayrollFundingPage() {
       />
 
       {/* Disclaimer */}
-      <section className="pb-12 border-t border-[#1e2620]">
+      <section className="pb-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-8">
           <ProductDisclaimer type="factoring" />
         </div>

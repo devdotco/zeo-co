@@ -215,7 +215,7 @@ const COMPARISON_ROWS = [
 
 export default function HardMoneyBusinessLoansPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       {/* 1. Hero */}
       <PageHero
         breadcrumbs={BREADCRUMBS}
@@ -225,10 +225,10 @@ export default function HardMoneyBusinessLoansPage() {
       />
 
       {/* 2. Who it is for */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">Who Hard Money Lending May Fit</h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Hard money is not a one-size-fits-all solution. It tends to be a potential fit when speed, flexibility, or asset strength matters more than obtaining the lowest possible cost of capital.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
@@ -252,12 +252,12 @@ export default function HardMoneyBusinessLoansPage() {
             ].map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.heading}
                 </h3>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -265,10 +265,10 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 3. How it works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">How Hard Money Lending Typically Works</h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             The general process varies by lender, but most hard money transactions follow a similar path from inquiry to funding.
           </p>
           <div className="space-y-3">
@@ -301,18 +301,18 @@ export default function HardMoneyBusinessLoansPage() {
             ].map((step, i) => (
               <div
                 key={step.label}
-                className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <div className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#0a0d0b] border border-[#1e2620] flex items-center justify-center">
-                  <span className="text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-lg bg-[#ffffff] border border-[#e5e5e5] flex items-center justify-center">
+                  <span className="text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {step.label}
                   </h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{step.detail}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{step.detail}</p>
                 </div>
               </div>
             ))}
@@ -321,10 +321,10 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 4. Common use cases */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">Common Use Cases</h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Hard money financing tends to cluster around real asset transactions where conventional financing is unavailable, too slow, or structurally mismatched to the deal.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -375,10 +375,10 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 5. Typical requirements */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">Typical Requirements</h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl">
             Hard money lenders vary significantly in their requirements. These ranges are illustrative and based on general market patterns — actual requirements depend entirely on the lender and the specific deal. All financing is subject to underwriting.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
@@ -403,8 +403,8 @@ export default function HardMoneyBusinessLoansPage() {
               note="Short-term structure; renewal or extension may be available"
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-            <h3 className="text-sm font-semibold text-[#eef2ec] mb-3">Common documentation lenders may request</h3>
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+            <h3 className="text-sm font-semibold text-[#0f0f0f] mb-3">Common documentation lenders may request</h3>
             <div className="grid sm:grid-cols-2 gap-x-10 gap-y-2">
               {[
                 "Property address and description",
@@ -416,8 +416,8 @@ export default function HardMoneyBusinessLoansPage() {
                 "Exit strategy narrative",
                 "Existing mortgage statements (if refinancing)",
               ].map((item) => (
-                <div key={item} className="flex items-center gap-2 text-sm text-[#9aaa98]">
-                  <div className="w-1 h-1 rounded-full bg-[#22c55e] flex-shrink-0" />
+                <div key={item} className="flex items-center gap-2 text-sm text-[#737373]">
+                  <div className="w-1 h-1 rounded-full bg-[#0f0f0f] flex-shrink-0" />
                   {item}
                 </div>
               ))}
@@ -427,31 +427,31 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 6. Cost discussion */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-2xl font-semibold text-white mb-4">Understanding Hard Money Costs</h2>
-            <p className="text-sm text-[#9aaa98] leading-relaxed mb-4">
+            <p className="text-sm text-[#737373] leading-relaxed mb-4">
               Hard money loans are generally more expensive than conventional business financing. The higher cost reflects the lender's faster underwriting, greater flexibility on borrower profile, and increased risk from collateral-only underwriting. Businesses that pursue this path typically do so because the speed, access, or strategic value of the capital justifies the cost in their specific situation.
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed mb-4">
+            <p className="text-sm text-[#737373] leading-relaxed mb-4">
               Common cost components include origination points charged at closing (typically expressed as a percentage of the loan amount), an annual interest rate applied to the outstanding balance, and potentially draw fees, extension fees, or prepayment penalties depending on the lender's structure. Some lenders also charge for appraisals, document preparation, or legal review.
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+            <p className="text-sm text-[#737373] leading-relaxed mb-6">
               Because terms differ substantially across lenders, comparing total cost of capital — not just the stated interest rate — is important. The effective annual cost on a short-term hard money loan can be meaningfully higher than the face rate when origination points are amortized over the actual loan period. ZEO does not quote rates or guarantee terms. Actual costs are set by third-party lenders and are subject to their underwriting.
             </p>
             <div className="grid sm:grid-cols-3 gap-4">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">Origination Points</p>
-                <p className="text-sm text-[#eef2ec] leading-relaxed">Typically charged upfront as a percentage of the loan amount. Points reduce net proceeds but are a primary revenue component for hard money lenders.</p>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">Origination Points</p>
+                <p className="text-sm text-[#0f0f0f] leading-relaxed">Typically charged upfront as a percentage of the loan amount. Points reduce net proceeds but are a primary revenue component for hard money lenders.</p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">Interest Rate</p>
-                <p className="text-sm text-[#eef2ec] leading-relaxed">Applied to the outstanding balance. Hard money rates are generally higher than conventional alternatives to reflect speed and flexibility. Rates vary by lender, deal, and market.</p>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">Interest Rate</p>
+                <p className="text-sm text-[#0f0f0f] leading-relaxed">Applied to the outstanding balance. Hard money rates are generally higher than conventional alternatives to reflect speed and flexibility. Rates vary by lender, deal, and market.</p>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">Other Fees</p>
-                <p className="text-sm text-[#eef2ec] leading-relaxed">Extension fees, draw fees for construction loans, prepayment penalties, and third-party costs (appraisal, title) may also apply depending on lender and transaction type.</p>
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">Other Fees</p>
+                <p className="text-sm text-[#0f0f0f] leading-relaxed">Extension fees, draw fees for construction loans, prepayment penalties, and third-party costs (appraisal, title) may also apply depending on lender and transaction type.</p>
               </div>
             </div>
           </div>
@@ -459,12 +459,12 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 7. Pros and cons */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-10">Pros and Cons</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Potential Advantages
               </p>
               <div className="space-y-3">
@@ -488,19 +488,19 @@ export default function HardMoneyBusinessLoansPage() {
                 ].map((item) => (
                   <div
                     key={item.heading}
-                    className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex gap-3"
+                    className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex gap-3"
                   >
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-2 flex-shrink-0" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-2 flex-shrink-0" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.heading}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{item.detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.heading}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.detail}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#9aaa98] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#737373] mb-4">
                 Considerations and Risks
               </p>
               <div className="space-y-3">
@@ -524,12 +524,12 @@ export default function HardMoneyBusinessLoansPage() {
                 ].map((item) => (
                   <div
                     key={item.heading}
-                    className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex gap-3"
+                    className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex gap-3"
                   >
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#6b7e69] mt-2 flex-shrink-0" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#a3a3a3] mt-2 flex-shrink-0" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.heading}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{item.detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.heading}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.detail}</p>
                     </div>
                   </div>
                 ))}
@@ -540,10 +540,10 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 8. Comparison table */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">How It Compares to Other Financing</h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             This comparison is illustrative only. Actual terms, requirements, and availability depend on the lender, deal, and underwriting outcome.
           </p>
           <ComparisonTable
@@ -555,10 +555,10 @@ export default function HardMoneyBusinessLoansPage() {
       </section>
 
       {/* 9. Alternatives */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">Alternatives to Explore</h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Hard money may not be the right fit for every situation. Depending on your business profile, timeline, and use of funds, other financing structures may be worth evaluating.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -600,16 +600,16 @@ export default function HardMoneyBusinessLoansPage() {
           </div>
 
           {/* Calculator link */}
-          <div className="mt-8 rounded-xl border border-[#1e2620] bg-[#111512] p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="mt-8 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-sm font-semibold text-[#eef2ec] mb-1">Estimate your financing picture</p>
-              <p className="text-xs text-[#6b7e69] max-w-lg">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-1">Estimate your financing picture</p>
+              <p className="text-xs text-[#a3a3a3] max-w-lg">
                 Use the ZEO financing calculator to model loan payments, compare structures, and get a sense of costs across different scenarios. Results are estimates only and are not offers or guarantees.
               </p>
             </div>
             <Link
               href="/how-it-works"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e]/50 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors whitespace-nowrap"
             >
               View How It Works
             </Link>

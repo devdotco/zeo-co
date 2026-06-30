@@ -3,17 +3,17 @@
 /* ── ZEO.co Design System ─────────────────────────────────────────── */
 
 :root {
-  --green: #22c55e;
-  --green-dim: #16a34a;
-  --green-glow: rgba(34, 197, 94, 0.12);
-  --bg: #0a0d0b;
-  --surface: #111512;
-  --surface-2: #181d16;
-  --border: #1e2620;
-  --border-dim: #141814;
-  --text: #eef2ec;
-  --text-muted: #6b7e69;
-  --text-dim: #3a4a38;
+  --green: #0f0f0f;
+  --green-dim: #333333;
+  --green-glow: rgba(0, 0, 0, 0.08);
+  --bg: #ffffff;
+  --surface: #f5f5f5;
+  --surface-2: #eeeeee;
+  --border: #e5e5e5;
+  --border-dim: #f0f0f0;
+  --text: #0f0f0f;
+  --text-muted: #737373;
+  --text-dim: #a3a3a3;
   --mono: "IBM Plex Mono", "Courier New", monospace;
 }
 
@@ -35,8 +35,8 @@ body {
 }
 
 ::selection {
-  background: var(--green);
-  color: #000;
+  background: #0f0f0f;
+  color: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -81,13 +81,13 @@ body {
 /* ── Green glow button ────────────────────────────────────────────── */
 .btn-green {
   background: var(--green);
-  color: #000;
+  color: #ffffff;
   font-weight: 600;
   transition: background 0.15s, box-shadow 0.15s;
 }
 .btn-green:hover {
-  background: #16a34a;
-  box-shadow: 0 0 16px var(--green-glow);
+  background: var(--green-dim);
+  box-shadow: 0 2px 8px var(--green-glow);
 }
 
 /* ── Prose / content pages ───────────────────────────────────────── */
@@ -130,7 +130,7 @@ body {
   text-underline-offset: 3px;
 }
 .prose-zeo a:hover {
-  color: #fff;
+  color: var(--green-dim);
 }
 
 /* ── DSCR gauge ────────────────────────────────────────────────────── */

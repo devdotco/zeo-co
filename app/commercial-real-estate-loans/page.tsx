@@ -114,8 +114,8 @@ function GearIcon() {
 function CheckIcon() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5">
-      <circle cx="7" cy="7" r="6" stroke="#22c55e" strokeWidth="1.2" />
-      <path d="M4.5 7l1.5 1.5L9.5 5" stroke="#22c55e" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="7" cy="7" r="6" stroke="#0f0f0f" strokeWidth="1.2" />
+      <path d="M4.5 7l1.5 1.5L9.5 5" stroke="#0f0f0f" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }
@@ -123,15 +123,15 @@ function CheckIcon() {
 function XIcon() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5">
-      <circle cx="7" cy="7" r="6" stroke="#6b7e69" strokeWidth="1.2" />
-      <path d="M5 5l4 4M9 5l-4 4" stroke="#6b7e69" strokeWidth="1.2" strokeLinecap="round" />
+      <circle cx="7" cy="7" r="6" stroke="#a3a3a3" strokeWidth="1.2" />
+      <path d="M5 5l4 4M9 5l-4 4" stroke="#a3a3a3" strokeWidth="1.2" strokeLinecap="round" />
     </svg>
   );
 }
 
 function StepNumber({ n }: { n: number }) {
   return (
-    <span className="flex-shrink-0 w-7 h-7 rounded-full border border-[#22c55e]/40 bg-[#0f2a14] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e]">
+    <span className="flex-shrink-0 w-7 h-7 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f]">
       {n}
     </span>
   );
@@ -270,7 +270,7 @@ const faqItems = [
 
 export default function CommercialRealEstateLoanPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -281,9 +281,9 @@ export default function CommercialRealEstateLoanPage() {
       />
 
       {/* 2 — Typical benchmarks */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-5">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-5">
             Typical Benchmarks — Subject to Underwriting
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
@@ -295,11 +295,11 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 3 — Who it is for */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-2xl font-semibold text-white mb-2">Who May Be a Potential Fit</h2>
-            <p className="text-[#9aaa98] text-sm mb-8 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Commercial real estate financing is not a single product — it spans conventional mortgages,
               government-backed programs, bridge loans, and construction facilities. The common thread is
               that the collateral is a commercial property. The following profiles may align with CRE
@@ -324,9 +324,9 @@ export default function CommercialRealEstateLoanPage() {
                   body: "A business building a new facility or undertaking a substantial renovation may explore construction-to-permanent financing, which converts from a draw-based construction loan to a term mortgage at project completion. Lenders typically require detailed project budgets, contractor agreements, and stronger equity positions.",
                 },
               ].map(({ title, body }) => (
-                <div key={title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{title}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{body}</p>
+                <div key={title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{title}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{body}</p>
                 </div>
               ))}
             </div>
@@ -335,11 +335,11 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 4 — How it works */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-2xl">
             <h2 className="text-2xl font-semibold text-white mb-2">How CRE Lending Generally Works</h2>
-            <p className="text-[#9aaa98] text-sm mb-8 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Every lender has its own process, but the general arc of a commercial real estate loan
               follows a predictable sequence. Understanding what happens at each stage can help you
               prepare documentation and set realistic timeline expectations.
@@ -370,8 +370,8 @@ export default function CommercialRealEstateLoanPage() {
                 <div key={label} className="flex gap-4">
                   <StepNumber n={i + 1} />
                   <div className="pt-0.5">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1">{label}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{body}</p>
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{label}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{body}</p>
                   </div>
                 </div>
               ))}
@@ -381,10 +381,10 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 5 — Common use cases */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">Common Use Cases</h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             The following scenarios represent common reasons businesses explore commercial real estate
             financing. Each has different structural considerations and lender preferences.
           </p>
@@ -452,11 +452,11 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 6 — Typical requirements */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-2xl font-semibold text-white mb-2">Typical Requirements</h2>
-            <p className="text-[#9aaa98] text-sm mb-8 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Requirements for commercial real estate loans vary considerably by lender, loan type, and
               property. The benchmarks below represent common thresholds observed across the conventional
               CRE market — they are not guarantees of eligibility or approval. Individual lenders set their
@@ -480,16 +480,16 @@ export default function CommercialRealEstateLoanPage() {
                   note: "Revenue minimums vary. Lenders focus on DSCR (typically 1.20×+) rather than raw revenue; the business must demonstrate sufficient income to cover the proposed payments.",
                 },
               ].map(({ label, range, note }) => (
-                <div key={label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">{label}</p>
+                <div key={label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">{label}</p>
                   <p className="text-xl font-semibold text-white mb-2 tabular-nums">{range}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{note}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{note}</p>
                 </div>
               ))}
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-              <p className="text-sm font-semibold text-[#eef2ec] mb-3">Additional Lender Considerations</p>
-              <ul className="space-y-2 text-sm text-[#9aaa98]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-3">Additional Lender Considerations</p>
+              <ul className="space-y-2 text-sm text-[#737373]">
                 {[
                   "Loan-to-value (LTV) ratio — most conventional CRE lenders cap at 65–80% LTV, meaning 20–35% equity at close",
                   "Debt service coverage ratio (DSCR) — net operating income or business cash flow relative to annual debt payments, commonly 1.20× or higher",
@@ -510,11 +510,11 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 7 — Cost discussion */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-2xl font-semibold text-white mb-2">Understanding CRE Loan Costs</h2>
-            <p className="text-[#9aaa98] text-sm mb-6 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-6 leading-relaxed">
               Commercial real estate loans carry a range of costs beyond the interest rate itself.
               Understanding the full cost structure — not just the headline rate — is important when
               comparing options. ZEO does not quote rates or guarantee terms; all costs are set by
@@ -543,9 +543,9 @@ export default function CommercialRealEstateLoanPage() {
                   body: "Lenders may require funded reserves for taxes, insurance, capital expenditures, or tenant improvements — particularly for investment properties. These reserves are held by the lender and drawn for approved purposes. Annual loan administration fees and required insurance minimums also contribute to the total cost of maintaining a commercial mortgage.",
                 },
               ].map(({ heading, body }) => (
-                <div key={heading} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">{heading}</p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{body}</p>
+                <div key={heading} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{heading}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{body}</p>
                 </div>
               ))}
             </div>
@@ -554,10 +554,10 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 8 — Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">CRE Loan Structures at a Glance</h2>
-          <p className="text-[#9aaa98] text-sm mb-6 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-6 max-w-2xl leading-relaxed">
             The three most common structures that come up in commercial real estate financing conversations.
             Figures are general benchmarks — all terms are set by individual lenders at underwriting.
           </p>
@@ -570,18 +570,18 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 9 — Pros and cons */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
             <h2 className="text-2xl font-semibold text-white mb-2">Potential Advantages and Tradeoffs</h2>
-            <p className="text-[#9aaa98] text-sm mb-8 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               Commercial real estate loans are not the right tool for every situation. Understanding both
               the potential benefits and the real constraints can help frame whether CRE debt makes sense
               for a particular business goal at a particular time.
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                   Potential Advantages
                 </p>
                 <ul className="space-y-3">
@@ -593,15 +593,15 @@ export default function CommercialRealEstateLoanPage() {
                     "Interest payments on business real estate loans may be tax-deductible (consult a tax advisor)",
                     "Owner-occupied CRE may qualify for SBA programs with lower down payment requirements",
                   ].map((item) => (
-                    <li key={item} className="flex gap-2.5 items-start text-sm text-[#9aaa98]">
+                    <li key={item} className="flex gap-2.5 items-start text-sm text-[#737373]">
                       <CheckIcon />
                       <span>{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                   Tradeoffs to Consider
                 </p>
                 <ul className="space-y-3">
@@ -613,7 +613,7 @@ export default function CommercialRealEstateLoanPage() {
                     "Illiquidity: real property is harder to sell quickly compared to equipment or other assets",
                     "Environmental, title, and appraisal contingencies can introduce uncertainty into transaction timelines",
                   ].map((item) => (
-                    <li key={item} className="flex gap-2.5 items-start text-sm text-[#9aaa98]">
+                    <li key={item} className="flex gap-2.5 items-start text-sm text-[#737373]">
                       <XIcon />
                       <span>{item}</span>
                     </li>
@@ -626,10 +626,10 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 10 — Alternatives */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">Alternative Financing Paths</h2>
-          <p className="text-[#9aaa98] text-sm mb-6 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-6 max-w-2xl leading-relaxed">
             Depending on the specific situation, these structures may be worth evaluating alongside or
             instead of a conventional commercial real estate loan.
           </p>
@@ -642,24 +642,24 @@ export default function CommercialRealEstateLoanPage() {
       </section>
 
       {/* 11 — Calculator link */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Estimate Tool
               </p>
-              <p className="text-sm font-semibold text-[#eef2ec] mb-1">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                 Commercial Loan Payment Calculator
               </p>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Estimate monthly payment ranges for different loan amounts, terms, and rate scenarios.
                 Results are illustrative only and are not an offer or commitment from any lender.
               </p>
             </div>
             <Link
               href="/calculators/commercial-loan"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>

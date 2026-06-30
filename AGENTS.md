@@ -15,9 +15,12 @@ Business financing education, comparison, and referral marketplace.
 
 ### Design System
 
-- Background: `#0a0d0b`, Surface: `#111512`, Border: `#1e2620`
-- Text: `#eef2ec`, Muted: `#9aaa98`, Dim: `#6b7e69`
-- Green accent: `#22c55e` (primary), `#16a34a` (hover)
+**Monochrome / white — no color accents.**
+
+- Background: `#ffffff`, Surface: `#f5f5f5`, Surface-2: `#eeeeee`, Border: `#e5e5e5`
+- Text: `#0f0f0f`, Muted: `#737373`, Dim: `#a3a3a3`
+- Accent (buttons/links/focus): `#0f0f0f` (black), Hover: `#333333`
+- **Never use green, blue, or any chromatic color.** Black, white, and grays only.
 - Tailwind v4 with `@import "tailwindcss"` — no config file, use CSS vars and arbitrary values
 - Font: Inter (body), IBM Plex Mono (numbers/mono)
 

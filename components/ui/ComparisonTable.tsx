@@ -11,7 +11,7 @@ interface ComparisonTableProps {
 
 export default function ComparisonTable({ columns, rows, highlightCol }: ComparisonTableProps) {
   return (
-    <div className="overflow-x-auto rounded-xl border border-[#1e2620]">
+    <div className="overflow-x-auto rounded-xl border border-[#e5e5e5]">
       <table className="table-zeo min-w-full">
         <thead>
           <tr>
@@ -19,7 +19,7 @@ export default function ComparisonTable({ columns, rows, highlightCol }: Compari
             {columns.map((col) => (
               <th
                 key={col}
-                className={col === highlightCol ? "text-[#22c55e]" : ""}
+                className={col === highlightCol ? "text-[#0f0f0f]" : ""}
               >
                 {col}
               </th>
@@ -29,11 +29,11 @@ export default function ComparisonTable({ columns, rows, highlightCol }: Compari
         <tbody>
           {rows.map((row, i) => (
             <tr key={i}>
-              <td className="font-medium text-[#eef2ec]">{row.feature}</td>
+              <td className="font-medium text-[#0f0f0f]">{row.feature}</td>
               {columns.map((col) => (
                 <td
                   key={col}
-                  className={col === highlightCol ? "text-[#22c55e]" : ""}
+                  className={col === highlightCol ? "text-[#0f0f0f]" : ""}
                 >
                   {row[col] ?? "—"}
                 </td>

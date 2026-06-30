@@ -374,7 +374,7 @@ const invoiceCriteria = [
 
 export default function FactoringIndustriesPage() {
   return (
-    <div className="min-h-screen bg-[#0a0d0b]">
+    <div className="min-h-screen bg-[#ffffff]">
       {/* ── Hero ───────────────────────────────────────────────────────────── */}
       <PageHero
         eyebrow="Factoring"
@@ -384,7 +384,7 @@ export default function FactoringIndustriesPage() {
       />
 
       {/* ── Metrics strip ─────────────────────────────────────────────────── */}
-      <section className="py-10 border-b border-[#1e2620]">
+      <section className="py-10 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -412,22 +412,22 @@ export default function FactoringIndustriesPage() {
               note="Longer terms may incur additional fees beyond initial period"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are general market observations for illustrative purposes only. They are not offers, commitments, or guaranteed terms. All terms are subject to underwriting by third-party providers.
           </p>
         </div>
       </section>
 
       {/* ── What is it / who uses it ───────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Invoice Factoring and Which Businesses Use It?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Invoice factoring is the sale of accounts receivable — unpaid B2B or B2G invoices — to a third-party financing company called a factor, in exchange for an immediate cash advance. Rather than waiting for a customer to pay on their 30-, 60-, or 90-day terms, a business receives most of the invoice value upfront and the factor collects from the customer directly.
             </p>
@@ -445,17 +445,17 @@ export default function FactoringIndustriesPage() {
       </section>
 
       {/* ── Advance / reserve cycle ────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 How It Works
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
                 The Advance, Reserve, and Fee Cycle
               </h2>
-              <div className="space-y-4 text-[#9aaa98] leading-relaxed text-sm">
+              <div className="space-y-4 text-[#737373] leading-relaxed text-sm">
                 <p>
                   Regardless of industry, factoring follows a consistent financial structure: the factor advances a percentage of the invoice face value immediately upon verification, holds the remainder in a reserve account, and releases the reserve minus its fee once the customer pays. Understanding this cycle — and how each stage is affected by your industry — is essential to evaluating whether factoring makes financial sense.
                 </p>
@@ -467,8 +467,8 @@ export default function FactoringIndustriesPage() {
                 </p>
               </div>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-6">
                 Invoice lifecycle
               </p>
               <div className="space-y-0">
@@ -478,21 +478,21 @@ export default function FactoringIndustriesPage() {
                       <div
                         className={`flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full border text-[0.65rem] font-semibold tabular-nums ${
                           s.accent
-                            ? "border-[#22c55e]/50 bg-[#0f2a14] text-[#22c55e]"
-                            : "border-[#1e2620] bg-[#111512] text-[#9aaa98]"
+                            ? "border-[#0f0f0f]/50 bg-[#0f2a14] text-[#0f0f0f]"
+                            : "border-[#e5e5e5] bg-[#f5f5f5] text-[#737373]"
                         }`}
                       >
                         {s.step}
                       </div>
                       {i < cycleSteps.length - 1 && (
-                        <div className="mt-1 w-px flex-1 bg-[#1e2620]" style={{ minHeight: "1.5rem" }} />
+                        <div className="mt-1 w-px flex-1 bg-[#e5e5e5]" style={{ minHeight: "1.5rem" }} />
                       )}
                     </div>
                     <div className={`pb-5 ${i === cycleSteps.length - 1 ? "pb-0" : ""}`}>
-                      <p className={`text-sm font-semibold mb-0.5 ${s.accent ? "text-[#22c55e]" : "text-[#eef2ec]"}`}>
+                      <p className={`text-sm font-semibold mb-0.5 ${s.accent ? "text-[#0f0f0f]" : "text-[#0f0f0f]"}`}>
                         {s.label}
                       </p>
-                      <p className="text-sm text-[#6b7e69] leading-relaxed">{s.detail}</p>
+                      <p className="text-sm text-[#a3a3a3] leading-relaxed">{s.detail}</p>
                     </div>
                   </div>
                 ))}
@@ -503,16 +503,16 @@ export default function FactoringIndustriesPage() {
       </section>
 
       {/* ── Invoice criteria / requirements ───────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Invoice Criteria and Common Eligibility Factors
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               While requirements vary by factor and industry, the following criteria apply broadly across most factoring programs. No approval or outcome is guaranteed — all decisions are made by third-party providers under their own underwriting guidelines.
             </p>
           </div>
@@ -520,11 +520,11 @@ export default function FactoringIndustriesPage() {
             {invoiceCriteria.map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex items-start gap-2 mb-2">
                   <svg
-                    className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]"
+                    className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]"
                     viewBox="0 0 16 16"
                     fill="none"
                   >
@@ -536,17 +536,17 @@ export default function FactoringIndustriesPage() {
                       strokeLinejoin="round"
                     />
                   </svg>
-                  <h3 className="text-sm font-semibold text-[#eef2ec]">{item.label}</h3>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f]">{item.label}</h3>
                 </div>
-                <p className="text-sm text-[#9aaa98] leading-relaxed pl-6">{item.detail}</p>
+                <p className="text-sm text-[#737373] leading-relaxed pl-6">{item.detail}</p>
               </div>
             ))}
           </div>
-          <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Industry-specific eligibility variations
             </p>
-            <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
               <p>
                 Beyond the general criteria above, individual industries carry additional eligibility considerations. Construction subcontractors must ensure invoices are free of retainage and that appropriate conditional lien waivers are in place before submission. Healthcare providers factoring commercial insurance receivables must present verified, submitted claims that are not in dispute or subject to coordination of benefits complications. Government contractors factoring federal receivables must comply with Assignment of Claims Act notice procedures — failure to properly notify the contracting officer and disbursing official may render the assignment unenforceable.
               </p>
@@ -559,31 +559,31 @@ export default function FactoringIndustriesPage() {
       </section>
 
       {/* ── Advance rates and fees by industry ────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing Reference
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
             Advance Rates and Fee Ranges by Industry
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-6 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-6 max-w-2xl">
             The ranges below are general market observations for educational reference. They are not offers, commitments, or indicative of any specific transaction. Actual terms are subject to underwriting by third-party providers and will vary based on invoice quality, customer credit, volume, and contract terms.
           </p>
-          <div className="overflow-x-auto rounded-xl border border-[#1e2620]">
+          <div className="overflow-x-auto rounded-xl border border-[#e5e5e5]">
             <table className="w-full text-sm border-collapse" style={{ fontVariantNumeric: "tabular-nums" }}>
               <thead>
-                <tr className="border-b border-[#1e2620]">
-                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69]">
+                <tr className="border-b border-[#e5e5e5]">
+                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3]">
                     Industry
                   </th>
-                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69]">
+                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3]">
                     Typical Advance Range
                   </th>
-                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69]">
+                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3]">
                     Typical Fee Range
                   </th>
-                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] hidden lg:table-cell">
+                  <th className="text-left px-5 py-3 text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] hidden lg:table-cell">
                     Key Consideration
                   </th>
                 </tr>
@@ -592,34 +592,34 @@ export default function FactoringIndustriesPage() {
                 {advanceRanges.map((row, i) => (
                   <tr
                     key={row.industry}
-                    className={`border-b border-[#1e2620] last:border-b-0 ${
-                      i % 2 === 0 ? "bg-[#111512]" : "bg-[#0a0d0b]"
+                    className={`border-b border-[#e5e5e5] last:border-b-0 ${
+                      i % 2 === 0 ? "bg-[#f5f5f5]" : "bg-[#ffffff]"
                     }`}
                   >
-                    <td className="px-5 py-3.5 text-[#eef2ec] font-medium">{row.industry}</td>
-                    <td className="px-5 py-3.5 text-[#22c55e] font-semibold">{row.advance}</td>
-                    <td className="px-5 py-3.5 text-[#9aaa98]">{row.fee}</td>
-                    <td className="px-5 py-3.5 text-[#6b7e69] hidden lg:table-cell">{row.note}</td>
+                    <td className="px-5 py-3.5 text-[#0f0f0f] font-medium">{row.industry}</td>
+                    <td className="px-5 py-3.5 text-[#0f0f0f] font-semibold">{row.advance}</td>
+                    <td className="px-5 py-3.5 text-[#737373]">{row.fee}</td>
+                    <td className="px-5 py-3.5 text-[#a3a3a3] hidden lg:table-cell">{row.note}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-[#6b7e69] mt-3">
+          <p className="text-xs text-[#a3a3a3] mt-3">
             Ranges represent general industry observations only and are not offers or guaranteed terms. Individual factors may quote outside these ranges.
           </p>
 
           {/* Calculator callout */}
-          <div className="mt-6 rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="mt-6 rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-sm font-semibold text-[#eef2ec] mb-1">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                 Estimate your advance and fees
               </p>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 The{" "}
                 <Link
                   href="/calculators/invoice-factoring-calculator"
-                  className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                  className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
                 >
                   Invoice Factoring Calculator
                 </Link>{" "}
@@ -628,7 +628,7 @@ export default function FactoringIndustriesPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-[#22c55e]/30 text-sm font-semibold text-[#22c55e] hover:bg-[#22c55e]/10 transition-colors"
+              className="flex-shrink-0 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg border border-[#0f0f0f]/30 text-sm font-semibold text-[#0f0f0f] hover:bg-[#0f0f0f]/10 transition-colors"
             >
               Open Calculator <ArrowRightIcon />
             </Link>
@@ -637,12 +637,12 @@ export default function FactoringIndustriesPage() {
       </section>
 
       {/* ── Benefits and limitations ───────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             {/* Benefits */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5 text-balance">
@@ -672,7 +672,7 @@ export default function FactoringIndustriesPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path
                         d="M3 8l3.5 3.5L13 5"
                         stroke="currentColor"
@@ -682,8 +682,8 @@ export default function FactoringIndustriesPage() {
                       />
                     </svg>
                     <div>
-                      <p className="text-sm font-semibold text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-semibold text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -692,7 +692,7 @@ export default function FactoringIndustriesPage() {
 
             {/* Limitations */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5 text-balance">
@@ -722,7 +722,7 @@ export default function FactoringIndustriesPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path
                         d="M8 5v4M8 11h.01"
                         stroke="currentColor"
@@ -732,8 +732,8 @@ export default function FactoringIndustriesPage() {
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4" />
                     </svg>
                     <div>
-                      <p className="text-sm font-semibold text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-semibold text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -744,15 +744,15 @@ export default function FactoringIndustriesPage() {
       </section>
 
       {/* ── Industry cards ─────────────────────────────────────────────────── */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             By Industry
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 text-balance">
             Explore Factoring for Your Industry
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl">
             Each industry below has a dedicated guide covering how factoring works in that sector, what invoices are typically eligible, advance rate norms, and key considerations for evaluating providers.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -770,7 +770,7 @@ export default function FactoringIndustriesPage() {
       />
 
       {/* ── Disclaimer ─────────────────────────────────────────────────────── */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

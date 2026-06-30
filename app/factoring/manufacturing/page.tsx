@@ -95,7 +95,7 @@ const comparisonRows = [
 
 export default function ManufacturingFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -108,7 +108,7 @@ export default function ManufacturingFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -134,22 +134,22 @@ export default function ManufacturingFactoringPage() {
               note="Factoring is commonly used where buyers hold long payment terms"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only. Actual advance rates, fees, and funding timelines are subject to underwriting by third-party providers and are not guaranteed.
           </p>
         </div>
       </section>
 
       {/* What is it */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Manufacturing Invoice Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Manufacturing invoice factoring is a form of accounts receivable financing in which a manufacturer sells its outstanding invoices — issued to creditworthy business buyers — to a third-party factoring company in exchange for an immediate advance, typically 75% to 90% of the invoice face value. The factor then collects payment directly from the buyer. Once the buyer pays in full, the factor releases the remaining reserve balance to the manufacturer, minus the factoring fee.
             </p>
@@ -167,36 +167,36 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Manufacturers That Commonly Use Invoice Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Manufacturing factoring can be a potential fit for a range of production businesses. The common thread is creditworthy B2B buyers, accepted invoices, and a cash flow gap between shipment and payment.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-3">
             {/* Contract manufacturers */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="2" y="6" width="14" height="9" rx="1" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M6 6V4a2 2 0 014 0v2" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <path d="M5 10h8M5 13h5" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Contract Manufacturers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Contract Manufacturers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Manufacturers producing to spec for OEM buyers or retail chains frequently operate on long payment terms dictated by the buyer. Factoring lets contract manufacturers accelerate cash tied up in large, infrequent invoices without renegotiating buyer terms.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["OEM supply", "Private label", "Retail supply chain"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -204,21 +204,21 @@ export default function ManufacturingFactoringPage() {
             </div>
 
             {/* Small and mid-size manufacturers */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M2 14V8l4-5h6l4 5v6H2z" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M7 14v-4h4v4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M2 8h14" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Growing Manufacturers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Growing Manufacturers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Fast-growing manufacturers often win new accounts before their balance sheet qualifies for a bank credit line. When a new purchase order requires ramping materials and labor weeks before the invoice is paid, factoring can provide working capital that scales with revenue rather than trailing it.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["New accounts", "Scaling production", "Limited credit history"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -226,20 +226,20 @@ export default function ManufacturingFactoringPage() {
             </div>
 
             {/* Specialty producers */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <circle cx="9" cy="9" r="3" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M9 2v2M9 14v2M2 9h2M14 9h2M4.22 4.22l1.42 1.42M12.36 12.36l1.42 1.42M4.22 13.78l1.42-1.42M12.36 5.64l1.42-1.42" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Specialty & Industrial Producers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Specialty & Industrial Producers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Specialty chemical, industrial component, food processing, and electronics assembly manufacturers often carry substantial raw material costs and sell on extended terms to industrial distributors. Factoring can help bridge the gap between production cost and collection.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Industrial", "Food processing", "Electronics", "Chemicals"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -250,15 +250,15 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Manufacturing Factoring Cycle: Shipment to Reserve Release
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Manufacturing factoring follows a defined cycle tied to your shipment and invoicing process. Each step corresponds to documentation you already generate in the ordinary course of fulfilling purchase orders.
           </p>
           <ol className="space-y-6">
@@ -290,12 +290,12 @@ export default function ManufacturingFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">{item.title}</h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">{item.title}</h3>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -304,16 +304,16 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* Requirements and invoice criteria */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Manufacturing Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Qualification criteria vary significantly by factor. The items below represent commonly reviewed requirements across the manufacturing factoring market. No outcome is guaranteed — all decisions are subject to underwriting by third-party providers.
             </p>
           </div>
@@ -344,9 +344,9 @@ export default function ManufacturingFactoringPage() {
                 body: "Most factoring programs have a maximum invoice term they will fund — commonly net-90 or net-120. Invoices with terms beyond this window may require special approval or may not be eligible. Invoices that have aged significantly from their issue date may also face eligibility restrictions. Confirm term limits during the evaluation process.",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">{item.title}</h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+              <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">{item.title}</h3>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -354,62 +354,62 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures in Manufacturing Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Manufacturing factoring advance rates and fees vary based on buyer credit quality, invoice payment terms, monthly volume, industry segment, and recourse structure. The figures below are illustrative market ranges only — they are not offers, commitments, or guarantees. All terms are subject to underwriting by a third-party provider.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">75 – 90%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">75 – 90%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Manufacturing invoices typically carry longer payment terms than trucking or staffing, which can result in slightly lower advance rates than those industries. Factors holding more capital in reserve for longer periods need additional buffer. Manufacturers invoicing major national retail chains or large industrial distributors with well-established payment histories may qualify for higher advance rates than those invoicing smaller or less-established buyers. Volume, concentration, and industry segment also influence where within the range a specific account lands.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">1 – 4% per invoice</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">1 – 4% per invoice</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Fees are typically structured as a flat percentage of the invoice face value or as a tiered rate that accrues in increments — for example, 1.5% for payment within 30 days and an additional 0.5% for each subsequent 15-day period. Because manufacturing buyers often pay on net-60 or net-90 schedules, understanding the full tiered schedule is especially important. Manufacturers with large monthly funded volumes often negotiate lower per-invoice rates. Additional fees for wire transfers, ACH, monthly minimums, early termination, and due diligence are common — always request a complete fee schedule before signing.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Reserve Account</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">10 – 25% held back</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Reserve Account</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">10 – 25% held back</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The reserve is the portion of each invoice not included in the initial advance. It is held by the factor until the buyer pays and is released — minus the factoring fee — at that time. In manufacturing, where invoices can remain outstanding for 60 to 90 days, the reserve may be held for extended periods. Some factors apply reserve holds on an account-wide basis; others manage them per invoice. Understanding how and when reserves are released is particularly relevant for manufacturers that need predictable cash timing.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Recourse vs. Non-Recourse</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Affects fee and risk allocation</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Recourse vs. Non-Recourse</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Affects fee and risk allocation</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Recourse factoring — in which you remain liable if the buyer fails to pay — is the more common structure and generally carries lower fees. Non-recourse programs shift the credit risk of a buyer's insolvency to the factor, typically in exchange for higher fees or stricter buyer approval criteria. Critically, non-recourse does not cover buyer disputes, returns, short payments, or claims of defective goods — only genuine commercial insolvency scenarios as defined in the agreement. Manufacturing operations with any meaningful return rate or dispute history should understand exactly how chargebacks and credits are handled before choosing a structure.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Model your factoring cost before you commit.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Model your factoring cost before you commit.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -420,16 +420,16 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Manufacturing Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single product is right for every manufacturer. This table highlights structural differences — not cost rankings or endorsements. All terms are subject to underwriting; results vary by provider and applicant.
             </p>
           </div>
@@ -442,11 +442,11 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Manufacturing Factoring Can Offer</h2>
@@ -470,19 +470,19 @@ export default function ManufacturingFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -506,13 +506,13 @@ export default function ManufacturingFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -523,23 +523,23 @@ export default function ManufacturingFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Estimate advance amounts, factoring fees, and reserve releases based on your manufacturing invoice values and buyer payment timing. Outputs are estimates only and are not offers or commitments.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -564,7 +564,7 @@ export default function ManufacturingFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

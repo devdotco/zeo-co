@@ -117,15 +117,15 @@ function OptionBtn({
       onClick={() => onSelect(value)}
       className={`flex items-center gap-2 px-4 py-3 rounded-xl border text-sm font-medium transition-all text-left ${
         selected
-          ? "border-[#22c55e] bg-[#0f2a14] text-[#22c55e]"
-          : "border-[#1e2620] bg-[#111512] text-[#9aaa98] hover:border-[#2e3a2c] hover:text-white"
+          ? "border-[#0f0f0f] bg-[#0f2a14] text-[#0f0f0f]"
+          : "border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] hover:border-[#2e3a2c] hover:text-white"
       }`}
       aria-pressed={selected}
     >
       {selected && (
         <svg className="flex-shrink-0 w-4 h-4" viewBox="0 0 16 16" fill="none">
-          <circle cx="8" cy="8" r="7" stroke="#22c55e" strokeWidth="1.5"/>
-          <path d="M5 8L7 10L11 6" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          <circle cx="8" cy="8" r="7" stroke="#0f0f0f" strokeWidth="1.5"/>
+          <path d="M5 8L7 10L11 6" stroke="#0f0f0f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       )}
       {children}
@@ -154,8 +154,8 @@ function Input({
 }) {
   return (
     <div>
-      <label htmlFor={id} className="block text-sm font-medium text-[#9aaa98] mb-1.5">
-        {label} {required && <span className="text-[#22c55e]">*</span>}
+      <label htmlFor={id} className="block text-sm font-medium text-[#737373] mb-1.5">
+        {label} {required && <span className="text-[#0f0f0f]">*</span>}
       </label>
       <input
         id={id}
@@ -164,7 +164,7 @@ function Input({
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         required={required}
-        className="w-full bg-[#111512] border border-[#1e2620] rounded-lg px-3 py-2.5 text-sm text-[#eef2ec] placeholder-[#3a4a38] focus:outline-none focus:border-[#22c55e] transition-colors"
+        className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#0f0f0f] placeholder-[#3a4a38] focus:outline-none focus:border-[#0f0f0f] transition-colors"
       />
     </div>
   );
@@ -175,13 +175,13 @@ function Input({
 function ProgressBar({ step, total }: { step: number; total: number }) {
   return (
     <div className="flex items-center gap-3 mb-8">
-      <div className="flex-1 h-1 bg-[#1e2620] rounded-full overflow-hidden">
+      <div className="flex-1 h-1 bg-[#e5e5e5] rounded-full overflow-hidden">
         <div
-          className="h-full bg-[#22c55e] rounded-full transition-all duration-300"
+          className="h-full bg-[#0f0f0f] rounded-full transition-all duration-300"
           style={{ width: `${(step / total) * 100}%` }}
         />
       </div>
-      <span className="text-xs text-[#6b7e69] tabular-nums">
+      <span className="text-xs text-[#a3a3a3] tabular-nums">
         {step}/{total}
       </span>
     </div>
@@ -251,16 +251,16 @@ export default function MultiStepFinancingForm() {
   if (submitted) {
     return (
       <div className="animate-fade-in text-center py-8">
-        <div className="w-14 h-14 rounded-full bg-[#0f2a14] border border-[#22c55e]/30 flex items-center justify-center mx-auto mb-5">
-          <svg className="w-7 h-7 text-[#22c55e]" viewBox="0 0 24 24" fill="none">
+        <div className="w-14 h-14 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center mx-auto mb-5">
+          <svg className="w-7 h-7 text-[#0f0f0f]" viewBox="0 0 24 24" fill="none">
             <path d="M5 12L9 16L19 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
         <h3 className="text-xl font-semibold text-white mb-3">Submission Received</h3>
-        <p className="text-sm text-[#9aaa98] leading-relaxed max-w-sm mx-auto">
+        <p className="text-sm text-[#737373] leading-relaxed max-w-sm mx-auto">
           {matchMessage(matchCategory)}
         </p>
-        <p className="text-xs text-[#6b7e69] mt-4 max-w-xs mx-auto">
+        <p className="text-xs text-[#a3a3a3] mt-4 max-w-xs mx-auto">
           ZEO.co does not guarantee approval, funding, rates, terms, or loan amounts. Any offer will come from a third-party provider.
         </p>
       </div>
@@ -275,7 +275,7 @@ export default function MultiStepFinancingForm() {
       {step === 1 && (
         <div className="animate-fade-in">
           <h3 className="text-base font-semibold text-white mb-1">What do you need funding for?</h3>
-          <p className="text-xs text-[#6b7e69] mb-5">Select all that apply</p>
+          <p className="text-xs text-[#a3a3a3] mb-5">Select all that apply</p>
           <div className="grid grid-cols-2 gap-2">
             {[
               "Working capital",
@@ -308,7 +308,7 @@ export default function MultiStepFinancingForm() {
       {step === 2 && (
         <div className="animate-fade-in">
           <h3 className="text-base font-semibold text-white mb-1">How much capital do you need?</h3>
-          <p className="text-xs text-[#6b7e69] mb-5">Approximate range is fine</p>
+          <p className="text-xs text-[#a3a3a3] mb-5">Approximate range is fine</p>
           <div className="grid grid-cols-2 gap-2">
             {["Under $50K", "$50K–$150K", "$150K–$500K", "$500K–$1M", "$1M–$5M", "$5M+"].map((opt) => (
               <OptionBtn
@@ -328,7 +328,7 @@ export default function MultiStepFinancingForm() {
       {step === 3 && (
         <div className="animate-fade-in">
           <h3 className="text-base font-semibold text-white mb-1">What best describes your business?</h3>
-          <p className="text-xs text-[#6b7e69] mb-5">Choose the closest match</p>
+          <p className="text-xs text-[#a3a3a3] mb-5">Choose the closest match</p>
           <div className="grid grid-cols-2 gap-2">
             {[
               "Startup",
@@ -358,7 +358,7 @@ export default function MultiStepFinancingForm() {
       {step === 4 && (
         <div className="animate-fade-in space-y-4">
           <h3 className="text-base font-semibold text-white mb-1">Business financial profile</h3>
-          <p className="text-xs text-[#6b7e69] mb-3">Approximate figures are fine. Fields marked * are required.</p>
+          <p className="text-xs text-[#a3a3a3] mb-3">Approximate figures are fine. Fields marked * are required.</p>
           <Input
             label="Monthly Revenue"
             id="monthlyRevenue"
@@ -391,8 +391,8 @@ export default function MultiStepFinancingForm() {
             />
           )}
           <div>
-            <label htmlFor="state" className="block text-sm font-medium text-[#9aaa98] mb-1.5">
-              State of Business Registration <span className="text-[#22c55e]">*</span>
+            <label htmlFor="state" className="block text-sm font-medium text-[#737373] mb-1.5">
+              State of Business Registration <span className="text-[#0f0f0f]">*</span>
             </label>
             <input
               id="state"
@@ -400,7 +400,7 @@ export default function MultiStepFinancingForm() {
               onChange={(e) => set("state", e.target.value)}
               placeholder="e.g. Texas"
               required
-              className="w-full bg-[#111512] border border-[#1e2620] rounded-lg px-3 py-2.5 text-sm text-[#eef2ec] placeholder-[#3a4a38] focus:outline-none focus:border-[#22c55e] transition-colors"
+              className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#0f0f0f] placeholder-[#3a4a38] focus:outline-none focus:border-[#0f0f0f] transition-colors"
             />
           </div>
         </div>
@@ -410,7 +410,7 @@ export default function MultiStepFinancingForm() {
       {step === 5 && (
         <div className="animate-fade-in">
           <h3 className="text-base font-semibold text-white mb-1">When do you need funding?</h3>
-          <p className="text-xs text-[#6b7e69] mb-5">Timeline helps us prioritize your review</p>
+          <p className="text-xs text-[#a3a3a3] mb-5">Timeline helps us prioritize your review</p>
           <div className="grid grid-cols-2 gap-2">
             {["This week", "2–4 weeks", "30–60 days", "Exploring options"].map((opt) => (
               <OptionBtn
@@ -439,7 +439,7 @@ export default function MultiStepFinancingForm() {
 
           {/* File upload */}
           <div>
-            <label htmlFor="files" className="block text-sm font-medium text-[#9aaa98] mb-1.5">
+            <label htmlFor="files" className="block text-sm font-medium text-[#737373] mb-1.5">
               Upload documents (optional)
             </label>
             <input
@@ -448,23 +448,23 @@ export default function MultiStepFinancingForm() {
               multiple
               accept=".pdf,.doc,.docx,.xls,.xlsx,.csv,.txt"
               onChange={(e) => set("files", Array.from(e.target.files ?? []))}
-              className="w-full bg-[#111512] border border-[#1e2620] rounded-lg px-3 py-2.5 text-sm text-[#6b7e69] file:mr-3 file:rounded-md file:border-0 file:bg-[#1e2620] file:text-xs file:text-[#9aaa98] file:px-3 file:py-1.5 cursor-pointer"
+              className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#a3a3a3] file:mr-3 file:rounded-md file:border-0 file:bg-[#e5e5e5] file:text-xs file:text-[#737373] file:px-3 file:py-1.5 cursor-pointer"
             />
             <p className="text-xs text-[#3a4a38] mt-1">P&L, tax returns, invoices, CIM, debt schedule, bank statements. Do not upload SSNs or login credentials.</p>
           </div>
 
           {/* Consent */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
             <label className="flex items-start gap-3 cursor-pointer">
               <input
                 type="checkbox"
                 checked={data.consent}
                 onChange={(e) => set("consent", e.target.checked)}
                 required
-                className="mt-0.5 accent-[#22c55e] flex-shrink-0"
+                className="mt-0.5 accent-[#0f0f0f] flex-shrink-0"
                 aria-required="true"
               />
-              <span className="text-xs text-[#6b7e69] leading-relaxed">{FORM_CONSENT}</span>
+              <span className="text-xs text-[#a3a3a3] leading-relaxed">{FORM_CONSENT}</span>
             </label>
           </div>
 
@@ -475,12 +475,12 @@ export default function MultiStepFinancingForm() {
       )}
 
       {/* ── Navigation ────────────────────────────────────────────────────── */}
-      <div className="flex items-center justify-between mt-6 pt-5 border-t border-[#1e2620]">
+      <div className="flex items-center justify-between mt-6 pt-5 border-t border-[#e5e5e5]">
         {step > 1 ? (
           <button
             type="button"
             onClick={() => setStep(step - 1)}
-            className="text-sm text-[#6b7e69] hover:text-white transition-colors"
+            className="text-sm text-[#a3a3a3] hover:text-white transition-colors"
           >
             ← Back
           </button>
@@ -499,7 +499,7 @@ export default function MultiStepFinancingForm() {
               (step === 4 && !data.monthlyRevenue) ||
               (step === 5 && !data.urgency)
             }
-            className="px-5 py-2.5 rounded-xl bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+            className="px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
           >
             Continue
           </button>
@@ -507,7 +507,7 @@ export default function MultiStepFinancingForm() {
           <button
             type="submit"
             disabled={submitting || !data.consent}
-            className="px-6 py-2.5 rounded-xl bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+            className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
           >
             {submitting ? "Submitting…" : "Submit"}
           </button>

@@ -27,10 +27,10 @@ const tosPageSchema = {
 function SectionLabel({ number, children }: { number: string; children: React.ReactNode }) {
   return (
     <div className="flex items-baseline gap-3 mb-3">
-      <span className="text-[0.6rem] font-mono font-semibold text-[#22c55e] tracking-[0.12em] tabular-nums flex-shrink-0">
+      <span className="text-[0.6rem] font-mono font-semibold text-[#0f0f0f] tracking-[0.12em] tabular-nums flex-shrink-0">
         {number}
       </span>
-      <h2 className="text-base font-semibold text-[#eef2ec] leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
+      <h2 className="text-base font-semibold text-[#0f0f0f] leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
         {children}
       </h2>
     </div>
@@ -38,12 +38,12 @@ function SectionLabel({ number, children }: { number: string; children: React.Re
 }
 
 function Divider() {
-  return <hr className="border-t border-[#1e2620] my-8" />;
+  return <hr className="border-t border-[#e5e5e5] my-8" />;
 }
 
 function Prose({ children }: { children: React.ReactNode }) {
   return (
-    <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed pl-[calc(1rem+0.75rem+0.75rem)]">
+    <div className="space-y-3 text-sm text-[#737373] leading-relaxed pl-[calc(1rem+0.75rem+0.75rem)]">
       {children}
     </div>
   );
@@ -76,8 +76,8 @@ function BulletList({ items }: { items: string[] }) {
   return (
     <ul className="space-y-2 mt-2">
       {items.map((item) => (
-        <li key={item} className="flex items-start gap-2.5 text-sm text-[#9aaa98] leading-relaxed">
-          <span className="flex-shrink-0 mt-[0.4em] w-1 h-1 rounded-full bg-[#22c55e]/50" />
+        <li key={item} className="flex items-start gap-2.5 text-sm text-[#737373] leading-relaxed">
+          <span className="flex-shrink-0 mt-[0.4em] w-1 h-1 rounded-full bg-[#0f0f0f]/50" />
           {item}
         </li>
       ))}
@@ -89,7 +89,7 @@ function BulletList({ items }: { items: string[] }) {
 
 export default function TermsPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd data={tosPageSchema} />
 
       <PageHero
@@ -100,16 +100,16 @@ export default function TermsPage() {
       />
 
       {/* Effective date bar */}
-      <div className="border-b border-[#1e2620] bg-[#111512]">
+      <div className="border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8 py-4 flex flex-wrap gap-x-8 gap-y-1">
-          <span className="text-xs text-[#6b7e69]">
-            <span className="text-[#9aaa98] font-medium">Effective Date:</span> June 30, 2026
+          <span className="text-xs text-[#a3a3a3]">
+            <span className="text-[#737373] font-medium">Effective Date:</span> June 30, 2026
           </span>
-          <span className="text-xs text-[#6b7e69]">
-            <span className="text-[#9aaa98] font-medium">Jurisdiction:</span> Arkansas, USA
+          <span className="text-xs text-[#a3a3a3]">
+            <span className="text-[#737373] font-medium">Jurisdiction:</span> Arkansas, USA
           </span>
-          <span className="text-xs text-[#6b7e69]">
-            <span className="text-[#9aaa98] font-medium">Operator:</span> ZEO.co
+          <span className="text-xs text-[#a3a3a3]">
+            <span className="text-[#737373] font-medium">Operator:</span> ZEO.co
           </span>
         </div>
       </div>
@@ -140,7 +140,7 @@ export default function TermsPage() {
                 will post the most current version at{" "}
                 <Link
                   href="/terms-of-service"
-                  className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2 decoration-[#22c55e]/30"
+                  className="text-[#0f0f0f] hover:text-[#333333] transition-colors underline underline-offset-2 decoration-[#0f0f0f]/30"
                 >
                   zeo.co/terms-of-service
                 </Link>{" "}
@@ -591,11 +591,11 @@ export default function TermsPage() {
             <SectionLabel number="17">Dispute Resolution</SectionLabel>
             <Prose>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Informal Resolution.</strong> Before
+                <strong className="text-[#0f0f0f] font-medium">Informal Resolution.</strong> Before
                 initiating any formal proceeding, you agree to contact ZEO at{" "}
                 <a
                   href="mailto:legal@zeo.co"
-                  className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2 decoration-[#22c55e]/30"
+                  className="text-[#0f0f0f] hover:text-[#333333] transition-colors underline underline-offset-2 decoration-[#0f0f0f]/30"
                 >
                   legal@zeo.co
                 </a>{" "}
@@ -604,14 +604,14 @@ export default function TermsPage() {
                 least thirty (30) days before initiating formal proceedings.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Governing Law.</strong> These Terms
+                <strong className="text-[#0f0f0f] font-medium">Governing Law.</strong> These Terms
                 and any dispute arising from them shall be governed by and construed in accordance
                 with the laws of the State of Arkansas, without regard to its conflict of law
                 provisions. The United Nations Convention on Contracts for the International Sale
                 of Goods shall not apply.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Binding Arbitration.</strong> Except
+                <strong className="text-[#0f0f0f] font-medium">Binding Arbitration.</strong> Except
                 as provided below, any dispute, claim, or controversy arising out of or relating to
                 these Terms or the Platform that is not resolved through informal negotiation shall
                 be submitted to and resolved by binding individual arbitration administered by the
@@ -626,7 +626,7 @@ export default function TermsPage() {
                 different allocation.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Carve-Outs.</strong> Notwithstanding
+                <strong className="text-[#0f0f0f] font-medium">Carve-Outs.</strong> Notwithstanding
                 the foregoing, either party may: (a) bring an individual action in small claims
                 court for disputes within that court&rsquo;s jurisdiction; and (b) seek emergency
                 injunctive or other equitable relief in a court of competent jurisdiction to
@@ -636,11 +636,11 @@ export default function TermsPage() {
                 arbitrate any other claims.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Opt-Out Right.</strong> You may
+                <strong className="text-[#0f0f0f] font-medium">Opt-Out Right.</strong> You may
                 opt out of this arbitration agreement by sending written notice to{" "}
                 <a
                   href="mailto:legal@zeo.co"
-                  className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2 decoration-[#22c55e]/30"
+                  className="text-[#0f0f0f] hover:text-[#333333] transition-colors underline underline-offset-2 decoration-[#0f0f0f]/30"
                 >
                   legal@zeo.co
                 </a>{" "}
@@ -650,7 +650,7 @@ export default function TermsPage() {
                 not affect any other provision of these Terms.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Class Action Waiver.</strong> TO
+                <strong className="text-[#0f0f0f] font-medium">Class Action Waiver.</strong> TO
                 THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, YOU AND ZEO EACH WAIVE ANY RIGHT
                 TO PURSUE ANY DISPUTE AS A CLASS, COLLECTIVE, CONSOLIDATED, COORDINATED, OR
                 REPRESENTATIVE ACTION, OR AS A PRIVATE ATTORNEY GENERAL ACTION. THE ARBITRATOR
@@ -661,7 +661,7 @@ export default function TermsPage() {
                 PROCEEDING IN ARBITRATION.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Venue for Non-Arbitrated Claims.</strong>{" "}
+                <strong className="text-[#0f0f0f] font-medium">Venue for Non-Arbitrated Claims.</strong>{" "}
                 For any claims not subject to arbitration, the parties irrevocably consent to
                 exclusive jurisdiction and venue in the state and federal courts located in Benton
                 County, Arkansas, and waive any objection to such jurisdiction or venue.
@@ -691,7 +691,7 @@ export default function TermsPage() {
                 changes. The current version of these Terms will always be available at{" "}
                 <Link
                   href="/terms-of-service"
-                  className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2 decoration-[#22c55e]/30"
+                  className="text-[#0f0f0f] hover:text-[#333333] transition-colors underline underline-offset-2 decoration-[#0f0f0f]/30"
                 >
                   zeo.co/terms-of-service
                 </Link>
@@ -711,16 +711,16 @@ export default function TermsPage() {
                 please contact us at:
               </p>
             </Prose>
-            <div className="mt-4 ml-[calc(1rem+0.75rem+0.75rem)] rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-5 inline-block">
-              <p className="text-[0.6rem] font-mono font-semibold uppercase tracking-[0.12em] text-[#6b7e69] mb-3">
+            <div className="mt-4 ml-[calc(1rem+0.75rem+0.75rem)] rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-5 inline-block">
+              <p className="text-[0.6rem] font-mono font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] mb-3">
                 Legal Contact
               </p>
               <div className="space-y-1.5 text-sm">
-                <p className="text-[#eef2ec] font-medium">ZEO.co</p>
-                <p className="text-[#9aaa98]">Legal and Compliance</p>
+                <p className="text-[#0f0f0f] font-medium">ZEO.co</p>
+                <p className="text-[#737373]">Legal and Compliance</p>
                 <a
                   href="mailto:legal@zeo.co"
-                  className="inline-flex items-center gap-2 text-[#22c55e] hover:text-[#16a34a] transition-colors"
+                  className="inline-flex items-center gap-2 text-[#0f0f0f] hover:text-[#333333] transition-colors"
                 >
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
                     <rect x="1.5" y="3" width="11" height="8" rx="1" stroke="currentColor" strokeWidth="1.3" />
@@ -735,7 +735,7 @@ export default function TermsPage() {
                 For general inquiries, visit our{" "}
                 <Link
                   href="/contact"
-                  className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2 decoration-[#22c55e]/30"
+                  className="text-[#0f0f0f] hover:text-[#333333] transition-colors underline underline-offset-2 decoration-[#0f0f0f]/30"
                 >
                   Contact page
                 </Link>
@@ -748,7 +748,7 @@ export default function TermsPage() {
       </section>
 
       {/* Disclaimer footer */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="general" />
         </div>

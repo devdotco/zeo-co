@@ -94,7 +94,7 @@ const comparisonRows = [
 
 export default function ServiceProviderFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -107,7 +107,7 @@ export default function ServiceProviderFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -132,24 +132,24 @@ export default function ServiceProviderFactoringPage() {
               note="Initial setup typically takes 3–7 business days; ongoing submissions fund faster"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4 leading-relaxed max-w-3xl">
+          <p className="text-xs text-[#a3a3a3] mt-4 leading-relaxed max-w-3xl">
             These ranges are illustrative only. Actual rates and terms are determined by third-party factoring providers through their underwriting process and are not guaranteed. Individual results will vary.
           </p>
         </div>
       </section>
 
       {/* What it is / who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Overview
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
                 What Is Service Provider Invoice Factoring?
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Invoice factoring is a financial arrangement in which a business sells its outstanding accounts receivable to a third-party company — called a factor — at a discount in exchange for immediate access to a portion of that invoice&rsquo;s value. The factor then collects payment directly from your clients when those invoices come due.
                 </p>
@@ -162,10 +162,10 @@ export default function ServiceProviderFactoringPage() {
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Who Typically Uses It
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-5">
+              <p className="text-sm text-[#737373] leading-relaxed mb-5">
                 Service provider factoring is most commonly used by businesses with commercial or government clients on net payment terms. Common industries that may qualify include:
               </p>
               <div className="grid grid-cols-1 gap-2">
@@ -195,11 +195,11 @@ export default function ServiceProviderFactoringPage() {
                     detail: "Freight brokerage and coordination services with shipper invoices pending",
                   },
                 ].map(({ name, detail }) => (
-                  <div key={name} className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-3 items-start">
-                    <div className="flex-shrink-0 mt-0.5 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-2" />
+                  <div key={name} className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-3 items-start">
+                    <div className="flex-shrink-0 mt-0.5 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-2" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{name}</p>
-                      <p className="text-xs text-[#6b7e69] mt-0.5">{detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{name}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-0.5">{detail}</p>
                     </div>
                   </div>
                 ))}
@@ -210,22 +210,22 @@ export default function ServiceProviderFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               How It Works
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               The Advance and Reserve Cycle for Service Invoices
             </h2>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               The factoring process for service providers follows a consistent cycle, though exact mechanics vary by factor and agreement. The steps below describe how a typical transaction may proceed — your actual experience will depend on your specific factor and contract terms.
             </p>
           </div>
           <div className="relative">
             {/* Connector line for desktop */}
-            <div className="hidden md:block absolute top-8 left-8 right-8 h-px bg-[#1e2620]" aria-hidden="true" />
+            <div className="hidden md:block absolute top-8 left-8 right-8 h-px bg-[#e5e5e5]" aria-hidden="true" />
             <div className="grid md:grid-cols-5 gap-4 relative">
               {[
                 {
@@ -255,12 +255,12 @@ export default function ServiceProviderFactoringPage() {
                 },
               ].map(({ step, label, body }) => (
                 <div key={step} className="flex flex-col items-start md:items-center gap-3">
-                  <div className="flex-shrink-0 z-10 flex items-center justify-center w-8 h-8 rounded-full border border-[#1e2620] bg-[#0a0d0b] text-xs font-semibold text-[#22c55e] font-variant-numeric tabular-nums">
+                  <div className="flex-shrink-0 z-10 flex items-center justify-center w-8 h-8 rounded-full border border-[#e5e5e5] bg-[#ffffff] text-xs font-semibold text-[#0f0f0f] font-variant-numeric tabular-nums">
                     {step}
                   </div>
-                  <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 w-full">
-                    <p className="text-xs font-semibold text-[#eef2ec] mb-2">{label}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{body}</p>
+                  <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 w-full">
+                    <p className="text-xs font-semibold text-[#0f0f0f] mb-2">{label}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{body}</p>
                   </div>
                 </div>
               ))}
@@ -270,17 +270,17 @@ export default function ServiceProviderFactoringPage() {
       </section>
 
       {/* Requirements and invoice criteria */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Eligibility
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
                 Business Requirements
               </h2>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-sm text-[#737373] leading-relaxed mb-6">
                 Factoring eligibility is determined by individual providers through their underwriting process. The following criteria represent common requirements across many service-focused factors — meeting these does not guarantee approval, and requirements vary by provider.
               </p>
               <ul className="space-y-3">
@@ -311,25 +311,25 @@ export default function ServiceProviderFactoringPage() {
                   },
                 ].map(({ label, detail }) => (
                   <li key={label} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{label}</p>
-                      <p className="text-xs text-[#6b7e69] mt-0.5 leading-relaxed">{detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{label}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-0.5 leading-relaxed">{detail}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Invoice Criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
                 What Makes a Service Invoice Eligible
               </h2>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-6">
+              <p className="text-sm text-[#737373] leading-relaxed mb-6">
                 Not every invoice a service business generates will qualify for factoring. Factors evaluate individual invoices — not just your business overall — and may exclude invoices that do not meet their criteria.
               </p>
               <div className="space-y-3">
@@ -360,13 +360,13 @@ export default function ServiceProviderFactoringPage() {
                     detail: "Most factors prefer invoices with Net 30 to Net 90 terms; very long payment terms may reduce the advance rate or be excluded.",
                   },
                 ].map(({ label, status, detail }) => (
-                  <div key={label} className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] p-3.5 flex gap-3">
-                    <div className={`flex-shrink-0 mt-0.5 px-2 py-0.5 rounded-full text-[0.6rem] font-semibold uppercase tracking-wide h-fit ${status === "required" ? "bg-[#0f2a14] text-[#22c55e] border border-[#22c55e]/30" : "bg-[#111512] text-[#6b7e69] border border-[#1e2620]"}`}>
+                  <div key={label} className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] p-3.5 flex gap-3">
+                    <div className={`flex-shrink-0 mt-0.5 px-2 py-0.5 rounded-full text-[0.6rem] font-semibold uppercase tracking-wide h-fit ${status === "required" ? "bg-[#0f2a14] text-[#0f0f0f] border border-[#0f0f0f]/30" : "bg-[#f5f5f5] text-[#a3a3a3] border border-[#e5e5e5]"}`}>
                       {status === "required" ? "Required" : "Supporting"}
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{label}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{detail}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{label}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{detail}</p>
                     </div>
                   </div>
                 ))}
@@ -377,19 +377,19 @@ export default function ServiceProviderFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Cost & Rates
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Advance Rates and Fee Structures
             </h2>
-            <p className="text-sm text-[#9aaa98] leading-relaxed mb-2">
+            <p className="text-sm text-[#737373] leading-relaxed mb-2">
               Service provider factoring typically involves lower advance rates and higher fees than product-based factoring, reflecting the additional verification required for intangible deliverables and the varying creditworthiness of service-sector clients.
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               The following ranges are illustrative only. Actual rates are subject to underwriting by third-party providers, are not guaranteed, and will vary based on your client mix, invoice terms, total monthly volume, and other factors evaluated during the underwriting process.
             </p>
           </div>
@@ -418,9 +418,9 @@ export default function ServiceProviderFactoringPage() {
               note="Held until client pays; released net of factoring fees — this is not additional cost"
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-            <p className="text-xs text-[#6b7e69] leading-relaxed">
-              <span className="text-[#9aaa98] font-medium">Understanding how fee timing affects your effective cost:</span>{" "}
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+            <p className="text-xs text-[#a3a3a3] leading-relaxed">
+              <span className="text-[#737373] font-medium">Understanding how fee timing affects your effective cost:</span>{" "}
               If a factor charges a 2% flat fee and your client pays in 60 days, your effective cost is 2% of that invoice regardless of timing. If the fee is structured as 1% per 30 days (or fraction thereof), the same 60-day invoice costs approximately 2%. But if your client takes 75 days, a periodic-rate structure means you pay for 3 periods — roughly 3% — while a flat-fee structure keeps the cost at 2%. Always clarify how your factor calculates fees across slow-paying invoices before signing an agreement.
             </p>
           </div>
@@ -428,10 +428,10 @@ export default function ServiceProviderFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Considerations
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
@@ -439,8 +439,8 @@ export default function ServiceProviderFactoringPage() {
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Potential Benefits
               </p>
               <ul className="space-y-3">
@@ -467,19 +467,19 @@ export default function ServiceProviderFactoringPage() {
                   },
                 ].map(({ title, body }, i) => (
                   <li key={i} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5" dangerouslySetInnerHTML={{ __html: title }} />
-                      <p className="text-xs text-[#6b7e69] leading-relaxed" dangerouslySetInnerHTML={{ __html: body }} />
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5" dangerouslySetInnerHTML={{ __html: title }} />
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed" dangerouslySetInnerHTML={{ __html: body }} />
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#9aaa98] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#737373] mb-4">
                 Notable Limitations
               </p>
               <ul className="space-y-3">
@@ -506,13 +506,13 @@ export default function ServiceProviderFactoringPage() {
                   },
                 ].map(({ title, body }, i) => (
                   <li key={i} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11v.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4" />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5" dangerouslySetInnerHTML={{ __html: title }} />
-                      <p className="text-xs text-[#6b7e69] leading-relaxed" dangerouslySetInnerHTML={{ __html: body }} />
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5" dangerouslySetInnerHTML={{ __html: title }} />
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed" dangerouslySetInnerHTML={{ __html: body }} />
                     </div>
                   </li>
                 ))}
@@ -523,16 +523,16 @@ export default function ServiceProviderFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
               Service Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               Comparison is illustrative only. Products vary significantly by provider, and availability is subject to underwriting and third-party approval. This table is not a recommendation of any particular product.
             </p>
           </div>
@@ -545,26 +545,26 @@ export default function ServiceProviderFactoringPage() {
       </section>
 
       {/* Calculator link */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
             <div className="flex gap-4 items-start">
-              <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg border border-[#1e2620] bg-[#111512] text-[#22c55e]">
+              <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="2" y="2" width="14" height="14" rx="2" stroke="currentColor" strokeWidth="1.4" />
                   <path d="M5 9h8M9 5v8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                 </svg>
               </div>
               <div>
-                <p className="text-sm font-medium text-[#eef2ec] mb-0.5">Invoice Factoring Calculator</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed max-w-lg">
+                <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">Invoice Factoring Calculator</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed max-w-lg">
                   Estimate your potential advance amount and factoring cost across different invoice sizes, advance rates, and fee structures. Results are estimates only and do not represent offers or commitments from any provider.
                 </p>
               </div>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e]/50 transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open Calculator
             </Link>

@@ -162,17 +162,17 @@ export default function CashFlowPage() {
       />
 
       {/* 2. The Business Scenario */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 The Scenario
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 leading-snug">
                 When revenue exists but cash is constrained
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   A profitable business can still run short on cash. Extended payment terms from clients,
                   seasonal revenue cycles, rapid growth outpacing collections, unexpected expenses, or a
@@ -195,7 +195,7 @@ export default function CashFlowPage() {
             </div>
 
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 Common causes of cash flow gaps
               </p>
               <div className="space-y-2">
@@ -227,12 +227,12 @@ export default function CashFlowPage() {
                 ].map((item) => (
                   <div
                     key={item.label}
-                    className="flex gap-3 items-start rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-4 py-3"
+                    className="flex gap-3 items-start rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-4 py-3"
                   >
-                    <span className="mt-0.5 w-1.5 h-1.5 rounded-full bg-[#22c55e] flex-shrink-0" aria-hidden="true" />
+                    <span className="mt-0.5 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] flex-shrink-0" aria-hidden="true" />
                     <div>
-                      <p className="text-xs font-medium text-[#eef2ec]">{item.label}</p>
-                      <p className="text-xs text-[#6b7e69] mt-0.5">{item.detail}</p>
+                      <p className="text-xs font-medium text-[#0f0f0f]">{item.label}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-0.5">{item.detail}</p>
                     </div>
                   </div>
                 ))}
@@ -243,16 +243,16 @@ export default function CashFlowPage() {
       </section>
 
       {/* 3. Financing Options */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Financing Structures
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Options that may apply to cash flow needs
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-2xl">
+            <p className="text-[#737373] text-sm max-w-2xl">
               These structures are commonly considered for cash flow improvement. Suitability depends on
               your business profile, revenue, time in business, and the nature of the gap. Subject to
               underwriting by third-party providers.
@@ -280,16 +280,16 @@ export default function CashFlowPage() {
       </section>
 
       {/* 4. How to Evaluate Which Option Fits */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation Framework
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Choosing the right structure for your situation
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-2xl">
+            <p className="text-[#737373] text-sm max-w-2xl">
               Not all cash flow products work the same way. The right structure depends on why the gap
               exists, how long it will last, and what your business can realistically repay.
             </p>
@@ -299,10 +299,10 @@ export default function CashFlowPage() {
             {evaluationCriteria.map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -310,16 +310,16 @@ export default function CashFlowPage() {
       </section>
 
       {/* 5. Common Requirements */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Typical Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               What lenders commonly look at
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-2xl">
+            <p className="text-[#737373] text-sm max-w-2xl">
               Requirements vary significantly across products and lenders. The figures below reflect
               general ranges across the working capital and cash flow financing category — not specific
               lender requirements. Actual eligibility is determined by third-party providers.
@@ -337,8 +337,8 @@ export default function CashFlowPage() {
             ))}
           </div>
 
-          <div className="mt-8 rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <div className="mt-8 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               What to prepare
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -365,8 +365,8 @@ export default function CashFlowPage() {
                 },
               ].map((doc) => (
                 <div key={doc.title}>
-                  <p className="text-xs font-semibold text-[#eef2ec] mb-1">{doc.title}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{doc.detail}</p>
+                  <p className="text-xs font-semibold text-[#0f0f0f] mb-1">{doc.title}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{doc.detail}</p>
                 </div>
               ))}
             </div>
@@ -391,7 +391,7 @@ export default function CashFlowPage() {
       />
 
       {/* 8. ProductDisclaimer */}
-      <section className="pb-12 border-t border-[#1e2620]">
+      <section className="pb-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-8">
           <ProductDisclaimer type="general" />
         </div>

@@ -89,14 +89,14 @@ function CycleStep({
   return (
     <div className="flex gap-4">
       <div className="flex flex-col items-center">
-        <div className="w-8 h-8 rounded-full border border-[#22c55e]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
-          <span className="text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">{number}</span>
+        <div className="w-8 h-8 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
+          <span className="text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">{number}</span>
         </div>
-        {!isLast && <div className="w-px flex-1 bg-[#1e2620] mt-1.5" />}
+        {!isLast && <div className="w-px flex-1 bg-[#e5e5e5] mt-1.5" />}
       </div>
       <div className={`pb-8 ${isLast ? "" : ""}`}>
-        <p className="text-sm font-semibold text-[#eef2ec] mb-1 leading-snug">{title}</p>
-        <p className="text-sm text-[#9aaa98] leading-relaxed">{body}</p>
+        <p className="text-sm font-semibold text-[#0f0f0f] mb-1 leading-snug">{title}</p>
+        <p className="text-sm text-[#737373] leading-relaxed">{body}</p>
       </div>
     </div>
   );
@@ -106,7 +106,7 @@ function CycleStep({
 
 function IndustryPill({ label }: { label: string }) {
   return (
-    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-[#1e2620] bg-[#111512] text-[#9aaa98]">
+    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373]">
       {label}
     </span>
   );
@@ -116,13 +116,13 @@ function IndustryPill({ label }: { label: string }) {
 
 function RequirementRow({ label, detail }: { label: string; detail: string }) {
   return (
-    <div className="flex gap-3 py-3 border-b border-[#1e2620] last:border-0">
-      <div className="mt-0.5 text-[#22c55e] flex-shrink-0">
+    <div className="flex gap-3 py-3 border-b border-[#e5e5e5] last:border-0">
+      <div className="mt-0.5 text-[#0f0f0f] flex-shrink-0">
         <CheckIcon />
       </div>
       <div>
-        <span className="text-sm font-medium text-[#eef2ec]">{label}: </span>
-        <span className="text-sm text-[#9aaa98]">{detail}</span>
+        <span className="text-sm font-medium text-[#0f0f0f]">{label}: </span>
+        <span className="text-sm text-[#737373]">{detail}</span>
       </div>
     </div>
   );
@@ -133,10 +133,10 @@ function RequirementRow({ label, detail }: { label: string; detail: string }) {
 function BenefitRow({ text }: { text: string }) {
   return (
     <div className="flex gap-3 items-start">
-      <div className="mt-0.5 text-[#22c55e] flex-shrink-0">
+      <div className="mt-0.5 text-[#0f0f0f] flex-shrink-0">
         <CheckIcon />
       </div>
-      <p className="text-sm text-[#9aaa98] leading-relaxed">{text}</p>
+      <p className="text-sm text-[#737373] leading-relaxed">{text}</p>
     </div>
   );
 }
@@ -144,10 +144,10 @@ function BenefitRow({ text }: { text: string }) {
 function LimitRow({ text }: { text: string }) {
   return (
     <div className="flex gap-3 items-start">
-      <div className="mt-0.5 text-[#6b7e69] flex-shrink-0">
+      <div className="mt-0.5 text-[#a3a3a3] flex-shrink-0">
         <XIcon />
       </div>
-      <p className="text-sm text-[#9aaa98] leading-relaxed">{text}</p>
+      <p className="text-sm text-[#737373] leading-relaxed">{text}</p>
     </div>
   );
 }
@@ -194,17 +194,17 @@ export default function HowFactoringWorksPage() {
       />
 
       {/* 2 ── What it is / who uses it */}
-      <section className="py-14 bg-[#0a0d0b]">
+      <section className="py-14 bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 What Is Factoring
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
                 Selling receivables, not taking on debt
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Invoice factoring is a form of accounts receivable financing in which a business sells its outstanding invoices — money owed by customers for goods or services already delivered — to a factoring company (the "factor") at a discount. The factor advances a portion of the invoice face value upfront, then collects payment directly from the customer when the invoice comes due.
                 </p>
@@ -217,7 +217,7 @@ export default function HowFactoringWorksPage() {
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 Industries That Commonly Use Factoring
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
@@ -238,14 +238,14 @@ export default function HowFactoringWorksPage() {
                   <IndustryPill key={label} label={label} />
                 ))}
               </div>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                 <div className="flex items-start gap-3">
-                  <div className="text-[#22c55e] mt-0.5">
+                  <div className="text-[#0f0f0f] mt-0.5">
                     <InvoiceIcon />
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1">B2B receivables only</p>
-                    <p className="text-xs text-[#9aaa98] leading-relaxed">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1">B2B receivables only</p>
+                    <p className="text-xs text-[#737373] leading-relaxed">
                       Factoring is designed for invoices owed by businesses or government entities, not individual consumers. The factor evaluates the creditworthiness of your customers — not your business — so the quality and payment history of your account debtors is central to eligibility and pricing.
                     </p>
                   </div>
@@ -257,15 +257,15 @@ export default function HowFactoringWorksPage() {
       </section>
 
       {/* 3 ── Advance / reserve cycle */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             The Advance &amp; Reserve Cycle
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
             Step-by-step: from invoice submission to reserve release
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-10 max-w-2xl leading-relaxed">
+          <p className="text-sm text-[#737373] mb-10 max-w-2xl leading-relaxed">
             A standard factoring transaction moves through a predictable sequence. Timelines and amounts vary by factor, agreement type, and customer creditworthiness.
           </p>
           <div className="grid lg:grid-cols-2 gap-x-16 gap-y-0">
@@ -305,8 +305,8 @@ export default function HowFactoringWorksPage() {
             </div>
             <div className="hidden lg:flex flex-col justify-start pt-2">
               <div className="sticky top-8 space-y-4">
-                <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                     Example Transaction
                   </p>
                   <div className="space-y-3 text-sm font-variant-numeric">
@@ -318,33 +318,33 @@ export default function HowFactoringWorksPage() {
                       { label: "Reserve released", value: "$6,250", muted: false },
                     ].map(({ label, value, muted }) => (
                       <div key={label} className="flex items-center justify-between gap-4">
-                        <span className={muted ? "text-[#6b7e69]" : "text-[#9aaa98]"}>{label}</span>
-                        <span className={`tabular-nums font-medium ${muted ? "text-[#6b7e69]" : "text-[#eef2ec]"}`}>{value}</span>
+                        <span className={muted ? "text-[#a3a3a3]" : "text-[#737373]"}>{label}</span>
+                        <span className={`tabular-nums font-medium ${muted ? "text-[#a3a3a3]" : "text-[#0f0f0f]"}`}>{value}</span>
                       </div>
                     ))}
-                    <div className="border-t border-[#1e2620] pt-3 flex items-center justify-between gap-4">
-                      <span className="text-[#eef2ec] font-medium">Total received</span>
-                      <span className="text-[#22c55e] font-semibold tabular-nums">$48,750</span>
+                    <div className="border-t border-[#e5e5e5] pt-3 flex items-center justify-between gap-4">
+                      <span className="text-[#0f0f0f] font-medium">Total received</span>
+                      <span className="text-[#0f0f0f] font-semibold tabular-nums">$48,750</span>
                     </div>
                   </div>
-                  <p className="text-[0.65rem] text-[#6b7e69] mt-4 leading-relaxed">
+                  <p className="text-[0.65rem] text-[#a3a3a3] mt-4 leading-relaxed">
                     Example only. Actual advance rates and fees are subject to underwriting by the third-party factor and will vary based on your industry, customer creditworthiness, invoice terms, and agreement structure.
                   </p>
                 </div>
                 <Link
                   href="/calculators/invoice-factoring-calculator"
-                  className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#1e2620] bg-[#111512] hover:border-[#22c55e]/40 hover:bg-[#0f2a14] transition-colors group"
+                  className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-colors group"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="text-[#22c55e]">
+                    <div className="text-[#0f0f0f]">
                       <CalcIcon />
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">Invoice Factoring Calculator</p>
-                      <p className="text-xs text-[#6b7e69]">Estimate advance amounts and fees</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">Invoice Factoring Calculator</p>
+                      <p className="text-xs text-[#a3a3a3]">Estimate advance amounts and fees</p>
                     </div>
                   </div>
-                  <ArrowRightIcon className="text-[#6b7e69] group-hover:text-[#22c55e] transition-colors" />
+                  <ArrowRightIcon className="text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors" />
                 </Link>
               </div>
             </div>
@@ -353,20 +353,20 @@ export default function HowFactoringWorksPage() {
       </section>
 
       {/* 4 ── Requirements and invoice criteria */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#0a0d0b]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Eligibility
               </p>
               <h2 className="text-2xl font-semibold text-white mb-5 leading-snug" style={{ textWrap: "balance" } as React.CSSProperties}>
                 Requirements and invoice criteria
               </h2>
-              <p className="text-sm text-[#9aaa98] mb-6 leading-relaxed">
+              <p className="text-sm text-[#737373] mb-6 leading-relaxed">
                 Factoring eligibility is evaluated differently than a traditional loan application. The factor's primary concern is whether your customers — the account debtors — are likely to pay. The following are common criteria that factors may review, though requirements vary by factor and program. None of these should be read as guarantees or minimum thresholds.
               </p>
-              <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 divide-y divide-[#1e2620]">
+              <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 divide-y divide-[#e5e5e5]">
                 <RequirementRow
                   label="B2B or B2G invoices"
                   detail="Invoices must be owed by creditworthy businesses or government entities. Consumer receivables are generally not eligible."
@@ -398,23 +398,23 @@ export default function HowFactoringWorksPage() {
               </div>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3 lg:mt-[3.25rem]">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3 lg:mt-[3.25rem]">
                 Invoice Criteria
               </p>
-              <p className="text-sm text-[#9aaa98] mb-6 leading-relaxed">
+              <p className="text-sm text-[#737373] mb-6 leading-relaxed">
                 Beyond general business eligibility, factors evaluate the specific characteristics of each invoice or batch. Understanding what makes an invoice factorable helps businesses prepare clean submissions and avoid delays.
               </p>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5 space-y-3">
-                  <p className="font-medium text-[#eef2ec]">Invoice age and payment terms</p>
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 space-y-3">
+                  <p className="font-medium text-[#0f0f0f]">Invoice age and payment terms</p>
                   <p>Most factors prefer invoices with standard net-30 to net-90 payment terms. Invoices that are already past due or that have unusually long payment windows (net-120 or longer) may be declined or subject to different pricing.</p>
                 </div>
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5 space-y-3">
-                  <p className="font-medium text-[#eef2ec]">Minimum and maximum invoice sizes</p>
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 space-y-3">
+                  <p className="font-medium text-[#0f0f0f]">Minimum and maximum invoice sizes</p>
                   <p>Factors may set minimum invoice or batch sizes that make the transaction economical. Very large single invoices may be subject to concentration limits — caps on how much exposure a factor will accept to a single account debtor.</p>
                 </div>
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5 space-y-3">
-                  <p className="font-medium text-[#eef2ec]">Supporting documentation</p>
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 space-y-3">
+                  <p className="font-medium text-[#0f0f0f]">Supporting documentation</p>
                   <p>Factors typically require supporting documents to verify the invoice is legitimate: purchase orders, signed contracts, proof of delivery, approved timesheets, or inspection reports depending on the industry. Inadequate documentation may result in declined submissions or delayed funding.</p>
                 </div>
               </div>
@@ -424,15 +424,15 @@ export default function HowFactoringWorksPage() {
       </section>
 
       {/* 5 ── Advance rates and fee ranges */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
             Advance rates and fee ranges
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-10 max-w-2xl leading-relaxed">
+          <p className="text-sm text-[#737373] mb-10 max-w-2xl leading-relaxed">
             Factoring costs depend on a range of factors specific to your business and customers. The figures below are general market ranges based on industry data — they are not offers, commitments, or guarantees of any specific rate. All pricing is subject to underwriting by the third-party factor.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
@@ -460,8 +460,8 @@ export default function HowFactoringWorksPage() {
               note="Most factored invoices are collected within 30–90 days. Invoices outstanding longer may incur additional fees."
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5 mb-6">
-            <p className="text-sm font-semibold text-[#eef2ec] mb-3">What drives factoring fees higher or lower</p>
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5 mb-6">
+            <p className="text-sm font-semibold text-[#0f0f0f] mb-3">What drives factoring fees higher or lower</p>
             <div className="grid sm:grid-cols-2 gap-x-10 gap-y-1.5 text-sm">
               {[
                 ["Higher-risk industries", "Fees may be higher for construction, staffing, or healthcare due to longer dispute windows or slow government payers"],
@@ -472,11 +472,11 @@ export default function HowFactoringWorksPage() {
                 ["Spot vs. full-ledger", "Spot factoring typically carries a premium over whole-ledger arrangements where the factor has broader receivables access"],
               ].map(([label, note]) => (
                 <div key={label as string} className="flex gap-2 py-1.5">
-                  <div className="mt-1 text-[#22c55e] flex-shrink-0">
+                  <div className="mt-1 text-[#0f0f0f] flex-shrink-0">
                     <ArrowRightIcon />
                   </div>
-                  <p className="text-[#9aaa98]">
-                    <span className="text-[#eef2ec] font-medium">{label}: </span>
+                  <p className="text-[#737373]">
+                    <span className="text-[#0f0f0f] font-medium">{label}: </span>
                     {note}
                   </p>
                 </div>
@@ -527,27 +527,27 @@ export default function HowFactoringWorksPage() {
               ]}
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+          <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
             Comparison is illustrative only. Product terms, eligibility, and costs vary by lender and program. This is not a recommendation of any financing product. All financing is subject to underwriting and approval by third-party providers.
           </p>
         </div>
       </section>
 
       {/* 6 ── Benefits and limitations */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#0a0d0b]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Considerations
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 leading-snug max-w-2xl" style={{ textWrap: "balance" } as React.CSSProperties}>
             Benefits and limitations
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-10 max-w-2xl leading-relaxed">
+          <p className="text-sm text-[#737373] mb-10 max-w-2xl leading-relaxed">
             Factoring can be a practical working capital tool for the right business, but it also comes with contractual obligations, costs, and tradeoffs that are worth understanding before entering an agreement.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-sm font-semibold text-[#eef2ec] mb-5">Potential advantages</p>
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-5">Potential advantages</p>
               <div className="space-y-3.5">
                 <BenefitRow text="Cash flow may improve without waiting on customer payment cycles — advances can be available in one to three business days after account setup on approved invoices." />
                 <BenefitRow text="Approval is driven by your customers' credit quality rather than your business credit, which may make factoring accessible to early-stage companies or those with limited credit history." />
@@ -557,8 +557,8 @@ export default function HowFactoringWorksPage() {
                 <BenefitRow text="Factoring does not require equity dilution, making it a non-dilutive working capital option for businesses that want to maintain ownership." />
               </div>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-sm font-semibold text-[#eef2ec] mb-5">Limitations to consider</p>
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-5">Limitations to consider</p>
               <div className="space-y-3.5">
                 <LimitRow text="Factoring fees, when expressed as an annualized cost, can be significantly higher than traditional bank financing. The total cost depends on how long invoices remain outstanding and the applicable rate." />
                 <LimitRow text="Under recourse factoring — the most common structure — your business is responsible for buying back or covering unpaid invoices if your customer defaults, which creates contingent liability." />
@@ -589,29 +589,29 @@ export default function HowFactoringWorksPage() {
       />
 
       {/* 9 ── Disclaimer */}
-      <section className="pb-10 bg-[#111512]">
+      <section className="pb-10 bg-[#f5f5f5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>
       </section>
 
       {/* 10 ── Calculator link (mobile-visible inline, desktop shown in sticky sidebar above) */}
-      <section className="py-8 border-t border-[#1e2620] bg-[#0a0d0b] lg:hidden">
+      <section className="py-8 border-t border-[#e5e5e5] bg-[#ffffff] lg:hidden">
         <div className="max-w-3xl mx-auto px-5">
           <Link
             href="/calculators/invoice-factoring-calculator"
-            className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#1e2620] bg-[#111512] hover:border-[#22c55e]/40 hover:bg-[#0f2a14] transition-colors group"
+            className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-colors group"
           >
             <div className="flex items-center gap-3">
-              <div className="text-[#22c55e]">
+              <div className="text-[#0f0f0f]">
                 <CalcIcon />
               </div>
               <div>
-                <p className="text-sm font-medium text-[#eef2ec]">Invoice Factoring Calculator</p>
-                <p className="text-xs text-[#6b7e69]">Estimate advance amounts and net proceeds</p>
+                <p className="text-sm font-medium text-[#0f0f0f]">Invoice Factoring Calculator</p>
+                <p className="text-xs text-[#a3a3a3]">Estimate advance amounts and net proceeds</p>
               </div>
             </div>
-            <ArrowRightIcon className="text-[#6b7e69] group-hover:text-[#22c55e] transition-colors" />
+            <ArrowRightIcon className="text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors" />
           </Link>
         </div>
       </section>

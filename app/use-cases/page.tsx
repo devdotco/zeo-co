@@ -134,16 +134,16 @@ export default function UseCasesPage() {
       />
 
       {/* Use Case Grid */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
             <h2 className="text-2xl font-semibold text-white">
               10 common financing scenarios
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-xl">
               Select the use case most relevant to your financing need to explore applicable structures. Eligibility and product availability vary by business profile and provider.
             </p>
           </div>
@@ -153,14 +153,14 @@ export default function UseCasesPage() {
               <Link
                 key={useCase.slug}
                 href={`/use-cases/${useCase.slug}`}
-                className="group rounded-xl border border-[#1e2620] bg-[#111512] p-6 hover:border-[#22c55e]/40 transition-all"
+                className="group rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 hover:border-[#0f0f0f]/40 transition-all"
               >
                 <div className="flex items-start justify-between mb-1">
-                  <span className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e]">
+                  <span className="text-[0.6rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f]">
                     {useCase.eyebrow}
                   </span>
                   <svg
-                    className="w-4 h-4 flex-shrink-0 text-[#6b7e69] group-hover:text-[#22c55e] transition-colors"
+                    className="w-4 h-4 flex-shrink-0 text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors"
                     viewBox="0 0 16 16"
                     fill="none"
                   >
@@ -173,21 +173,21 @@ export default function UseCasesPage() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-base font-semibold text-[#eef2ec] group-hover:text-white transition-colors mb-2 leading-snug">
+                <h3 className="text-base font-semibold text-[#0f0f0f] group-hover:text-white transition-colors mb-2 leading-snug">
                   {useCase.title}
                 </h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed mb-4">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   {useCase.description}
                 </p>
-                <div className="pt-3 border-t border-[#1e2620]">
-                  <p className="text-[0.6rem] uppercase tracking-[0.08em] text-[#6b7e69] mb-2">
+                <div className="pt-3 border-t border-[#e5e5e5]">
+                  <p className="text-[0.6rem] uppercase tracking-[0.08em] text-[#a3a3a3] mb-2">
                     Common structures
                   </p>
                   <div className="flex flex-wrap gap-1.5">
                     {useCase.products.map((product) => (
                       <span
                         key={product}
-                        className="text-[0.6rem] font-medium px-2 py-0.5 rounded-full bg-[#0a0d0b] border border-[#1e2620] text-[#9aaa98]"
+                        className="text-[0.6rem] font-medium px-2 py-0.5 rounded-full bg-[#ffffff] border border-[#e5e5e5] text-[#737373]"
                       >
                         {product}
                       </span>
@@ -205,16 +205,16 @@ export default function UseCasesPage() {
       </section>
 
       {/* How to Identify Your Use Case */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Evaluation
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Matching your need to the right structure
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               The intended use of capital is one of the most important factors in determining which financing structures are appropriate. Lenders often require documentation supporting how proceeds will be deployed.
             </p>
           </div>
@@ -248,10 +248,10 @@ export default function UseCasesPage() {
             ].map((item) => (
               <div
                 key={item.label}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -259,28 +259,28 @@ export default function UseCasesPage() {
       </section>
 
       {/* Cross-nav to Industries and Products */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
                 Also Browse
               </p>
               <p className="text-white font-semibold text-lg">Explore by industry or product</p>
-              <p className="text-[#9aaa98] text-sm mt-1 max-w-md">
+              <p className="text-[#737373] text-sm mt-1 max-w-md">
                 Browse financing by the industry you operate in, or view all available commercial financing structures.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <Link
                 href="/industries"
-                className="px-6 py-2.5 rounded-xl bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors"
+                className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 Browse by Industry
               </Link>
               <Link
                 href="/financing"
-                className="px-6 py-2.5 rounded-xl border border-[#1e2620] text-[#9aaa98] text-sm hover:text-white hover:border-[#22c55e] transition-colors"
+                className="px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-[#737373] text-sm hover:text-white hover:border-[#0f0f0f] transition-colors"
               >
                 All Financing Products
               </Link>

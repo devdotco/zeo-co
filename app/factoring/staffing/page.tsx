@@ -95,7 +95,7 @@ const comparisonRows = [
 
 export default function StaffingFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -108,7 +108,7 @@ export default function StaffingFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -134,22 +134,22 @@ export default function StaffingFactoringPage() {
               note="Some programs accommodate Net 30–90; longer terms affect fee structure"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only. Actual advance rates and fees are subject to underwriting by third-party providers and are not guaranteed.
           </p>
         </div>
       </section>
 
       {/* What is staffing factoring */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Staffing Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Staffing factoring is invoice factoring applied specifically to the receivables of staffing agencies, temporary workforce companies, and professional employer organizations. Instead of waiting 30 to 60 days for a corporate client to process an invoice, a staffing agency sells that invoice to a factoring company — the factor — and receives an immediate cash advance, typically within one to two business days.
             </p>
@@ -164,16 +164,16 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Types of Staffing Businesses That Commonly Use Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Staffing factoring is most relevant for agencies with recurring B2B billing relationships with commercial or government clients. It is generally less applicable to direct-hire firms that collect placement fees in lump sums, or to sole-proprietor consulting arrangements where the "agency" is also the worker.
             </p>
           </div>
@@ -221,15 +221,15 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Advance and Reserve Cycle for Staffing Agencies
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-10">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem] mb-10">
             <p>
               The mechanics of staffing factoring follow a repeating weekly or bi-weekly cycle that mirrors how agencies bill their clients. Understanding each step helps agencies evaluate whether factoring cash flow aligns with their payroll timing and operating model.
             </p>
@@ -262,13 +262,13 @@ export default function StaffingFactoringPage() {
                   "Once a client pays an invoice, the factor calculates your net reserve: the held balance minus the factoring fee for that invoice. The net reserve is released to you, typically in a weekly sweep or within a few days of payment clearing. Unpaid invoices past a specified aging threshold — often 90 days — may trigger recourse obligations under most staffing factoring agreements.",
               },
             ].map(({ step, detail }, i) => (
-              <div key={i} className="flex gap-4 p-4 rounded-xl border border-[#1e2620] bg-[#111512]">
-                <div className="flex-shrink-0 mt-0.5 flex h-6 w-6 items-center justify-center rounded-full border border-[#22c55e]/30 bg-[#0f2a14]">
-                  <span className="text-[0.625rem] font-semibold text-[#22c55e] tabular-nums">{i + 1}</span>
+              <div key={i} className="flex gap-4 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]">
+                <div className="flex-shrink-0 mt-0.5 flex h-6 w-6 items-center justify-center rounded-full border border-[#0f0f0f]/30 bg-[#0f2a14]">
+                  <span className="text-[0.625rem] font-semibold text-[#0f0f0f] tabular-nums">{i + 1}</span>
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-[#eef2ec] mb-1">{step}</p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{detail}</p>
+                  <p className="text-sm font-medium text-[#0f0f0f] mb-1">{step}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{detail}</p>
                 </div>
               </div>
             ))}
@@ -277,22 +277,22 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* Requirements and invoice criteria */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Eligibility
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Requirements and Invoice Criteria
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Eligibility for staffing factoring is evaluated at both the agency level and the individual invoice level. The following criteria are commonly reviewed, though specific requirements vary by factor and program. Meeting these criteria does not constitute a guarantee of approval or specific terms.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 Agency-Level Criteria
               </p>
               <ul className="space-y-3">
@@ -304,8 +304,8 @@ export default function StaffingFactoringPage() {
                   "Minimum monthly invoice volume requirements may apply (varies by factor)",
                   "Staffing license or registration, where required by state law",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                  <li key={i} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     {item}
@@ -314,7 +314,7 @@ export default function StaffingFactoringPage() {
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
                 Invoice-Level Criteria
               </p>
               <ul className="space-y-3">
@@ -326,8 +326,8 @@ export default function StaffingFactoringPage() {
                   "Invoice must not be subject to offset, counterclaim, or active dispute",
                   "Client must be a verifiable commercial or government entity, not a consumer",
                 ].map((item, i) => (
-                  <li key={i} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                  <li key={i} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     {item}
@@ -340,15 +340,15 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             Advance Rates and Fee Ranges for Staffing Factoring
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             <p>
               Staffing agencies generally qualify for higher advance rates than many other industries because their receivables tend to be short-dated (Net 15 to Net 45 is common), their clients are typically well-known commercial employers, and the invoices are straightforward to verify with timesheet documentation. These structural characteristics reduce collection risk for the factor.
             </p>
@@ -384,9 +384,9 @@ export default function StaffingFactoringPage() {
               note="Released after client pays; net of factoring fees"
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
-            <p className="text-xs text-[#6b7e69] leading-relaxed">
-              <span className="text-[#9aaa98] font-medium">How fees compound on slow-paying clients:</span>{" "}
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
+            <p className="text-xs text-[#a3a3a3] leading-relaxed">
+              <span className="text-[#737373] font-medium">How fees compound on slow-paying clients:</span>{" "}
               If a factor charges 1% per week and a client pays on day 45 (6.5 weeks), the effective fee on that invoice is approximately 6.5% of face value before any other charges. High-volume agencies with reliable Net 30 clients typically see lower effective costs than those with Net 60 or longer terms. Always model the full cost scenario before committing to a factoring agreement, and review all fee schedules carefully.
             </p>
           </div>
@@ -394,10 +394,10 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Considerations
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
@@ -405,8 +405,8 @@ export default function StaffingFactoringPage() {
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-4">
                 Potential Benefits
               </p>
               <ul className="space-y-3">
@@ -429,19 +429,19 @@ export default function StaffingFactoringPage() {
                   },
                 ].map(({ title, body }, i) => (
                   <li key={i} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{title}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{title}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#9aaa98] mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#737373] mb-4">
                 Notable Limitations
               </p>
               <ul className="space-y-3">
@@ -464,13 +464,13 @@ export default function StaffingFactoringPage() {
                   },
                 ].map(({ title, body }, i) => (
                   <li key={i} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11v.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{title}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{title}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{body}</p>
                     </div>
                   </li>
                 ))}
@@ -481,16 +481,16 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
               Staffing Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed">
+            <p className="text-[#737373] text-sm leading-relaxed">
               Comparison is illustrative only. Products vary significantly by provider, and availability is subject to underwriting and third-party approval. This table is not a recommendation of any product.
             </p>
           </div>
@@ -503,26 +503,26 @@ export default function StaffingFactoringPage() {
       </section>
 
       {/* Calculator link */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
             <div className="flex gap-4 items-start">
-              <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg border border-[#1e2620] bg-[#111512] text-[#22c55e]">
+              <div className="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="2" y="2" width="14" height="14" rx="2" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M5 9h8M9 5v8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                 </svg>
               </div>
               <div>
-                <p className="text-sm font-medium text-[#eef2ec] mb-0.5">Invoice Factoring Calculator</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed max-w-lg">
+                <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">Invoice Factoring Calculator</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed max-w-lg">
                   Estimate your potential advance amount and factoring cost across different scenarios. Results are estimates only and not offers or commitments from any provider.
                 </p>
               </div>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e]/50 transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open Calculator
             </Link>

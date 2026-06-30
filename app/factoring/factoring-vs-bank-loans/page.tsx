@@ -149,7 +149,7 @@ const limitationItems = [
 
 export default function FactoringVsBankLoansPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         breadcrumbs={breadcrumbs}
@@ -159,18 +159,18 @@ export default function FactoringVsBankLoansPage() {
       />
 
       {/* What Is Each / Who Uses It */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Factoring */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Invoice Factoring
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 What Is Invoice Factoring?
               </h2>
-              <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-[#737373] leading-relaxed">
                 <p>
                   Invoice factoring is the sale of outstanding accounts receivable to a third party — the
                   factor — at a discount. The factor advances a percentage of each invoice's face value
@@ -196,13 +196,13 @@ export default function FactoringVsBankLoansPage() {
 
             {/* Bank Loans */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Bank Term Loans
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 What Is a Traditional Bank Loan?
               </h2>
-              <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-[#737373] leading-relaxed">
                 <p>
                   A traditional bank term loan provides a lump sum of capital that the business repays
                   over a set period with interest. Unlike factoring, the business retains full ownership
@@ -231,12 +231,12 @@ export default function FactoringVsBankLoansPage() {
       </section>
 
       {/* Advance / Reserve Cycle */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             How the Factoring Advance and Reserve Cycle Works
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-10 leading-relaxed">
             Unlike a bank loan, which disburses a lump sum that you repay on a schedule, factoring
             operates as a revolving cycle tied to each invoice you submit. Understanding each
             stage helps clarify both the cash-flow benefit and the cost structure.
@@ -264,23 +264,23 @@ export default function FactoringVsBankLoansPage() {
                   "When your customer pays, the factor deducts its discount fee (calculated based on how long the invoice was outstanding) and releases the reserve balance to you. If the customer does not pay, your obligations depend on whether your program is recourse or non-recourse.",
               },
             ].map((item, i) => (
-              <div key={i} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
+              <div key={i} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0f2a14] border border-[#22c55e]/30 flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                     {i + 1}
                   </span>
-                  <p className="text-sm font-semibold text-[#eef2ec]">{item.step}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f]">{item.step}</p>
                 </div>
-                <p className="text-xs text-[#9aaa98] leading-relaxed">{item.description}</p>
+                <p className="text-xs text-[#737373] leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-6 py-5">
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-2">
+          <div className="mt-8 rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-6 py-5">
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-2">
               How Bank Loans Differ Structurally
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed max-w-3xl">
+            <p className="text-sm text-[#737373] leading-relaxed max-w-3xl">
               A bank term loan or line of credit does not tie repayment to any individual customer
               payment. You receive a lump sum (or a draw against a revolving line) and make fixed
               monthly payments on a schedule regardless of when your customers pay you. This means
@@ -293,12 +293,12 @@ export default function FactoringVsBankLoansPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Requirements and Invoice Criteria
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-10 leading-relaxed">
             Qualification criteria differ meaningfully between factoring and bank lending. The
             comparison below reflects general market patterns — actual requirements are set by
             individual providers and are subject to their own underwriting standards.
@@ -306,7 +306,7 @@ export default function FactoringVsBankLoansPage() {
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Factoring requirements */}
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#22c55e] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#0f0f0f] mb-4">
                 Factoring — Common Criteria
               </h3>
               <div className="space-y-2.5">
@@ -322,12 +322,12 @@ export default function FactoringVsBankLoansPage() {
                 ].map(([label, value]) => (
                   <div
                     key={label}
-                    className="flex items-start gap-4 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                    className="flex items-start gap-4 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                   >
-                    <span className="text-xs font-medium text-[#6b7e69] w-36 flex-shrink-0 pt-0.5">
+                    <span className="text-xs font-medium text-[#a3a3a3] w-36 flex-shrink-0 pt-0.5">
                       {label}
                     </span>
-                    <span className="text-sm text-[#eef2ec]">{value}</span>
+                    <span className="text-sm text-[#0f0f0f]">{value}</span>
                   </div>
                 ))}
               </div>
@@ -335,7 +335,7 @@ export default function FactoringVsBankLoansPage() {
 
             {/* Bank loan requirements */}
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#6b7e69] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#a3a3a3] mb-4">
                 Bank Term Loan — Common Criteria
               </h3>
               <div className="space-y-2.5">
@@ -351,12 +351,12 @@ export default function FactoringVsBankLoansPage() {
                 ].map(([label, value]) => (
                   <div
                     key={label}
-                    className="flex items-start gap-4 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                    className="flex items-start gap-4 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                   >
-                    <span className="text-xs font-medium text-[#6b7e69] w-36 flex-shrink-0 pt-0.5">
+                    <span className="text-xs font-medium text-[#a3a3a3] w-36 flex-shrink-0 pt-0.5">
                       {label}
                     </span>
-                    <span className="text-sm text-[#eef2ec]">{value}</span>
+                    <span className="text-sm text-[#0f0f0f]">{value}</span>
                   </div>
                 ))}
               </div>
@@ -366,12 +366,12 @@ export default function FactoringVsBankLoansPage() {
       </section>
 
       {/* Advance Rates and Fee Ranges */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Advance Rates and Fee Ranges
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-8 leading-relaxed">
             The figures below represent general ranges observed across factoring programs and bank
             lending products. They are provided for educational purposes only and are not offers,
             guarantees, or commitments. Actual rates and terms are subject to underwriting, credit
@@ -404,11 +404,11 @@ export default function FactoringVsBankLoansPage() {
               note="After invoice verification. Bank loan approval typically takes weeks to months."
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-6 py-5">
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-2">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-6 py-5">
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-2">
               A Note on Cost Comparison
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed max-w-3xl">
+            <p className="text-sm text-[#737373] leading-relaxed max-w-3xl">
               Factoring fees quoted per 30-day period are not directly comparable to annual
               percentage rates. A 2% monthly factoring fee annualizes to roughly 24%. However,
               the cost needs to be evaluated relative to the working-capital benefit: if factoring
@@ -422,12 +422,12 @@ export default function FactoringVsBankLoansPage() {
       </section>
 
       {/* Full Comparison Table */}
-      <section className="py-14 border-t border-[#1e2620]">
+      <section className="py-14 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Side-by-Side Comparison
           </h2>
-          <p className="text-[#9aaa98] max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#737373] max-w-2xl mb-8 leading-relaxed">
             Neither structure is universally better — the right fit depends on your industry,
             operating history, customer base, urgency, and cost tolerance. Use this comparison
             as a starting framework, not a final answer.
@@ -441,7 +441,7 @@ export default function FactoringVsBankLoansPage() {
       </section>
 
       {/* Benefits and Limitations */}
-      <section className="py-14 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-8">
             Potential Benefits and Key Limitations of Factoring
@@ -449,17 +449,17 @@ export default function FactoringVsBankLoansPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Benefits */}
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#22c55e] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#0f0f0f] mb-4">
                 Potential Benefits
               </h3>
               <div className="space-y-3">
                 {benefitItems.map((item) => (
                   <div
                     key={item.title}
-                    className="flex gap-3 rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-5 py-4"
+                    className="flex gap-3 rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-5 py-4"
                   >
                     <svg
-                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]"
                       viewBox="0 0 16 16"
                       fill="none"
                     >
@@ -472,8 +472,8 @@ export default function FactoringVsBankLoansPage() {
                       />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.title}</p>
-                      <p className="text-xs text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.title}</p>
+                      <p className="text-xs text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -482,17 +482,17 @@ export default function FactoringVsBankLoansPage() {
 
             {/* Limitations */}
             <div>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#6b7e69] mb-4">
+              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#a3a3a3] mb-4">
                 Key Limitations
               </h3>
               <div className="space-y-3">
                 {limitationItems.map((item) => (
                   <div
                     key={item.title}
-                    className="flex gap-3 rounded-xl border border-[#1e2620] bg-[#0a0d0b] px-5 py-4"
+                    className="flex gap-3 rounded-xl border border-[#e5e5e5] bg-[#ffffff] px-5 py-4"
                   >
                     <svg
-                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]"
                       viewBox="0 0 16 16"
                       fill="none"
                     >
@@ -505,8 +505,8 @@ export default function FactoringVsBankLoansPage() {
                       />
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-1">{item.title}</p>
-                      <p className="text-xs text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-1">{item.title}</p>
+                      <p className="text-xs text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </div>
                 ))}
@@ -523,17 +523,17 @@ export default function FactoringVsBankLoansPage() {
       />
 
       {/* Calculator Link */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] px-6 py-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 justify-between">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-6 py-6 flex flex-col sm:flex-row items-start sm:items-center gap-5 justify-between">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-[#6b7e69] mb-1">
+              <p className="text-xs font-semibold uppercase tracking-wider text-[#a3a3a3] mb-1">
                 Model Your Numbers
               </p>
-              <p className="text-base font-medium text-[#eef2ec] mb-1">
+              <p className="text-base font-medium text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </p>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Estimate advance amounts, reserve balances, and potential fee costs based on your
                 invoice volume and payment terms. Results are estimates only — not offers or
                 guaranteed terms.
@@ -541,7 +541,7 @@ export default function FactoringVsBankLoansPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-2.5 rounded-lg border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e] hover:text-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f] hover:text-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

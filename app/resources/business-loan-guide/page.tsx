@@ -243,7 +243,7 @@ const faqItems = [
 
 export default function BusinessLoanGuidePage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -254,13 +254,13 @@ export default function BusinessLoanGuidePage() {
       />
 
       {/* 2 — What is a business loan */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">The Basics</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">The Basics</p>
               <h2 className="text-2xl font-semibold text-white mb-4">What a business loan actually is</h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   A business loan is a financing arrangement in which a lender provides capital to a business, and the business agrees to repay that capital over time — typically with interest and fees — according to a defined schedule. Unlike equity financing, debt does not require giving up ownership; but it does create a repayment obligation that persists regardless of business performance.
                 </p>
@@ -273,7 +273,7 @@ export default function BusinessLoanGuidePage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Key Concepts</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Key Concepts</p>
               {[
                 {
                   term: "Principal",
@@ -300,9 +300,9 @@ export default function BusinessLoanGuidePage() {
                   definition: "A measure of a business's ability to repay debt from operating cash flow. A DSCR above 1.25x is generally considered adequate by most lenders.",
                 },
               ].map((item) => (
-                <div key={item.term} className="rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3">
-                  <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.term}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.definition}</p>
+                <div key={item.term} className="rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3">
+                  <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.term}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.definition}</p>
                 </div>
               ))}
             </div>
@@ -311,12 +311,12 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 3 — Types of business loans */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Loan Types</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Loan Types</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Common types of business financing</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               No single product works for every business or every use case. The landscape of commercial financing includes products with meaningfully different structures, timelines, costs, and qualification standards.
             </p>
           </div>
@@ -359,15 +359,15 @@ export default function BusinessLoanGuidePage() {
                 tags: ["Revenue-Based", "Fast Access", "High Effective Cost"],
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+              <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   {item.icon}
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">{item.body}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {item.tags.map((tag) => (
-                    <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                    <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                       {tag}
                     </span>
                   ))}
@@ -379,12 +379,12 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 4 — Qualification factors */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Qualification</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Qualification</p>
             <h2 className="text-2xl font-semibold text-white mb-3">What lenders evaluate</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Lender underwriting standards are not uniform, and eligibility thresholds vary by institution and product. The following factors commonly appear in commercial lending decisions across most product types — they are indicators, not guarantees.
             </p>
           </div>
@@ -434,9 +434,9 @@ export default function BusinessLoanGuidePage() {
                   "What the loan will be used for affects both eligibility and product fit. Equipment purchases, real estate acquisition, business acquisitions, and working capital each point toward different products with different structures. Lenders want to understand that proceeds are being used for a legitimate business purpose and that the use supports the ability to repay. Vague or speculative uses of proceeds create friction.",
               },
             ].map((req) => (
-              <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">{req.label}</p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+              <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">{req.label}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -444,17 +444,17 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 5 — How to approach the process */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Process</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process</p>
             <h2 className="text-2xl font-semibold text-white mb-3">How to approach a business loan application</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A structured approach reduces friction, improves outcomes, and helps avoid common mistakes that slow or derail applications. The steps below represent a general framework — specific requirements vary by product and lender.
             </p>
           </div>
           <div className="relative">
-            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#1e2620]" aria-hidden="true" />
+            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#e5e5e5]" aria-hidden="true" />
             <div className="space-y-4">
               {[
                 {
@@ -484,12 +484,12 @@ export default function BusinessLoanGuidePage() {
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-5 md:gap-6">
-                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
-                    <span className="text-xs font-semibold text-[#22c55e] tabular-nums">{item.step}</span>
+                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
+                    <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">{item.step}</span>
                   </div>
-                  <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex-1">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.title}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex-1">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.title}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -499,17 +499,17 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 6 — Comparing loan costs */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Understanding Cost</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
             <h2 className="text-2xl font-semibold text-white mb-3">How to evaluate the true cost of a business loan</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Interest rate alone does not tell the full story of what a loan costs. Different products use different pricing conventions, and comparing across them requires looking beyond the headline number.
             </p>
           </div>
           <div className="grid lg:grid-cols-2 gap-8 items-start">
-            <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+            <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
               <p>
                 Traditional term loans and SBA products express cost as an annual percentage rate (APR) or a stated interest rate. APR is more useful for comparison because it incorporates fees into the annualized cost. However, even APR comparisons can mislead when comparing loans with different terms — a 20% APR on a 6-month loan may cost less in total dollars than a 10% APR on a 5-year loan, depending on the principal and use case.
               </p>
@@ -521,7 +521,7 @@ export default function BusinessLoanGuidePage() {
               </p>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Cost Factors to Review</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Cost Factors to Review</p>
               {[
                 { factor: "APR vs. stated rate", note: "APR incorporates fees and gives a more complete picture of annualized cost than stated interest rate alone." },
                 { factor: "Total repayment amount", note: "The actual dollars you will repay over the life of the loan — the clearest apples-to-apples comparison across products." },
@@ -530,11 +530,11 @@ export default function BusinessLoanGuidePage() {
                 { factor: "Draw and maintenance fees", note: "Lines of credit may carry fees per draw, monthly maintenance fees, or annual renewal fees." },
                 { factor: "Factor rate vs. APR translation", note: "For MCA and revenue-based products, convert the factor rate to an approximate APR to understand relative cost." },
               ].map((item) => (
-                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3">
-                  <div className="flex-shrink-0 mt-2 w-1.5 h-1.5 rounded-full bg-[#22c55e]/60" />
+                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3">
+                  <div className="flex-shrink-0 mt-2 w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}
@@ -544,12 +544,12 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 7 — Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Product Comparison</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Product Comparison</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Business loan types side by side</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A high-level comparison to help orient your evaluation. All terms are general estimates — actual terms are set by individual lenders and subject to underwriting.
             </p>
           </div>
@@ -558,19 +558,19 @@ export default function BusinessLoanGuidePage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             This table is for informational purposes only. Actual terms, amounts, and eligibility are set by individual lenders and subject to change. Not an offer or commitment to lend.
           </p>
         </div>
       </section>
 
       {/* 8 — Common mistakes */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">What to Avoid</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">What to Avoid</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Common mistakes in business loan applications</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The following mistakes frequently slow or derail applications, result in worse terms, or create downstream complications that are difficult to unwind.
             </p>
           </div>
@@ -593,17 +593,17 @@ export default function BusinessLoanGuidePage() {
                 body: "Term sheets summarize headline terms but do not contain full loan agreement language. Reviewing only the rate and payment before signing leaves borrowers unaware of covenant requirements, default triggers, prepayment penalties, collateral scope, and guarantee terms. Have qualified counsel review any agreement before signing.",
               },
             ].map((item) => (
-              <div key={item.heading} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+              <div key={item.heading} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                 <div className="flex gap-3">
                   <div className="mt-0.5 flex-shrink-0">
-                    <svg className="w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11v.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.3" />
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -613,12 +613,12 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 9 — Financing paths */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Explore Options</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Explore Options</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Financing paths worth evaluating</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The right product depends on your business profile, use case, and timeline. These are some of the most commonly evaluated paths for established businesses — each subject to underwriting by third-party providers.
             </p>
           </div>
@@ -637,7 +637,7 @@ export default function BusinessLoanGuidePage() {
           <div className="text-center">
             <Link
               href="/financing"
-              className="inline-flex items-center gap-2 text-sm text-[#9aaa98] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-white transition-colors"
             >
               View all financing options
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -649,19 +649,19 @@ export default function BusinessLoanGuidePage() {
       </section>
 
       {/* 10 — Calculator prompt */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">Tools</p>
-              <p className="text-base font-semibold text-[#eef2ec] mb-1">Model potential payment scenarios</p>
-              <p className="text-sm text-[#6b7e69]">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">Tools</p>
+              <p className="text-base font-semibold text-[#0f0f0f] mb-1">Model potential payment scenarios</p>
+              <p className="text-sm text-[#a3a3a3]">
                 Use the loan payment calculator to estimate monthly payments across different amounts, terms, and rate assumptions. Results are estimates only and are not offers or commitments.
               </p>
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#22c55e]/40 text-[#22c55e] text-sm font-medium hover:bg-[#22c55e]/10 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-[#0f0f0f] text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

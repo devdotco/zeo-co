@@ -187,7 +187,7 @@ const COMPARISON_ROWS = [
 
 export default function GovernmentContractorFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* ── Hero ── */}
       <PageHero
@@ -198,7 +198,7 @@ export default function GovernmentContractorFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -227,31 +227,31 @@ export default function GovernmentContractorFinancingPage() {
       </section>
 
       {/* ── Industry challenges ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Industry context
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Why government contracting creates distinct financing challenges
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 Government contracts are widely regarded as among the safest receivables a
                 business can hold — the obligor is a sovereign entity with taxing authority.
                 Yet that safety comes paired with structural payment delays, bureaucratic
                 approval cycles, and compliance requirements that create real cash flow
                 pressure for contractors of all sizes.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm mb-4">
+              <p className="text-[#737373] leading-relaxed text-sm mb-4">
                 A federal contractor may win a multi-million-dollar task order, mobilize
                 personnel and equipment immediately, and not receive the first payment for
                 60 days or more. For small businesses operating on thin working capital, this
                 gap is often the single largest operational risk — separate from anything
                 having to do with performance or competition.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Financing structures designed for this industry — particularly contract
                 receivables factoring and mobilization financing — exist precisely because
                 standard bank products are often poorly calibrated to the government
@@ -279,10 +279,10 @@ export default function GovernmentContractorFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -291,15 +291,15 @@ export default function GovernmentContractorFinancingPage() {
       </section>
 
       {/* ── Financing products ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Relevant financing structures
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Products commonly used by government contractors
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             The right structure depends on your contract type, payment cycle, credit profile, and
             what the capital is needed for. All financing is subject to underwriting by
             third-party providers.
@@ -353,17 +353,17 @@ export default function GovernmentContractorFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Lender criteria
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What lenders typically evaluate for government contractors
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 These are general benchmarks drawn from common lender practices in the
                 government contracting sector. Each provider sets its own criteria. Meeting
                 these thresholds does not guarantee approval — requirements differ
@@ -404,13 +404,13 @@ export default function GovernmentContractorFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#22c55e]" />
+                    <div className="flex-shrink-0 mt-[7px] h-1.5 w-1.5 rounded-full bg-[#0f0f0f]" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -419,20 +419,20 @@ export default function GovernmentContractorFinancingPage() {
 
             {/* ── Preparing your application ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Preparation
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 How government contractors can strengthen a financing application
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 Contractors who present clear contract documentation and organized financials
                 typically move through lender underwriting more efficiently. These are general
                 considerations — not a guarantee of any outcome.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Have complete contract documentation ready.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Have complete contract documentation ready.</span>{" "}
                   Lenders and factors will want the full executed contract or task order,
                   including the period of performance, contract value, payment terms, and the
                   identity of the contracting officer. IDIQ vehicles and blanket purchase
@@ -440,7 +440,7 @@ export default function GovernmentContractorFinancingPage() {
                   the vehicle ceiling.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Understand the Assignment of Claims requirements.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Understand the Assignment of Claims requirements.</span>{" "}
                   For federal factoring, proper assignment of receivables under the Assignment
                   of Claims Act requires written notice to the contracting agency and the
                   disbursing office, often on specific forms. Factoring companies experienced
@@ -448,21 +448,21 @@ export default function GovernmentContractorFinancingPage() {
                   helps set realistic timelines.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Maintain clean, separated business finances.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Maintain clean, separated business finances.</span>{" "}
                   Lenders want business bank statements that reflect contract-related activity —
                   not commingled personal and business transactions. If your entity is a sole
                   proprietorship or single-member LLC, establishing a dedicated business
                   account before seeking financing is strongly advisable.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Document your receivables aging by agency.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Document your receivables aging by agency.</span>{" "}
                   A clear breakdown of outstanding invoices — by agency, invoice date, and
                   amount — gives lenders and factors the visibility they need to assess
                   collateral quality. Know which invoices are pending approval, which are
                   approved and awaiting disbursement, and which are in dispute.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Establish lender relationships before you need capital.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Establish lender relationships before you need capital.</span>{" "}
                   Government contractors who approach lenders in the middle of a cash flow
                   crisis are at a structural disadvantage. Building a relationship — or at
                   minimum completing a factoring facility setup — before mobilization costs
@@ -475,15 +475,15 @@ export default function GovernmentContractorFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Side-by-side comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-3 text-balance">
             Government contractor financing structures at a glance
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             General structural differences between common products used by government
             contractors. Actual terms depend on the lender, your contract profile, and your
             specific situation.
@@ -497,17 +497,17 @@ export default function GovernmentContractorFinancingPage() {
       </section>
 
       {/* ── Industry-specific notes ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Government contractor consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 Why government receivables are often easier to factor than commercial ones
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 In traditional invoice factoring, the factor's primary underwriting concern is
                 whether the debtor — the party who owes the invoice — will actually pay.
                 When that debtor is the U.S. federal government or a state government entity,
@@ -515,7 +515,7 @@ export default function GovernmentContractorFinancingPage() {
                 Government entities have strong payment obligations and generally do not
                 default in the conventional sense.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 This is why government contract factoring advance rates can run higher than
                 commercial factoring rates, and why factors may be willing to work with
                 contractors who have limited credit history if their contracts are with
@@ -524,14 +524,14 @@ export default function GovernmentContractorFinancingPage() {
                 is important. Review all agreements with qualified counsel.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Government contractor consideration
               </p>
               <h3 className="text-lg font-semibold text-white mb-3 text-balance">
                 IDIQ vehicles, BPAs, and the funded task order distinction
               </h3>
-              <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+              <p className="text-sm text-[#737373] leading-relaxed mb-3">
                 Many government contractors operate under Indefinite Delivery, Indefinite
                 Quantity contracts or Blanket Purchase Agreements — vehicles that authorize
                 work up to a ceiling value but do not themselves fund any specific work.
@@ -539,7 +539,7 @@ export default function GovernmentContractorFinancingPage() {
                 not possible; lenders and factors require funded task orders with an executed
                 period of performance and invoiceable milestones.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 When presenting your contract portfolio to a prospective lender or factor, the
                 relevant document is the funded task order or delivery order — not the base
                 IDIQ vehicle. Contractors who understand this distinction tend to move through

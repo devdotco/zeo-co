@@ -165,7 +165,7 @@ export default function SBAMicroloansPage() {
       />
 
       {/* 2. Key Metrics */}
-      <section className="py-12 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-12 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <MetricCard
@@ -190,24 +190,24 @@ export default function SBAMicroloansPage() {
               note="SBA-approved intermediary lenders only"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Figures are general estimates from SBA program data. Actual amounts, terms, and rates are set by individual intermediary lenders and subject to their underwriting criteria. Not offers or commitments.
           </p>
         </div>
       </section>
 
       {/* 3. Who It Is For */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Potential Fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Who may benefit from an SBA Microloan
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 SBA Microloans are designed for businesses that need smaller amounts of capital and may not qualify for conventional bank financing. The program is administered through nonprofit and community development intermediaries, many of which focus on underserved communities and mission-driven lending. The following profiles are illustrative — eligibility is determined by each intermediary lender.
               </p>
               <div className="space-y-4">
@@ -231,10 +231,10 @@ export default function SBAMicroloansPage() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="rounded-xl border border-[#1e2620] bg-[#111512] p-4"
+                    className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4"
                   >
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.title}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.title}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>
@@ -242,13 +242,13 @@ export default function SBAMicroloansPage() {
 
             {/* 4. How It Works */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Process
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 How the SBA Microloan program works
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 The SBA provides capital to intermediary lenders — typically nonprofit CDFIs and community organizations — who then administer the program locally. The SBA does not lend directly to businesses through this program. Steps below are general; each intermediary operates its own intake process.
               </p>
               <div className="space-y-3">
@@ -280,12 +280,12 @@ export default function SBAMicroloansPage() {
                   },
                 ].map((item) => (
                   <div key={item.step} className="flex gap-4">
-                    <div className="flex-shrink-0 w-7 h-7 rounded-lg border border-[#1e2620] bg-[#111512] flex items-center justify-center">
-                      <span className="text-[0.65rem] font-semibold text-[#22c55e]">{item.step}</span>
+                    <div className="flex-shrink-0 w-7 h-7 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center">
+                      <span className="text-[0.65rem] font-semibold text-[#0f0f0f]">{item.step}</span>
                     </div>
                     <div className="pt-0.5">
-                      <p className="text-sm font-semibold text-[#eef2ec] mb-1">{item.title}</p>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                      <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.title}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -296,16 +296,16 @@ export default function SBAMicroloansPage() {
       </section>
 
       {/* 5. Common Use Cases */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Use Cases
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Common ways SBA Microloan proceeds may be used
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-2xl">
+            <p className="text-[#737373] text-sm max-w-2xl">
               SBA rules specify permitted and prohibited uses. These are illustrative examples. Confirm use-of-proceeds requirements with the applicable intermediary before applying.
             </p>
           </div>
@@ -347,52 +347,52 @@ export default function SBAMicroloansPage() {
                 key={item.title}
                 className={`rounded-xl border p-4 ${
                   item.permitted
-                    ? "border-[#1e2620] bg-[#0a0d0b]"
+                    ? "border-[#e5e5e5] bg-[#ffffff]"
                     : "border-[#2a1a1a] bg-[#130d0d]"
                 }`}
               >
                 <div className="flex items-center gap-2 mb-2">
                   <div
                     className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
-                      item.permitted ? "bg-[#22c55e]" : "bg-[#ef4444]"
+                      item.permitted ? "bg-[#0f0f0f]" : "bg-[#ef4444]"
                     }`}
                   />
-                  <p className={`text-sm font-semibold ${item.permitted ? "text-[#eef2ec]" : "text-[#9aaa98]"}`}>
+                  <p className={`text-sm font-semibold ${item.permitted ? "text-[#0f0f0f]" : "text-[#737373]"}`}>
                     {item.title}
                   </p>
                   <span
                     className={`ml-auto text-[0.6rem] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded ${
                       item.permitted
-                        ? "text-[#22c55e] bg-[#22c55e]/10"
+                        ? "text-[#0f0f0f] bg-[#0f0f0f]/10"
                         : "text-[#ef4444] bg-[#ef4444]/10"
                     }`}
                   >
                     {item.permitted ? "Permitted" : "Not Permitted"}
                   </span>
                 </div>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
 
-          <p className="text-xs text-[#6b7e69] mt-5">
+          <p className="text-xs text-[#a3a3a3] mt-5">
             Permitted uses listed above reflect general SBA Microloan program guidelines. Individual intermediary lenders may impose additional restrictions. Confirm permitted uses with the specific intermediary before submitting an application.
           </p>
         </div>
       </section>
 
       {/* 6. Typical Requirements */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Typical eligibility considerations
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 There is no single universal set of requirements for SBA Microloans because each intermediary lender establishes its own criteria within the SBA program framework. The considerations below are general observations. Subject to underwriting.
               </p>
 
@@ -429,12 +429,12 @@ export default function SBAMicroloansPage() {
                     detail: "The SBA Microloan program is available to most types of for-profit small businesses. Certain SBA-ineligible business types — gambling, speculation, and some financial businesses — may not qualify.",
                   },
                 ].map((req) => (
-                  <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-4">
+                  <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4">
                     <div className="flex items-start justify-between gap-4 mb-1.5">
-                      <p className="text-sm font-semibold text-[#eef2ec]">{req.label}</p>
-                      <span className="text-xs text-[#22c55e] font-medium flex-shrink-0">{req.value}</span>
+                      <p className="text-sm font-semibold text-[#0f0f0f]">{req.label}</p>
+                      <span className="text-xs text-[#0f0f0f] font-medium flex-shrink-0">{req.value}</span>
                     </div>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{req.detail}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{req.detail}</p>
                   </div>
                 ))}
               </div>
@@ -442,47 +442,47 @@ export default function SBAMicroloansPage() {
 
             {/* 7. Cost Discussion */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Understanding SBA Microloan pricing
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 SBA Microloan interest rates are set by individual intermediary lenders — not by the SBA — and are not disclosed in advance on this site. We do not quote, guarantee, or predict rates. The following explains how pricing generally works in the program.
               </p>
 
               <div className="space-y-4">
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">How rates are set</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">How rates are set</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">
                     The SBA limits the maximum interest rate intermediary lenders may charge, based on a formula tied to the prime rate plus an allowable spread. Rates are typically higher than conventional SBA 7(a) loans because intermediaries bear more credit risk per loan dollar deployed. Rates may also reflect the intermediary's cost of capital and operating model.
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">Fees to be aware of</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Fees to be aware of</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">
                     Some intermediary lenders charge origination fees, application fees, or closing costs. Others do not. Review the full loan agreement — including the APR, total interest cost, any prepayment provisions, and fee schedule — before accepting a loan offer. Compare the total cost of capital, not just the stated rate.
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">Fixed vs. variable rates</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Fixed vs. variable rates</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">
                     Microloan rates may be fixed or variable depending on the intermediary. Fixed rates provide predictability for budgeting. Variable rates may start lower but can increase over the loan term. Confirm rate structure with the specific intermediary.
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">Comparing cost to alternatives</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">
+                <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Comparing cost to alternatives</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">
                     While Microloan rates may be higher than conventional bank loans, they are typically substantially lower than merchant cash advances or revenue-based financing. For a small-dollar need — $5,000 to $35,000 — the Microloan program is often among the lower-cost government-affiliated options available to businesses that cannot qualify elsewhere. Subject to underwriting and lender terms.
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-4">
-                  <p className="text-xs text-[#9aaa98] leading-relaxed">
+                <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-4">
+                  <p className="text-xs text-[#737373] leading-relaxed">
                     ZEO.co does not quote or guarantee rates, terms, or approval for SBA Microloans or any other financing product. All pricing is determined by the applicable third-party intermediary lender based on their own underwriting criteria and SBA program guidelines.
                   </p>
                 </div>
@@ -493,23 +493,23 @@ export default function SBAMicroloansPage() {
       </section>
 
       {/* 8. Pros and Cons */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
             <h2 className="text-2xl font-semibold text-white">
               Potential advantages and limitations
             </h2>
-            <p className="text-[#9aaa98] text-sm mt-2 max-w-2xl">
+            <p className="text-[#737373] text-sm mt-2 max-w-2xl">
               No financing product is universally right for every situation. The following reflects general program characteristics, not guarantees of any individual outcome.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-5">
                 Potential Advantages
               </p>
               <ul className="space-y-3">
@@ -522,17 +522,17 @@ export default function SBAMicroloansPage() {
                   "Government-affiliated program with SBA oversight of participating intermediaries",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
-                    <svg className="w-3.5 h-3.5 text-[#22c55e] flex-shrink-0 mt-0.5" viewBox="0 0 14 14" fill="none">
+                    <svg className="w-3.5 h-3.5 text-[#0f0f0f] flex-shrink-0 mt-0.5" viewBox="0 0 14 14" fill="none">
                       <path d="M2.5 7.5L5.5 10.5L11.5 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <span className="text-sm text-[#9aaa98] leading-relaxed">{item}</span>
+                    <span className="text-sm text-[#737373] leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#9aaa98] mb-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#737373] mb-5">
                 Limitations to Consider
               </p>
               <ul className="space-y-3">
@@ -545,10 +545,10 @@ export default function SBAMicroloansPage() {
                   "Rates may be higher than conventional bank loans, though typically lower than MCA or short-term alternatives",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5">
-                    <svg className="w-3.5 h-3.5 text-[#6b7e69] flex-shrink-0 mt-0.5" viewBox="0 0 14 14" fill="none">
+                    <svg className="w-3.5 h-3.5 text-[#a3a3a3] flex-shrink-0 mt-0.5" viewBox="0 0 14 14" fill="none">
                       <path d="M3 7h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                     </svg>
-                    <span className="text-sm text-[#9aaa98] leading-relaxed">{item}</span>
+                    <span className="text-sm text-[#737373] leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -558,16 +558,16 @@ export default function SBAMicroloansPage() {
       </section>
 
       {/* 9. Comparison Table */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               How SBA Microloans compare to other structures
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-2xl">
+            <p className="text-[#737373] text-sm max-w-2xl">
               General overview only. Actual eligibility, amounts, and terms vary by lender and applicant profile. Not offers or commitments.
             </p>
           </div>
@@ -576,23 +576,23 @@ export default function SBAMicroloansPage() {
             rows={comparisonRows}
             highlightCol="SBA Microloan"
           />
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general estimates. ZEO.co is not the SBA or an SBA lender. Results are educational only. Subject to third-party underwriting.
           </p>
         </div>
       </section>
 
       {/* 10. Alternatives */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Related financing options to explore
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-2xl">
+            <p className="text-[#737373] text-sm max-w-2xl">
               If a Microloan may not be the right fit — or if your capital need exceeds $50,000 — these structures may be worth evaluating. All subject to eligibility and third-party underwriting.
             </p>
           </div>
@@ -621,14 +621,14 @@ export default function SBAMicroloansPage() {
             />
           </div>
 
-          <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-            <p className="text-sm font-semibold text-[#eef2ec] mb-2">Not sure which path may fit?</p>
-            <p className="text-xs text-[#6b7e69] leading-relaxed mb-3">
+          <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+            <p className="text-sm font-semibold text-[#0f0f0f] mb-2">Not sure which path may fit?</p>
+            <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">
               ZEO evaluates business profiles against multiple financing structures, not just one. If your situation has characteristics that cut across several products — for example, you need equipment and working capital, or your use of proceeds spans categories — a structured intake may surface options you would not have identified on your own.
             </p>
             <Link
               href="/apply"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#22c55e] hover:text-white transition-colors"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-white transition-colors"
             >
               Start an intake
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -640,23 +640,23 @@ export default function SBAMicroloansPage() {
       </section>
 
       {/* 11. Calculator Link */}
-      <section className="py-12 border-t border-[#1e2620]">
+      <section className="py-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">
                 Tools
               </p>
-              <p className="text-sm font-semibold text-[#eef2ec] mb-1">
+              <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                 Estimate potential loan payments
               </p>
-              <p className="text-xs text-[#6b7e69] leading-relaxed max-w-md">
+              <p className="text-xs text-[#a3a3a3] leading-relaxed max-w-md">
                 Use the SBA loan payment calculator to model approximate monthly payments at different loan amounts and terms. Results are estimates only — not offers or commitments. Actual payment amounts depend on the rate and terms offered by the applicable lender.
               </p>
             </div>
             <Link
               href="/calculators/sba-loan-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               SBA Payment Calculator
             </Link>
@@ -671,7 +671,7 @@ export default function SBAMicroloansPage() {
       />
 
       {/* 13. Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="sba" />
         </div>

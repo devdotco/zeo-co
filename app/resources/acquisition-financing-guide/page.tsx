@@ -167,7 +167,7 @@ const faqItems = [
 
 export default function AcquisitionFinancingGuidePage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* Hero */}
       <PageHero
@@ -181,7 +181,7 @@ export default function AcquisitionFinancingGuidePage() {
       />
 
       {/* Key metrics */}
-      <section className="bg-[#0a0d0b] border-b border-[#1e2620] py-10">
+      <section className="bg-[#ffffff] border-b border-[#e5e5e5] py-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -211,24 +211,24 @@ export default function AcquisitionFinancingGuidePage() {
       </section>
 
       {/* ── Section 1: What Is Acquisition Financing ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-4">
             What is business acquisition financing?
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-4">
+          <p className="text-[#737373] leading-relaxed mb-4">
             Business acquisition financing refers to the capital structures used to fund the purchase of an
             existing operating business. Unlike startup financing — where capital backs an unproven concept —
             acquisition financing underwrites a company that already has revenue, customers, employees, and
             operating history. That history is both an asset and a primary underwriting input.
           </p>
-          <p className="text-[#9aaa98] leading-relaxed mb-4">
+          <p className="text-[#737373] leading-relaxed mb-4">
             Deals are typically structured as a combination of sources: senior debt (from a bank or SBA-affiliated
             lender), mezzanine or subordinated debt (sometimes from a private credit source), seller financing
             (deferred purchase price), and buyer equity (cash invested by the purchaser). The blend of these
             depends on deal size, business cash flow, collateral available, and lender requirements.
           </p>
-          <p className="text-[#9aaa98] leading-relaxed">
+          <p className="text-[#737373] leading-relaxed">
             Most small business acquisitions in the $500K–$5M range are financed through SBA 7(a) loans, which
             offer longer amortization periods and lower equity requirements than conventional bank loans. Larger
             or more complex deals may involve conventional lenders, private credit, or blended structures — each
@@ -238,13 +238,13 @@ export default function AcquisitionFinancingGuidePage() {
       </section>
 
       {/* ── Section 2: What Lenders Evaluate ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <h2 className="text-2xl font-semibold text-white mb-4">
               What lenders evaluate in an acquisition deal
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Acquisition loan underwriting examines both the business being acquired and the buyer pursuing it.
               Lenders assess risk across several dimensions before making any credit decision. Understanding what
               drives those decisions helps buyers structure deals that may qualify.
@@ -253,14 +253,14 @@ export default function AcquisitionFinancingGuidePage() {
 
           <div className="grid md:grid-cols-2 gap-3">
             {/* Business cash flow */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
               <div className="flex items-center gap-2.5 mb-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <ChartIcon />
                 </div>
-                <h3 className="font-semibold text-[#eef2ec] text-sm">Business cash flow (DSCR)</h3>
+                <h3 className="font-semibold text-[#0f0f0f] text-sm">Business cash flow (DSCR)</h3>
               </div>
-              <p className="text-sm text-[#6b7e69] leading-relaxed">
+              <p className="text-sm text-[#a3a3a3] leading-relaxed">
                 The acquired business must demonstrate sufficient historical cash flow to service the proposed
                 debt. Lenders calculate DSCR using the business's net operating income against all projected
                 debt payments, including the acquisition loan. Most lenders require a minimum of 1.20x–1.35x
@@ -270,14 +270,14 @@ export default function AcquisitionFinancingGuidePage() {
             </div>
 
             {/* Buyer qualifications */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
               <div className="flex items-center gap-2.5 mb-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <KeyIcon />
                 </div>
-                <h3 className="font-semibold text-[#eef2ec] text-sm">Buyer qualifications</h3>
+                <h3 className="font-semibold text-[#0f0f0f] text-sm">Buyer qualifications</h3>
               </div>
-              <p className="text-sm text-[#6b7e69] leading-relaxed">
+              <p className="text-sm text-[#a3a3a3] leading-relaxed">
                 Personal credit history, industry or management experience, and the buyer's own financial
                 strength all factor into lender decisions. SBA lenders typically require personal credit scores
                 above 650–680, and many conventional lenders set that bar higher. Buyers with prior business
@@ -287,14 +287,14 @@ export default function AcquisitionFinancingGuidePage() {
             </div>
 
             {/* Collateral */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
               <div className="flex items-center gap-2.5 mb-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <ShieldIcon />
                 </div>
-                <h3 className="font-semibold text-[#eef2ec] text-sm">Collateral &amp; guarantees</h3>
+                <h3 className="font-semibold text-[#0f0f0f] text-sm">Collateral &amp; guarantees</h3>
               </div>
-              <p className="text-sm text-[#6b7e69] leading-relaxed">
+              <p className="text-sm text-[#a3a3a3] leading-relaxed">
                 SBA and conventional lenders typically require a security interest in business assets and, where
                 available, personal assets of the borrower. SBA guidelines require lenders to take all available
                 collateral, though a deal will not necessarily be declined solely because collateral is
@@ -304,14 +304,14 @@ export default function AcquisitionFinancingGuidePage() {
             </div>
 
             {/* Documentation */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
               <div className="flex items-center gap-2.5 mb-3">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   <DocumentIcon />
                 </div>
-                <h3 className="font-semibold text-[#eef2ec] text-sm">Documentation requirements</h3>
+                <h3 className="font-semibold text-[#0f0f0f] text-sm">Documentation requirements</h3>
               </div>
-              <p className="text-sm text-[#6b7e69] leading-relaxed">
+              <p className="text-sm text-[#a3a3a3] leading-relaxed">
                 Acquisition loans are documentation-intensive. Lenders typically require 3 years of business tax
                 returns, interim financial statements, a business valuation (or purchase price justification),
                 purchase agreement, buyer personal financial statements, personal tax returns, and a transition
@@ -324,13 +324,13 @@ export default function AcquisitionFinancingGuidePage() {
       </section>
 
       {/* ── Section 3: Common Deal Structures ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
             <h2 className="text-2xl font-semibold text-white mb-4">
               Common acquisition deal structures
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Most acquisitions are not financed by a single source. Understanding how different capital layers
               fit together — and which combinations lenders may accept — is foundational to building a fundable
               deal structure.
@@ -362,18 +362,18 @@ export default function AcquisitionFinancingGuidePage() {
           </div>
 
           {/* Seller note callout */}
-          <div className="mt-5 rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-6">
+          <div className="mt-5 rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-6">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 mt-0.5">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#22c55e]/30 text-[#22c55e]">
+                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ffffff] border border-[#0f0f0f]/30 text-[#0f0f0f]">
                   <DocumentIcon />
                 </div>
               </div>
               <div>
-                <h3 className="font-semibold text-[#eef2ec] text-sm mb-2">
+                <h3 className="font-semibold text-[#0f0f0f] text-sm mb-2">
                   Seller notes: a common deal component
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">
+                <p className="text-sm text-[#737373] leading-relaxed">
                   A seller note — where the seller agrees to defer part of the purchase price and receive
                   payments over time — is a frequent element in small business acquisitions. Seller notes can
                   bridge valuation gaps, reduce the cash required from the buyer at closing, and in some SBA
@@ -389,13 +389,13 @@ export default function AcquisitionFinancingGuidePage() {
       </section>
 
       {/* ── Section 4: Comparison Table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
             <h2 className="text-2xl font-semibold text-white mb-4">
               Acquisition financing structures at a glance
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               The table below summarizes indicative characteristics of common acquisition financing structures.
               Actual terms vary by lender, deal, and borrower profile. All financing is subject to underwriting,
               eligibility, and approval by the applicable third-party provider.
@@ -406,7 +406,7 @@ export default function AcquisitionFinancingGuidePage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Figures are general reference ranges only. Lender requirements vary. Not an offer or commitment.
             Subject to underwriting and approval by third-party providers.
           </p>
@@ -414,12 +414,12 @@ export default function AcquisitionFinancingGuidePage() {
       </section>
 
       {/* ── Section 5: How to Approach the Process ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-4">
             How to approach the acquisition financing process
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed mb-6">
+          <p className="text-[#737373] leading-relaxed mb-6">
             Acquisition financing is not a quick-turnaround process. The deals that close efficiently tend to
             share a common pattern: the buyer enters the lender conversation prepared, with organized
             documentation and a realistic view of what the business can support in debt service.
@@ -427,13 +427,13 @@ export default function AcquisitionFinancingGuidePage() {
 
           <div className="space-y-6">
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-px bg-[#1e2620] ml-3 mt-1.5" />
+              <div className="flex-shrink-0 w-px bg-[#e5e5e5] ml-3 mt-1.5" />
               <div>
                 <div className="flex items-center gap-3 mb-2 -ml-3.5">
-                  <div className="w-6 h-6 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[#22c55e] text-[0.6rem] font-semibold">1</div>
-                  <h3 className="font-semibold text-[#eef2ec] text-sm">Understand the business's financials before the LOI</h3>
+                  <div className="w-6 h-6 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[#0f0f0f] text-[0.6rem] font-semibold">1</div>
+                  <h3 className="font-semibold text-[#0f0f0f] text-sm">Understand the business's financials before the LOI</h3>
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed pl-9">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed pl-9">
                   Before submitting a letter of intent, buyers should review at least 3 years of business tax
                   returns and financial statements. The difference between seller-represented earnings and
                   what a lender will underwrite — after adjusting for add-backs and owner expenses — can
@@ -444,13 +444,13 @@ export default function AcquisitionFinancingGuidePage() {
             </div>
 
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-px bg-[#1e2620] ml-3 mt-1.5" />
+              <div className="flex-shrink-0 w-px bg-[#e5e5e5] ml-3 mt-1.5" />
               <div>
                 <div className="flex items-center gap-3 mb-2 -ml-3.5">
-                  <div className="w-6 h-6 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[#22c55e] text-[0.6rem] font-semibold">2</div>
-                  <h3 className="font-semibold text-[#eef2ec] text-sm">Know your equity position going in</h3>
+                  <div className="w-6 h-6 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[#0f0f0f] text-[0.6rem] font-semibold">2</div>
+                  <h3 className="font-semibold text-[#0f0f0f] text-sm">Know your equity position going in</h3>
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed pl-9">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed pl-9">
                   Lenders will ask for documented evidence of the buyer's equity injection — bank statements,
                   investment accounts, retirement funds (subject to ROBS rules if applicable), or gift letters.
                   Equity cannot come from borrowed funds in most acquisition loan structures. Knowing your
@@ -460,13 +460,13 @@ export default function AcquisitionFinancingGuidePage() {
             </div>
 
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-px bg-[#1e2620] ml-3 mt-1.5" />
+              <div className="flex-shrink-0 w-px bg-[#e5e5e5] ml-3 mt-1.5" />
               <div>
                 <div className="flex items-center gap-3 mb-2 -ml-3.5">
-                  <div className="w-6 h-6 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[#22c55e] text-[0.6rem] font-semibold">3</div>
-                  <h3 className="font-semibold text-[#eef2ec] text-sm">Engage the right lender type for the deal</h3>
+                  <div className="w-6 h-6 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[#0f0f0f] text-[0.6rem] font-semibold">3</div>
+                  <h3 className="font-semibold text-[#0f0f0f] text-sm">Engage the right lender type for the deal</h3>
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed pl-9">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed pl-9">
                   SBA lenders vary significantly in appetite, experience with acquisitions, processing capacity,
                   and turnaround time. For deals under $5M with favorable DSCR and buyer profile, SBA 7(a) is
                   typically the starting point. For deals with complexity — partial real estate, rollover equity,
@@ -479,10 +479,10 @@ export default function AcquisitionFinancingGuidePage() {
             <div className="flex gap-4">
               <div>
                 <div className="flex items-center gap-3 mb-2">
-                  <div className="w-6 h-6 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[#22c55e] text-[0.6rem] font-semibold">4</div>
-                  <h3 className="font-semibold text-[#eef2ec] text-sm">Build the documentation package early</h3>
+                  <div className="w-6 h-6 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[#0f0f0f] text-[0.6rem] font-semibold">4</div>
+                  <h3 className="font-semibold text-[#0f0f0f] text-sm">Build the documentation package early</h3>
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed pl-9">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed pl-9">
                   Most acquisition loan delays stem from documentation gaps discovered mid-process. Buyers who
                   compile personal financial statements, 3 years of personal tax returns, a resume demonstrating
                   relevant experience, and a basic business plan before lender submission tend to move faster
@@ -502,7 +502,7 @@ export default function AcquisitionFinancingGuidePage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8 space-y-3">
           <ProductDisclaimer type="acquisition" />
           <ProductDisclaimer type="general" />

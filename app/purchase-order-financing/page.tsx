@@ -230,7 +230,7 @@ const COMPARISON_ROWS = [
 
 export default function PurchaseOrderFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -248,7 +248,7 @@ export default function PurchaseOrderFinancingPage() {
       />
 
       {/* ── Snapshot metrics ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -277,17 +277,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Who it is for ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who it may fit
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 Businesses that win orders they cannot currently afford to fulfill
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Purchase order financing is designed for a specific problem: a confirmed order
                 exists, the buyer is creditworthy, but the seller does not have the cash on
                 hand to pay suppliers, manufacturers, or distributors before shipment. If your
@@ -321,10 +321,10 @@ export default function PurchaseOrderFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.heading}</h3>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.heading}</h3>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
@@ -333,9 +333,9 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── How it works ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How it works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
@@ -374,12 +374,12 @@ export default function PurchaseOrderFinancingPage() {
                   "Your buyer pays the invoice. The provider recovers its advance plus fees from those proceeds. You receive the remaining balance. Fees accrue for the time the capital was deployed.",
               },
             ].map((s) => (
-              <div key={s.step} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#22c55e] bg-[#0f2a14] border border-[#22c55e]/20 rounded-md px-2 py-0.5 mb-3">
+              <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
-                <h3 className="text-sm font-semibold text-[#eef2ec] mb-2">{s.title}</h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{s.body}</p>
+                <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{s.body}</p>
               </div>
             ))}
           </div>
@@ -387,9 +387,9 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Common use cases ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common use cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
@@ -443,17 +443,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Typical requirements ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Typical requirements
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 What PO financing providers generally evaluate
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+              <p className="text-[#737373] text-sm leading-relaxed mb-6">
                 PO financing is more transaction-centric than most lending products. Providers
                 often weight the strength of the underlying purchase order and buyer credit as
                 heavily as your own business financials. That said, meeting general benchmarks
@@ -494,13 +494,13 @@ export default function PurchaseOrderFinancingPage() {
                 ].map((req) => (
                   <div
                     key={req.label}
-                    className="flex gap-4 rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                    className="flex gap-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                   >
-                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-[#22c55e] flex-shrink-0" />
+                    <div className="mt-1.5 h-1.5 w-1.5 rounded-full bg-[#0f0f0f] flex-shrink-0" />
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec]">{req.label}</p>
-                      <p className="text-sm text-[#9aaa98] mt-0.5">{req.value}</p>
-                      <p className="text-xs text-[#6b7e69] mt-1 leading-relaxed">{req.note}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f]">{req.label}</p>
+                      <p className="text-sm text-[#737373] mt-0.5">{req.value}</p>
+                      <p className="text-xs text-[#a3a3a3] mt-1 leading-relaxed">{req.note}</p>
                     </div>
                   </div>
                 ))}
@@ -509,20 +509,20 @@ export default function PurchaseOrderFinancingPage() {
 
             {/* ── Cost discussion ── */}
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding cost
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
                 How PO financing fees are typically structured
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-5">
+              <p className="text-[#737373] text-sm leading-relaxed mb-5">
                 ZEO.co does not quote, set, or guarantee financing rates. Actual costs depend
                 on the factors below and the specific terms offered by a third-party provider
                 after underwriting your transaction.
               </p>
-              <div className="space-y-3 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-3 text-sm text-[#737373] leading-relaxed">
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Fee structure vs. interest rate.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Fee structure vs. interest rate.</span>{" "}
                   Unlike a traditional loan, most PO financing is priced as a flat percentage
                   fee per month (or per 30-day period) on the funded amount, not as an annual
                   interest rate. A 3% monthly fee on a 90-day transaction can equate to a
@@ -530,28 +530,28 @@ export default function PurchaseOrderFinancingPage() {
                   margin on the specific order before proceeding.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Funding duration.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Funding duration.</span>{" "}
                   Fees accrue for the time capital is deployed — from supplier payment until
                   your buyer pays the invoice. If your buyer pays in 30 days, costs are lower
                   than if they pay in 90. Longer buyer payment terms or delays in delivery
                   increase the cost of the transaction.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Advance rate and deal structure.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Advance rate and deal structure.</span>{" "}
                   Some providers fund 100% of supplier costs; others fund a lower percentage
                   and require you to contribute the remainder. A lower advance rate reduces
                   provider risk and may result in better pricing, but requires more capital
                   from your side.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Buyer and supplier risk.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Buyer and supplier risk.</span>{" "}
                   Providers offering funds against a large, publicly traded retailer with
                   predictable payment behavior typically price differently than those funding
                   orders from a smaller or less established buyer. Supplier concentration,
                   geography, and production risk also factor in.
                 </p>
                 <p>
-                  <span className="text-[#eef2ec] font-medium">Additional fees.</span>{" "}
+                  <span className="text-[#0f0f0f] font-medium">Additional fees.</span>{" "}
                   Watch for due diligence fees, documentation fees, and wire/transfer costs,
                   which may be charged on top of the base financing fee. Always request a
                   complete fee schedule and a total-cost illustration before signing any
@@ -564,17 +564,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Pros and cons ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Weighing your options
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8 text-balance">
             Potential advantages and drawbacks
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wide mb-4">
                 Potential advantages
               </h3>
               <ul className="space-y-3">
@@ -586,9 +586,9 @@ export default function PurchaseOrderFinancingPage() {
                   "Preserves existing credit lines and bank relationships for other uses.",
                   "May allow a growing business to accept a transformational contract it could not otherwise fund.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#22c55e]"
+                      className="flex-shrink-0 mt-0.5 text-[#0f0f0f]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -608,8 +608,8 @@ export default function PurchaseOrderFinancingPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
-              <h3 className="text-sm font-semibold text-[#6b7e69] uppercase tracking-wide mb-4">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
+              <h3 className="text-sm font-semibold text-[#a3a3a3] uppercase tracking-wide mb-4">
                 Potential drawbacks
               </h3>
               <ul className="space-y-3">
@@ -621,9 +621,9 @@ export default function PurchaseOrderFinancingPage() {
                   "Approval is not guaranteed. Providers may decline deals if the buyer, supplier, or goods do not meet their criteria.",
                   "Complex deal structures may require legal documentation, supplier agreements, and UCC filings that add administrative burden.",
                 ].map((pt) => (
-                  <li key={pt} className="flex gap-3 text-sm text-[#9aaa98] leading-relaxed">
+                  <li key={pt} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
                     <svg
-                      className="flex-shrink-0 mt-0.5 text-[#6b7e69]"
+                      className="flex-shrink-0 mt-0.5 text-[#a3a3a3]"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -647,15 +647,15 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Comparison table ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Structure comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-6 text-balance">
             PO financing vs. invoice factoring vs. line of credit
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-6 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-6 max-w-2xl">
             These three tools are often confused or conflated. The comparison below highlights
             key structural differences. Actual terms vary by provider and transaction.
           </p>
@@ -668,15 +668,15 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Alternatives ── */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives to consider
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Other financing paths that may be relevant
           </h2>
-          <p className="text-sm text-[#9aaa98] mb-8 max-w-2xl">
+          <p className="text-sm text-[#737373] mb-8 max-w-2xl">
             Purchase order financing is one option among many. Depending on your business
             profile, order cadence, and how capital-intensive your operations are, one of
             these alternatives may be a better potential fit — or a useful complement.
@@ -715,17 +715,17 @@ export default function PurchaseOrderFinancingPage() {
       </section>
 
       {/* ── Calculator link ── */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
               <h3 className="text-lg font-semibold text-white mb-1">
                 Estimate PO financing cost on an order
               </h3>
-              <p className="text-sm text-[#6b7e69] max-w-md">
+              <p className="text-sm text-[#a3a3a3] max-w-md">
                 Run a rough cost illustration based on order size, expected funding duration,
                 and a sample fee rate. Results are illustrative only — not a quote or
                 commitment from any lender or provider.
@@ -733,7 +733,7 @@ export default function PurchaseOrderFinancingPage() {
             </div>
             <Link
               href="/calculators/purchase-order-financing"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#22c55e]/30 text-[#22c55e] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#22c55e]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

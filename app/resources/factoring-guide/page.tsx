@@ -97,7 +97,7 @@ const comparisonRows = [
 
 export default function FactoringGuidePage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       <JsonLd data={articleSchema} />
 
       <PageHero
@@ -116,10 +116,10 @@ export default function FactoringGuidePage() {
 
         {/* Section 1: What Is Invoice Factoring */}
         <section>
-          <h2 className="text-xl font-semibold text-[#eef2ec] mb-4 leading-snug">
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
             What Is Invoice Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] text-[0.9375rem] leading-[1.75]">
+          <div className="space-y-4 text-[#737373] text-[0.9375rem] leading-[1.75]">
             <p>
               Invoice factoring is a form of accounts receivable financing in which a business sells its
               outstanding invoices to a third-party company — called a factor — at a discount in exchange
@@ -146,7 +146,7 @@ export default function FactoringGuidePage() {
 
         {/* Key metrics */}
         <section>
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
             Typical Factoring Parameters
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -172,7 +172,7 @@ export default function FactoringGuidePage() {
               highlight
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+          <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
             Parameters are illustrative ranges only. Actual terms are subject to underwriting and third-party
             provider policies. Not an offer or commitment.
           </p>
@@ -180,10 +180,10 @@ export default function FactoringGuidePage() {
 
         {/* Section 2: How the Process Works */}
         <section>
-          <h2 className="text-xl font-semibold text-[#eef2ec] mb-4 leading-snug">
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
             How the Factoring Process Works
           </h2>
-          <div className="space-y-4 text-[#9aaa98] text-[0.9375rem] leading-[1.75]">
+          <div className="space-y-4 text-[#737373] text-[0.9375rem] leading-[1.75]">
             <p>
               The mechanics of factoring follow a consistent pattern, though the specifics vary by provider
               and agreement structure. Understanding each step helps businesses evaluate what they are
@@ -192,7 +192,7 @@ export default function FactoringGuidePage() {
           </div>
 
           {/* Process steps */}
-          <div className="mt-6 space-y-0 border border-[#1e2620] rounded-xl overflow-hidden divide-y divide-[#1e2620]">
+          <div className="mt-6 space-y-0 border border-[#e5e5e5] rounded-xl overflow-hidden divide-y divide-[#e5e5e5]">
             {[
               {
                 step: "01",
@@ -225,13 +225,13 @@ export default function FactoringGuidePage() {
                   "When the customer pays in full, the factor releases the remaining reserve balance to you, minus the factoring fee. If payment is delayed, additional fees may accrue depending on your agreement terms.",
               },
             ].map(({ step, label, detail }) => (
-              <div key={step} className="flex gap-4 px-5 py-4 bg-[#111512]">
-                <span className="text-[0.65rem] font-semibold tabular-nums text-[#22c55e] tracking-widest pt-0.5 w-6 shrink-0">
+              <div key={step} className="flex gap-4 px-5 py-4 bg-[#f5f5f5]">
+                <span className="text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] tracking-widest pt-0.5 w-6 shrink-0">
                   {step}
                 </span>
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1">{label}</p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{detail}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{label}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{detail}</p>
                 </div>
               </div>
             ))}
@@ -240,24 +240,24 @@ export default function FactoringGuidePage() {
 
         {/* Section 3: Recourse vs Non-Recourse */}
         <section>
-          <h2 className="text-xl font-semibold text-[#eef2ec] mb-4 leading-snug">
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
             Recourse vs. Non-Recourse Factoring
           </h2>
-          <div className="space-y-4 text-[#9aaa98] text-[0.9375rem] leading-[1.75]">
+          <div className="space-y-4 text-[#737373] text-[0.9375rem] leading-[1.75]">
             <p>
               One of the most consequential decisions in a factoring agreement is whether it is structured
               as recourse or non-recourse. This distinction determines who bears the credit risk if a
               customer fails to pay the invoice.
             </p>
             <p>
-              Under <span className="text-[#eef2ec] font-medium">recourse factoring</span>, the business
+              Under <span className="text-[#0f0f0f] font-medium">recourse factoring</span>, the business
               retains liability for unpaid invoices. If a customer does not pay within the agreed window,
               the factor may require the business to repurchase the invoice or substitute it with another
               eligible receivable. Recourse factoring typically carries lower fees because the factor's
               risk is reduced.
             </p>
             <p>
-              Under <span className="text-[#eef2ec] font-medium">non-recourse factoring</span>, the factor
+              Under <span className="text-[#0f0f0f] font-medium">non-recourse factoring</span>, the factor
               assumes the credit risk of customer non-payment in specified circumstances — most commonly
               customer insolvency. However, non-recourse agreements often contain narrow definitions and
               carve-outs: disputed invoices, customer chargebacks, or payment delays due to performance
@@ -273,48 +273,48 @@ export default function FactoringGuidePage() {
           </div>
 
           <div className="mt-6 grid sm:grid-cols-2 gap-3">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Recourse Factoring
               </p>
-              <ul className="space-y-2 text-sm text-[#9aaa98]">
+              <ul className="space-y-2 text-sm text-[#737373]">
                 <li className="flex gap-2">
-                  <span className="text-[#22c55e] shrink-0 mt-0.5">+</span>
+                  <span className="text-[#0f0f0f] shrink-0 mt-0.5">+</span>
                   Lower factoring fees
                 </li>
                 <li className="flex gap-2">
-                  <span className="text-[#22c55e] shrink-0 mt-0.5">+</span>
+                  <span className="text-[#0f0f0f] shrink-0 mt-0.5">+</span>
                   More widely available
                 </li>
                 <li className="flex gap-2">
-                  <span className="text-[#6b7e69] shrink-0 mt-0.5">–</span>
+                  <span className="text-[#a3a3a3] shrink-0 mt-0.5">–</span>
                   Business retains non-payment risk
                 </li>
                 <li className="flex gap-2">
-                  <span className="text-[#6b7e69] shrink-0 mt-0.5">–</span>
+                  <span className="text-[#a3a3a3] shrink-0 mt-0.5">–</span>
                   May require buyback of unpaid invoices
                 </li>
               </ul>
             </div>
-            <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] p-5">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e]/60 mb-3">
+            <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f]/60 mb-3">
                 Non-Recourse Factoring
               </p>
-              <ul className="space-y-2 text-sm text-[#9aaa98]">
+              <ul className="space-y-2 text-sm text-[#737373]">
                 <li className="flex gap-2">
-                  <span className="text-[#22c55e] shrink-0 mt-0.5">+</span>
+                  <span className="text-[#0f0f0f] shrink-0 mt-0.5">+</span>
                   Factor bears defined credit risk
                 </li>
                 <li className="flex gap-2">
-                  <span className="text-[#22c55e] shrink-0 mt-0.5">+</span>
+                  <span className="text-[#0f0f0f] shrink-0 mt-0.5">+</span>
                   Protection against customer insolvency (in scope)
                 </li>
                 <li className="flex gap-2">
-                  <span className="text-[#6b7e69] shrink-0 mt-0.5">–</span>
+                  <span className="text-[#a3a3a3] shrink-0 mt-0.5">–</span>
                   Higher fees
                 </li>
                 <li className="flex gap-2">
-                  <span className="text-[#6b7e69] shrink-0 mt-0.5">–</span>
+                  <span className="text-[#a3a3a3] shrink-0 mt-0.5">–</span>
                   Coverage carve-outs are common
                 </li>
               </ul>
@@ -324,10 +324,10 @@ export default function FactoringGuidePage() {
 
         {/* Section 4: Costs and What to Review */}
         <section>
-          <h2 className="text-xl font-semibold text-[#eef2ec] mb-4 leading-snug">
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
             Understanding Factoring Costs and Contract Terms
           </h2>
-          <div className="space-y-4 text-[#9aaa98] text-[0.9375rem] leading-[1.75]">
+          <div className="space-y-4 text-[#737373] text-[0.9375rem] leading-[1.75]">
             <p>
               Factoring fees are expressed as a discount rate — a percentage of the invoice face value
               charged for each funding period, typically structured per 30-day increment. A common structure
@@ -352,8 +352,8 @@ export default function FactoringGuidePage() {
           </div>
 
           {/* Key contract terms callout */}
-          <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-4">
+          <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-4">
               Key Contract Terms to Review
             </p>
             <div className="grid sm:grid-cols-2 gap-x-8 gap-y-3">
@@ -368,10 +368,10 @@ export default function FactoringGuidePage() {
                 ["UCC filing scope", "What assets are encumbered"],
               ].map(([term, desc]) => (
                 <div key={term} className="flex gap-3">
-                  <span className="w-1 h-1 rounded-full bg-[#22c55e] mt-[0.45rem] shrink-0" />
+                  <span className="w-1 h-1 rounded-full bg-[#0f0f0f] mt-[0.45rem] shrink-0" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] leading-snug">{term}</p>
-                    <p className="text-xs text-[#6b7e69] mt-0.5">{desc}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] leading-snug">{term}</p>
+                    <p className="text-xs text-[#a3a3a3] mt-0.5">{desc}</p>
                   </div>
                 </div>
               ))}
@@ -381,10 +381,10 @@ export default function FactoringGuidePage() {
 
         {/* Section 5: Factoring vs. Alternatives */}
         <section>
-          <h2 className="text-xl font-semibold text-[#eef2ec] mb-4 leading-snug">
+          <h2 className="text-xl font-semibold text-[#0f0f0f] mb-4 leading-snug">
             How Factoring Compares to Other Financing Options
           </h2>
-          <div className="space-y-4 text-[#9aaa98] text-[0.9375rem] leading-[1.75] mb-6">
+          <div className="space-y-4 text-[#737373] text-[0.9375rem] leading-[1.75] mb-6">
             <p>
               Invoice factoring occupies a specific position in the business financing landscape. It is
               not a substitute for every type of capital need, and its suitability depends on a business's
@@ -407,14 +407,14 @@ export default function FactoringGuidePage() {
             highlightCol="Invoice Factoring"
           />
 
-          <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+          <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
             Comparison is for general educational purposes only. Terms vary widely by provider and are
             subject to underwriting, approval, and individual business circumstances.
           </p>
         </section>
 
         {/* Section divider before FAQ */}
-        <div className="border-t border-[#1e2620]" />
+        <div className="border-t border-[#e5e5e5]" />
 
         {/* Disclaimer before FAQ */}
         <ProductDisclaimer type="factoring" />

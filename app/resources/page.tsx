@@ -171,7 +171,7 @@ const calculators = [
 ];
 
 const tagColors: Record<string, string> = {
-  SBA: "text-[#22c55e] bg-[#22c55e]/10 border-[#22c55e]/20",
+  SBA: "text-[#0f0f0f] bg-[#0f0f0f]/10 border-[#0f0f0f]/20",
   Factoring: "text-[#60a5fa] bg-[#60a5fa]/10 border-[#60a5fa]/20",
   "Working Capital": "text-[#a78bfa] bg-[#a78bfa]/10 border-[#a78bfa]/20",
   Equipment: "text-[#fb923c] bg-[#fb923c]/10 border-[#fb923c]/20",
@@ -238,7 +238,7 @@ export default function ResourcesPage() {
       />
 
       {/* ── Metrics strip ───────────────────────────────────────────────────── */}
-      <section className="border-b border-[#1e2620] bg-[#0a0d0b]">
+      <section className="border-b border-[#e5e5e5] bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 py-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard label="Financing Guides" value="8" note="In-depth product explanations" />
@@ -250,15 +250,15 @@ export default function ResourcesPage() {
       </section>
 
       {/* ── Guides grid ─────────────────────────────────────────────────────── */}
-      <section className="bg-[#0a0d0b] py-14 border-b border-[#1e2620]">
+      <section className="bg-[#ffffff] py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="flex items-end justify-between mb-8 gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
                 <BookIcon /> <span className="inline-block align-middle ml-1">Financing Guides</span>
               </p>
-              <h2 className="text-xl font-semibold text-[#eef2ec]">8 Product Guides</h2>
-              <p className="text-sm text-[#6b7e69] mt-1 max-w-lg">
+              <h2 className="text-xl font-semibold text-[#0f0f0f]">8 Product Guides</h2>
+              <p className="text-sm text-[#a3a3a3] mt-1 max-w-lg">
                 Each guide covers how the product works, what lenders typically evaluate, and situations where it may or may not be a potential fit for your business.
               </p>
             </div>
@@ -269,23 +269,23 @@ export default function ResourcesPage() {
               <Link
                 key={guide.slug}
                 href={guide.href}
-                className="group flex flex-col rounded-xl border border-[#1e2620] bg-[#111512] p-5 transition-all hover:border-[#22c55e]/40 hover:bg-[#0f1a10] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#22c55e]/60"
+                className="group flex flex-col rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 transition-all hover:border-[#0f0f0f]/40 hover:bg-[#0f1a10] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f]/60"
               >
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <span
-                    className={`inline-flex text-[0.6rem] font-semibold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md border ${tagColors[guide.tag] ?? "text-[#6b7e69] bg-[#1e2620] border-[#1e2620]"}`}
+                    className={`inline-flex text-[0.6rem] font-semibold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md border ${tagColors[guide.tag] ?? "text-[#a3a3a3] bg-[#e5e5e5] border-[#e5e5e5]"}`}
                   >
                     {guide.tag}
                   </span>
-                  <span className="text-[0.65rem] text-[#6b7e69] tabular-nums whitespace-nowrap">{guide.readTime} read</span>
+                  <span className="text-[0.65rem] text-[#a3a3a3] tabular-nums whitespace-nowrap">{guide.readTime} read</span>
                 </div>
-                <h3 className="text-[0.875rem] font-semibold text-[#eef2ec] leading-snug mb-2 group-hover:text-white transition-colors">
+                <h3 className="text-[0.875rem] font-semibold text-[#0f0f0f] leading-snug mb-2 group-hover:text-white transition-colors">
                   {guide.title}
                 </h3>
-                <p className="text-xs text-[#6b7e69] leading-relaxed flex-1">
+                <p className="text-xs text-[#a3a3a3] leading-relaxed flex-1">
                   {guide.description}
                 </p>
-                <div className="flex items-center gap-1 mt-4 text-xs font-medium text-[#22c55e] group-hover:text-[#4ade80] transition-colors">
+                <div className="flex items-center gap-1 mt-4 text-xs font-medium text-[#0f0f0f] group-hover:text-[#4ade80] transition-colors">
                   Read guide <ArrowRight />
                 </div>
               </Link>
@@ -295,14 +295,14 @@ export default function ResourcesPage() {
       </section>
 
       {/* ── Calculators section ──────────────────────────────────────────────── */}
-      <section className="bg-[#0a0d0b] py-14 border-b border-[#1e2620]">
+      <section className="bg-[#ffffff] py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
               <CalcIcon /> <span className="inline-block align-middle ml-1">Calculators & Tools</span>
             </p>
-            <h2 className="text-xl font-semibold text-[#eef2ec]">14 Free Calculators</h2>
-            <p className="text-sm text-[#6b7e69] mt-1 max-w-xl">
+            <h2 className="text-xl font-semibold text-[#0f0f0f]">14 Free Calculators</h2>
+            <p className="text-sm text-[#a3a3a3] mt-1 max-w-xl">
               Estimate payments, compare products, assess debt service coverage, and model acquisition financing — all in-browser, no account required. Results are estimates only and not offers or guarantees.
             </p>
           </div>
@@ -312,9 +312,9 @@ export default function ResourcesPage() {
               <Link
                 key={calc.href}
                 href={calc.href}
-                className="group flex items-center gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3 text-sm text-[#9aaa98] transition-all hover:border-[#1e2620] hover:bg-[#161a15] hover:text-[#eef2ec] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#22c55e]/60"
+                className="group flex items-center gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 text-sm text-[#737373] transition-all hover:border-[#e5e5e5] hover:bg-[#161a15] hover:text-[#0f0f0f] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f]/60"
               >
-                <span className="flex-shrink-0 text-[#22c55e] opacity-60 group-hover:opacity-100 transition-opacity">
+                <span className="flex-shrink-0 text-[#0f0f0f] opacity-60 group-hover:opacity-100 transition-opacity">
                   <ChevronRight />
                 </span>
                 <span className="leading-snug">{calc.title}</span>
@@ -324,7 +324,7 @@ export default function ResourcesPage() {
 
           <Link
             href="/calculators"
-            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#22c55e] hover:text-[#4ade80] transition-colors"
+            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors"
           >
             View all calculators <ArrowRight />
           </Link>
@@ -332,23 +332,23 @@ export default function ResourcesPage() {
       </section>
 
       {/* ── Blog section ────────────────────────────────────────────────────── */}
-      <section className="bg-[#0a0d0b] py-14 border-b border-[#1e2620]">
+      <section className="bg-[#ffffff] py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
-            <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-xl border border-[#1e2620] bg-[#0a0d0b] text-[#22c55e]">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 md:p-8 flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+            <div className="flex-shrink-0 flex h-12 w-12 items-center justify-center rounded-xl border border-[#e5e5e5] bg-[#ffffff] text-[#0f0f0f]">
               <BlogIcon />
             </div>
             <div className="flex-1">
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">Blog</p>
-              <h2 className="text-lg font-semibold text-[#eef2ec] mb-1">ZEO.co Financing Blog</h2>
-              <p className="text-sm text-[#6b7e69] leading-relaxed max-w-2xl">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">Blog</p>
+              <h2 className="text-lg font-semibold text-[#0f0f0f] mb-1">ZEO.co Financing Blog</h2>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed max-w-2xl">
                 In-depth articles on financing trends, lender criteria, deal structures, and market conditions affecting business owners seeking commercial capital. Updated regularly with practical content — not product pitches.
               </p>
             </div>
             <div className="flex-shrink-0">
               <Link
                 href="/blog"
-                className="group inline-flex items-center gap-1.5 px-5 py-2.5 rounded-lg border border-[#1e2620] text-sm font-medium text-[#9aaa98] hover:text-[#eef2ec] hover:border-[#22c55e]/40 transition-all whitespace-nowrap"
+                className="group inline-flex items-center gap-1.5 px-5 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/40 transition-all whitespace-nowrap"
               >
                 Browse articles <ArrowRight />
               </Link>
@@ -358,27 +358,27 @@ export default function ResourcesPage() {
       </section>
 
       {/* ── How ZEO Works ───────────────────────────────────────────────────── */}
-      <section className="bg-[#0a0d0b] py-14 border-b border-[#1e2620]">
+      <section className="bg-[#ffffff] py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-2">About ZEO</p>
-            <h2 className="text-xl font-semibold text-[#eef2ec] max-w-xl">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">About ZEO</p>
+            <h2 className="text-xl font-semibold text-[#0f0f0f] max-w-xl">
               What ZEO.co Is — and What It Is Not
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="space-y-4">
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 ZEO.co is a commercial financing education and referral platform. We are not a bank, lender, or loan broker. We do not make credit decisions, set interest rates, or guarantee approval for any financing product. Every financing offer you may receive through ZEO comes from a third-party provider with its own underwriting standards.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Our guides, calculators, and content are designed to help business owners understand the financing landscape before they speak with a lender. Understanding what lenders look for — DSCR thresholds, time-in-business requirements, collateral expectations, documentation — can help you enter the process more prepared and better positioned to evaluate any offers you may receive.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Our intake process asks about your business, use of proceeds, and financial profile so we can surface the financing types that may be a potential fit — rather than sending every business to the same product. Businesses that complete intake do not receive unsolicited calls from multiple lenders; ZEO reviews the profile first and connects you only with relevant providers.
               </p>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Financing is subject to underwriting, lender approval, and the terms of each provider's specific program. Nothing on this site constitutes a commitment to lend, an offer of financing, or a guarantee of any rate or term. Use the guides and calculators to inform your thinking, then apply to understand what you may actually qualify for.
               </p>
             </div>
@@ -388,13 +388,13 @@ export default function ResourcesPage() {
                 { label: "ZEO is", items: ["A financing education platform", "A guided intake and matching resource", "A directory of financing types and products", "A calculator and estimation toolkit"] },
                 { label: "ZEO is not", items: ["A bank or lender", "A loan broker or licensed advisor", "An SBA-authorized lender", "A guarantor of any financing terms"] },
               ].map((col) => (
-                <div key={col.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">{col.label}</p>
+                <div key={col.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">{col.label}</p>
                   <ul className="space-y-2">
                     {col.items.map((item) => (
-                      <li key={item} className="flex items-start gap-2.5 text-sm text-[#9aaa98]">
-                        <span className="flex-shrink-0 mt-0.5 w-3.5 h-3.5 rounded-full border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
-                          <span className={`w-1.5 h-1.5 rounded-full ${col.label === "ZEO is" ? "bg-[#22c55e]" : "bg-[#6b7e69]"}`} />
+                      <li key={item} className="flex items-start gap-2.5 text-sm text-[#737373]">
+                        <span className="flex-shrink-0 mt-0.5 w-3.5 h-3.5 rounded-full border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
+                          <span className={`w-1.5 h-1.5 rounded-full ${col.label === "ZEO is" ? "bg-[#0f0f0f]" : "bg-[#a3a3a3]"}`} />
                         </span>
                         {item}
                       </li>
@@ -414,7 +414,7 @@ export default function ResourcesPage() {
       />
 
       {/* ── Disclaimer ──────────────────────────────────────────────────────── */}
-      <section className="bg-[#0a0d0b] pb-10">
+      <section className="bg-[#ffffff] pb-10">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="general" />
         </div>

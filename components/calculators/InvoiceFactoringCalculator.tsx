@@ -54,7 +54,7 @@ export default function InvoiceFactoringCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Inputs — left column */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Invoice Parameters</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Invoice Parameters</p>
 
           <CalcInput
             label="Invoice Amount"
@@ -131,7 +131,7 @@ export default function InvoiceFactoringCalculator() {
 
         {/* Results — right column */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Funding Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Funding Summary</p>
 
           <CalcResult
             label="Initial Advance"
@@ -168,13 +168,13 @@ export default function InvoiceFactoringCalculator() {
 
       {/* Cash flow breakdown bar */}
       {invoiceAmount > 0 && isFinite(totalNetProceeds) && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Invoice Proceeds Breakdown
           </p>
           <div className="flex rounded-full overflow-hidden h-2 mb-3">
             <div
-              className="bg-[#22c55e] transition-all duration-300"
+              className="bg-[#0f0f0f] transition-all duration-300"
               style={{ width: `${Math.min(100, advancePct)}%` }}
               title="Initial Advance"
             />
@@ -184,14 +184,14 @@ export default function InvoiceFactoringCalculator() {
               title="Net Reserve Release"
             />
             <div
-              className="bg-[#6b7e69] transition-all duration-300"
+              className="bg-[#a3a3a3] transition-all duration-300"
               style={{ width: `${Math.min(100, feePct)}%` }}
               title="Fees"
             />
           </div>
-          <div className="flex flex-wrap gap-4 text-xs text-[#9aaa98]">
+          <div className="flex flex-wrap gap-4 text-xs text-[#737373]">
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#22c55e]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#0f0f0f]" />
               Advance {advancePct.toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
@@ -199,7 +199,7 @@ export default function InvoiceFactoringCalculator() {
               Net Reserve {netReservePct.toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#6b7e69]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#a3a3a3]" />
               Fees {feePct.toFixed(1)}%
             </span>
           </div>

@@ -298,7 +298,7 @@ const faqItems = [
 
 export default function FranchiseFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -309,16 +309,16 @@ export default function FranchiseFinancingPage() {
       />
 
       {/* 2 — Who it is for */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Who It May Suit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               A potential fit for aspiring and existing franchise operators
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Franchise financing is not a single product — it describes a category of lending applied to franchise-specific situations. The borrowers who tend to explore it share a few common characteristics.
             </p>
           </div>
@@ -343,15 +343,15 @@ export default function FranchiseFinancingPage() {
             ].map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -361,22 +361,22 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 3 — How it works */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process Overview
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               How franchise financing generally works
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Franchise financing involves parallel tracks: the franchisor's own approval process and the lender's underwriting process. These timelines often run concurrently, and coordination between them matters. Here is how the overall arc typically unfolds.
             </p>
           </div>
           <div className="relative">
             <div
-              className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#1e2620]"
+              className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#e5e5e5]"
               aria-hidden="true"
             />
             <div className="space-y-4">
@@ -408,14 +408,14 @@ export default function FranchiseFinancingPage() {
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-5 md:gap-6">
-                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
-                    <span className="text-xs font-semibold text-[#22c55e] tabular-nums">
+                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
+                    <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">
                       {item.step}
                     </span>
                   </div>
-                  <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex-1">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.title}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex-1">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.title}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -425,16 +425,16 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 4 — Common use cases */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Common Use Cases
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Where franchise financing is commonly evaluated
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Franchise financing is not limited to initial purchases. Several situations regularly prompt business owners to explore lending options in the franchise context.
             </p>
           </div>
@@ -473,13 +473,13 @@ export default function FranchiseFinancingPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   {item.icon}
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -487,16 +487,16 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 5 — Typical requirements & metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Typical Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               What lenders generally look at
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Requirements vary by lender, program, loan size, and whether the deal is a new unit, resale, or expansion. The following reflects general patterns across franchise financing — not a guarantee of eligibility. All financing is subject to underwriting.
             </p>
           </div>
@@ -550,12 +550,12 @@ export default function FranchiseFinancingPage() {
             ].map((req) => (
               <div
                 key={req.label}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">
                   {req.label}
                 </p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -563,17 +563,17 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 6 — Cost discussion */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Understanding Cost
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 What determines the total cost of franchise financing
               </h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   The total cost of franchise financing depends on the program, lender, loan size, term, and your credit profile — among other factors. No specific rate or cost can be predicted in advance, and any figures you see in advertising or comparison tools are illustrative only. Actual terms are determined through underwriting.
                 </p>
@@ -589,7 +589,7 @@ export default function FranchiseFinancingPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">
                 Typical Cost Factors
               </p>
               {[
@@ -620,12 +620,12 @@ export default function FranchiseFinancingPage() {
               ].map((item) => (
                 <div
                   key={item.factor}
-                  className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3"
+                  className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}
@@ -635,22 +635,22 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 7 — Pros and cons */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Tradeoffs
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Weighing franchise financing against your situation
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Franchise financing involves meaningful tradeoffs specific to this category of borrower. Understanding both sides helps set expectations before beginning the process.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                 Potential Advantages
               </p>
               <div className="space-y-3">
@@ -664,7 +664,7 @@ export default function FranchiseFinancingPage() {
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
                     <svg
-                      className="flex-shrink-0 w-4 h-4 text-[#22c55e] mt-0.5"
+                      className="flex-shrink-0 w-4 h-4 text-[#0f0f0f] mt-0.5"
                       viewBox="0 0 16 16"
                       fill="none"
                     >
@@ -676,13 +676,13 @@ export default function FranchiseFinancingPage() {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">
                 Potential Drawbacks
               </p>
               <div className="space-y-3">
@@ -696,7 +696,7 @@ export default function FranchiseFinancingPage() {
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
                     <svg
-                      className="flex-shrink-0 w-4 h-4 text-[#6b7e69] mt-0.5"
+                      className="flex-shrink-0 w-4 h-4 text-[#a3a3a3] mt-0.5"
                       viewBox="0 0 16 16"
                       fill="none"
                     >
@@ -707,7 +707,7 @@ export default function FranchiseFinancingPage() {
                         strokeLinecap="round"
                       />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
@@ -717,16 +717,16 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 8 — Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Program Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               SBA 7(a) vs. conventional vs. franchisor financing
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A high-level comparison across the most common franchise financing structures. All terms are subject to lender underwriting, SBA program rules, franchisor policies, and market conditions at time of application.
             </p>
           </div>
@@ -735,23 +735,23 @@ export default function FranchiseFinancingPage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             This table is for informational purposes only. Actual program terms, limits, and eligibility criteria are set by the SBA, individual participating lenders, and franchise brands. Subject to change without notice.
           </p>
         </div>
       </section>
 
       {/* 9 — Alternatives */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Alternatives
             </p>
             <h2 className="text-2xl font-semibold text-white mb-3">
               Other financing paths to consider
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Franchise financing most commonly involves SBA 7(a), but other products may complement or — in some cases — replace it depending on the specific deal structure, asset mix, and borrower profile.
             </p>
           </div>
@@ -770,7 +770,7 @@ export default function FranchiseFinancingPage() {
           <div className="text-center">
             <Link
               href="/financing"
-              className="inline-flex items-center gap-2 text-sm text-[#9aaa98] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-white transition-colors"
             >
               View all financing options
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -788,23 +788,23 @@ export default function FranchiseFinancingPage() {
       </section>
 
       {/* 10 — Calculator link */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">
                 Tools
               </p>
-              <p className="text-base font-semibold text-[#eef2ec] mb-1">
+              <p className="text-base font-semibold text-[#0f0f0f] mb-1">
                 Model potential loan payments before you apply
               </p>
-              <p className="text-sm text-[#6b7e69]">
+              <p className="text-sm text-[#a3a3a3]">
                 Use the loan payment calculator to estimate monthly obligations at different principal amounts, terms, and rate assumptions. Results are estimates only — not offers, commitments, or guarantees.
               </p>
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#22c55e]/40 text-[#22c55e] text-sm font-medium hover:bg-[#22c55e]/10 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-[#0f0f0f] text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

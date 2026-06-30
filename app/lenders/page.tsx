@@ -254,29 +254,29 @@ const lenderFAQ = [
 
 function LenderInquiryForm() {
   return (
-    <section className="py-20 border-t border-[#1e2620] bg-[#0a0d0b]" id="lender-inquiry">
+    <section className="py-20 border-t border-[#e5e5e5] bg-[#ffffff]" id="lender-inquiry">
       <div className="max-w-2xl mx-auto px-5 lg:px-8">
         <div className="mb-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Provider Inquiry
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Inquire about joining the provider network
           </h2>
-          <p className="text-[#9aaa98] text-sm leading-relaxed">
+          <p className="text-[#737373] text-sm leading-relaxed">
             Submit your company information below. ZEO's partnerships team will review your inquiry and follow up. This is not an agreement or guarantee of a provider relationship.
           </p>
         </div>
 
         <form
-          className="rounded-2xl border border-[#1e2620] bg-[#111512] p-6 space-y-5"
+          className="rounded-2xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 space-y-5"
           action="/api/contact"
           method="post"
         >
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="lender-name" className="text-xs font-medium text-[#9aaa98]">
-                Contact name <span className="text-[#22c55e]" aria-hidden>*</span>
+              <label htmlFor="lender-name" className="text-xs font-medium text-[#737373]">
+                Contact name <span className="text-[#0f0f0f]" aria-hidden>*</span>
               </label>
               <input
                 id="lender-name"
@@ -285,12 +285,12 @@ function LenderInquiryForm() {
                 autoComplete="name"
                 required
                 placeholder="Jane Smith"
-                className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="lender-company" className="text-xs font-medium text-[#9aaa98]">
-                Company / institution name <span className="text-[#22c55e]" aria-hidden>*</span>
+              <label htmlFor="lender-company" className="text-xs font-medium text-[#737373]">
+                Company / institution name <span className="text-[#0f0f0f]" aria-hidden>*</span>
               </label>
               <input
                 id="lender-company"
@@ -299,14 +299,14 @@ function LenderInquiryForm() {
                 autoComplete="organization"
                 required
                 placeholder="First National Commercial Bank"
-                className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label htmlFor="lender-email" className="text-xs font-medium text-[#9aaa98]">
-              Business email <span className="text-[#22c55e]" aria-hidden>*</span>
+            <label htmlFor="lender-email" className="text-xs font-medium text-[#737373]">
+              Business email <span className="text-[#0f0f0f]" aria-hidden>*</span>
             </label>
             <input
               id="lender-email"
@@ -315,20 +315,20 @@ function LenderInquiryForm() {
               autoComplete="email"
               required
               placeholder="jane@yourcompany.com"
-              className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
             />
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label htmlFor="lender-type" className="text-xs font-medium text-[#9aaa98]">
-              Provider type <span className="text-[#22c55e]" aria-hidden>*</span>
+            <label htmlFor="lender-type" className="text-xs font-medium text-[#737373]">
+              Provider type <span className="text-[#0f0f0f]" aria-hidden>*</span>
             </label>
             <select
               id="lender-type"
               name="providerType"
               required
               defaultValue=""
-              className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors appearance-none"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors appearance-none"
             >
               <option value="" disabled>Select provider type</option>
               <option value="sba">SBA Lender (bank, CU, CDFI, or non-bank)</option>
@@ -342,7 +342,7 @@ function LenderInquiryForm() {
 
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="lender-min" className="text-xs font-medium text-[#9aaa98]">
+              <label htmlFor="lender-min" className="text-xs font-medium text-[#737373]">
                 Minimum deal size
               </label>
               <input
@@ -350,11 +350,11 @@ function LenderInquiryForm() {
                 type="text"
                 name="minDeal"
                 placeholder="e.g. $100,000"
-                className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="lender-states" className="text-xs font-medium text-[#9aaa98]">
+              <label htmlFor="lender-states" className="text-xs font-medium text-[#737373]">
                 States you originate in
               </label>
               <input
@@ -362,13 +362,13 @@ function LenderInquiryForm() {
                 type="text"
                 name="states"
                 placeholder="e.g. Nationwide, or TX, CA, FL"
-                className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label htmlFor="lender-message" className="text-xs font-medium text-[#9aaa98]">
+            <label htmlFor="lender-message" className="text-xs font-medium text-[#737373]">
               Describe your lending program and target borrower profile
             </label>
             <textarea
@@ -376,12 +376,12 @@ function LenderInquiryForm() {
               name="message"
               rows={4}
               placeholder="Include product types, typical deal sizes, industries you focus on, credit profile requirements, and any relevant licensing information..."
-              className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors resize-none leading-relaxed"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors resize-none leading-relaxed"
             />
           </div>
 
-          <div className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] p-4 space-y-3">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69]">
+          <div className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] p-4 space-y-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3]">
               Compliance acknowledgment
             </p>
             <label className="flex items-start gap-2.5 cursor-pointer">
@@ -389,9 +389,9 @@ function LenderInquiryForm() {
                 type="checkbox"
                 name="complianceAck"
                 required
-                className="mt-0.5 flex-shrink-0 accent-[#22c55e]"
+                className="mt-0.5 flex-shrink-0 accent-[#0f0f0f]"
               />
-              <span className="text-xs text-[#6b7e69] leading-relaxed">
+              <span className="text-xs text-[#a3a3a3] leading-relaxed">
                 I confirm that our organization holds applicable state licenses or qualifies for applicable exemptions in the states where we originate commercial financing, and that we are capable of delivering required commercial financing disclosures under applicable state law.
               </span>
             </label>
@@ -399,7 +399,7 @@ function LenderInquiryForm() {
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#22c55e] text-black font-semibold py-3 text-sm hover:bg-[#16a34a] transition-colors focus:outline-none focus:ring-2 focus:ring-[#22c55e]/40"
+            className="w-full rounded-xl bg-[#0f0f0f] text-black font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
           >
             Submit Provider Inquiry
           </button>
@@ -428,37 +428,37 @@ export default function LendersPage() {
       />
 
       {/* Provider Types */}
-      <section className="py-20 border-t border-[#1e2620]">
+      <section className="py-20 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Provider Types
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Types of financing providers ZEO works with
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-xl leading-relaxed">
+            <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
               Each provider type has distinct eligibility, underwriting, and compliance requirements. ZEO evaluates each provider relationship individually.
             </p>
           </div>
 
           <div className="space-y-4">
             {providerTypes.map((p) => (
-              <div key={p.type} className="rounded-xl border border-[#1e2620] bg-[#111512] p-6">
+              <div key={p.type} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6">
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="md:col-span-1 flex flex-col gap-3">
                     <div className="flex items-center gap-3">
-                      <div className="w-9 h-9 rounded-lg border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center text-[#22c55e] flex-shrink-0">
+                      <div className="w-9 h-9 rounded-lg border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center text-[#0f0f0f] flex-shrink-0">
                         {p.icon}
                       </div>
-                      <p className="text-sm font-semibold text-[#eef2ec]">{p.type}</p>
+                      <p className="text-sm font-semibold text-[#0f0f0f]">{p.type}</p>
                     </div>
-                    <p className="text-xs text-[#9aaa98] leading-relaxed">{p.description}</p>
+                    <p className="text-xs text-[#737373] leading-relaxed">{p.description}</p>
                     <div className="flex flex-wrap gap-1.5 mt-auto">
                       {p.commonUses.map((u) => (
                         <span
                           key={u}
-                          className="text-[0.6rem] font-medium px-2 py-0.5 rounded-full border border-[#1e2620] bg-[#0a0d0b] text-[#6b7e69]"
+                          className="text-[0.6rem] font-medium px-2 py-0.5 rounded-full border border-[#e5e5e5] bg-[#ffffff] text-[#a3a3a3]"
                         >
                           {u}
                         </span>
@@ -467,13 +467,13 @@ export default function LendersPage() {
                   </div>
 
                   <div className="md:col-span-1">
-                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-3">
+                    <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-3">
                       Requirements
                     </p>
                     <ul className="space-y-2">
                       {p.requirements.map((r) => (
-                        <li key={r} className="flex items-start gap-2 text-xs text-[#6b7e69]">
-                          <span className="text-[#22c55e]"><CheckIcon /></span>
+                        <li key={r} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
+                          <span className="text-[#0f0f0f]"><CheckIcon /></span>
                           {r}
                         </li>
                       ))}
@@ -481,14 +481,14 @@ export default function LendersPage() {
                   </div>
 
                   <div className="md:col-span-1">
-                    <div className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] p-4 h-full flex flex-col gap-2">
-                      <div className="flex items-start gap-2 text-[#9aaa98]">
+                    <div className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] p-4 h-full flex flex-col gap-2">
+                      <div className="flex items-start gap-2 text-[#737373]">
                         <WarningIcon />
                         <p className="text-[0.6rem] font-semibold uppercase tracking-[0.08em]">
                           Compliance note
                         </p>
                       </div>
-                      <p className="text-xs text-[#6b7e69] leading-relaxed">{p.note}</p>
+                      <p className="text-xs text-[#a3a3a3] leading-relaxed">{p.note}</p>
                     </div>
                   </div>
                 </div>
@@ -499,37 +499,37 @@ export default function LendersPage() {
       </section>
 
       {/* Compliance Requirements */}
-      <section className="py-20 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-20 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Compliance
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Provider compliance requirements
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-xl leading-relaxed">
+            <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
               All providers in the ZEO network are subject to compliance review. The following requirements apply to all provider types unless otherwise specified in a written agreement.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {complianceItems.map((item) => (
-              <div key={item.area} className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-                <p className="text-xs font-semibold text-[#eef2ec] mb-2">{item.area}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.req}</p>
+              <div key={item.area} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+                <p className="text-xs font-semibold text-[#0f0f0f] mb-2">{item.area}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.req}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-6 rounded-xl border border-[#1a3020] bg-[#0a1a0f] p-5 flex items-start gap-3">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="flex-shrink-0 mt-0.5 text-[#22c55e]" aria-hidden>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="flex-shrink-0 mt-0.5 text-[#0f0f0f]" aria-hidden>
               <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.3" />
               <path d="M8 5v3l2 2" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div>
-              <p className="text-xs font-semibold text-[#eef2ec] mb-1">Ongoing compliance responsibility</p>
-              <p className="text-xs text-[#6b7e69] leading-relaxed">
+              <p className="text-xs font-semibold text-[#0f0f0f] mb-1">Ongoing compliance responsibility</p>
+              <p className="text-xs text-[#a3a3a3] leading-relaxed">
                 Providers are solely responsible for maintaining compliance with applicable federal and state law, including but not limited to TILA, Equal Credit Opportunity Act, state commercial financing disclosure laws, and applicable usury statutes. ZEO does not provide legal compliance services and assumes no responsibility for a provider&apos;s regulatory compliance.
               </p>
             </div>
@@ -538,16 +538,16 @@ export default function LendersPage() {
       </section>
 
       {/* Comparison */}
-      <section className="py-20 border-t border-[#1e2620]">
+      <section className="py-20 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Provider types at a glance
             </h2>
-            <p className="text-[#9aaa98] text-sm">
+            <p className="text-[#737373] text-sm">
               General overview. Actual program parameters and requirements are established per provider agreement.
             </p>
           </div>
@@ -607,7 +607,7 @@ export default function LendersPage() {
 
       <LenderInquiryForm />
 
-      <section className="py-12 border-t border-[#1e2620]">
+      <section className="py-12 border-t border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8 space-y-4">
           <ProductDisclaimer type="general" />
           <ProductDisclaimer

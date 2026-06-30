@@ -31,15 +31,15 @@ export default function ProductDisclaimer({
   return (
     <aside
       role="note"
-      className={`rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3 ${className}`}
+      className={`rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 ${className}`}
     >
-      <p className="text-xs text-[#6b7e69] leading-relaxed">{text}</p>
+      <p className="text-xs text-[#a3a3a3] leading-relaxed">{text}</p>
     </aside>
   );
 }
 
 export function DisclaimerInline({ children }: { children: ReactNode }) {
   return (
-    <p className="text-xs text-[#6b7e69] leading-relaxed mt-3">{children}</p>
+    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-3">{children}</p>
   );
 }

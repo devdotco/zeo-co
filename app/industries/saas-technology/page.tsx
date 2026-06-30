@@ -202,7 +202,7 @@ const faqItems = [
 
 export default function SaaSTechnologyFinancingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         breadcrumbs={breadcrumbs}
@@ -212,30 +212,30 @@ export default function SaaSTechnologyFinancingPage() {
       />
 
       {/* Key financing challenges */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Financing Challenges
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 max-w-2xl">
             Why technology financing is distinct
           </h2>
-          <p className="text-[#9aaa98] text-sm max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#737373] text-sm max-w-2xl mb-10 leading-relaxed">
             The economics of software and SaaS businesses — recurring revenue, intangible assets, high upfront investment — create cash flow patterns that general-purpose lenders may not be designed to evaluate.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {challenges.map((item) => (
               <div
                 key={item.heading}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex items-start gap-3 mb-2">
-                  <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#22c55e] mt-2" aria-hidden="true" />
-                  <h3 className="font-semibold text-[#eef2ec] text-[0.9375rem] leading-snug">
+                  <span className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mt-2" aria-hidden="true" />
+                  <h3 className="font-semibold text-[#0f0f0f] text-[0.9375rem] leading-snug">
                     {item.heading}
                   </h3>
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed pl-4">
+                <p className="text-sm text-[#a3a3a3] leading-relaxed pl-4">
                   {item.body}
                 </p>
               </div>
@@ -245,15 +245,15 @@ export default function SaaSTechnologyFinancingPage() {
       </section>
 
       {/* Financing products */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Financing Paths
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2 max-w-2xl">
             Products that may be a fit for SaaS and technology
           </h2>
-          <p className="text-[#9aaa98] text-sm max-w-2xl mb-10 leading-relaxed">
+          <p className="text-[#737373] text-sm max-w-2xl mb-10 leading-relaxed">
             Different technology business models and growth stages call for different capital structures. These represent paths that third-party lenders may offer — all subject to individual underwriting, eligibility, and approval.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -273,15 +273,15 @@ export default function SaaSTechnologyFinancingPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Product Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Financing structures at a glance
           </h2>
-          <p className="text-[#9aaa98] text-sm max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#737373] text-sm max-w-2xl mb-8 leading-relaxed">
             General ranges only. Actual terms are set by third-party lenders and subject to underwriting.
           </p>
           <ComparisonTable
@@ -293,15 +293,15 @@ export default function SaaSTechnologyFinancingPage() {
       </section>
 
       {/* Metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Industry Context
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Scale of the technology financing landscape
           </h2>
-          <p className="text-[#9aaa98] text-sm max-w-2xl mb-8 leading-relaxed">
+          <p className="text-[#737373] text-sm max-w-2xl mb-8 leading-relaxed">
             Reference figures illustrating common benchmarks in SaaS and technology financing. Individual business performance and eligibility vary.
           </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -333,25 +333,25 @@ export default function SaaSTechnologyFinancingPage() {
       </section>
 
       {/* Lender requirements */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Lender Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               What lenders typically look for in technology businesses
             </h2>
-            <p className="text-[#9aaa98] text-sm mb-8 leading-relaxed">
+            <p className="text-[#737373] text-sm mb-8 leading-relaxed">
               These are representative criteria drawn from common lender practices in the technology sector. Specific requirements vary by product, lender, loan size, and individual business profile. Preparing documentation ahead of any application can significantly reduce the time to a financing decision.
             </p>
-            <dl className="space-y-0 divide-y divide-[#1e2620] border border-[#1e2620] rounded-xl overflow-hidden">
+            <dl className="space-y-0 divide-y divide-[#e5e5e5] border border-[#e5e5e5] rounded-xl overflow-hidden">
               {requirements.map((req) => (
-                <div key={req.label} className="flex flex-col sm:flex-row sm:gap-6 px-5 py-4 bg-[#111512]">
-                  <dt className="text-sm font-semibold text-[#eef2ec] sm:w-52 shrink-0 mb-1 sm:mb-0">
+                <div key={req.label} className="flex flex-col sm:flex-row sm:gap-6 px-5 py-4 bg-[#f5f5f5]">
+                  <dt className="text-sm font-semibold text-[#0f0f0f] sm:w-52 shrink-0 mb-1 sm:mb-0">
                     {req.label}
                   </dt>
-                  <dd className="text-sm text-[#6b7e69] leading-relaxed">{req.detail}</dd>
+                  <dd className="text-sm text-[#a3a3a3] leading-relaxed">{req.detail}</dd>
                 </div>
               ))}
             </dl>

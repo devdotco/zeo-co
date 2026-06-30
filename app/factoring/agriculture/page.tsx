@@ -97,7 +97,7 @@ const comparisonRows = [
 
 export default function AgricultureFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -110,7 +110,7 @@ export default function AgricultureFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -136,22 +136,22 @@ export default function AgricultureFactoringPage() {
               note="Typical buyer payment windows seen in grain, produce, and processing"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only. Actual advance rates and fees are subject to underwriting by third-party providers and are not guaranteed.
           </p>
         </div>
       </section>
 
       {/* What is agriculture factoring */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Agriculture Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Agriculture factoring is a form of accounts receivable financing in which an agribusiness, farm operation, or agricultural service company sells unpaid invoices to a factoring company in exchange for an advance — typically a large percentage of the invoice face value — paid out shortly after submission rather than when the buyer remits. The factoring company then collects payment directly from the debtor: the grain elevator, food processor, produce distributor, co-op, or other commercial buyer named on the invoice.
             </p>
@@ -169,22 +169,22 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Agricultural Operations and Agribusinesses That Commonly Explore Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Agriculture factoring is relevant wherever a business invoices a creditworthy commercial buyer for goods delivered or services rendered, and where the gap between delivery and payment creates a working capital constraint.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-3">
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M2 15c2-4 4-6 7-6s5 2 7 6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <path d="M9 9V4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
@@ -192,42 +192,42 @@ export default function AgricultureFactoringPage() {
                   <path d="M5 11c0-1 1-3 4-3" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeDasharray="1.5 1.5"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Grain and Commodity Producers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Grain and Commodity Producers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Operations that sell corn, soybeans, wheat, or other commodity grain to licensed grain elevators and merchandisers may issue invoices on extended terms, particularly on deferred pricing contracts. Factoring can potentially convert those outstanding receivables into cash before the settlement window closes, subject to the elevator's creditworthiness.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Row crop", "Grain elevator buyers", "Deferred pricing"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
 
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="2" y="10" width="14" height="5" rx="1" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M5 10V7a4 4 0 018 0v3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <path d="M9 13v-1" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Fresh Produce and Perishable Growers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Fresh Produce and Perishable Growers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Produce growers and packers selling to distributors, food service companies, or grocery chains often face rapid delivery cycles with 10- to 30-day payment terms. While payment windows are shorter than grain, the speed of spoilage means cash must arrive quickly. PACA-licensed buyers add a layer of receivable protection that some agriculture-focused factors specifically accommodate.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Produce", "PACA", "Food service", "Distributors"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
 
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M3 14V9l3-3h6l3 3v5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   <path d="M7 14v-4h4v4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
@@ -235,13 +235,13 @@ export default function AgricultureFactoringPage() {
                   <path d="M9 6V4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Agricultural Service and Input Suppliers</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Agricultural Service and Input Suppliers</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Custom applicators, agronomy services, crop consultants, seed and input dealers, and custom harvest operators who invoice commercial farm accounts or co-ops on net-30 or longer terms may find factoring relevant. The key is that their invoices are issued to commercial entities, are not subject to production or quality disputes, and the buyer is independently creditworthy.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["Custom operators", "Input dealers", "Agronomy", "Co-op buyers"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -252,15 +252,15 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works — agriculture specific */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Agriculture Factoring Cycle: From Delivery to Reserve Release
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Agriculture factoring follows the same core advance-and-reserve structure as other invoice factoring programs, but with invoice documentation requirements and buyer verification steps specific to agricultural transactions.
           </p>
           <ol className="space-y-6">
@@ -292,14 +292,14 @@ export default function AgricultureFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -308,16 +308,16 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* Requirements */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Agriculture Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Qualification criteria vary significantly by factor and by the type of agricultural invoice being submitted. The items below represent commonly reviewed requirements and are not an exhaustive list. All approvals are subject to underwriting by third-party providers — no outcome is guaranteed.
             </p>
           </div>
@@ -350,12 +350,12 @@ export default function AgricultureFactoringPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -363,62 +363,62 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures in Agriculture Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Agriculture factoring advance rates and fees vary more widely than in some other industries due to the range of commodity types, buyer credit profiles, and seasonal payment dynamics. The figures below are illustrative market ranges only — they are not offers, commitments, or guarantees. All terms are subject to underwriting by a third-party provider.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">80 – 92%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">80 – 92%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Agriculture factoring advance rates typically run somewhat lower than trucking factoring because agricultural invoices carry greater risk of price adjustments, grade disputes, and commodity-specific complications. Invoices to highly rated national buyers — large grain merchants, publicly traded food processors, or national grocery chains — may support advance rates toward the higher end. Invoices to smaller regional buyers, co-ops with limited financial disclosure, or invoices subject to commodity price variability may receive lower advances. Perishable goods programs may carry additional structure given the speed with which underlying collateral value can deteriorate.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">1.5 – 4% per invoice</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">1.5 – 4% per invoice</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Fees in agriculture factoring are commonly structured as a flat percentage of the invoice face value, sometimes with tiered rates that increase if the buyer pays beyond an initial window — for example, a base rate for payment within 30 days and a step-up for each additional 10- or 15-day period. Because agricultural payment terms can stretch to 60 or 90 days in some commodity segments, the total effective cost under a tiered structure can be meaningfully higher than the advertised base rate. Always confirm the full fee schedule, including the step-up tiers, any minimum monthly fees, and wire or ACH disbursement costs, before signing.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Reserve Structure</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">8 – 20% withheld</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Reserve Structure</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">8 – 20% withheld</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 The reserve — the portion of the invoice face value not advanced upfront — is held by the factor until the buyer remits payment and is released to you minus the factoring fee. In agriculture, reserve percentages may be higher than in other sectors to buffer against commodity price adjustments or grade disputes that reduce the final payment amount. For example, a grain elevator may issue a final settlement that differs from your original invoice if scale weights or grades were adjusted at receiving. Factors familiar with agriculture account for this in their reserve and documentation requirements.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Recourse vs. Non-Recourse</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Affects fee and risk allocation</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Recourse vs. Non-Recourse</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Affects fee and risk allocation</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Most agriculture factoring programs are structured on a recourse basis, meaning you remain liable if the buyer fails to pay the invoice — even under non-recourse programs, protection is typically limited to buyer insolvency and does not cover disputes, price adjustments, or delivery rejections. Understanding your recourse obligations is particularly important in agriculture, where invoice disputes over quality, grade, or weight are more common than in service industries. Review your agreement carefully to understand exactly which non-payment scenarios trigger a recourse buyback obligation.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Estimate your factoring cost before you commit.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Estimate your factoring cost before you commit.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -429,16 +429,16 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Agriculture Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single product fits every agricultural operation. This table highlights structural differences between common working capital options — not endorsements or cost comparisons. All terms are subject to underwriting; results vary by provider.
             </p>
           </div>
@@ -451,11 +451,11 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">
@@ -481,19 +481,19 @@ export default function AgricultureFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">
@@ -519,13 +519,13 @@ export default function AgricultureFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -536,23 +536,23 @@ export default function AgricultureFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Model advance amounts, reserve balances, and total factoring costs based on your invoice values, advance rate, fee structure, and expected buyer payment timing. Outputs are estimates only and do not represent an offer from any provider.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -577,7 +577,7 @@ export default function AgricultureFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

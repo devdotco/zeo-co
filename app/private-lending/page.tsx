@@ -243,7 +243,7 @@ const faqItems = [
 
 export default function PrivateLendingPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -254,12 +254,12 @@ export default function PrivateLendingPage() {
       />
 
       {/* 2 — Who it is for */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Who It May Suit</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Who It May Suit</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Businesses that may find private lending worth evaluating</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Private lending is not the right fit for every situation. It tends to be more relevant when speed, flexibility, or a non-standard credit profile makes conventional financing inaccessible or impractical. Below are common circumstances where business owners explore this path.
             </p>
           </div>
@@ -282,14 +282,14 @@ export default function PrivateLendingPage() {
                 body: "For businesses that have been declined by banks or cannot meet SBA eligibility criteria, the private lending market — which includes a wide range of lender types and risk appetites — may offer paths that were not available through traditional channels.",
               },
             ].map((item) => (
-              <div key={item.heading} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+              <div key={item.heading} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#22c55e]/40 bg-[#22c55e]/10 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                  <div className="mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 flex items-center justify-center">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -299,17 +299,17 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 3 — How it works */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Process Overview</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Process Overview</p>
             <h2 className="text-2xl font-semibold text-white mb-3">How private business lending generally works</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Private lending encompasses a wide variety of lender types — specialty finance companies, private credit funds, direct lenders, family offices, and more. While processes vary, the general flow for a business loan from a private lender tends to follow these stages.
             </p>
           </div>
           <div className="relative">
-            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#1e2620]" aria-hidden="true" />
+            <div className="hidden md:block absolute left-[19px] top-6 bottom-6 w-px bg-[#e5e5e5]" aria-hidden="true" />
             <div className="space-y-4">
               {[
                 {
@@ -339,12 +339,12 @@ export default function PrivateLendingPage() {
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-5 md:gap-6">
-                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
-                    <span className="text-xs font-semibold text-[#22c55e] tabular-nums">{item.step}</span>
+                  <div className="relative flex-shrink-0 w-10 h-10 rounded-full border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
+                    <span className="text-xs font-semibold text-[#0f0f0f] tabular-nums">{item.step}</span>
                   </div>
-                  <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-4 flex-1">
-                    <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.title}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                  <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4 flex-1">
+                    <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.title}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               ))}
@@ -354,12 +354,12 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 4 — Common use cases */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Common Use Cases</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Common Use Cases</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Where businesses commonly explore private lending</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Private lending is used across a wide range of capital needs. These are among the more frequent scenarios where business owners evaluate private lenders as a potential source of financing.
             </p>
           </div>
@@ -396,12 +396,12 @@ export default function PrivateLendingPage() {
                 body: "Restructuring existing merchant cash advances, high-rate working capital loans, or credit cards into a more manageable repayment structure. Whether private refinancing reduces total cost depends on the specific terms offered and the debt being replaced.",
               },
             ].map((item) => (
-              <div key={item.title} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+              <div key={item.title} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                   {item.icon}
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -409,12 +409,12 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 5 — Typical requirements and metrics */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Typical Requirements</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Typical Requirements</p>
             <h2 className="text-2xl font-semibold text-white mb-3">What private lenders generally evaluate</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Requirements vary significantly across private lenders. Unlike banks or SBA programs, there is no standard underwriting framework. The following reflects what many private lenders commonly look at — it is not a checklist for guaranteed approval, and all financing is subject to individual lender underwriting.
             </p>
           </div>
@@ -454,9 +454,9 @@ export default function PrivateLendingPage() {
                 detail: "Private lenders generally impose fewer restrictions on how loan proceeds are used compared to SBA programs. Working capital, expansion, equipment, and bridge purposes are broadly acceptable. Some lenders may restrict certain uses or require documentation of intended deployment. Confirm acceptable use of proceeds before accepting an offer.",
               },
             ].map((req) => (
-              <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">{req.label}</p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+              <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">{req.label}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -464,13 +464,13 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 6 — Cost discussion */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Understanding Cost</p>
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Understanding Cost</p>
               <h2 className="text-2xl font-semibold text-white mb-4">What determines the cost of private business financing</h2>
-              <div className="space-y-4 text-sm text-[#9aaa98] leading-relaxed">
+              <div className="space-y-4 text-sm text-[#737373] leading-relaxed">
                 <p>
                   Private business loans are generally priced higher than conventional bank or SBA financing. This reflects the additional risk private lenders accept — broader credit criteria, faster timelines, and less regulatory backstop — and the cost of private capital itself relative to deposit-funded bank lending.
                 </p>
@@ -486,7 +486,7 @@ export default function PrivateLendingPage() {
               </div>
             </div>
             <div className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Cost Factors to Evaluate</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Cost Factors to Evaluate</p>
               {[
                 {
                   factor: "Interest rate or factor rate",
@@ -513,11 +513,11 @@ export default function PrivateLendingPage() {
                   note: "Net advance amount (after fees) vs. total repayment is the most straightforward cost measure. Compare this across offers before deciding.",
                 },
               ].map((item) => (
-                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#1e2620] bg-[#111512] px-4 py-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]/60 flex-shrink-0 mt-2" />
+                <div key={item.factor} className="flex gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]/60 flex-shrink-0 mt-2" />
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec]">{item.factor}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed mt-0.5">{item.note}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f]">{item.factor}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed mt-0.5">{item.note}</p>
                   </div>
                 </div>
               ))}
@@ -527,18 +527,18 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 7 — Pros and cons */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Tradeoffs</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Tradeoffs</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Weighing private lending against your situation</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Private lending is a tradeoff: speed and accessibility on one side, higher cost and shorter terms on the other. Whether those tradeoffs are worth it depends entirely on your specific situation, available alternatives, and the cost of inaction.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-4">Potential Advantages</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">Potential Advantages</p>
               <div className="space-y-3">
                 {[
                   "Faster decisions and funding timelines than traditional banks or SBA programs — sometimes days rather than weeks or months.",
@@ -549,16 +549,16 @@ export default function PrivateLendingPage() {
                   "Bridge financing capability — private lenders can provide short-term capital while longer-term solutions are being arranged.",
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
-                    <svg className="flex-shrink-0 w-4 h-4 text-[#22c55e] mt-0.5" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 w-4 h-4 text-[#0f0f0f] mt-0.5" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 4" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
             </div>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-4">Potential Drawbacks</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-4">Potential Drawbacks</p>
               <div className="space-y-3">
                 {[
                   "Higher interest rates and fees than conventional bank or SBA financing, often significantly so — total cost of capital is a critical consideration.",
@@ -569,10 +569,10 @@ export default function PrivateLendingPage() {
                   "Lender quality and terms vary widely in the private market — due diligence on lender reputation, fee structures, and loan terms is important.",
                 ].map((point) => (
                   <div key={point} className="flex gap-3 text-sm">
-                    <svg className="flex-shrink-0 w-4 h-4 text-[#6b7e69] mt-0.5" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 w-4 h-4 text-[#a3a3a3] mt-0.5" viewBox="0 0 16 16" fill="none">
                       <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                     </svg>
-                    <p className="text-[#9aaa98] leading-relaxed">{point}</p>
+                    <p className="text-[#737373] leading-relaxed">{point}</p>
                   </div>
                 ))}
               </div>
@@ -582,12 +582,12 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 8 — Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">How It Compares</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">How It Compares</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Private lending vs. bank and SBA financing</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A high-level comparison to help frame the tradeoffs. Actual terms vary considerably by lender, borrower profile, and market conditions at time of application.
             </p>
           </div>
@@ -596,19 +596,19 @@ export default function PrivateLendingPage() {
             rows={comparisonRows}
             highlightCol="Private Lender"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             This table is for general informational purposes only. All terms are subject to individual lender underwriting and current market conditions. Not all products or terms are available to all borrowers.
           </p>
         </div>
       </section>
 
       {/* 9 — Alternatives with links */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Alternatives</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Alternatives</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Other financing paths to consider alongside private lending</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Private lending is one option in a broader landscape. Depending on your timeline, credit profile, and use case, one of the following may be a better fit — or worth evaluating in parallel before committing to private financing.
             </p>
           </div>
@@ -627,7 +627,7 @@ export default function PrivateLendingPage() {
           <div className="text-center">
             <Link
               href="/financing"
-              className="inline-flex items-center gap-2 text-sm text-[#9aaa98] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-white transition-colors"
             >
               View all financing options
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -639,19 +639,19 @@ export default function PrivateLendingPage() {
       </section>
 
       {/* 9b — Calculator link */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1.5">Tools</p>
-              <p className="text-base font-semibold text-[#eef2ec] mb-1">Model potential payment scenarios</p>
-              <p className="text-sm text-[#6b7e69]">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1.5">Tools</p>
+              <p className="text-base font-semibold text-[#0f0f0f] mb-1">Model potential payment scenarios</p>
+              <p className="text-sm text-[#a3a3a3]">
                 Use the loan payment calculator to estimate monthly obligations across different loan amounts, terms, and rate assumptions. Results are illustrative only — not offers, commitments, or guarantees.
               </p>
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#22c55e]/40 text-[#22c55e] text-sm font-medium hover:bg-[#22c55e]/10 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#0f0f0f]/40 text-[#0f0f0f] text-sm font-medium hover:bg-[#0f0f0f]/10 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

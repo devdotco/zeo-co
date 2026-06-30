@@ -95,7 +95,7 @@ const comparisonRows = [
 
 export default function GovernmentContractorFactoringPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       {/* Hero */}
       <PageHero
         eyebrow="Factoring"
@@ -108,7 +108,7 @@ export default function GovernmentContractorFactoringPage() {
       />
 
       {/* Metrics overview */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <MetricCard
@@ -134,22 +134,22 @@ export default function GovernmentContractorFactoringPage() {
               note="Federal Prompt Payment Act requires 30-day payment on proper invoices"
             />
           </div>
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Ranges shown are illustrative only. Actual advance rates and fees are subject to underwriting by third-party providers and are not guaranteed or offered by ZEO.co.
           </p>
         </div>
       </section>
 
       {/* What is it */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Overview
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             What Is Government Contract Factoring?
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+          <div className="space-y-4 text-[#737373] leading-relaxed text-[0.9375rem]">
             <p>
               Government contract factoring is a form of accounts receivable financing in which a contractor assigns invoices issued to a government agency — federal, state, or local — to a third-party factoring company in exchange for an immediate advance on the invoice value. Rather than waiting 30, 45, or 60 days for the agency to process and remit payment, the contractor receives a large portion of the invoice amount within days of submission, with the remaining reserve released once the agency pays in full.
             </p>
@@ -170,36 +170,36 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* Who uses it */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Who It May Fit
             </p>
             <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
               Types of Government Contractors That Commonly Use Factoring
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Government contract factoring is relevant wherever a contractor holds an active contract with a government entity and faces a gap between performance and payment. The common driver is not financial distress — it is the structural reality that government payment timelines don't align with operating cash needs.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-3">
             {/* IT and professional services */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <rect x="2" y="3" width="14" height="10" rx="1.5" stroke="currentColor" strokeWidth="1.4"/>
                   <path d="M6 16h6M9 13v3" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <path d="M5.5 8.5L7.5 10.5L12.5 5.5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">IT and Professional Services</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">IT and Professional Services</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Technology, consulting, and managed services firms billing on monthly or milestone-based schedules under GSA Schedule, GWAC, or agency-specific contracts often have high payroll relative to their advance billing cycle. Factoring can bridge the gap between when staff are paid and when the agency remits.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["GSA Schedule", "GWAC / IDIQ", "Cybersecurity", "Consulting"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -207,19 +207,19 @@ export default function GovernmentContractorFactoringPage() {
             </div>
 
             {/* Defense and subcontractors */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M9 2L11.5 7H16.5L12.5 10.5L14 15.5L9 12.5L4 15.5L5.5 10.5L1.5 7H6.5L9 2Z" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Defense and Government Subcontractors</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Defense and Government Subcontractors</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Subcontractors performing work under a prime contractor's government contract face a compounded payment delay — the prime must first receive payment from the agency before remitting to subs. Some factors work with both direct agency invoices and pass-through subcontractor arrangements, though requirements differ.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["DoD subcontracts", "Prime pass-through", "Defense supply"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -227,21 +227,21 @@ export default function GovernmentContractorFactoringPage() {
             </div>
 
             {/* Construction and facilities */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#111512] border border-[#1e2620] text-[#22c55e]">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#0f0f0f]">
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                   <path d="M2 15h14" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
                   <path d="M4 15V9l5-6 5 6v6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
                   <rect x="7" y="11" width="4" height="4" rx="0.5" stroke="currentColor" strokeWidth="1.3"/>
                 </svg>
               </div>
-              <h3 className="font-semibold text-[#eef2ec] mb-2 text-[0.9375rem]">Construction and Facilities</h3>
-              <p className="text-sm text-[#6b7e69] leading-relaxed mb-3">
+              <h3 className="font-semibold text-[#0f0f0f] mb-2 text-[0.9375rem]">Construction and Facilities</h3>
+              <p className="text-sm text-[#a3a3a3] leading-relaxed mb-3">
                 Government construction, O&M, and facilities management contractors front significant material and labor costs weeks before progress billings are submitted and approved. Progress payment cycles on public contracts often run 45 to 90 days from submission to receipt, creating substantial working capital gaps on larger projects.
               </p>
               <div className="flex flex-wrap gap-1.5">
                 {["O&M contracts", "Progress billing", "Corps of Engineers"].map((tag) => (
-                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#1e2620] text-[#6b7e69]">
+                  <span key={tag} className="text-[0.6875rem] px-2 py-0.5 rounded-md bg-[#e5e5e5] text-[#a3a3a3]">
                     {tag}
                   </span>
                 ))}
@@ -252,15 +252,15 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* How the advance/reserve cycle works */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-5 text-balance">
             The Government Contract Factoring Cycle
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-8">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-8">
             Government contract factoring follows the contractor's billing cycle — from contract performance through agency payment — with an assignment of claims layer that is specific to this type of receivable.
           </p>
           <ol className="space-y-6">
@@ -292,14 +292,14 @@ export default function GovernmentContractorFactoringPage() {
               },
             ].map((item) => (
               <li key={item.step} className="flex gap-5">
-                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center text-[0.65rem] font-semibold text-[#22c55e] tabular-nums">
+                <div className="flex-shrink-0 w-7 h-7 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1.5">
+                  <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1.5">
                     {item.title}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               </li>
             ))}
@@ -308,16 +308,16 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* Requirements and invoice criteria */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Requirements
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               What Government Contract Factors Typically Evaluate
             </h2>
-            <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem]">
+            <p className="text-[#737373] leading-relaxed text-[0.9375rem]">
               Requirements vary by factor and contract type. The items below represent commonly reviewed criteria. No approval is guaranteed — all decisions are made by third-party providers subject to their own underwriting standards.
             </p>
           </div>
@@ -350,12 +350,12 @@ export default function GovernmentContractorFactoringPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-2">
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-2">
                   {item.title}
                 </h3>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -363,62 +363,62 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* Advance rates and fee ranges */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Pricing
           </p>
           <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
             Advance Rates and Fee Structures for Government Contract Factoring
           </h2>
-          <p className="text-[#9aaa98] leading-relaxed text-[0.9375rem] mb-6">
+          <p className="text-[#737373] leading-relaxed text-[0.9375rem] mb-6">
             Government receivables are among the most creditworthy assets in commercial factoring due to the near-zero default risk of government debtors. This generally supports competitive terms relative to other invoice types. The ranges below are illustrative only — they are not offers, commitments, or guarantees, and all terms are subject to third-party underwriting.
           </p>
           <div className="space-y-4 mb-8">
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Advance Rate</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">80 – 92%</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Advance Rate</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">80 – 92%</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Government contract factoring advance rates tend to be competitive due to the low credit risk of agency debtors. Federal agency receivables, particularly those with Prompt Payment Act protections, may support advance rates at the higher end of this range. Advance rates on state and local government invoices vary based on the agency's payment history and whether the factor has established experience with that entity. Construction progress billings may receive lower advance rates due to their complexity and potential for withhold provisions.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Factoring Fee</h3>
-                <span className="text-sm font-semibold text-[#22c55e] tabular-nums flex-shrink-0">1 – 4% per invoice</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Factoring Fee</h3>
+                <span className="text-sm font-semibold text-[#0f0f0f] tabular-nums flex-shrink-0">1 – 4% per invoice</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Factoring fees for government invoices are typically structured as a flat percentage of the invoice face value, often with a tiered structure that increases if the agency takes longer than the base payment window to remit. Because federal agencies are subject to the Prompt Payment Act, invoices tend to turn within 30 days, which limits the effective duration of most fee structures. State and local invoices with longer payment cycles may incur higher effective costs due to tiered fee accrual. Always confirm the complete fee schedule — including minimum volume fees, wire/ACH fees, and termination penalties.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Recourse vs. Non-Recourse</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Structure affects risk allocation</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Recourse vs. Non-Recourse</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Structure affects risk allocation</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Because government agencies do not default in the traditional sense, non-recourse programs for government contract factoring typically focus on insolvency-related scenarios that rarely apply to public entities. The more relevant risk in government factoring is invoice disputes — a contracting officer withholding payment pending cure of a deficiency, a scope dispute, or a contract termination. These scenarios are typically not covered under non-recourse protection. Understand exactly what your agreement covers, regardless of how it is labeled.
               </p>
             </div>
-            <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
               <div className="flex items-start justify-between gap-4 mb-3">
-                <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec]">Prompt Payment Act Interest</h3>
-                <span className="text-sm font-semibold text-[#9aaa98] flex-shrink-0">Federal contracts only</span>
+                <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f]">Prompt Payment Act Interest</h3>
+                <span className="text-sm font-semibold text-[#737373] flex-shrink-0">Federal contracts only</span>
               </div>
-              <p className="text-sm text-[#9aaa98] leading-relaxed">
+              <p className="text-sm text-[#737373] leading-relaxed">
                 Under the federal Prompt Payment Act, agencies owe interest to the contractor when a proper invoice is paid late. In a factoring arrangement, the disposition of any Prompt Payment interest depends on your factoring agreement — some agreements specify that interest accruing after the factor takes assignment of the receivable belongs to the factor, while others may credit it to the contractor. Clarify this with your factor during contract review.
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#22c55e]/20 bg-[#0f2a14] px-5 py-4">
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
-              <span className="text-[#eef2ec] font-medium">Estimate your factoring cost before you commit.</span>{" "}
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+            <p className="text-sm text-[#737373] leading-relaxed">
+              <span className="text-[#0f0f0f] font-medium">Estimate your factoring cost before you commit.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#22c55e] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}
@@ -429,16 +429,16 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-14 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-14 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
               Comparison
             </p>
             <h2 className="text-2xl font-semibold text-white mb-4 text-balance">
               Government Contract Factoring vs. Other Working Capital Options
             </h2>
-            <p className="text-[#9aaa98] text-[0.9375rem] leading-relaxed">
+            <p className="text-[#737373] text-[0.9375rem] leading-relaxed">
               No single financing structure suits every contractor or contract situation. This table highlights structural differences between common options — not endorsements or cost rankings. All terms are subject to third-party underwriting.
             </p>
           </div>
@@ -451,11 +451,11 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* Benefits and limitations */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Potential Benefits
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">What Government Contract Factoring Can Offer</h2>
@@ -479,19 +479,19 @@ export default function GovernmentContractorFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#22c55e]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#0f0f0f]" viewBox="0 0 16 16" fill="none">
                       <path d="M3 8l3.5 3.5L13 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
                 Limitations to Understand
               </p>
               <h2 className="text-xl font-semibold text-white mb-5">Important Considerations</h2>
@@ -515,13 +515,13 @@ export default function GovernmentContractorFactoringPage() {
                   },
                 ].map((item) => (
                   <li key={item.title} className="flex gap-3">
-                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#6b7e69]" viewBox="0 0 16 16" fill="none">
+                    <svg className="flex-shrink-0 mt-0.5 w-4 h-4 text-[#a3a3a3]" viewBox="0 0 16 16" fill="none">
                       <path d="M8 5v4M8 11h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                       <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.4"/>
                     </svg>
                     <div>
-                      <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                      <p className="text-sm text-[#9aaa98] leading-relaxed">{item.body}</p>
+                      <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                      <p className="text-sm text-[#737373] leading-relaxed">{item.body}</p>
                     </div>
                   </li>
                 ))}
@@ -532,23 +532,23 @@ export default function GovernmentContractorFactoringPage() {
       </section>
 
       {/* Calculator callout */}
-      <section className="py-10 border-b border-[#1e2620] bg-[#111512]">
+      <section className="py-10 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
                 Free Tool
               </p>
-              <h3 className="text-[0.9375rem] font-semibold text-[#eef2ec] mb-1">
+              <h3 className="text-[0.9375rem] font-semibold text-[#0f0f0f] mb-1">
                 Invoice Factoring Calculator
               </h3>
-              <p className="text-sm text-[#9aaa98]">
+              <p className="text-sm text-[#737373]">
                 Model advance amounts, factoring fees, and reserve releases using your government invoice values and expected agency payment timing. Outputs are estimates only and are not offers from any provider.
               </p>
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm font-medium text-[#eef2ec] hover:border-[#22c55e]/50 hover:text-[#22c55e] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>
@@ -573,7 +573,7 @@ export default function GovernmentContractorFactoringPage() {
       />
 
       {/* Disclaimer */}
-      <section className="py-8 border-t border-[#1e2620]">
+      <section className="py-8 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="factoring" />
         </div>

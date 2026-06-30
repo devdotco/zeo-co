@@ -182,17 +182,17 @@ export default function BusinessLineOfCreditPage() {
       />
 
       {/* Who it's for */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-12">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Who It May Fit
               </p>
               <h2 className="text-2xl font-semibold text-white leading-snug">
                 Businesses with recurring or unpredictable capital needs
               </h2>
-              <p className="text-[#9aaa98] text-sm mt-4 leading-relaxed">
+              <p className="text-[#737373] text-sm mt-4 leading-relaxed">
                 A line of credit is structurally distinct from a term loan. It suits businesses where capital needs vary month to month — not those funding a single, one-time project.
               </p>
             </div>
@@ -217,11 +217,11 @@ export default function BusinessLineOfCreditPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
                 >
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e] mb-3" />
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-2">{item.title}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f] mb-3" />
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{item.title}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -230,15 +230,15 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* How it works — steps */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             How It Works
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             The revolving credit cycle
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
             Unlike a term loan, a line of credit does not disburse all funds at once. The structure revolves: draws reduce the available balance; repayments restore it.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
@@ -271,15 +271,15 @@ export default function BusinessLineOfCreditPage() {
             ].map((item) => (
               <div
                 key={item.step}
-                className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5"
               >
-                <p className="text-[0.65rem] font-semibold tabular-nums tracking-[0.08em] text-[#22c55e] mb-3">
+                <p className="text-[0.65rem] font-semibold tabular-nums tracking-[0.08em] text-[#0f0f0f] mb-3">
                   {item.step}
                 </p>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2 leading-snug">
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug">
                   {item.label}
                 </p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -287,15 +287,15 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* Common use cases */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Common Use Cases
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             What businesses typically use a line of credit for
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-10 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-10 max-w-2xl leading-relaxed">
             The following represent common patterns, not guarantees of eligibility or approval for any specific purpose. Lenders may restrict use of proceeds.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -333,17 +333,17 @@ export default function BusinessLineOfCreditPage() {
             ].map((item) => (
               <div
                 key={item.title}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-5"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5"
               >
                 <div className="flex items-start gap-3 mb-3">
-                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-md border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center">
+                  <div className="mt-0.5 flex-shrink-0 w-5 h-5 rounded-md border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                      <path d="M2 5l2.5 2.5L8 2.5" stroke="#22c55e" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M2 5l2.5 2.5L8 2.5" stroke="#0f0f0f" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <p className="text-sm font-semibold text-[#eef2ec] leading-snug">{item.title}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] leading-snug">{item.title}</p>
                 </div>
-                <p className="text-xs text-[#6b7e69] leading-relaxed pl-8">{item.detail}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed pl-8">{item.detail}</p>
               </div>
             ))}
           </div>
@@ -351,15 +351,15 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* Typical requirements — MetricCards */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Typical Requirements
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             What lenders generally evaluate
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             These are general ranges observed across conventional business line of credit products. Actual criteria vary by lender, line size, and whether the facility is secured or unsecured. Subject to underwriting by third-party providers.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
@@ -395,8 +395,8 @@ export default function BusinessLineOfCreditPage() {
               highlight
             />
           </div>
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-            <p className="text-xs font-semibold text-[#eef2ec] mb-2">Additional factors lenders commonly consider</p>
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+            <p className="text-xs font-semibold text-[#0f0f0f] mb-2">Additional factors lenders commonly consider</p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-1.5 mt-3">
               {[
                 "Business bank account history and average daily balance",
@@ -406,8 +406,8 @@ export default function BusinessLineOfCreditPage() {
                 "Number of negative days or overdrafts in bank statements",
                 "Personal guarantee — commonly required by conventional lenders",
               ].map((item) => (
-                <li key={item} className="flex items-start gap-2 text-xs text-[#6b7e69]">
-                  <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">—</span>
+                <li key={item} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
+                  <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">—</span>
                   {item}
                 </li>
               ))}
@@ -417,23 +417,23 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* Cost discussion */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 Cost Structure
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4 leading-snug">
                 How the cost of a business line of credit is structured
               </h2>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 Business lines of credit can carry a range of costs depending on the provider, the size of the facility, whether it is secured or unsecured, and the borrower's credit and revenue profile. ZEO does not publish rate ranges and cannot guarantee any specific terms — all pricing is set by the third-party provider at the time of underwriting.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed mb-4">
+              <p className="text-[#737373] text-sm leading-relaxed mb-4">
                 The most important number to evaluate is the total cost of capital over the expected draw period — not just the stated interest rate. A line with a modest rate but meaningful draw fees and a non-utilization fee can carry a higher effective cost than it initially appears.
               </p>
-              <p className="text-[#9aaa98] text-sm leading-relaxed">
+              <p className="text-[#737373] text-sm leading-relaxed">
                 When comparing offers, ask each provider for: the annual percentage rate (APR) on draws, any origination or establishment fee, draw fees per transaction, monthly maintenance or annual fee, and any minimum draw or minimum utilization requirement.
               </p>
             </div>
@@ -462,10 +462,10 @@ export default function BusinessLineOfCreditPage() {
               ].map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{item.label}</p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{item.label}</p>
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
@@ -474,9 +474,9 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* Pros and Cons */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Trade-offs
           </p>
           <h2 className="text-2xl font-semibold text-white mb-8">
@@ -484,14 +484,14 @@ export default function BusinessLineOfCreditPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Pros */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#22c55e]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                    <path d="M2 5l2.5 2.5L8 2.5" stroke="#22c55e" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M2 5l2.5 2.5L8 2.5" stroke="#0f0f0f" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Potential advantages</p>
+                <p className="text-sm font-semibold text-[#0f0f0f]">Potential advantages</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -502,22 +502,22 @@ export default function BusinessLineOfCreditPage() {
                   "May help manage cash flow timing mismatches without long-term obligations",
                   "Can be faster to access than a new loan once the line is established",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#22c55e]">+</span>
+                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#737373] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#0f0f0f]">+</span>
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
             {/* Cons */}
-            <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-6">
+            <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#6b7e69]/40 bg-[#111512] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#a3a3a3]/40 bg-[#f5f5f5] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                    <path d="M2.5 7.5l5-5M7.5 7.5l-5-5" stroke="#9aaa98" strokeWidth="1.3" strokeLinecap="round" />
+                    <path d="M2.5 7.5l5-5M7.5 7.5l-5-5" stroke="#737373" strokeWidth="1.3" strokeLinecap="round" />
                   </svg>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec]">Limitations to be aware of</p>
+                <p className="text-sm font-semibold text-[#0f0f0f]">Limitations to be aware of</p>
               </div>
               <ul className="space-y-3">
                 {[
@@ -528,8 +528,8 @@ export default function BusinessLineOfCreditPage() {
                   "Personal guarantee commonly required — lender may call on it in default scenarios",
                   "Not ideal for long-term capital investments; better suited for working capital than equipment or real estate",
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#9aaa98] leading-relaxed">
-                    <span className="mt-0.5 flex-shrink-0 text-[#6b7e69]">−</span>
+                  <li key={item} className="flex items-start gap-2.5 text-xs text-[#737373] leading-relaxed">
+                    <span className="mt-0.5 flex-shrink-0 text-[#a3a3a3]">−</span>
                     {item}
                   </li>
                 ))}
@@ -540,15 +540,15 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* Comparison Table */}
-      <section className="py-16 border-t border-[#1e2620]">
+      <section className="py-16 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Comparison
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Line of credit vs. other financing structures
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             General overview only. Actual terms vary significantly by lender, borrower profile, and product. Not offers or commitments. Subject to underwriting.
           </p>
           <ComparisonTable
@@ -556,22 +556,22 @@ export default function BusinessLineOfCreditPage() {
             rows={comparisonRows}
             highlightCol="Line of Credit"
           />
-          <p className="text-[0.65rem] text-[#6b7e69] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             All figures are general market estimates. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own criteria.
           </p>
         </div>
       </section>
 
       {/* Alternatives */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Alternatives
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Other structures that may address similar needs
           </h2>
-          <p className="text-[#9aaa98] text-sm mb-8 max-w-2xl leading-relaxed">
+          <p className="text-[#737373] text-sm mb-8 max-w-2xl leading-relaxed">
             A business line of credit is not always the most appropriate structure. Depending on your capital need, these alternatives may be worth evaluating.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -608,23 +608,23 @@ export default function BusinessLineOfCreditPage() {
       </section>
 
       {/* Calculator link */}
-      <section className="py-10 border-t border-[#1e2620]">
+      <section className="py-10 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-1">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-1">
                 Calculator
               </p>
-              <p className="text-sm font-semibold text-[#eef2ec]">
+              <p className="text-sm font-semibold text-[#0f0f0f]">
                 Estimate the cost of drawing on a business line of credit
               </p>
-              <p className="text-xs text-[#6b7e69] mt-1">
+              <p className="text-xs text-[#a3a3a3] mt-1">
                 Model total interest cost across different draw amounts, rates, and repayment timelines. Estimates only — not a commitment or offer.
               </p>
             </div>
             <Link
               href="/calculators/line-of-credit"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#1e2620] text-sm text-[#9aaa98] hover:text-white hover:border-[#22c55e] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>
@@ -649,7 +649,7 @@ export default function BusinessLineOfCreditPage() {
       />
 
       {/* Disclaimer */}
-      <section className="pb-12 border-t border-[#1e2620]">
+      <section className="pb-12 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 pt-8">
           <ProductDisclaimer type="general" />
         </div>

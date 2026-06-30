@@ -50,7 +50,7 @@ export default function LineOfCreditCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Inputs — left column */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Line of Credit Terms</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Line of Credit Terms</p>
 
           <CalcInput
             label="Credit Limit"
@@ -127,7 +127,7 @@ export default function LineOfCreditCalculator() {
 
         {/* Results — right column */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Cost Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Cost Summary</p>
 
           <CalcResult
             label="Est. Monthly Payment"
@@ -166,17 +166,17 @@ export default function LineOfCreditCalculator() {
 
       {/* Utilization + cost breakdown bar */}
       {drawAmount > 0 && isFinite(totalRepayment) && totalRepayment > 0 && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Cost Breakdown
           </p>
           <div className="flex rounded-full overflow-hidden h-2 mb-3">
             <div
-              className="bg-[#22c55e] transition-all duration-300"
+              className="bg-[#0f0f0f] transition-all duration-300"
               style={{ width: `${(drawAmount / totalRepayment) * 100}%` }}
             />
             <div
-              className="bg-[#6b7e69] transition-all duration-300"
+              className="bg-[#a3a3a3] transition-all duration-300"
               style={{ width: `${(interestCost / totalRepayment) * 100}%` }}
             />
             {feeForPeriod > 0 && (
@@ -186,13 +186,13 @@ export default function LineOfCreditCalculator() {
               />
             )}
           </div>
-          <div className="flex flex-wrap gap-4 text-xs text-[#9aaa98]">
+          <div className="flex flex-wrap gap-4 text-xs text-[#737373]">
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#22c55e]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#0f0f0f]" />
               Principal {((drawAmount / totalRepayment) * 100).toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#6b7e69]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#a3a3a3]" />
               Interest {((interestCost / totalRepayment) * 100).toFixed(1)}%
             </span>
             {feeForPeriod > 0 && (
@@ -207,18 +207,18 @@ export default function LineOfCreditCalculator() {
 
       {/* Credit utilization bar */}
       {creditLimit > 0 && (
-        <div className="mt-3 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
+        <div className="mt-3 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
           <div className="flex justify-between items-center mb-2">
-            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">
+            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
               Credit Utilization
             </p>
-            <p className="text-[0.625rem] tabular-nums text-[#9aaa98]">
+            <p className="text-[0.625rem] tabular-nums text-[#737373]">
               {fmt(drawAmount)} of {fmt(creditLimit)}
             </p>
           </div>
-          <div className="rounded-full overflow-hidden h-1.5 bg-[#1e2620]">
+          <div className="rounded-full overflow-hidden h-1.5 bg-[#e5e5e5]">
             <div
-              className="h-full bg-[#22c55e] transition-all duration-300 rounded-full"
+              className="h-full bg-[#0f0f0f] transition-all duration-300 rounded-full"
               style={{ width: `${Math.min(utilization, 100)}%` }}
             />
           </div>

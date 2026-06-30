@@ -69,7 +69,7 @@ export default function BusinessDebtRefinanceCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Inputs — left column */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Current Loan</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Current Loan</p>
 
           <CalcInput
             label="Outstanding Balance"
@@ -107,9 +107,9 @@ export default function BusinessDebtRefinanceCalculator() {
             note="Annual rate on the existing loan"
           />
 
-          <div className="h-px bg-[#1e2620]" />
+          <div className="h-px bg-[#e5e5e5]" />
 
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">New Loan Terms</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">New Loan Terms</p>
 
           <CalcInput
             label="New Interest Rate"
@@ -150,7 +150,7 @@ export default function BusinessDebtRefinanceCalculator() {
 
         {/* Results — right column */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Refinance Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Refinance Summary</p>
 
           <CalcResult
             label="New Monthly Payment"
@@ -207,38 +207,38 @@ export default function BusinessDebtRefinanceCalculator() {
 
       {/* Rate comparison bar */}
       {currentRatePct > 0 && newRatePct > 0 && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Rate Comparison
           </p>
           <div className="flex flex-col gap-2.5">
             <div>
-              <div className="flex justify-between text-xs text-[#9aaa98] mb-1">
+              <div className="flex justify-between text-xs text-[#737373] mb-1">
                 <span>Current rate</span>
-                <span className="tabular-nums text-[#eef2ec]">{currentRatePct.toFixed(2)}%</span>
+                <span className="tabular-nums text-[#0f0f0f]">{currentRatePct.toFixed(2)}%</span>
               </div>
-              <div className="h-1.5 rounded-full bg-[#1e2620] overflow-hidden">
+              <div className="h-1.5 rounded-full bg-[#e5e5e5] overflow-hidden">
                 <div
-                  className="h-full rounded-full bg-[#6b7e69] transition-all duration-300"
+                  className="h-full rounded-full bg-[#a3a3a3] transition-all duration-300"
                   style={{ width: `${Math.min((currentRatePct / 25) * 100, 100)}%` }}
                 />
               </div>
             </div>
             <div>
-              <div className="flex justify-between text-xs text-[#9aaa98] mb-1">
+              <div className="flex justify-between text-xs text-[#737373] mb-1">
                 <span>New rate</span>
-                <span className="tabular-nums text-[#22c55e]">{newRatePct.toFixed(2)}%</span>
+                <span className="tabular-nums text-[#0f0f0f]">{newRatePct.toFixed(2)}%</span>
               </div>
-              <div className="h-1.5 rounded-full bg-[#1e2620] overflow-hidden">
+              <div className="h-1.5 rounded-full bg-[#e5e5e5] overflow-hidden">
                 <div
-                  className="h-full rounded-full bg-[#22c55e] transition-all duration-300"
+                  className="h-full rounded-full bg-[#0f0f0f] transition-all duration-300"
                   style={{ width: `${Math.min((newRatePct / 25) * 100, 100)}%` }}
                 />
               </div>
             </div>
           </div>
           {currentRatePct > newRatePct && (
-            <p className="text-[0.625rem] text-[#6b7e69] mt-3">
+            <p className="text-[0.625rem] text-[#a3a3a3] mt-3">
               Rate reduction of {(currentRatePct - newRatePct).toFixed(2)} percentage points
             </p>
           )}

@@ -41,7 +41,7 @@ export default function BusinessLoanCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Inputs — left column */}
         <div className="flex flex-col gap-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Loan Parameters</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Loan Parameters</p>
 
           <CalcInput
             label="Loan Amount"
@@ -94,7 +94,7 @@ export default function BusinessLoanCalculator() {
 
         {/* Results — right column */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69]">Payment Summary</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">Payment Summary</p>
 
           <CalcResult
             label="Monthly Payment"
@@ -133,27 +133,27 @@ export default function BusinessLoanCalculator() {
 
       {/* Amortization breakdown bar */}
       {isFinite(totalRepayment) && totalRepayment > 0 && (
-        <div className="mt-6 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4">
-          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">
+        <div className="mt-6 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4">
+          <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">
             Cost Breakdown
           </p>
           <div className="flex rounded-full overflow-hidden h-2 mb-3">
             <div
-              className="bg-[#22c55e] transition-all duration-300"
+              className="bg-[#0f0f0f] transition-all duration-300"
               style={{ width: `${(loanAmount / totalRepayment) * 100}%` }}
             />
             <div
-              className="bg-[#6b7e69] transition-all duration-300"
+              className="bg-[#a3a3a3] transition-all duration-300"
               style={{ width: `${(totalInterest / totalRepayment) * 100}%` }}
             />
           </div>
-          <div className="flex gap-4 text-xs text-[#9aaa98]">
+          <div className="flex gap-4 text-xs text-[#737373]">
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#22c55e]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#0f0f0f]" />
               Principal {((loanAmount / totalRepayment) * 100).toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#6b7e69]" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#a3a3a3]" />
               Interest {((totalInterest / totalRepayment) * 100).toFixed(1)}%
             </span>
           </div>

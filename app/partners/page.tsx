@@ -101,7 +101,7 @@ const partnerTypes = [
     icon: <ReferralIcon />,
     type: "Referral Partner",
     tag: "Most common",
-    tagColor: "text-[#22c55e] bg-[#0f2a14] border-[#1a4020]",
+    tagColor: "text-[#0f0f0f] bg-[#0f2a14] border-[#1a4020]",
     description:
       "Accountants, attorneys, business coaches, and other advisors who regularly work with business owners who may need financing. Refer clients through a tracked link or direct intake.",
     fits: [
@@ -117,7 +117,7 @@ const partnerTypes = [
     icon: <ProviderIcon />,
     type: "Financing Provider",
     tag: "Lenders & factors",
-    tagColor: "text-[#9aaa98] bg-[#111512] border-[#1e2620]",
+    tagColor: "text-[#737373] bg-[#f5f5f5] border-[#e5e5e5]",
     description:
       "Banks, credit unions, non-bank lenders, factoring companies, equipment finance companies, and private credit funds. ZEO may refer qualified inquiries to participating providers subject to underwriting criteria and provider agreements.",
     fits: [
@@ -133,7 +133,7 @@ const partnerTypes = [
     icon: <BrokerIcon />,
     type: "Business Broker / Advisor",
     tag: "M&A & advisory",
-    tagColor: "text-[#9aaa98] bg-[#111512] border-[#1e2620]",
+    tagColor: "text-[#737373] bg-[#f5f5f5] border-[#e5e5e5]",
     description:
       "Business brokers facilitating acquisitions, M&A advisors, and franchise consultants whose clients require acquisition financing, seller note structuring, or working capital in connection with a transaction.",
     fits: [
@@ -149,7 +149,7 @@ const partnerTypes = [
     icon: <TechIcon />,
     type: "Technology Vendor",
     tag: "Integrations & tools",
-    tagColor: "text-[#9aaa98] bg-[#111512] border-[#1e2620]",
+    tagColor: "text-[#737373] bg-[#f5f5f5] border-[#e5e5e5]",
     description:
       "Software companies, fintech platforms, accounting software providers, and data vendors who serve small and mid-sized businesses and want to explore embedded financing referral flows or data partnerships.",
     fits: [
@@ -217,29 +217,29 @@ const partnerFAQ = [
 
 function PartnerInquiryForm() {
   return (
-    <section className="py-20 border-t border-[#1e2620] bg-[#0a0d0b]" id="partner-inquiry">
+    <section className="py-20 border-t border-[#e5e5e5] bg-[#ffffff]" id="partner-inquiry">
       <div className="max-w-2xl mx-auto px-5 lg:px-8">
         <div className="mb-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
             Partner Inquiry
           </p>
           <h2 className="text-2xl font-semibold text-white mb-2">
             Start a partner conversation
           </h2>
-          <p className="text-[#9aaa98] text-sm leading-relaxed">
+          <p className="text-[#737373] text-sm leading-relaxed">
             Submit your information and a member of the ZEO partnerships team will follow up. This is an inquiry, not a binding agreement.
           </p>
         </div>
 
         <form
-          className="rounded-2xl border border-[#1e2620] bg-[#111512] p-6 space-y-5"
+          className="rounded-2xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 space-y-5"
           action="/api/contact"
           method="post"
         >
           <div className="grid sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="partner-name" className="text-xs font-medium text-[#9aaa98]">
-                Full name <span className="text-[#22c55e]" aria-hidden>*</span>
+              <label htmlFor="partner-name" className="text-xs font-medium text-[#737373]">
+                Full name <span className="text-[#0f0f0f]" aria-hidden>*</span>
               </label>
               <input
                 id="partner-name"
@@ -248,12 +248,12 @@ function PartnerInquiryForm() {
                 autoComplete="name"
                 required
                 placeholder="Jane Smith"
-                className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
             <div className="flex flex-col gap-1.5">
-              <label htmlFor="partner-company" className="text-xs font-medium text-[#9aaa98]">
-                Company name <span className="text-[#22c55e]" aria-hidden>*</span>
+              <label htmlFor="partner-company" className="text-xs font-medium text-[#737373]">
+                Company name <span className="text-[#0f0f0f]" aria-hidden>*</span>
               </label>
               <input
                 id="partner-company"
@@ -262,14 +262,14 @@ function PartnerInquiryForm() {
                 autoComplete="organization"
                 required
                 placeholder="Acme Advisors LLC"
-                className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label htmlFor="partner-email" className="text-xs font-medium text-[#9aaa98]">
-              Business email <span className="text-[#22c55e]" aria-hidden>*</span>
+            <label htmlFor="partner-email" className="text-xs font-medium text-[#737373]">
+              Business email <span className="text-[#0f0f0f]" aria-hidden>*</span>
             </label>
             <input
               id="partner-email"
@@ -278,20 +278,20 @@ function PartnerInquiryForm() {
               autoComplete="email"
               required
               placeholder="jane@yourcompany.com"
-              className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
             />
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label htmlFor="partner-type" className="text-xs font-medium text-[#9aaa98]">
-              Partner type <span className="text-[#22c55e]" aria-hidden>*</span>
+            <label htmlFor="partner-type" className="text-xs font-medium text-[#737373]">
+              Partner type <span className="text-[#0f0f0f]" aria-hidden>*</span>
             </label>
             <select
               id="partner-type"
               name="partnerType"
               required
               defaultValue=""
-              className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors appearance-none"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors appearance-none"
             >
               <option value="" disabled>Select partner type</option>
               <option value="referral">Referral Partner (CPA, attorney, advisor)</option>
@@ -303,7 +303,7 @@ function PartnerInquiryForm() {
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label htmlFor="partner-message" className="text-xs font-medium text-[#9aaa98]">
+            <label htmlFor="partner-message" className="text-xs font-medium text-[#737373]">
               How do you typically work with business owners?
             </label>
             <textarea
@@ -311,13 +311,13 @@ function PartnerInquiryForm() {
               name="message"
               rows={4}
               placeholder="Briefly describe your business, the clients you serve, and what you are hoping to accomplish through a ZEO partnership..."
-              className="rounded-lg border border-[#1e2620] bg-[#0a0d0b] px-3 py-2.5 text-sm text-[#eef2ec] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#22c55e]/50 focus:ring-1 focus:ring-[#22c55e]/20 transition-colors resize-none leading-relaxed"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors resize-none leading-relaxed"
             />
           </div>
 
           <button
             type="submit"
-            className="w-full rounded-xl bg-[#22c55e] text-black font-semibold py-3 text-sm hover:bg-[#16a34a] transition-colors focus:outline-none focus:ring-2 focus:ring-[#22c55e]/40"
+            className="w-full rounded-xl bg-[#0f0f0f] text-black font-semibold py-3 text-sm hover:bg-[#333333] transition-colors focus:outline-none focus:ring-2 focus:ring-[#0f0f0f]/40"
           >
             Submit Partner Inquiry
           </button>
@@ -346,16 +346,16 @@ export default function PartnersPage() {
       />
 
       {/* Partner Types */}
-      <section className="py-20 border-t border-[#1e2620]">
+      <section className="py-20 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Partner Types
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               Who ZEO partners with
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-xl leading-relaxed">
+            <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
               Each partner type has different expectations, compliance considerations, and program terms. Select the type that best describes your organization.
             </p>
           </div>
@@ -364,37 +364,37 @@ export default function PartnersPage() {
             {partnerTypes.map((p) => (
               <div
                 key={p.type}
-                className="rounded-xl border border-[#1e2620] bg-[#111512] p-6 flex flex-col gap-4"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-6 flex flex-col gap-4"
               >
                 <div className="flex items-start justify-between gap-3">
                   <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-lg border border-[#1e2620] bg-[#0a0d0b] flex items-center justify-center text-[#22c55e] flex-shrink-0">
+                    <div className="w-9 h-9 rounded-lg border border-[#e5e5e5] bg-[#ffffff] flex items-center justify-center text-[#0f0f0f] flex-shrink-0">
                       {p.icon}
                     </div>
-                    <p className="text-sm font-semibold text-[#eef2ec]">{p.type}</p>
+                    <p className="text-sm font-semibold text-[#0f0f0f]">{p.type}</p>
                   </div>
                   <span className={`text-[0.6rem] font-semibold uppercase tracking-[0.08em] px-2 py-0.5 rounded-full border ${p.tagColor} flex-shrink-0`}>
                     {p.tag}
                   </span>
                 </div>
 
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{p.description}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{p.description}</p>
 
                 <div>
-                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-2">
+                  <p className="text-[0.65rem] font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-2">
                     Common fits
                   </p>
                   <ul className="space-y-1.5">
                     {p.fits.map((f) => (
-                      <li key={f} className="flex items-start gap-2 text-xs text-[#6b7e69]">
-                        <span className="text-[#22c55e]"><CheckIcon /></span>
+                      <li key={f} className="flex items-start gap-2 text-xs text-[#a3a3a3]">
+                        <span className="text-[#0f0f0f]"><CheckIcon /></span>
                         {f}
                       </li>
                     ))}
                   </ul>
                 </div>
 
-                <p className="text-[0.65rem] text-[#3a4a38] leading-relaxed border-t border-[#1e2620] pt-3 mt-auto">
+                <p className="text-[0.65rem] text-[#3a4a38] leading-relaxed border-t border-[#e5e5e5] pt-3 mt-auto">
                   {p.note}
                 </p>
               </div>
@@ -404,44 +404,44 @@ export default function PartnersPage() {
       </section>
 
       {/* How the Referral Program Works */}
-      <section className="py-20 border-t border-[#1e2620] bg-[#111512]">
+      <section className="py-20 border-t border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
               Process
             </p>
             <h2 className="text-2xl font-semibold text-white mb-2">
               How the referral program works
             </h2>
-            <p className="text-[#9aaa98] text-sm max-w-xl leading-relaxed">
+            <p className="text-[#737373] text-sm max-w-xl leading-relaxed">
               Partner relationships are established through a structured review and agreement process — not automatically on inquiry.
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {referralSteps.map((step, i) => (
-              <div key={step.label} className="relative rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5">
-                <div className="w-6 h-6 rounded-full border border-[#1e2620] bg-[#111512] flex items-center justify-center mb-4">
-                  <span className="text-[0.6rem] font-semibold tabular-nums text-[#22c55e]">
+              <div key={step.label} className="relative rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
+                <div className="w-6 h-6 rounded-full border border-[#e5e5e5] bg-[#f5f5f5] flex items-center justify-center mb-4">
+                  <span className="text-[0.6rem] font-semibold tabular-nums text-[#0f0f0f]">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                 </div>
-                <p className="text-sm font-semibold text-[#eef2ec] mb-2">{step.label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{step.desc}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-2">{step.label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{step.desc}</p>
               </div>
             ))}
           </div>
 
-          <div className="mt-8 rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="mt-8 rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <div className="flex-1">
-              <p className="text-sm font-medium text-[#eef2ec] mb-1">Ready to inquire about a partner relationship?</p>
-              <p className="text-xs text-[#6b7e69]">
+              <p className="text-sm font-medium text-[#0f0f0f] mb-1">Ready to inquire about a partner relationship?</p>
+              <p className="text-xs text-[#a3a3a3]">
                 Submit the form below and the ZEO partnerships team will follow up. Not a commitment or guarantee of a partnership.
               </p>
             </div>
             <a
               href="#partner-inquiry"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl bg-[#22c55e] text-black text-sm font-semibold hover:bg-[#16a34a] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Submit Inquiry
             </a>
@@ -450,20 +450,20 @@ export default function PartnersPage() {
       </section>
 
       {/* What Partners Get */}
-      <section className="py-20 border-t border-[#1e2620]">
+      <section className="py-20 border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <div>
-              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">
+              <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">
                 What partners access
               </p>
               <h2 className="text-2xl font-semibold text-white mb-4">
                 Supporting your clients through their financing process
               </h2>
-              <p className="text-[#9aaa98] leading-relaxed mb-5 text-sm">
+              <p className="text-[#737373] leading-relaxed mb-5 text-sm">
                 ZEO partners gain access to resources and infrastructure to help clients navigate commercial financing options — without needing to become a financing expert themselves.
               </p>
-              <p className="text-[#9aaa98] leading-relaxed text-sm">
+              <p className="text-[#737373] leading-relaxed text-sm">
                 Partner benefits vary by type and agreement. The items below represent potential program components, not guaranteed features of every partnership. ZEO does not guarantee referral volume, client outcomes, or revenue to partners.
               </p>
             </div>
@@ -493,14 +493,14 @@ export default function PartnersPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="flex items-start gap-3 rounded-xl border border-[#1e2620] bg-[#111512] p-4"
+                  className="flex items-start gap-3 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4"
                 >
-                  <div className="w-5 h-5 rounded-full bg-[#0f2a14] border border-[#1a4020] flex items-center justify-center text-[#22c55e] flex-shrink-0 mt-0.5">
+                  <div className="w-5 h-5 rounded-full bg-[#0f2a14] border border-[#1a4020] flex items-center justify-center text-[#0f0f0f] flex-shrink-0 mt-0.5">
                     <CheckIcon />
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.title}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.title}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                   </div>
                 </div>
               ))}
@@ -511,7 +511,7 @@ export default function PartnersPage() {
 
       <PartnerInquiryForm />
 
-      <section className="py-12 border-t border-[#1e2620]">
+      <section className="py-12 border-t border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <ProductDisclaimer type="general" />
         </div>

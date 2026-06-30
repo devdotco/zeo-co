@@ -115,31 +115,31 @@ export default function HowItWorksPage() {
       />
 
       {/* 6-Step Process */}
-      <section className="py-16 bg-[#0a0d0b]">
+      <section className="py-16 bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-12">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
               The Process
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] max-w-xl" style={{ textWrap: "balance" } as React.CSSProperties}>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] max-w-xl" style={{ textWrap: "balance" } as React.CSSProperties}>
               Six stages, from need to potential funding
             </h2>
-            <p className="text-[#9aaa98] mt-3 max-w-2xl text-sm leading-relaxed">
+            <p className="text-[#737373] mt-3 max-w-2xl text-sm leading-relaxed">
               Not every business moves through all six stages, and the sequence may vary by financing type. This is a general framework, not a guarantee of outcome.
             </p>
           </div>
 
-          <div className="space-y-px border border-[#1e2620] rounded-2xl overflow-hidden">
+          <div className="space-y-px border border-[#e5e5e5] rounded-2xl overflow-hidden">
             {steps.map((step, i) => (
               <div
                 key={step.number}
-                className="grid grid-cols-1 md:grid-cols-[6rem_1fr] bg-[#111512] border-b border-[#1e2620] last:border-b-0 group"
+                className="grid grid-cols-1 md:grid-cols-[6rem_1fr] bg-[#f5f5f5] border-b border-[#e5e5e5] last:border-b-0 group"
               >
                 {/* Step number column */}
-                <div className="flex items-start md:items-center justify-start md:justify-center px-6 pt-6 pb-0 md:py-8 md:border-r border-[#1e2620]">
+                <div className="flex items-start md:items-center justify-start md:justify-center px-6 pt-6 pb-0 md:py-8 md:border-r border-[#e5e5e5]">
                   <span
                     className="text-2xl font-bold tracking-tight tabular-nums"
-                    style={{ color: "#22c55e", fontVariantNumeric: "tabular-nums" }}
+                    style={{ color: "#0f0f0f", fontVariantNumeric: "tabular-nums" }}
                     aria-hidden="true"
                   >
                     {step.number}
@@ -148,16 +148,16 @@ export default function HowItWorksPage() {
 
                 {/* Content column */}
                 <div className="px-6 py-6 md:py-8">
-                  <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#6b7e69] mb-1">
+                  <p className="text-[0.6rem] font-semibold uppercase tracking-[0.12em] text-[#a3a3a3] mb-1">
                     {step.label}
                   </p>
-                  <h3 className="text-base font-semibold text-[#eef2ec] mb-2">
+                  <h3 className="text-base font-semibold text-[#0f0f0f] mb-2">
                     {step.heading}
                   </h3>
-                  <p className="text-sm text-[#9aaa98] leading-relaxed mb-3">
+                  <p className="text-sm text-[#737373] leading-relaxed mb-3">
                     {step.body}
                   </p>
-                  <p className="text-xs text-[#6b7e69] leading-relaxed border-l-2 border-[#1e2620] pl-3">
+                  <p className="text-xs text-[#a3a3a3] leading-relaxed border-l-2 border-[#e5e5e5] pl-3">
                     {step.detail}
                   </p>
                 </div>
@@ -168,27 +168,27 @@ export default function HowItWorksPage() {
       </section>
 
       {/* What ZEO Is / Is Not */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#0a0d0b]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
               Clarity
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec]" style={{ textWrap: "balance" } as React.CSSProperties}>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f]" style={{ textWrap: "balance" } as React.CSSProperties}>
               Understanding exactly what ZEO is — and is not
             </h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* ZEO IS NOT */}
-            <div className="rounded-2xl border border-[#1e2620] bg-[#111512] overflow-hidden">
-              <div className="px-6 py-4 border-b border-[#1e2620] flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-[#6b7e69] inline-block" aria-hidden="true" />
-                <h3 className="text-sm font-semibold text-[#9aaa98] uppercase tracking-wider text-[0.7rem]">
+            <div className="rounded-2xl border border-[#e5e5e5] bg-[#f5f5f5] overflow-hidden">
+              <div className="px-6 py-4 border-b border-[#e5e5e5] flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-[#a3a3a3] inline-block" aria-hidden="true" />
+                <h3 className="text-sm font-semibold text-[#737373] uppercase tracking-wider text-[0.7rem]">
                   ZEO Is Not
                 </h3>
               </div>
-              <ul className="divide-y divide-[#1e2620]">
+              <ul className="divide-y divide-[#e5e5e5]">
                 {[
                   { label: "A bank or lender", desc: "ZEO does not originate, fund, or service any loans." },
                   { label: "An SBA lender or agency", desc: "ZEO has no affiliation with the U.S. Small Business Administration." },
@@ -197,22 +197,22 @@ export default function HowItWorksPage() {
                   { label: "A guarantor of rates or approval", desc: "All terms and decisions are set solely by third-party providers." },
                 ].map((item) => (
                   <li key={item.label} className="px-6 py-4">
-                    <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.label}</p>
-                    <p className="text-xs text-[#6b7e69] leading-relaxed">{item.desc}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.label}</p>
+                    <p className="text-xs text-[#a3a3a3] leading-relaxed">{item.desc}</p>
                   </li>
                 ))}
               </ul>
             </div>
 
             {/* ZEO IS */}
-            <div className="rounded-2xl border border-[#1e2620] bg-[#111512] overflow-hidden">
-              <div className="px-6 py-4 border-b border-[#1e2620] flex items-center gap-3">
-                <span className="w-2 h-2 rounded-full bg-[#22c55e] inline-block" aria-hidden="true" />
-                <h3 className="text-sm font-semibold text-[#22c55e] uppercase tracking-wider text-[0.7rem]">
+            <div className="rounded-2xl border border-[#e5e5e5] bg-[#f5f5f5] overflow-hidden">
+              <div className="px-6 py-4 border-b border-[#e5e5e5] flex items-center gap-3">
+                <span className="w-2 h-2 rounded-full bg-[#0f0f0f] inline-block" aria-hidden="true" />
+                <h3 className="text-sm font-semibold text-[#0f0f0f] uppercase tracking-wider text-[0.7rem]">
                   ZEO Is
                 </h3>
               </div>
-              <ul className="divide-y divide-[#1e2620]">
+              <ul className="divide-y divide-[#e5e5e5]">
                 {[
                   { label: "A financing education platform", desc: "Plain-language explainers on SBA programs, working capital, factoring, acquisition loans, and more." },
                   { label: "A comparison resource", desc: "Side-by-side breakdowns of how different financing structures work, their tradeoffs, and typical use cases." },
@@ -221,8 +221,8 @@ export default function HowItWorksPage() {
                   { label: "An independent resource", desc: "ZEO is not affiliated with any single lender, bank, or government program." },
                 ].map((item) => (
                   <li key={item.label} className="px-6 py-4">
-                    <p className="text-sm font-medium text-[#eef2ec] mb-0.5">{item.label}</p>
-                    <p className="text-xs text-[#9aaa98] leading-relaxed">{item.desc}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-0.5">{item.label}</p>
+                    <p className="text-xs text-[#737373] leading-relaxed">{item.desc}</p>
                   </li>
                 ))}
               </ul>
@@ -232,16 +232,16 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Data Usage */}
-      <section className="py-16 border-t border-[#1e2620] bg-[#0a0d0b]">
+      <section className="py-16 border-t border-[#e5e5e5] bg-[#ffffff]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-2">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">
               Your Information
             </p>
-            <h2 className="text-2xl font-semibold text-[#eef2ec] mb-4" style={{ textWrap: "balance" } as React.CSSProperties}>
+            <h2 className="text-2xl font-semibold text-[#0f0f0f] mb-4" style={{ textWrap: "balance" } as React.CSSProperties}>
               How ZEO uses the data you provide
             </h2>
-            <p className="text-[#9aaa98] text-sm leading-relaxed mb-6">
+            <p className="text-[#737373] text-sm leading-relaxed mb-6">
               When you use ZEO's intake forms, calculators, or comparison tools, you may provide information about your business — revenue, time in business, purpose of financing, and similar data. Here is how that information is used.
             </p>
 
@@ -266,21 +266,21 @@ export default function HowItWorksPage() {
               ].map((item) => (
                 <div
                   key={item.heading}
-                  className="rounded-xl border border-[#1e2620] bg-[#111512] px-5 py-4"
+                  className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-5 py-4"
                 >
-                  <h3 className="text-sm font-semibold text-[#eef2ec] mb-1">{item.heading}</h3>
-                  <p className="text-xs text-[#9aaa98] leading-relaxed">{item.body}</p>
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] mb-1">{item.heading}</h3>
+                  <p className="text-xs text-[#737373] leading-relaxed">{item.body}</p>
                 </div>
               ))}
             </div>
 
-            <p className="text-xs text-[#6b7e69] mt-6 leading-relaxed">
+            <p className="text-xs text-[#a3a3a3] mt-6 leading-relaxed">
               For full details, review ZEO's{" "}
-              <Link href="/privacy" className="underline underline-offset-2 hover:text-[#9aaa98] transition-colors">
+              <Link href="/privacy" className="underline underline-offset-2 hover:text-[#737373] transition-colors">
                 Privacy Policy
               </Link>
               . If you have questions about data handling, contact{" "}
-              <a href="mailto:privacy@zeo.co" className="underline underline-offset-2 hover:text-[#9aaa98] transition-colors">
+              <a href="mailto:privacy@zeo.co" className="underline underline-offset-2 hover:text-[#737373] transition-colors">
                 privacy@zeo.co
               </a>
               .

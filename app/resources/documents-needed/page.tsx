@@ -169,7 +169,7 @@ const RELATED_PATHS = [
 
 export default function DocumentsNeededPage() {
   return (
-    <div className="bg-[#0a0d0b] min-h-screen">
+    <div className="bg-[#ffffff] min-h-screen">
       <JsonLd
         data={breadcrumbSchema([
           { name: "Home", url: "https://zeo.co" },
@@ -186,9 +186,9 @@ export default function DocumentsNeededPage() {
       />
 
       {/* At-a-Glance Metrics */}
-      <section className="py-12 border-b border-[#1e2620]">
+      <section className="py-12 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-6">
+          <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-6">
             Reference Points
           </p>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
@@ -206,12 +206,12 @@ export default function DocumentsNeededPage() {
       </section>
 
       {/* Section 1: Why Documentation Matters */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-5">
             Why Lenders Require Documentation
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+          <div className="space-y-4 text-[#737373] leading-relaxed">
             <p>
               Documentation is the primary way a lender or financing provider verifies that the information in a financing application is accurate and complete. Underwriters use documents to confirm revenue history, identify trends in cash flow, assess existing debt obligations, evaluate collateral, and understand the ownership structure of the business. The depth of documentation requested generally reflects the complexity and size of the transaction and the risk profile of the product.
             </p>
@@ -223,11 +223,11 @@ export default function DocumentsNeededPage() {
             </p>
           </div>
 
-          <div className="mt-8 p-4 rounded-xl border border-[#1e2620] bg-[#111512]">
-            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#6b7e69] mb-2">
+          <div className="mt-8 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]">
+            <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#a3a3a3] mb-2">
               Important Note
             </p>
-            <p className="text-sm text-[#9aaa98] leading-relaxed">
+            <p className="text-sm text-[#737373] leading-relaxed">
               ZEO.co is not a bank, lender, or loan broker. This page is provided for educational purposes only. Specific documentation requirements are set by each financing provider and are subject to their own underwriting standards.
             </p>
           </div>
@@ -235,12 +235,12 @@ export default function DocumentsNeededPage() {
       </section>
 
       {/* Section 2: Core Business Documents */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Core Business Financial Documents
           </h2>
-          <p className="text-[#6b7e69] text-sm mb-8">
+          <p className="text-[#a3a3a3] text-sm mb-8">
             These documents form the foundation of nearly every commercial financing application. Availability and quality of these records significantly affects which financing options may be accessible.
           </p>
 
@@ -279,17 +279,17 @@ export default function DocumentsNeededPage() {
             ].map(({ label, badge, detail }) => (
               <div
                 key={label}
-                className="p-5 rounded-xl border border-[#1e2620] bg-[#111512]"
+                className="p-5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
               >
                 <div className="flex items-center gap-2.5 mb-2.5">
-                  <p className="text-sm font-semibold text-[#eef2ec]">{label}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f]">{label}</p>
                   {badge && (
-                    <span className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md bg-[#0f2a14] text-[#22c55e] border border-[#22c55e]/20">
+                    <span className="text-[0.6rem] font-semibold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md bg-[#0f2a14] text-[#0f0f0f] border border-[#0f0f0f]/20">
                       {badge}
                     </span>
                   )}
                 </div>
-                <p className="text-sm text-[#6b7e69] leading-relaxed">{detail}</p>
+                <p className="text-sm text-[#a3a3a3] leading-relaxed">{detail}</p>
               </div>
             ))}
           </div>
@@ -297,12 +297,12 @@ export default function DocumentsNeededPage() {
       </section>
 
       {/* Section 3: Owner and Personal Documents */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Owner and Personal Documentation
           </h2>
-          <p className="text-[#6b7e69] text-sm mb-8">
+          <p className="text-[#a3a3a3] text-sm mb-8">
             Most commercial financing products — particularly SBA loans and bank term loans — require personal documentation from owners who hold meaningful ownership stakes. The standard threshold is 20% or greater ownership.
           </p>
 
@@ -331,14 +331,14 @@ export default function DocumentsNeededPage() {
             ].map(({ label, detail }) => (
               <div
                 key={label}
-                className="flex gap-3 p-4 rounded-xl border border-[#1e2620] bg-[#111512]"
+                className="flex gap-3 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
               >
-                <div className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#0f2a14] border border-[#22c55e]/30 flex items-center justify-center">
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                <div className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center">
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1">{label}</p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{detail}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1">{label}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{detail}</p>
                 </div>
               </div>
             ))}
@@ -347,12 +347,12 @@ export default function DocumentsNeededPage() {
       </section>
 
       {/* Section 4: Business Legal and Entity Documents */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             Business Legal and Entity Documents
           </h2>
-          <p className="text-[#6b7e69] text-sm mb-8">
+          <p className="text-[#a3a3a3] text-sm mb-8">
             Lenders need to confirm that a business is legally organized, properly registered, and that the individuals signing loan documents have authority to do so. These documents establish the legal basis of the transaction.
           </p>
 
@@ -391,10 +391,10 @@ export default function DocumentsNeededPage() {
             ].map(({ label, detail }) => (
               <div
                 key={label}
-                className="p-4 rounded-xl border border-[#1e2620] bg-[#111512]"
+                className="p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
               >
-                <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{label}</p>
-                <p className="text-xs text-[#6b7e69] leading-relaxed">{detail}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{label}</p>
+                <p className="text-xs text-[#a3a3a3] leading-relaxed">{detail}</p>
               </div>
             ))}
           </div>
@@ -402,12 +402,12 @@ export default function DocumentsNeededPage() {
       </section>
 
       {/* Section 5: Document Requirements by Product Type */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-5xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-2">
             How Requirements Differ by Product Type
           </h2>
-          <p className="text-[#6b7e69] text-sm mb-8">
+          <p className="text-[#a3a3a3] text-sm mb-8">
             Documentation requirements vary significantly depending on the financing product. The comparison below reflects general patterns — actual requirements are set by individual providers and are subject to underwriting.
           </p>
           <ComparisonTable
@@ -415,19 +415,19 @@ export default function DocumentsNeededPage() {
             rows={COMPARISON_ROWS}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-3 leading-relaxed">
+          <p className="text-xs text-[#a3a3a3] mt-3 leading-relaxed">
             This table reflects general patterns based on common market practice and is not a guarantee of what any specific lender will require. Documentation requests vary by provider, transaction size, and individual underwriting judgment.
           </p>
         </div>
       </section>
 
       {/* Section 6: Preparing Your Documentation */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <h2 className="text-2xl font-semibold text-white mb-5">
             Preparing Your Documentation Package
           </h2>
-          <div className="space-y-4 text-[#9aaa98] leading-relaxed">
+          <div className="space-y-4 text-[#737373] leading-relaxed">
             <p>
               Lenders review documentation under time pressure and across many active applications simultaneously. A well-organized document package — where files are clearly named, complete, and consistent — makes a practical difference in how quickly a review can proceed and how favorably an underwriter views a business's operational sophistication.
             </p>
@@ -457,12 +457,12 @@ export default function DocumentsNeededPage() {
             ].map(({ title, body }) => (
               <div
                 key={title}
-                className="flex gap-4 p-5 first:rounded-t-xl last:rounded-b-xl border border-[#1e2620] bg-[#111512] border-b-0 last:border-b"
+                className="flex gap-4 p-5 first:rounded-t-xl last:rounded-b-xl border border-[#e5e5e5] bg-[#f5f5f5] border-b-0 last:border-b"
               >
-                <div className="flex-shrink-0 mt-1 w-1.5 h-1.5 rounded-full bg-[#22c55e]" />
+                <div className="flex-shrink-0 mt-1 w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                 <div>
-                  <p className="text-sm font-semibold text-[#eef2ec] mb-1.5">{title}</p>
-                  <p className="text-sm text-[#6b7e69] leading-relaxed">{body}</p>
+                  <p className="text-sm font-semibold text-[#0f0f0f] mb-1.5">{title}</p>
+                  <p className="text-sm text-[#a3a3a3] leading-relaxed">{body}</p>
                 </div>
               </div>
             ))}
@@ -471,10 +471,10 @@ export default function DocumentsNeededPage() {
       </section>
 
       {/* Related Paths */}
-      <section className="py-14 border-b border-[#1e2620]">
+      <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <h2 className="text-xl font-semibold text-white mb-2">Related Resources</h2>
-          <p className="text-sm text-[#6b7e69] mb-6">
+          <p className="text-sm text-[#a3a3a3] mb-6">
             Guides and overviews that may be useful alongside this documentation reference.
           </p>
           <div className="grid md:grid-cols-3 gap-3">

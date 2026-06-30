@@ -231,7 +231,7 @@ const faqItems = [
 
 export default function ProfessionalServicesPage() {
   return (
-    <main className="bg-[#0a0d0b] min-h-screen">
+    <main className="bg-[#ffffff] min-h-screen">
 
       {/* 1 — Hero */}
       <PageHero
@@ -242,12 +242,12 @@ export default function ProfessionalServicesPage() {
       />
 
       {/* 2 — Key financing challenges */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Industry Challenges</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Industry Challenges</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Why professional services firms seek outside capital</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Professional services businesses are often profitable on paper but cash-constrained in practice. Several structural characteristics of service-based revenue models create recurring financing needs — independent of business quality or growth trajectory.
             </p>
           </div>
@@ -284,14 +284,14 @@ export default function ProfessionalServicesPage() {
                 body: "Professional services firms often maintain client-facing office space with associated long-term lease obligations. Moving, expanding, or building out a new office involves upfront tenant improvement costs that can exceed what operating cash flow can absorb in a short window.",
               },
             ].map((item) => (
-              <div key={item.heading} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
+              <div key={item.heading} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
                 <div className="flex gap-3">
-                  <div className="mt-0.5 flex-shrink-0 flex h-9 w-9 items-center justify-center rounded-lg bg-[#0a0d0b] border border-[#1e2620] text-[#22c55e]">
+                  <div className="mt-0.5 flex-shrink-0 flex h-9 w-9 items-center justify-center rounded-lg bg-[#ffffff] border border-[#e5e5e5] text-[#0f0f0f]">
                     {item.icon}
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-[#eef2ec] mb-1.5">{item.heading}</p>
-                    <p className="text-sm text-[#6b7e69] leading-relaxed">{item.body}</p>
+                    <p className="text-sm font-medium text-[#0f0f0f] mb-1.5">{item.heading}</p>
+                    <p className="text-sm text-[#a3a3a3] leading-relaxed">{item.body}</p>
                   </div>
                 </div>
               </div>
@@ -301,19 +301,19 @@ export default function ProfessionalServicesPage() {
       </section>
 
       {/* 3 — Financing products */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Financing Options</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Financing Options</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Products that may be relevant for professional services firms</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               No single product fits every situation. The right financing path depends on your use case, timeline, revenue profile, and credit position. The options below represent the most commonly evaluated structures for professional services businesses — each subject to underwriting by third-party providers.
             </p>
           </div>
 
           {/* Narrative intro before cards */}
           <div className="grid md:grid-cols-2 gap-8 mb-10">
-            <div className="text-sm text-[#9aaa98] leading-relaxed space-y-4">
+            <div className="text-sm text-[#737373] leading-relaxed space-y-4">
               <p>
                 For firms with longer time horizons — acquiring a practice, building out permanent office space, or funding a multi-year growth plan — SBA 7(a) loans may offer favorable repayment terms compared to shorter-duration alternatives. The tradeoff is a more extensive documentation and underwriting process that can span several weeks to months.
               </p>
@@ -321,7 +321,7 @@ export default function ProfessionalServicesPage() {
                 For firms managing shorter-term cash flow gaps tied to billing cycles, seasonal slowdowns, or near-term hiring needs, a business line of credit or working capital loan may be a more practical fit. These products typically move faster and require less documentation, though terms and costs vary considerably by lender.
               </p>
             </div>
-            <div className="text-sm text-[#9aaa98] leading-relaxed space-y-4">
+            <div className="text-sm text-[#737373] leading-relaxed space-y-4">
               <p>
                 Equipment financing — covering everything from diagnostic devices in a medical practice to enterprise software licenses or specialized hardware — often uses the financed asset as collateral. This can make approval more accessible for firms that might not qualify for unsecured credit at comparable amounts.
               </p>
@@ -348,12 +348,12 @@ export default function ProfessionalServicesPage() {
       </section>
 
       {/* 4 — Typical requirements */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Lender Requirements</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Lender Requirements</p>
             <h2 className="text-2xl font-semibold text-white mb-3">What lenders typically look for in professional services</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               Requirements vary by product, lender, loan size, and the individual business. The following reflects what many lenders evaluate when underwriting professional services financing. Meeting these thresholds does not guarantee approval — all financing is subject to underwriting, and lender criteria differ.
             </p>
           </div>
@@ -393,9 +393,9 @@ export default function ProfessionalServicesPage() {
                 detail: "Many lenders — particularly for SBA loans — will require a personal guarantee from all owners with 20% or greater equity. For larger loan amounts, business assets and personal real estate may serve as collateral. Smaller working capital loans and lines of credit may be available on an unsecured basis depending on revenue and creditworthiness.",
               },
             ].map((req) => (
-              <div key={req.label} className="rounded-xl border border-[#1e2620] bg-[#111512] p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#22c55e] mb-2">{req.label}</p>
-                <p className="text-sm text-[#9aaa98] leading-relaxed">{req.detail}</p>
+              <div key={req.label} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
+                <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-2">{req.label}</p>
+                <p className="text-sm text-[#737373] leading-relaxed">{req.detail}</p>
               </div>
             ))}
           </div>
@@ -403,12 +403,12 @@ export default function ProfessionalServicesPage() {
       </section>
 
       {/* Comparison table */}
-      <section className="py-16 border-b border-[#1e2620]">
+      <section className="py-16 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
           <div className="max-w-3xl mb-8">
-            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#22c55e] mb-3">Product Comparison</p>
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-3">Product Comparison</p>
             <h2 className="text-2xl font-semibold text-white mb-3">Common financing structures side by side</h2>
-            <p className="text-[#9aaa98] leading-relaxed">
+            <p className="text-[#737373] leading-relaxed">
               A high-level comparison of the most commonly evaluated products for professional services firms. All terms are illustrative — actual terms depend on lender, borrower profile, and market conditions at time of application.
             </p>
           </div>
@@ -417,7 +417,7 @@ export default function ProfessionalServicesPage() {
             rows={comparisonRows}
             highlightCol="SBA 7(a)"
           />
-          <p className="text-xs text-[#6b7e69] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             Informational only. Actual terms, eligibility, and availability are set by individual third-party lenders and subject to change. Not an offer or commitment to lend.
           </p>
         </div>

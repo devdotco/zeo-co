@@ -53,7 +53,7 @@ export default function EquipmentFinancingCalculator() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Inputs */}
         <div className="space-y-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">Loan Parameters</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">Loan Parameters</p>
 
           <CalcInput
             label="Equipment Cost"
@@ -118,7 +118,7 @@ export default function EquipmentFinancingCalculator() {
 
         {/* Results */}
         <div className="space-y-3">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-1">Estimated Payments</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">Estimated Payments</p>
 
           <CalcResult
             label="Monthly Payment"
@@ -146,30 +146,30 @@ export default function EquipmentFinancingCalculator() {
           />
 
           {/* Summary bar */}
-          <div className="rounded-xl border border-[#1e2620] bg-[#0a0d0b] p-4 mt-2">
-            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#6b7e69] mb-3">Financing Summary</p>
+          <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-4 mt-2">
+            <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-3">Financing Summary</p>
             <div className="space-y-2">
               <div className="flex justify-between text-xs">
-                <span className="text-[#9aaa98]">Equipment Cost</span>
-                <span className="text-[#eef2ec] tabular-nums">{fmt(equipmentCost)}</span>
+                <span className="text-[#737373]">Equipment Cost</span>
+                <span className="text-[#0f0f0f] tabular-nums">{fmt(equipmentCost)}</span>
               </div>
               <div className="flex justify-between text-xs">
-                <span className="text-[#9aaa98]">Amount Financed</span>
-                <span className="text-[#eef2ec] tabular-nums">{fmt(Math.max(0, equipmentCost - downPayment))}</span>
+                <span className="text-[#737373]">Amount Financed</span>
+                <span className="text-[#0f0f0f] tabular-nums">{fmt(Math.max(0, equipmentCost - downPayment))}</span>
               </div>
               <div className="flex justify-between text-xs">
-                <span className="text-[#9aaa98]">Down Payment</span>
-                <span className="text-[#eef2ec] tabular-nums">{fmt(downPayment)}</span>
+                <span className="text-[#737373]">Down Payment</span>
+                <span className="text-[#0f0f0f] tabular-nums">{fmt(downPayment)}</span>
               </div>
               {residualPct > 0 && (
                 <div className="flex justify-between text-xs">
-                  <span className="text-[#9aaa98]">Balloon Payment</span>
-                  <span className="text-[#eef2ec] tabular-nums">{fmt((residualPct / 100) * equipmentCost)}</span>
+                  <span className="text-[#737373]">Balloon Payment</span>
+                  <span className="text-[#0f0f0f] tabular-nums">{fmt((residualPct / 100) * equipmentCost)}</span>
                 </div>
               )}
-              <div className="border-t border-[#1e2620] pt-2 flex justify-between text-xs">
-                <span className="text-[#9aaa98]">Effective Cost of Capital</span>
-                <span className="text-[#22c55e] tabular-nums font-semibold">
+              <div className="border-t border-[#e5e5e5] pt-2 flex justify-between text-xs">
+                <span className="text-[#737373]">Effective Cost of Capital</span>
+                <span className="text-[#0f0f0f] tabular-nums font-semibold">
                   {equipmentCost > 0
                     ? `${((results.totalInterest / equipmentCost) * 100).toFixed(1)}% of cost`
                     : "—"}
