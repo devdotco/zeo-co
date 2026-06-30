@@ -37,7 +37,7 @@ function ZeoLogo() {
     <Link href="/" className="flex items-center gap-2 group" aria-label="ZEO.co Home">
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" className="flex-shrink-0">
         <rect width="32" height="32" rx="6" fill="#0f0f0f"/>
-        <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#000"/>
+        <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#ffffff"/>
       </svg>
       <span className="text-[1.0625rem] font-semibold tracking-tight text-[#0f0f0f] group-hover:text-[#333333] transition-colors">
         zeo<span className="text-[#0f0f0f]">.</span>co

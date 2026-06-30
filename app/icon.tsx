@@ -25,7 +25,7 @@ export default function Icon() {
         >
           <path
             d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z"
-            fill="#000"
+            fill="#ffffff"
           />
         </svg>
       </div>
