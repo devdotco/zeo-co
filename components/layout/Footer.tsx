@@ -5,7 +5,7 @@ function ZeoLogoSvg() {
   return (
     <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
       <rect width="32" height="32" rx="6" fill="#0f0f0f"/>
-      <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#000"/>
+      <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#ffffff"/>
     </svg>
   );
 }
