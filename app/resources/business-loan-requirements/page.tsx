@@ -318,7 +318,7 @@ export default function BusinessLoanRequirementsPage() {
               },
             ].map((item, i) => (
               <div key={i} className="flex gap-4">
-                <div className="flex-shrink-0 mt-0.5 w-6 h-6 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center">
+                <div className="flex-shrink-0 mt-0.5 w-6 h-6 rounded-full border border-[#0f0f0f]/40 bg-[#f5f5f5] flex items-center justify-center">
                   <span className="text-[0.6rem] font-semibold text-[#0f0f0f] tabular-nums">{i + 1}</span>
                 </div>
                 <div>

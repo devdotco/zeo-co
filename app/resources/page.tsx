@@ -172,13 +172,13 @@ const calculators = [
 
 const tagColors: Record<string, string> = {
   SBA: "text-[#0f0f0f] bg-[#0f0f0f]/10 border-[#0f0f0f]/20",
-  Factoring: "text-[#60a5fa] bg-[#60a5fa]/10 border-[#60a5fa]/20",
-  "Working Capital": "text-[#a78bfa] bg-[#a78bfa]/10 border-[#a78bfa]/20",
-  Equipment: "text-[#fb923c] bg-[#fb923c]/10 border-[#fb923c]/20",
-  Acquisition: "text-[#34d399] bg-[#34d399]/10 border-[#34d399]/20",
-  MCA: "text-[#f472b6] bg-[#f472b6]/10 border-[#f472b6]/20",
-  "Private Credit": "text-[#94a3b8] bg-[#94a3b8]/10 border-[#94a3b8]/20",
-  CRE: "text-[#fbbf24] bg-[#fbbf24]/10 border-[#fbbf24]/20",
+  Factoring: "text-[#737373] bg-[#737373]/10 border-[#737373]/20",
+  "Working Capital": "text-[#737373] bg-[#737373]/10 border-[#737373]/20",
+  Equipment: "text-[#a3a3a3] bg-[#a3a3a3]/10 border-[#a3a3a3]/20",
+  Acquisition: "text-[#0f0f0f] bg-[#0f0f0f]/10 border-[#0f0f0f]/20",
+  MCA: "text-[#a3a3a3] bg-[#a3a3a3]/10 border-[#a3a3a3]/20",
+  "Private Credit": "text-[#a3a3a3] bg-[#a3a3a3]/10 border-[#a3a3a3]/20",
+  CRE: "text-[#737373] bg-[#737373]/10 border-[#737373]/20",
 };
 
 const faqItems = [
@@ -269,7 +269,7 @@ export default function ResourcesPage() {
               <Link
                 key={guide.slug}
                 href={guide.href}
-                className="group flex flex-col rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 transition-all hover:border-[#0f0f0f]/40 hover:bg-[#0f1a10] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f]/60"
+                className="group flex flex-col rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 transition-all hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f]/60"
               >
                 <div className="flex items-start justify-between gap-2 mb-3">
                   <span
@@ -279,7 +279,7 @@ export default function ResourcesPage() {
                   </span>
                   <span className="text-[0.65rem] text-[#a3a3a3] tabular-nums whitespace-nowrap">{guide.readTime} read</span>
                 </div>
-                <h3 className="text-[0.875rem] font-semibold text-[#0f0f0f] leading-snug mb-2 group-hover:text-white transition-colors">
+                <h3 className="text-[0.875rem] font-semibold text-[#0f0f0f] leading-snug mb-2 group-hover:text-[#0f0f0f] transition-colors">
                   {guide.title}
                 </h3>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed flex-1">

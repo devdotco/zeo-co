@@ -285,7 +285,7 @@ function LenderInquiryForm() {
                 autoComplete="name"
                 required
                 placeholder="Jane Smith"
-                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
             <div className="flex flex-col gap-1.5">
@@ -299,7 +299,7 @@ function LenderInquiryForm() {
                 autoComplete="organization"
                 required
                 placeholder="First National Commercial Bank"
-                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
           </div>
@@ -315,7 +315,7 @@ function LenderInquiryForm() {
               autoComplete="email"
               required
               placeholder="jane@yourcompany.com"
-              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
             />
           </div>
 
@@ -350,7 +350,7 @@ function LenderInquiryForm() {
                 type="text"
                 name="minDeal"
                 placeholder="e.g. $100,000"
-                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
             <div className="flex flex-col gap-1.5">
@@ -362,7 +362,7 @@ function LenderInquiryForm() {
                 type="text"
                 name="states"
                 placeholder="e.g. Nationwide, or TX, CA, FL"
-                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
           </div>
@@ -376,7 +376,7 @@ function LenderInquiryForm() {
               name="message"
               rows={4}
               placeholder="Include product types, typical deal sizes, industries you focus on, credit profile requirements, and any relevant licensing information..."
-              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors resize-none leading-relaxed"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors resize-none leading-relaxed"
             />
           </div>
 
@@ -404,7 +404,7 @@ function LenderInquiryForm() {
             Submit Provider Inquiry
           </button>
 
-          <p className="text-[0.65rem] text-[#3a4a38] leading-relaxed">
+          <p className="text-[0.65rem] text-[#a3a3a3] leading-relaxed">
             Submitting this form does not create a provider agreement, guarantee referral volume, or establish any legal relationship between your organization and ZEO.co. All provider relationships are subject to review and written agreement.
           </p>
         </form>
@@ -522,7 +522,7 @@ export default function LendersPage() {
             ))}
           </div>
 
-          <div className="mt-6 rounded-xl border border-[#1a3020] bg-[#0a1a0f] p-5 flex items-start gap-3">
+          <div className="mt-6 rounded-xl border border-[#f5f5f5] bg-[#f5f5f5] p-5 flex items-start gap-3">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="flex-shrink-0 mt-0.5 text-[#0f0f0f]" aria-hidden>
               <circle cx="8" cy="8" r="6" stroke="currentColor" strokeWidth="1.3" />
               <path d="M8 5v3l2 2" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
@@ -599,7 +599,7 @@ export default function LendersPage() {
               ]}
             />
           </div>
-          <p className="text-[0.65rem] text-[#3a4a38] mt-3">
+          <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
             General estimates only. Actual program parameters, underwriting, licensing requirements, and disclosure obligations vary significantly. Providers are solely responsible for their own legal compliance.
           </p>
         </div>

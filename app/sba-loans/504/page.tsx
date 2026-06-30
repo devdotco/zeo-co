@@ -453,7 +453,7 @@ export default function SBA504Page() {
                   <span className="text-xs font-semibold tabular-nums text-[#0f0f0f]">~50%</span>
                 </div>
                 <div className="h-7 rounded bg-[#e5e5e5] w-full overflow-hidden">
-                  <div className="h-full bg-[#2d3b2c] rounded" style={{ width: "50%" }} />
+                  <div className="h-full bg-[#e5e5e5] rounded" style={{ width: "50%" }} />
                 </div>
               </div>
               <div>
@@ -763,7 +763,7 @@ export default function SBA504Page() {
             </div>
             <Link
               href="/calculators/sba-loan"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>

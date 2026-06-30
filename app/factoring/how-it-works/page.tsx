@@ -89,7 +89,7 @@ function CycleStep({
   return (
     <div className="flex gap-4">
       <div className="flex flex-col items-center">
-        <div className="w-8 h-8 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
+        <div className="w-8 h-8 rounded-full border border-[#0f0f0f]/40 bg-[#f5f5f5] flex items-center justify-center flex-shrink-0">
           <span className="text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">{number}</span>
         </div>
         {!isLast && <div className="w-px flex-1 bg-[#e5e5e5] mt-1.5" />}
@@ -333,7 +333,7 @@ export default function HowFactoringWorksPage() {
                 </div>
                 <Link
                   href="/calculators/invoice-factoring-calculator"
-                  className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-colors group"
+                  className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-colors group"
                 >
                   <div className="flex items-center gap-3">
                     <div className="text-[#0f0f0f]">
@@ -600,7 +600,7 @@ export default function HowFactoringWorksPage() {
         <div className="max-w-3xl mx-auto px-5">
           <Link
             href="/calculators/invoice-factoring-calculator"
-            className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-colors group"
+            className="flex items-center justify-between gap-3 px-4 py-3.5 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-colors group"
           >
             <div className="flex items-center gap-3">
               <div className="text-[#0f0f0f]">

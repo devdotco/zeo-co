@@ -628,7 +628,7 @@ export default function AcquisitionFinancingPage() {
           <div className="text-center">
             <Link
               href="/financing"
-              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-white transition-colors"
+              className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
             >
               View all financing options
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

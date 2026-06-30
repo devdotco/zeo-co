@@ -386,7 +386,7 @@ export default function HomeServicesFinancingPage() {
               </div>
               <Link
                 href="/business-acquisition-loans"
-                className="flex-shrink-0 text-sm text-[#0f0f0f] hover:text-white transition-colors flex items-center gap-1.5"
+                className="flex-shrink-0 text-sm text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors flex items-center gap-1.5"
               >
                 Learn more
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">

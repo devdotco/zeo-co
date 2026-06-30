@@ -217,7 +217,7 @@ export default function EquipmentFinancingCalculator() {
                 }}
               />
             </div>
-            <p className="text-[0.6rem] text-[#3a4a38]">
+            <p className="text-[0.6rem] text-[#a3a3a3]">
               Bar scaled to 20% max for context
             </p>
           </div>

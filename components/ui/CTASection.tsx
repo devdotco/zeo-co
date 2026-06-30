@@ -20,7 +20,7 @@ export default function CTASection({
   variant = "dark",
 }: CTASectionProps) {
   const bg = variant === "green"
-    ? "bg-[#0f2a14] border-[#1a4020]"
+    ? "bg-[#f5f5f5] border-[#1a4020]"
     : "bg-[#f5f5f5] border-[#e5e5e5]";
 
   return (
@@ -37,7 +37,7 @@ export default function CTASection({
           </Link>
           <Link
             href={secondaryHref}
-            className="px-8 py-3 rounded-xl border border-[#e5e5e5] text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
+            className="px-8 py-3 rounded-xl border border-[#e5e5e5] text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
           >
             {secondaryLabel}
           </Link>

@@ -124,7 +124,7 @@ function WaterfallStep({
         <div
           className={`flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-xs font-semibold tabular-nums ${
             accent
-              ? "border-[#0f0f0f]/50 bg-[#0f2a14] text-[#0f0f0f]"
+              ? "border-[#0f0f0f]/50 bg-[#f5f5f5] text-[#0f0f0f]"
               : "border-[#e5e5e5] bg-[#f5f5f5] text-[#737373]"
           }`}
         >
@@ -473,14 +473,14 @@ export default function FactoringPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-5">
                 <p className="text-xs font-semibold text-[#0f0f0f] mb-2">Not sure where to start?</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   Submit a brief intake and ZEO will review your receivables profile against factoring providers who may be a fit, subject to underwriting.
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors"
                 >
                   Get started <ArrowRightIcon />
                 </Link>
@@ -566,9 +566,9 @@ export default function FactoringPage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group block rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-all"
+                className="group block rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-all"
               >
-                <p className="font-semibold text-[#0f0f0f] text-sm mb-2 group-hover:text-white transition-colors">
+                <p className="font-semibold text-[#0f0f0f] text-sm mb-2 group-hover:text-[#0f0f0f] transition-colors">
                   {item.label}
                 </p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{item.description}</p>

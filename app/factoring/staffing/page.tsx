@@ -263,7 +263,7 @@ export default function StaffingFactoringPage() {
               },
             ].map(({ step, detail }, i) => (
               <div key={i} className="flex gap-4 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]">
-                <div className="flex-shrink-0 mt-0.5 flex h-6 w-6 items-center justify-center rounded-full border border-[#0f0f0f]/30 bg-[#0f2a14]">
+                <div className="flex-shrink-0 mt-0.5 flex h-6 w-6 items-center justify-center rounded-full border border-[#0f0f0f]/30 bg-[#f5f5f5]">
                   <span className="text-[0.625rem] font-semibold text-[#0f0f0f] tabular-nums">{i + 1}</span>
                 </div>
                 <div>
@@ -522,7 +522,7 @@ export default function StaffingFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open Calculator
             </Link>

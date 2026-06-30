@@ -326,7 +326,7 @@ export default function CalculatorsPage() {
                     </div>
 
                     {/* Title */}
-                    <h2 className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug group-hover:text-white transition-colors">
+                    <h2 className="text-sm font-semibold text-[#0f0f0f] mb-2 leading-snug group-hover:text-[#0f0f0f] transition-colors">
                       {calc.title}
                     </h2>
 

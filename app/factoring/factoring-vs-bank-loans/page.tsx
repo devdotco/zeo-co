@@ -266,7 +266,7 @@ export default function FactoringVsBankLoansPage() {
             ].map((item, i) => (
               <div key={i} className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
+                  <span className="flex-shrink-0 w-6 h-6 rounded-full bg-[#f5f5f5] border border-[#0f0f0f]/30 flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f] tabular-nums">
                     {i + 1}
                   </span>
                   <p className="text-sm font-semibold text-[#0f0f0f]">{item.step}</p>

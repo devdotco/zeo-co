@@ -373,7 +373,7 @@ export default function FactoringCostsPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#e5e5e5] text-[#0f0f0f] text-sm font-medium hover:border-[#0f0f0f]/60 hover:text-white transition-colors"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#e5e5e5] text-[#0f0f0f] text-sm font-medium hover:border-[#0f0f0f]/60 hover:text-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>

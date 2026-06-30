@@ -296,7 +296,7 @@ export default function FactoringGuidePage() {
                 </li>
               </ul>
             </div>
-            <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+            <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-5">
               <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f]/60 mb-3">
                 Non-Recourse Factoring
               </p>

@@ -166,8 +166,8 @@ export default function BusinessLoanAffordabilityCalculator() {
           <div
             className={`rounded-xl border p-4 ${
               dscrHealthy
-                ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
-                : "border-[#a16207]/30 bg-[#1a1400]"
+                ? "border-[#0f0f0f]/30 bg-[#f5f5f5]"
+                : "border-[#737373]/30 bg-[#f5f5f5]"
             }`}
           >
             <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">
@@ -176,7 +176,7 @@ export default function BusinessLoanAffordabilityCalculator() {
             <div className="flex items-baseline gap-2">
               <p
                 className={`text-xl font-semibold tabular-nums ${
-                  dscrHealthy ? "text-[#0f0f0f]" : "text-[#eab308]"
+                  dscrHealthy ? "text-[#0f0f0f]" : "text-[#737373]"
                 }`}
               >
                 {isFinite(actualDscr) && actualDscr > 0 ? actualDscr.toFixed(2) : "—"}x
@@ -185,13 +185,13 @@ export default function BusinessLoanAffordabilityCalculator() {
                 className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                   dscrHealthy
                     ? "bg-[#0f0f0f]/15 text-[#0f0f0f]"
-                    : "bg-[#eab308]/15 text-[#eab308]"
+                    : "bg-[#737373]/15 text-[#737373]"
                 }`}
               >
                 {dscrHealthy ? "Qualifying" : "Below Target"}
               </span>
             </div>
-            <p className="text-[0.625rem] text-[#3a4a38] mt-1.5">
+            <p className="text-[0.625rem] text-[#a3a3a3] mt-1.5">
               Target: {targetDscr}x — EBITDA ÷ Total Annual Debt Service
             </p>
           </div>
@@ -215,7 +215,7 @@ export default function BusinessLoanAffordabilityCalculator() {
                 <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3]">
                   Max Loan · Rate vs. Term Sensitivity
                 </p>
-                <p className="text-[0.625rem] text-[#3a4a38] mt-0.5">
+                <p className="text-[0.625rem] text-[#a3a3a3] mt-0.5">
                   Based on {fmt(maxAnnualPayment)} annual payment capacity
                 </p>
               </div>
@@ -275,7 +275,7 @@ export default function BusinessLoanAffordabilityCalculator() {
                 </tbody>
               </table>
             </div>
-            <p className="text-[0.625rem] text-[#3a4a38] mt-3">
+            <p className="text-[0.625rem] text-[#a3a3a3] mt-3">
               Highlighted column and row match your selected rate and term. All values assume fully amortizing payments.
             </p>
           </div>

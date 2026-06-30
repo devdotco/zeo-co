@@ -609,7 +609,7 @@ export default function HardMoneyBusinessLoansPage() {
             </div>
             <Link
               href="/how-it-works"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors whitespace-nowrap"
             >
               View How It Works
             </Link>

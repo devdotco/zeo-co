@@ -501,7 +501,7 @@ export default function InventoryFinancingUseCasePage() {
               <Link
                 key={link.label}
                 href={link.href}
-                className="px-4 py-2 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
+                className="px-4 py-2 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
               >
                 {link.label}
               </Link>

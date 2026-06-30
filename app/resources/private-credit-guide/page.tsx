@@ -103,7 +103,7 @@ function StackLayer({
     <div
       className={`flex items-start gap-4 rounded-lg border px-4 py-3 ${
         accent
-          ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
+          ? "border-[#0f0f0f]/30 bg-[#f5f5f5]"
           : "border-[#e5e5e5] bg-[#f5f5f5]"
       }`}
     >
@@ -441,14 +441,14 @@ export default function PrivateCreditGuidePage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-5">
                 <p className="text-xs font-semibold text-[#0f0f0f] mb-2">Exploring private credit options?</p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
                   ZEO reviews business financing profiles and may identify potential third-party private credit paths, subject to underwriting and approval. Not a guarantee of terms or funding.
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors"
                 >
                   Start your intake <ArrowRightIcon />
                 </Link>
@@ -534,9 +534,9 @@ export default function PrivateCreditGuidePage() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="group block rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-all"
+                className="group block rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-all"
               >
-                <p className="font-semibold text-[#0f0f0f] text-sm mb-2 group-hover:text-white transition-colors">
+                <p className="font-semibold text-[#0f0f0f] text-sm mb-2 group-hover:text-[#0f0f0f] transition-colors">
                   {item.label}
                 </p>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed mb-3">{item.description}</p>

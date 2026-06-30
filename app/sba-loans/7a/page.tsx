@@ -508,7 +508,7 @@ export default function SBA7aPage() {
                 className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 grid sm:grid-cols-[3rem_1fr] gap-4"
               >
                 <div className="flex-shrink-0">
-                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#0f0f0f]/30 bg-[#0f2a14] text-[#0f0f0f] text-xs font-semibold tabular-nums">
+                  <span className="inline-flex items-center justify-center w-8 h-8 rounded-full border border-[#0f0f0f]/30 bg-[#f5f5f5] text-[#0f0f0f] text-xs font-semibold tabular-nums">
                     {s.step}
                   </span>
                 </div>
@@ -660,7 +660,7 @@ export default function SBA7aPage() {
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-6">
+            <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-6">
               <p className="text-xs font-semibold uppercase tracking-[0.08em] text-[#0f0f0f] mb-4">
                 Potential Advantages
               </p>
@@ -755,7 +755,7 @@ export default function SBA7aPage() {
               <Link
                 key={alt.href}
                 href={alt.href}
-                className="group block rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#0f2a14] transition-all"
+                className="group block rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-all"
               >
                 <div className="flex items-start justify-between gap-2 mb-2">
                   <h3 className="font-semibold text-[#0f0f0f] text-sm">{alt.label}</h3>
@@ -787,7 +787,7 @@ export default function SBA7aPage() {
             </div>
             <Link
               href="/calculators/sba-loan"
-              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

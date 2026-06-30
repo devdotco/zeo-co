@@ -181,7 +181,7 @@ export default function LineOfCreditCalculator() {
             />
             {feeForPeriod > 0 && (
               <div
-                className="bg-[#3a4a38] transition-all duration-300"
+                className="bg-[#a3a3a3] transition-all duration-300"
                 style={{ width: `${(feeForPeriod / totalRepayment) * 100}%` }}
               />
             )}
@@ -197,7 +197,7 @@ export default function LineOfCreditCalculator() {
             </span>
             {feeForPeriod > 0 && (
               <span className="flex items-center gap-1.5">
-                <span className="inline-block w-2 h-2 rounded-full bg-[#3a4a38]" />
+                <span className="inline-block w-2 h-2 rounded-full bg-[#a3a3a3]" />
                 Fees {((feeForPeriod / totalRepayment) * 100).toFixed(1)}%
               </span>
             )}

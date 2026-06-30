@@ -129,7 +129,7 @@ export default function SBALoanCalculator() {
             <label className="flex items-center justify-between gap-3 cursor-pointer">
               <div>
                 <p className="text-xs font-medium text-[#737373]">SBA Guarantee Fee</p>
-                <p className="text-[0.625rem] text-[#3a4a38] mt-0.5">
+                <p className="text-[0.625rem] text-[#a3a3a3] mt-0.5">
                   3.5% on guaranteed portion above $150k
                 </p>
               </div>
@@ -204,7 +204,7 @@ export default function SBALoanCalculator() {
                   <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(closingCosts)}</span>
                 </div>
               )}
-              <div className="flex justify-between items-center px-4 py-2.5 bg-[#0f1a10]">
+              <div className="flex justify-between items-center px-4 py-2.5 bg-[#f5f5f5]">
                 <span className="text-xs font-semibold text-[#0f0f0f]">Total Cash Required</span>
                 <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">{fmt(cashRequired)}</span>
               </div>

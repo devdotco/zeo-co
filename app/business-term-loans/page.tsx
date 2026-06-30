@@ -501,7 +501,7 @@ export default function BusinessTermLoansPage() {
               </div>
             ))}
           </div>
-          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5 max-w-3xl">
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-5 max-w-3xl">
             <p className="text-xs text-[#737373] leading-relaxed">
               <span className="font-medium text-[#0f0f0f]">Important:</span> ZEO.co does not quote, guarantee, or negotiate interest rates. All rate discussions on this page are educational. Actual rates and terms are determined solely by third-party lenders through their own underwriting process.
             </p>

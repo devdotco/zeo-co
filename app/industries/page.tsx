@@ -180,7 +180,7 @@ export default function IndustriesPage() {
                 className="group rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5 hover:border-[#0f0f0f]/40 hover:bg-[#f5f5f5] transition-all"
               >
                 <div className="flex items-start justify-between mb-3">
-                  <h3 className="text-sm font-semibold text-[#0f0f0f] group-hover:text-white transition-colors leading-snug pr-2">
+                  <h3 className="text-sm font-semibold text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors leading-snug pr-2">
                     {industry.title}
                   </h3>
                   <svg
@@ -296,7 +296,7 @@ export default function IndustriesPage() {
               </Link>
               <Link
                 href="/use-cases"
-                className="px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-[#737373] text-sm hover:text-white hover:border-[#0f0f0f] transition-colors"
+                className="px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-[#737373] text-sm hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
               >
                 Browse Use Cases
               </Link>

@@ -412,13 +412,13 @@ export default function AgricultureFactoringPage() {
               </p>
             </div>
           </div>
-          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4">
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] px-5 py-4">
             <p className="text-sm text-[#737373] leading-relaxed">
               <span className="text-[#0f0f0f] font-medium">Estimate your factoring cost before you commit.</span>{" "}
               The{" "}
               <Link
                 href="/calculators/invoice-factoring-calculator"
-                className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
+                className="text-[#0f0f0f] underline underline-offset-2 hover:text-[#0f0f0f] transition-colors"
               >
                 Invoice Factoring Calculator
               </Link>{" "}

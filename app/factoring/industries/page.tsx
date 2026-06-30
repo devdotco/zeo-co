@@ -478,7 +478,7 @@ export default function FactoringIndustriesPage() {
                       <div
                         className={`flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full border text-[0.65rem] font-semibold tabular-nums ${
                           s.accent
-                            ? "border-[#0f0f0f]/50 bg-[#0f2a14] text-[#0f0f0f]"
+                            ? "border-[#0f0f0f]/50 bg-[#f5f5f5] text-[#0f0f0f]"
                             : "border-[#e5e5e5] bg-[#f5f5f5] text-[#737373]"
                         }`}
                       >
@@ -610,7 +610,7 @@ export default function FactoringIndustriesPage() {
           </p>
 
           {/* Calculator callout */}
-          <div className="mt-6 rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+          <div className="mt-6 rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] px-5 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <p className="text-sm font-semibold text-[#0f0f0f] mb-1">
                 Estimate your advance and fees
@@ -619,7 +619,7 @@ export default function FactoringIndustriesPage() {
                 The{" "}
                 <Link
                   href="/calculators/invoice-factoring-calculator"
-                  className="text-[#0f0f0f] underline underline-offset-2 hover:text-white transition-colors"
+                  className="text-[#0f0f0f] underline underline-offset-2 hover:text-[#0f0f0f] transition-colors"
                 >
                   Invoice Factoring Calculator
                 </Link>{" "}

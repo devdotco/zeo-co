@@ -367,7 +367,7 @@ export default function AccountsReceivableFactoringPage() {
               },
             ].map((s) => (
               <div key={s.step} className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-5">
-                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#0f2a14] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
+                <span className="inline-block text-[0.65rem] font-semibold tabular-nums text-[#0f0f0f] bg-[#f5f5f5] border border-[#0f0f0f]/20 rounded-md px-2 py-0.5 mb-3">
                   Step {s.step}
                 </span>
                 <h3 className="text-sm font-semibold text-[#0f0f0f] mb-2">{s.title}</h3>
@@ -740,7 +740,7 @@ export default function AccountsReceivableFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#f5f5f5] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

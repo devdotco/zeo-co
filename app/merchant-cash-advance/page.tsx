@@ -434,7 +434,7 @@ export default function MerchantCashAdvancePage() {
                   "Use of proceeds is usually flexible, covering most general business expenses",
                 ].map((point) => (
                   <li key={point} className="flex gap-3 text-sm text-[#737373] leading-relaxed">
-                    <span className="mt-1 flex-shrink-0 h-4 w-4 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center">
+                    <span className="mt-1 flex-shrink-0 h-4 w-4 rounded-full bg-[#f5f5f5] border border-[#0f0f0f]/30 flex items-center justify-center">
                       <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
                         <path d="M1.5 4L3 5.5L6.5 2" stroke="#0f0f0f" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
@@ -534,7 +534,7 @@ export default function MerchantCashAdvancePage() {
       {/* ── Calculator link ──────────────────────────────────────────────── */}
       <section className="py-14 border-b border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8">
-          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-6 max-w-2xl">
+          <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-6 max-w-2xl">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] text-[#0f0f0f] mb-2">Calculator</p>
             <h2 className="text-lg font-semibold text-white mb-2">Estimate your MCA repayment</h2>
             <p className="text-sm text-[#737373] leading-relaxed mb-4">

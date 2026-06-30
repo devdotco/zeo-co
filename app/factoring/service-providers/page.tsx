@@ -361,7 +361,7 @@ export default function ServiceProviderFactoringPage() {
                   },
                 ].map(({ label, status, detail }) => (
                   <div key={label} className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] p-3.5 flex gap-3">
-                    <div className={`flex-shrink-0 mt-0.5 px-2 py-0.5 rounded-full text-[0.6rem] font-semibold uppercase tracking-wide h-fit ${status === "required" ? "bg-[#0f2a14] text-[#0f0f0f] border border-[#0f0f0f]/30" : "bg-[#f5f5f5] text-[#a3a3a3] border border-[#e5e5e5]"}`}>
+                    <div className={`flex-shrink-0 mt-0.5 px-2 py-0.5 rounded-full text-[0.6rem] font-semibold uppercase tracking-wide h-fit ${status === "required" ? "bg-[#f5f5f5] text-[#0f0f0f] border border-[#0f0f0f]/30" : "bg-[#f5f5f5] text-[#a3a3a3] border border-[#e5e5e5]"}`}>
                       {status === "required" ? "Required" : "Supporting"}
                     </div>
                     <div>
@@ -564,7 +564,7 @@ export default function ServiceProviderFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open Calculator
             </Link>

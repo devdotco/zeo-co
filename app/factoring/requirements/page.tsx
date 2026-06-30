@@ -476,7 +476,7 @@ export default function FactoringRequirementsPage() {
       <section className="py-12 border-b border-[#e5e5e5] bg-[#f5f5f5]">
         <div className="max-w-3xl mx-auto px-5 lg:px-8">
           <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6 flex flex-col sm:flex-row items-start sm:items-center gap-5">
-            <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#0f2a14] border border-[#0f0f0f]/20 flex items-center justify-center text-[#0f0f0f]">
+            <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#f5f5f5] border border-[#0f0f0f]/20 flex items-center justify-center text-[#0f0f0f]">
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <rect x="3" y="3" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.4"/>
                 <path d="M6 9h6M6 12h3M6 6h6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
@@ -492,7 +492,7 @@ export default function FactoringRequirementsPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:bg-[#0f2a14] transition-colors"
+              className="flex-shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f]/50 hover:bg-[#f5f5f5] transition-colors"
             >
               Open Calculator
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

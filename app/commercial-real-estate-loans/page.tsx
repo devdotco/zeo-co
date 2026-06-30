@@ -131,7 +131,7 @@ function XIcon() {
 
 function StepNumber({ n }: { n: number }) {
   return (
-    <span className="flex-shrink-0 w-7 h-7 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f]">
+    <span className="flex-shrink-0 w-7 h-7 rounded-full border border-[#0f0f0f]/40 bg-[#f5f5f5] flex items-center justify-center text-[0.65rem] font-semibold text-[#0f0f0f]">
       {n}
     </span>
   );
@@ -659,7 +659,7 @@ export default function CommercialRealEstateLoanPage() {
             </div>
             <Link
               href="/calculators/commercial-loan"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
             >
               Open Calculator
             </Link>

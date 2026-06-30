@@ -163,7 +163,7 @@ export default function SBA7aLoanCalculator() {
           {/* DSCR Result */}
           <div
             className={`rounded-xl border p-4 ${
-              dscrOk ? "border-[#0f0f0f]/30 bg-[#0f1a10]" : "border-amber-700/40 bg-amber-950/20"
+              dscrOk ? "border-[#0f0f0f]/30 bg-[#f5f5f5]" : "border-amber-700/40 bg-amber-950/20"
             }`}
           >
             <div className="flex justify-between items-start">
@@ -204,7 +204,7 @@ export default function SBA7aLoanCalculator() {
                 <span className="text-xs text-[#737373]">Equity Injection</span>
                 <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(equityInjection)}</span>
               </div>
-              <div className="flex justify-between items-center px-4 py-2.5 bg-[#0f1a10]">
+              <div className="flex justify-between items-center px-4 py-2.5 bg-[#f5f5f5]">
                 <span className="text-xs font-semibold text-[#0f0f0f]">Total Project Cost</span>
                 <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">{fmt(purchasePrice)}</span>
               </div>
@@ -216,7 +216,7 @@ export default function SBA7aLoanCalculator() {
                 <span className="text-xs text-[#737373]">Closing Costs</span>
                 <span className="text-xs tabular-nums text-[#0f0f0f]">{fmt(closingCosts)}</span>
               </div>
-              <div className="flex justify-between items-center px-4 py-2.5 bg-[#0f1a10]">
+              <div className="flex justify-between items-center px-4 py-2.5 bg-[#f5f5f5]">
                 <span className="text-xs font-semibold text-[#0f0f0f]">Total Cash Required</span>
                 <span className="text-sm font-semibold tabular-nums text-[#0f0f0f]">{fmt(totalCashRequired)}</span>
               </div>

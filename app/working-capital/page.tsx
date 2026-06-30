@@ -515,7 +515,7 @@ export default function WorkingCapitalPage() {
             <div className="mt-6">
               <Link
                 href="/calculators/working-capital"
-                className="inline-flex items-center gap-2 text-sm text-[#0f0f0f] hover:text-white transition-colors"
+                className="inline-flex items-center gap-2 text-sm text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors"
               >
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                   <rect x="1" y="1" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.2" />
@@ -679,7 +679,7 @@ export default function WorkingCapitalPage() {
             </div>
             <Link
               href="/calculators/working-capital"
-              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
+              className="flex-shrink-0 px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open calculator
             </Link>

@@ -362,7 +362,7 @@ export default function AcquisitionFinancingGuidePage() {
           </div>
 
           {/* Seller note callout */}
-          <div className="mt-5 rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-6">
+          <div className="mt-5 rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-6">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 mt-0.5">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ffffff] border border-[#0f0f0f]/30 text-[#0f0f0f]">

@@ -348,13 +348,13 @@ export default function SBAMicroloansPage() {
                 className={`rounded-xl border p-4 ${
                   item.permitted
                     ? "border-[#e5e5e5] bg-[#ffffff]"
-                    : "border-[#2a1a1a] bg-[#130d0d]"
+                    : "border-[#f5f5f5] bg-[#f5f5f5]"
                 }`}
               >
                 <div className="flex items-center gap-2 mb-2">
                   <div
                     className={`w-1.5 h-1.5 rounded-full flex-shrink-0 ${
-                      item.permitted ? "bg-[#0f0f0f]" : "bg-[#ef4444]"
+                      item.permitted ? "bg-[#0f0f0f]" : "bg-[#0f0f0f]"
                     }`}
                   />
                   <p className={`text-sm font-semibold ${item.permitted ? "text-[#0f0f0f]" : "text-[#737373]"}`}>
@@ -364,7 +364,7 @@ export default function SBAMicroloansPage() {
                     className={`ml-auto text-[0.6rem] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded ${
                       item.permitted
                         ? "text-[#0f0f0f] bg-[#0f0f0f]/10"
-                        : "text-[#ef4444] bg-[#ef4444]/10"
+                        : "text-[#0f0f0f] bg-[#0f0f0f]/10"
                     }`}
                   >
                     {item.permitted ? "Permitted" : "Not Permitted"}
@@ -481,7 +481,7 @@ export default function SBAMicroloansPage() {
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-4">
+                <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-4">
                   <p className="text-xs text-[#737373] leading-relaxed">
                     ZEO.co does not quote or guarantee rates, terms, or approval for SBA Microloans or any other financing product. All pricing is determined by the applicable third-party intermediary lender based on their own underwriting criteria and SBA program guidelines.
                   </p>
@@ -628,7 +628,7 @@ export default function SBAMicroloansPage() {
             </p>
             <Link
               href="/apply"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-white transition-colors"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors"
             >
               Start an intake
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -656,7 +656,7 @@ export default function SBAMicroloansPage() {
             </div>
             <Link
               href="/calculators/sba-loan-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               SBA Payment Calculator
             </Link>

@@ -226,10 +226,10 @@ export default function BusinessAcquisitionLoanCalculator() {
             <div
               className={`rounded-xl border p-4 ${
                 results.dscr >= 1.25
-                  ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
+                  ? "border-[#0f0f0f]/30 bg-[#f5f5f5]"
                   : results.dscr >= 1.0
-                  ? "border-yellow-400/20 bg-[#1a1a00]"
-                  : "border-red-500/20 bg-[#1a0606]"
+                  ? "border-yellow-400/20 bg-[#f5f5f5]"
+                  : "border-red-500/20 bg-[#f5f5f5]"
               }`}
             >
               <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-1">
@@ -323,10 +323,10 @@ export default function BusinessAcquisitionLoanCalculator() {
               <div
                 className={`mt-3 rounded-lg px-3 py-2 text-xs flex items-center gap-2 ${
                   Math.abs(results.gap) < 1000
-                    ? "bg-[#0f2a14] text-[#0f0f0f]"
+                    ? "bg-[#f5f5f5] text-[#0f0f0f]"
                     : results.gap > 0
-                    ? "bg-[#0d1f18] text-yellow-400"
-                    : "bg-[#1a0606] text-red-400"
+                    ? "bg-[#f5f5f5] text-yellow-400"
+                    : "bg-[#f5f5f5] text-red-400"
                 }`}
               >
                 <span className="font-semibold">

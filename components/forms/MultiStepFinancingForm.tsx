@@ -117,8 +117,8 @@ function OptionBtn({
       onClick={() => onSelect(value)}
       className={`flex items-center gap-2 px-4 py-3 rounded-xl border text-sm font-medium transition-all text-left ${
         selected
-          ? "border-[#0f0f0f] bg-[#0f2a14] text-[#0f0f0f]"
-          : "border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] hover:border-[#2e3a2c] hover:text-white"
+          ? "border-[#0f0f0f] bg-[#f5f5f5] text-[#0f0f0f]"
+          : "border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] hover:border-[#e5e5e5] hover:text-[#0f0f0f]"
       }`}
       aria-pressed={selected}
     >
@@ -164,7 +164,7 @@ function Input({
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
         required={required}
-        className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#0f0f0f] placeholder-[#3a4a38] focus:outline-none focus:border-[#0f0f0f] transition-colors"
+        className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#0f0f0f] placeholder-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f] transition-colors"
       />
     </div>
   );
@@ -251,7 +251,7 @@ export default function MultiStepFinancingForm() {
   if (submitted) {
     return (
       <div className="animate-fade-in text-center py-8">
-        <div className="w-14 h-14 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center mx-auto mb-5">
+        <div className="w-14 h-14 rounded-full bg-[#f5f5f5] border border-[#0f0f0f]/30 flex items-center justify-center mx-auto mb-5">
           <svg className="w-7 h-7 text-[#0f0f0f]" viewBox="0 0 24 24" fill="none">
             <path d="M5 12L9 16L19 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
@@ -400,7 +400,7 @@ export default function MultiStepFinancingForm() {
               onChange={(e) => set("state", e.target.value)}
               placeholder="e.g. Texas"
               required
-              className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#0f0f0f] placeholder-[#3a4a38] focus:outline-none focus:border-[#0f0f0f] transition-colors"
+              className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#0f0f0f] placeholder-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f] transition-colors"
             />
           </div>
         </div>
@@ -450,7 +450,7 @@ export default function MultiStepFinancingForm() {
               onChange={(e) => set("files", Array.from(e.target.files ?? []))}
               className="w-full bg-[#f5f5f5] border border-[#e5e5e5] rounded-lg px-3 py-2.5 text-sm text-[#a3a3a3] file:mr-3 file:rounded-md file:border-0 file:bg-[#e5e5e5] file:text-xs file:text-[#737373] file:px-3 file:py-1.5 cursor-pointer"
             />
-            <p className="text-xs text-[#3a4a38] mt-1">P&L, tax returns, invoices, CIM, debt schedule, bank statements. Do not upload SSNs or login credentials.</p>
+            <p className="text-xs text-[#a3a3a3] mt-1">P&L, tax returns, invoices, CIM, debt schedule, bank statements. Do not upload SSNs or login credentials.</p>
           </div>
 
           {/* Consent */}
@@ -480,7 +480,7 @@ export default function MultiStepFinancingForm() {
           <button
             type="button"
             onClick={() => setStep(step - 1)}
-            className="text-sm text-[#a3a3a3] hover:text-white transition-colors"
+            className="text-sm text-[#a3a3a3] hover:text-[#0f0f0f] transition-colors"
           >
             ← Back
           </button>

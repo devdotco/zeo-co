@@ -52,7 +52,7 @@ export default function CalculatorShell({
               <Link
                 key={c.href}
                 href={c.href}
-                className="text-xs px-3 py-1.5 rounded-lg border border-[#e5e5e5] text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
+                className="text-xs px-3 py-1.5 rounded-lg border border-[#e5e5e5] text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
               >
                 {c.label}
               </Link>
@@ -112,7 +112,7 @@ export function CalcInput({
           <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-[#a3a3a3]">{suffix}</span>
         )}
       </div>
-      {note && <p className="text-[0.625rem] text-[#3a4a38] mt-1">{note}</p>}
+      {note && <p className="text-[0.625rem] text-[#a3a3a3] mt-1">{note}</p>}
     </div>
   );
 }
@@ -129,10 +129,10 @@ export function CalcResult({
   note?: string;
 }) {
   return (
-    <div className={`rounded-xl border p-4 ${highlight ? "border-[#0f0f0f]/30 bg-[#0f2a14]" : "border-[#e5e5e5] bg-[#ffffff]"}`}>
+    <div className={`rounded-xl border p-4 ${highlight ? "border-[#0f0f0f]/30 bg-[#f5f5f5]" : "border-[#e5e5e5] bg-[#ffffff]"}`}>
       <p className="text-[0.625rem] font-semibold uppercase tracking-[0.1em] text-[#a3a3a3] mb-2">{label}</p>
       <p className={`text-xl font-semibold tabular-nums ${highlight ? "text-[#0f0f0f]" : "text-white"}`}>{value}</p>
-      {note && <p className="text-[0.625rem] text-[#3a4a38] mt-1.5">{note}</p>}
+      {note && <p className="text-[0.625rem] text-[#a3a3a3] mt-1.5">{note}</p>}
     </div>
   );
 }

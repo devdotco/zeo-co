@@ -173,7 +173,7 @@ export default function SpotFactoringPage() {
                     key={item.title}
                     className="flex gap-3 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
                   >
-                    <div className="mt-0.5 flex-shrink-0 h-5 w-5 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center">
+                    <div className="mt-0.5 flex-shrink-0 h-5 w-5 rounded-full bg-[#f5f5f5] border border-[#0f0f0f]/30 flex items-center justify-center">
                       <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                         <path
                           d="M2.5 5L4.5 7L7.5 3"
@@ -773,7 +773,7 @@ export default function SpotFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-5 py-2.5 rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#737373] text-sm hover:text-white hover:border-[#0f0f0f]/50 transition-colors"
+              className="flex-shrink-0 px-5 py-2.5 rounded-lg bg-[#f5f5f5] border border-[#e5e5e5] text-[#737373] text-sm hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
             >
               Open calculator
             </Link>

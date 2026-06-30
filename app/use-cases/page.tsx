@@ -173,7 +173,7 @@ export default function UseCasesPage() {
                     />
                   </svg>
                 </div>
-                <h3 className="text-base font-semibold text-[#0f0f0f] group-hover:text-white transition-colors mb-2 leading-snug">
+                <h3 className="text-base font-semibold text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors mb-2 leading-snug">
                   {useCase.title}
                 </h3>
                 <p className="text-xs text-[#a3a3a3] leading-relaxed mb-4">
@@ -280,7 +280,7 @@ export default function UseCasesPage() {
               </Link>
               <Link
                 href="/financing"
-                className="px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-[#737373] text-sm hover:text-white hover:border-[#0f0f0f] transition-colors"
+                className="px-6 py-2.5 rounded-xl border border-[#e5e5e5] text-[#737373] text-sm hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
               >
                 All Financing Products
               </Link>

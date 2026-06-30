@@ -237,7 +237,7 @@ function FactoringSection() {
               <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors">
                 Explore Factoring
               </Link>
-              <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors">
+              <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors">
                 Factoring Calculator
               </Link>
             </div>
@@ -250,18 +250,18 @@ function FactoringSection() {
               { label: "Invoice Face Value", value: "$100,000", color: "bg-[#0f0f0f]", pct: 100 },
               { label: "Initial Advance (85%)", value: "$85,000", color: "bg-[#333333]", pct: 85 },
               { label: "Reserve (15%)", value: "$15,000", color: "bg-[#e5e5e5]", pct: 15 },
-              { label: "Factoring Fee (~2%)", value: "−$2,000", color: "bg-[#2a1212]", pct: 20 },
-              { label: "Reserve Release", value: "$13,000", color: "bg-[#14301a]", pct: 13 },
+              { label: "Factoring Fee (~2%)", value: "−$2,000", color: "bg-[#f5f5f5]", pct: 20 },
+              { label: "Reserve Release", value: "$13,000", color: "bg-[#f5f5f5]", pct: 13 },
             ].map((row) => (
               <div key={row.label} className="flex items-center gap-3">
                 <div className="w-32 flex-shrink-0">
-                  <div className="h-6 rounded-sm" style={{ width: `${row.pct}%`, background: row.color === "bg-[#0f0f0f]" ? "#0f0f0f" : row.color === "bg-[#333333]" ? "#333333" : row.color === "bg-[#e5e5e5]" ? "#e5e5e5" : row.color === "bg-[#2a1212]" ? "#2a1212" : "#14301a" }} />
+                  <div className="h-6 rounded-sm" style={{ width: `${row.pct}%`, background: row.color === "bg-[#0f0f0f]" ? "#0f0f0f" : row.color === "bg-[#333333]" ? "#333333" : row.color === "bg-[#e5e5e5]" ? "#e5e5e5" : row.color === "bg-[#f5f5f5]" ? "#f5f5f5" : "#f5f5f5" }} />
                 </div>
                 <span className="text-xs text-[#737373] flex-1">{row.label}</span>
                 <span className="text-xs font-medium tabular-nums text-white">{row.value}</span>
               </div>
             ))}
-            <p className="text-[0.65rem] text-[#3a4a38] mt-2">Illustrative example only. Actual rates, advance percentages, fees, and structures vary by factor and account.</p>
+            <p className="text-[0.65rem] text-[#a3a3a3] mt-2">Illustrative example only. Actual rates, advance percentages, fees, and structures vary by factor and account.</p>
           </div>
         </div>
       </div>
@@ -306,7 +306,7 @@ function AcquisitionSection() {
                 <tr className="font-semibold"><td className="text-white">Total Sources</td><td className="text-white">$1,500,000</td><td className="text-white">100%</td></tr>
               </tbody>
             </table>
-            <p className="px-5 pb-4 pt-2 text-[0.65rem] text-[#3a4a38]">
+            <p className="px-5 pb-4 pt-2 text-[0.65rem] text-[#a3a3a3]">
               Illustrative only. Actual structure, amounts, and eligibility depend on lender underwriting, SBA rules, and business financials. Use the{" "}
               <Link href="/calculators/business-acquisition-loan-calculator" className="text-[#0f0f0f] hover:underline">
                 acquisition calculator
@@ -392,7 +392,7 @@ function IndustriesSection() {
               <Link
                 key={ind}
                 href={`/industries/${slug}`}
-                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f]/40 transition-all"
+                className="rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/40 transition-all"
               >
                 {ind}
               </Link>
@@ -469,7 +469,7 @@ function ComparisonSection() {
             { feature: "Time in business", "SBA 7(a)": "2+ years", Factoring: "Any w/ invoices", Equipment: "1+ years", "Working Capital": "6+ months", "Private Credit": "Varies" },
           ]}
         />
-        <p className="text-[0.65rem] text-[#3a4a38] mt-3">
+        <p className="text-[0.65rem] text-[#a3a3a3] mt-3">
           All figures are general estimates. ZEO.co does not guarantee rates, terms, or approval. Third-party providers set their own underwriting criteria.
         </p>
       </div>
@@ -594,7 +594,7 @@ function HeroSection() {
               </Link>
               <Link
                 href="/financing"
-                className="px-6 py-3 rounded-xl border border-[#e5e5e5] text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors"
+                className="px-6 py-3 rounded-xl border border-[#e5e5e5] text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
               >
                 Explore Financing Options
               </Link>

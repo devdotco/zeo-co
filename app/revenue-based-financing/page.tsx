@@ -488,7 +488,7 @@ export default function RevenueBasedFinancingPage() {
             {/* Pros */}
             <div className="rounded-xl border border-[#e5e5e5] bg-[#ffffff] p-6">
               <div className="flex items-center gap-2 mb-5">
-                <div className="w-5 h-5 rounded-full border border-[#0f0f0f]/40 bg-[#0f2a14] flex items-center justify-center flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-[#0f0f0f]/40 bg-[#f5f5f5] flex items-center justify-center flex-shrink-0">
                   <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
                     <path d="M2 5l2.5 2.5L8 2.5" stroke="#0f0f0f" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
@@ -626,7 +626,7 @@ export default function RevenueBasedFinancingPage() {
             </div>
             <Link
               href="/calculators/revenue-based-financing"
-              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors whitespace-nowrap"
             >
               Open Calculator →
             </Link>

@@ -23,10 +23,10 @@ const DEFAULT_OPTIONS: LoanOption[] = [
 ];
 
 const OPTION_COLORS = [
-  { accent: "#0f0f0f", bg: "#0f2a14", border: "#0f0f0f" },
-  { accent: "#60a5fa", bg: "#0c1e35", border: "#60a5fa" },
-  { accent: "#f59e0b", bg: "#221a06", border: "#f59e0b" },
-  { accent: "#a78bfa", bg: "#1a1030", border: "#a78bfa" },
+  { accent: "#0f0f0f", bg: "#f5f5f5", border: "#0f0f0f" },
+  { accent: "#737373", bg: "#f5f5f5", border: "#737373" },
+  { accent: "#737373", bg: "#f5f5f5", border: "#737373" },
+  { accent: "#737373", bg: "#f5f5f5", border: "#737373" },
 ];
 
 const RANK_LABELS = ["Lowest Cost", "2nd", "3rd", "4th"];
@@ -132,7 +132,7 @@ export default function LoanComparisonCalculator() {
             Add Option
           </button>
         )}
-        <span className="text-[0.625rem] text-[#3a4a38] ml-auto hidden sm:block">
+        <span className="text-[0.625rem] text-[#a3a3a3] ml-auto hidden sm:block">
           {options.length}/4 options
         </span>
       </div>
@@ -147,7 +147,7 @@ export default function LoanComparisonCalculator() {
               <div
                 key={i}
                 className="rounded-xl border p-4"
-                style={{ borderColor: color.border + "44", backgroundColor: "#0c0f0d" }}
+                style={{ borderColor: color.border + "44", backgroundColor: "#f5f5f5" }}
               >
                 {/* Option header */}
                 <div className="flex items-center gap-2 mb-4">
@@ -320,7 +320,7 @@ export default function LoanComparisonCalculator() {
           })}
 
           {/* Disclaimer note */}
-          <p className="text-[0.625rem] text-[#3a4a38] leading-relaxed mt-1">
+          <p className="text-[0.625rem] text-[#a3a3a3] leading-relaxed mt-1">
             Lowest total cost is one factor among many. Also consider collateral requirements,
             approval speed, prepayment penalties, covenants, and your lender relationship before
             selecting a financing option.

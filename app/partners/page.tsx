@@ -101,7 +101,7 @@ const partnerTypes = [
     icon: <ReferralIcon />,
     type: "Referral Partner",
     tag: "Most common",
-    tagColor: "text-[#0f0f0f] bg-[#0f2a14] border-[#1a4020]",
+    tagColor: "text-[#0f0f0f] bg-[#f5f5f5] border-[#1a4020]",
     description:
       "Accountants, attorneys, business coaches, and other advisors who regularly work with business owners who may need financing. Refer clients through a tracked link or direct intake.",
     fits: [
@@ -248,7 +248,7 @@ function PartnerInquiryForm() {
                 autoComplete="name"
                 required
                 placeholder="Jane Smith"
-                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
             <div className="flex flex-col gap-1.5">
@@ -262,7 +262,7 @@ function PartnerInquiryForm() {
                 autoComplete="organization"
                 required
                 placeholder="Acme Advisors LLC"
-                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+                className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
               />
             </div>
           </div>
@@ -278,7 +278,7 @@ function PartnerInquiryForm() {
               autoComplete="email"
               required
               placeholder="jane@yourcompany.com"
-              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors"
             />
           </div>
 
@@ -311,7 +311,7 @@ function PartnerInquiryForm() {
               name="message"
               rows={4}
               placeholder="Briefly describe your business, the clients you serve, and what you are hoping to accomplish through a ZEO partnership..."
-              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#3a4a38] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors resize-none leading-relaxed"
+              className="rounded-lg border border-[#e5e5e5] bg-[#ffffff] px-3 py-2.5 text-sm text-[#0f0f0f] placeholder:text-[#a3a3a3] focus:outline-none focus:border-[#0f0f0f]/50 focus:ring-1 focus:ring-[#0f0f0f]/20 transition-colors resize-none leading-relaxed"
             />
           </div>
 
@@ -322,7 +322,7 @@ function PartnerInquiryForm() {
             Submit Partner Inquiry
           </button>
 
-          <p className="text-[0.65rem] text-[#3a4a38] leading-relaxed">
+          <p className="text-[0.65rem] text-[#a3a3a3] leading-relaxed">
             Submitting this form does not create a partnership agreement, referral arrangement, or compensation obligation. All partnership terms are established by separate written agreement after review.
           </p>
         </form>
@@ -394,7 +394,7 @@ export default function PartnersPage() {
                   </ul>
                 </div>
 
-                <p className="text-[0.65rem] text-[#3a4a38] leading-relaxed border-t border-[#e5e5e5] pt-3 mt-auto">
+                <p className="text-[0.65rem] text-[#a3a3a3] leading-relaxed border-t border-[#e5e5e5] pt-3 mt-auto">
                   {p.note}
                 </p>
               </div>
@@ -495,7 +495,7 @@ export default function PartnersPage() {
                   key={item.title}
                   className="flex items-start gap-3 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5] p-4"
                 >
-                  <div className="w-5 h-5 rounded-full bg-[#0f2a14] border border-[#1a4020] flex items-center justify-center text-[#0f0f0f] flex-shrink-0 mt-0.5">
+                  <div className="w-5 h-5 rounded-full bg-[#f5f5f5] border border-[#1a4020] flex items-center justify-center text-[#0f0f0f] flex-shrink-0 mt-0.5">
                     <CheckIcon />
                   </div>
                   <div>

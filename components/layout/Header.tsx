@@ -61,7 +61,7 @@ function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
                   <Link
                     href={item.href}
                     onClick={onClose}
-                    className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                    className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -102,7 +102,7 @@ function FactoringMegaMenu({ onClose }: { onClose: () => void }) {
                   <Link
                     href={item.href}
                     onClick={onClose}
-                    className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                    className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -119,7 +119,7 @@ function FactoringMegaMenu({ onClose }: { onClose: () => void }) {
         <Link
           href="/calculators/invoice-factoring-calculator"
           onClick={onClose}
-          className="text-sm text-[#737373] hover:text-white transition-colors"
+          className="text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
         >
           Factoring calculator →
         </Link>
@@ -139,7 +139,7 @@ function UseCasesMegaMenu({ onClose }: { onClose: () => void }) {
             key={item.href}
             href={item.href}
             onClick={onClose}
-            className="block rounded-lg px-3 py-2.5 hover:bg-[#181d16] transition-colors"
+            className="block rounded-lg px-3 py-2.5 hover:bg-[#f5f5f5] transition-colors"
           >
             <p className="text-sm font-medium text-[#0f0f0f]">{item.label}</p>
             <p className="text-xs text-[#a3a3a3] mt-0.5">{item.desc}</p>
@@ -161,7 +161,7 @@ function IndustriesMegaMenu({ onClose }: { onClose: () => void }) {
             key={item.href}
             href={item.href}
             onClick={onClose}
-            className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-3 py-2 transition-colors"
+            className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-3 py-2 transition-colors"
           >
             {item.label}
           </Link>
@@ -185,7 +185,7 @@ function ResourcesMegaMenu({ onClose }: { onClose: () => void }) {
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                  className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -206,7 +206,7 @@ function ResourcesMegaMenu({ onClose }: { onClose: () => void }) {
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                  className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -222,14 +222,14 @@ function ResourcesMegaMenu({ onClose }: { onClose: () => void }) {
                 <Link
                   href={item.href}
                   onClick={onClose}
-                  className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+                  className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
                 >
                   {item.label}
                 </Link>
               </li>
             ))}
             <li>
-              <Link href="/blog" onClick={onClose} className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors">
+              <Link href="/blog" onClick={onClose} className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors">
                 Blog
               </Link>
             </li>
@@ -253,7 +253,7 @@ function CompanyMegaMenu({ onClose }: { onClose: () => void }) {
               key={item.href}
               href={item.href}
               onClick={onClose}
-              className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+              className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
             >
               {item.label}
             </Link>
@@ -266,7 +266,7 @@ function CompanyMegaMenu({ onClose }: { onClose: () => void }) {
               key={item.href}
               href={item.href}
               onClick={onClose}
-              className="block text-sm text-[#737373] hover:text-white hover:bg-[#181d16] rounded-md px-2 py-1.5 -mx-2 transition-colors"
+              className="block text-sm text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5] rounded-md px-2 py-1.5 -mx-2 transition-colors"
             >
               {item.label}
             </Link>
@@ -302,7 +302,7 @@ function NavItem({
     <div className="relative" onMouseEnter={onCancelClose}>
       <button
         className={`flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-lg transition-colors ${
-          isOpen ? "text-white bg-[#181d16]" : "text-[#737373] hover:text-white hover:bg-[#181d16]"
+          isOpen ? "text-white bg-[#f5f5f5]" : "text-[#737373] hover:text-[#0f0f0f] hover:bg-[#f5f5f5]"
         }`}
         onMouseEnter={() => setActiveMenu(menuKey)}
         onClick={() => setActiveMenu(isOpen ? null : menuKey)}
@@ -380,7 +380,7 @@ function MobileSection({
               key={item.href}
               href={item.href}
               onClick={onClose}
-              className="block py-1.5 text-sm text-[#737373] hover:text-white"
+              className="block py-1.5 text-sm text-[#737373] hover:text-[#0f0f0f]"
             >
               {item.label}
             </Link>
@@ -483,7 +483,7 @@ export default function Header() {
 
               {/* Mobile toggle */}
               <button
-                className="lg:hidden p-2 text-[#737373] hover:text-white"
+                className="lg:hidden p-2 text-[#737373] hover:text-[#0f0f0f]"
                 onClick={() => setMobileOpen(true)}
                 aria-label="Open menu"
               >

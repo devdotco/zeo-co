@@ -245,7 +245,7 @@ export default function SbaLoanGuidePage() {
             {/* 7(a) */}
             <div>
               <div className="flex items-center gap-3 mb-3">
-                <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] px-2.5 py-1 rounded-md bg-[#0f2a14] text-[#0f0f0f] border border-[#0f0f0f]/20">
+                <span className="text-[0.65rem] font-semibold uppercase tracking-[0.1em] px-2.5 py-1 rounded-md bg-[#f5f5f5] text-[#0f0f0f] border border-[#0f0f0f]/20">
                   Most Common
                 </span>
                 <h3 className="text-lg font-semibold text-white">SBA 7(a) Loan</h3>
@@ -367,7 +367,7 @@ export default function SbaLoanGuidePage() {
                 key={label}
                 className="flex gap-3 p-4 rounded-xl border border-[#e5e5e5] bg-[#f5f5f5]"
               >
-                <div className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#0f2a14] border border-[#0f0f0f]/30 flex items-center justify-center">
+                <div className="flex-shrink-0 mt-0.5 w-4 h-4 rounded-full bg-[#f5f5f5] border border-[#0f0f0f]/30 flex items-center justify-center">
                   <div className="w-1.5 h-1.5 rounded-full bg-[#0f0f0f]" />
                 </div>
                 <div>

@@ -20,9 +20,9 @@ export default function FinancingPathCard({
   return (
     <Link
       href={href}
-      className={`group block rounded-xl border p-5 transition-all hover:border-[#0f0f0f]/50 hover:bg-[#0f2a14] ${
+      className={`group block rounded-xl border p-5 transition-all hover:border-[#0f0f0f]/50 hover:bg-[#f5f5f5] ${
         highlight
-          ? "border-[#0f0f0f]/30 bg-[#0f2a14]"
+          ? "border-[#0f0f0f]/30 bg-[#f5f5f5]"
           : "border-[#e5e5e5] bg-[#f5f5f5]"
       }`}
     >

@@ -49,7 +49,7 @@ export default function Footer() {
                 ["All Financing", "/financing"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-[#0f0f0f] transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -71,7 +71,7 @@ export default function Footer() {
                 ["All Factoring", "/factoring"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-[#0f0f0f] transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -93,7 +93,7 @@ export default function Footer() {
                 ["Blog", "/blog"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-[#0f0f0f] transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -113,7 +113,7 @@ export default function Footer() {
                 ["Contact", "/contact"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-[#0f0f0f] transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -129,7 +129,7 @@ export default function Footer() {
                 ["Security", "/security"],
               ].map(([label, href]) => (
                 <li key={href}>
-                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-white transition-colors">
+                  <Link href={href} className="text-sm text-[#a3a3a3] hover:text-[#0f0f0f] transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -142,10 +142,10 @@ export default function Footer() {
       {/* Legal disclosure */}
       <div className="border-t border-[#e5e5e5]">
         <div className="max-w-7xl mx-auto px-5 lg:px-8 py-8">
-          <p className="text-xs text-[#3a4a38] leading-relaxed whitespace-pre-line">
+          <p className="text-xs text-[#a3a3a3] leading-relaxed whitespace-pre-line">
             {FOOTER_DISCLOSURE}
           </p>
-          <p className="text-xs text-[#3a4a38] mt-4">
+          <p className="text-xs text-[#a3a3a3] mt-4">
             © {new Date().getFullYear()} ZEO.co. All rights reserved.
           </p>
         </div>

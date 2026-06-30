@@ -693,7 +693,7 @@ export default function EquipmentFinancingGuidePage() {
             </div>
             <Link
               href="/calculators/equipment-loan"
-              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#0f2a14] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-3 rounded-xl border border-[#0f0f0f]/30 text-[#0f0f0f] text-sm font-semibold hover:bg-[#f5f5f5] hover:border-[#0f0f0f]/60 transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

@@ -479,7 +479,7 @@ export default function ManufacturingPage() {
                 </ul>
               </div>
 
-              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#0f2a14] p-5">
+              <div className="rounded-xl border border-[#0f0f0f]/20 bg-[#f5f5f5] p-5">
                 <p className="text-xs font-semibold text-[#0f0f0f] mb-2">
                   Not sure which structure fits?
                 </p>
@@ -488,7 +488,7 @@ export default function ManufacturingPage() {
                 </p>
                 <Link
                   href="/apply"
-                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors"
                 >
                   Get started <ArrowRightIcon />
                 </Link>

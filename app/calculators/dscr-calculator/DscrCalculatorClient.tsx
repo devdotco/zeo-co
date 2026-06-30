@@ -23,24 +23,24 @@ const STATUS_CONFIG: Record<
 > = {
   strong: {
     label: "Strong Coverage",
-    bg: "bg-[#0f2a14]",
+    bg: "bg-[#f5f5f5]",
     text: "text-[#0f0f0f]",
     border: "border-[#0f0f0f]/30",
     dot: "bg-[#0f0f0f]",
   },
   marginal: {
     label: "Marginal Coverage",
-    bg: "bg-[#2a2100]",
-    text: "text-[#eab308]",
-    border: "border-[#eab308]/30",
-    dot: "bg-[#eab308]",
+    bg: "bg-[#f5f5f5]",
+    text: "text-[#737373]",
+    border: "border-[#737373]/30",
+    dot: "bg-[#737373]",
   },
   insufficient: {
     label: "Insufficient Coverage",
-    bg: "bg-[#2a0a0a]",
-    text: "text-[#ef4444]",
-    border: "border-[#ef4444]/30",
-    dot: "bg-[#ef4444]",
+    bg: "bg-[#f5f5f5]",
+    text: "text-[#0f0f0f]",
+    border: "border-[#0f0f0f]/30",
+    dot: "bg-[#0f0f0f]",
   },
 };
 
@@ -184,7 +184,7 @@ export default function DscrCalculatorClient() {
             >
               {dscrDisplay}
             </p>
-            <p className="text-[0.625rem] text-[#3a4a38] mt-1.5">
+            <p className="text-[0.625rem] text-[#a3a3a3] mt-1.5">
               Adjusted Income ÷ Total Debt Service
             </p>
           </div>
