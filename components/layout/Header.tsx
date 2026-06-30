@@ -286,6 +286,7 @@ function NavItem({
   menuKey,
   activeMenu,
   setActiveMenu,
+  onCancelClose,
   children,
 }: {
   label: string;
