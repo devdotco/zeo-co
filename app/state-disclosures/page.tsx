@@ -274,7 +274,7 @@ export default function StateDisclosuresPage() {
               className="flex items-center justify-between px-5 py-4 group hover:bg-[#ffffff] transition-colors"
             >
               <div>
-                <p className="text-sm font-medium text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors">
+                <p className="text-sm font-medium text-[#0f0f0f] group-hover:text-[#333333] transition-colors">
                   California
                 </p>
                 <p className="text-xs text-[#a3a3a3] mt-0.5">
@@ -282,7 +282,7 @@ export default function StateDisclosuresPage() {
                 </p>
               </div>
               <svg
-                className="flex-shrink-0 w-4 h-4 text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors"
+                className="flex-shrink-0 w-4 h-4 text-[#a3a3a3] group-hover:text-[#333333] transition-colors"
                 viewBox="0 0 16 16"
                 fill="none"
                 aria-hidden="true"

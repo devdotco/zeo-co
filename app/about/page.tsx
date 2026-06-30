@@ -275,7 +275,7 @@ export default function AboutPage() {
               </Link>
               <Link
                 href="/financing"
-                className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
+                className="inline-flex items-center gap-2 text-sm text-[#737373] hover:text-[#333333] transition-colors"
               >
                 Browse financing products
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">

@@ -759,7 +759,7 @@ export default function SBA7aPage() {
               >
                 <div className="flex items-start justify-between gap-2 mb-2">
                   <h3 className="font-semibold text-[#0f0f0f] text-sm">{alt.label}</h3>
-                  <span className="text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors flex-shrink-0 mt-0.5">
+                  <span className="text-[#a3a3a3] group-hover:text-[#333333] transition-colors flex-shrink-0 mt-0.5">
                     <ArrowRightIcon />
                   </span>
                 </div>

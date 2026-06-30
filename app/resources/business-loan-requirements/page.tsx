@@ -385,7 +385,7 @@ export default function BusinessLoanRequirementsPage() {
                 href={item.href}
                 className="group border border-[#e5e5e5] bg-[#f5f5f5] hover:border-[#0f0f0f]/30 rounded-xl p-4 transition-colors"
               >
-                <p className="text-sm font-medium text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors mb-1">
+                <p className="text-sm font-medium text-[#0f0f0f] group-hover:text-[#333333] transition-colors mb-1">
                   {item.label}
                 </p>
                 <p className="text-xs text-[#a3a3a3]">{item.desc}</p>

@@ -31,7 +31,7 @@ export default function CTASection({
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link
             href={primaryHref}
-            className="px-8 py-3 rounded-xl bg-[#0f0f0f] text-black font-semibold hover:bg-[#333333] transition-colors"
+            className="px-8 py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
           >
             {primaryLabel}
           </Link>

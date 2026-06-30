@@ -57,7 +57,7 @@ export default function ContactForm() {
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors duration-150"
+          className="mt-6 text-sm font-medium text-[#0f0f0f] hover:text-[#333333] transition-colors duration-150"
         >
           Send another message
         </button>
@@ -149,7 +149,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="inline-flex items-center gap-2 rounded-lg bg-[#0f0f0f] px-6 py-2.5 text-sm font-semibold text-[#ffffff] hover:bg-[#4ade80] disabled:opacity-60 disabled:cursor-not-allowed transition-colors duration-150"
+          className="inline-flex items-center gap-2 rounded-lg bg-[#0f0f0f] px-6 py-2.5 text-sm font-semibold text-[#ffffff] hover:bg-[#333333] disabled:opacity-60 disabled:cursor-not-allowed transition-colors duration-150"
         >
           {status === "submitting" ? (
             <>

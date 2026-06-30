@@ -29,7 +29,7 @@ export default function Footer() {
             </p>
             <Link
               href="/apply"
-              className="inline-flex mt-5 items-center px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
+              className="inline-flex mt-5 items-center px-5 py-2.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
             >
               Find Financing
             </Link>

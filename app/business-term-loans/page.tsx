@@ -658,7 +658,7 @@ export default function BusinessTermLoansPage() {
             </div>
             <Link
               href="/calculators/loan-payment"
-              className="flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/50 transition-colors"
+              className="flex-shrink-0 flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#333333] hover:border-[#0f0f0f]/50 transition-colors"
             >
               Loan payment calculator
               <ChevronRightIcon />

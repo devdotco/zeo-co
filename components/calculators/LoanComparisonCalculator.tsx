@@ -126,7 +126,7 @@ export default function LoanComparisonCalculator() {
         {options.length < 4 && (
           <button
             onClick={addOption}
-            className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border border-[#e5e5e5] text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f] transition-colors"
+            className="flex items-center gap-1 text-xs px-3 py-1.5 rounded-full border border-[#e5e5e5] text-[#737373] hover:text-[#333333] hover:border-[#0f0f0f] transition-colors"
           >
             <span className="text-base leading-none">+</span>
             Add Option

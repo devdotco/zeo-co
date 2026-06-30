@@ -344,7 +344,7 @@ export default function HowFactoringWorksPage() {
                       <p className="text-xs text-[#a3a3a3]">Estimate advance amounts and fees</p>
                     </div>
                   </div>
-                  <ArrowRightIcon className="text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors" />
+                  <ArrowRightIcon className="text-[#a3a3a3] group-hover:text-[#333333] transition-colors" />
                 </Link>
               </div>
             </div>
@@ -611,7 +611,7 @@ export default function HowFactoringWorksPage() {
                 <p className="text-xs text-[#a3a3a3]">Estimate advance amounts and net proceeds</p>
               </div>
             </div>
-            <ArrowRightIcon className="text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors" />
+            <ArrowRightIcon className="text-[#a3a3a3] group-hover:text-[#333333] transition-colors" />
           </Link>
         </div>
       </section>

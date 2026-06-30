@@ -144,9 +144,9 @@ export default function PrivacyPolicyPage() {
               <li key={s.id}>
                 <a
                   href={`#${s.id}`}
-                  className="flex items-baseline gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors group"
+                  className="flex items-baseline gap-2 text-sm text-[#737373] hover:text-[#333333] transition-colors group"
                 >
-                  <span className="text-[0.6rem] font-mono text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors tabular-nums">
+                  <span className="text-[0.6rem] font-mono text-[#a3a3a3] group-hover:text-[#333333] transition-colors tabular-nums">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   {s.label}

@@ -499,7 +499,7 @@ export default function MultiStepFinancingForm() {
               (step === 4 && !data.monthlyRevenue) ||
               (step === 5 && !data.urgency)
             }
-            className="px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+            className="px-5 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
           >
             Continue
           </button>
@@ -507,7 +507,7 @@ export default function MultiStepFinancingForm() {
           <button
             type="submit"
             disabled={submitting || !data.consent}
-            className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+            className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] disabled:opacity-40 disabled:cursor-not-allowed transition-all"
           >
             {submitting ? "Submitting…" : "Submit"}
           </button>

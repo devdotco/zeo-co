@@ -480,7 +480,7 @@ export default function NonRecourseFactoringPage() {
             </div>
             <Link
               href="/calculators/invoice-factoring-calculator"
-              className="flex-shrink-0 px-6 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f] hover:text-[#0f0f0f] transition-colors whitespace-nowrap"
+              className="flex-shrink-0 px-6 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#0f0f0f] hover:border-[#0f0f0f] hover:text-[#333333] transition-colors whitespace-nowrap"
             >
               Open Calculator
             </Link>

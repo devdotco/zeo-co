@@ -39,7 +39,7 @@ function ZeoLogo() {
         <rect width="32" height="32" rx="6" fill="#0f0f0f"/>
         <path d="M8 22L14 10H18L24 22H20.5L16 13L11.5 22H8Z" fill="#000"/>
       </svg>
-      <span className="text-[1.0625rem] font-semibold tracking-tight text-white group-hover:text-[#0f0f0f] transition-colors">
+      <span className="text-[1.0625rem] font-semibold tracking-tight text-white group-hover:text-[#333333] transition-colors">
         zeo<span className="text-[#0f0f0f]">.</span>co
       </span>
     </Link>
@@ -78,7 +78,7 @@ function FinancingMegaMenu({ onClose }: { onClose: () => void }) {
         <Link
           href="/apply"
           onClick={onClose}
-          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
+          className="px-4 py-1.5 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -341,7 +341,7 @@ function MobileNav({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }
         <Link
           href="/apply"
           onClick={onClose}
-          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-black font-semibold hover:bg-[#333333] transition-colors"
+          className="block w-full text-center py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
         >
           Find Financing
         </Link>
@@ -368,7 +368,7 @@ function MobileSection({
         className="flex w-full items-center justify-between py-3 text-base font-medium text-[#0f0f0f]"
         onClick={() => setOpen(!open)}
       >
-        <Link href={href} onClick={onClose} className="hover:text-[#0f0f0f]">
+        <Link href={href} onClick={onClose} className="hover:text-[#333333]">
           {label}
         </Link>
         <ChevronDown className={`transition-transform ${open ? "rotate-180" : ""}`} />
@@ -476,7 +476,7 @@ export default function Header() {
             <div className="ml-auto flex items-center gap-3">
               <Link
                 href="/apply"
-                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
+                className="hidden lg:inline-flex items-center px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>

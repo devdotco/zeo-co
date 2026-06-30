@@ -70,7 +70,7 @@ export default function ContactPage() {
                     </p>
                     <a
                       href="mailto:info@zeo.co"
-                      className="text-[#0f0f0f] hover:text-[#0f0f0f] transition-colors duration-150"
+                      className="text-[#0f0f0f] hover:text-[#333333] transition-colors duration-150"
                     >
                       info@zeo.co
                     </a>
@@ -87,7 +87,7 @@ export default function ContactPage() {
               </p>
               <Link
                 href="/apply"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors duration-150"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#333333] transition-colors duration-150"
               >
                 Start an Application
                 <svg
@@ -116,7 +116,7 @@ export default function ContactPage() {
               </p>
               <Link
                 href="/partners"
-                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors duration-150"
+                className="inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#333333] transition-colors duration-150"
               >
                 Partner with ZEO
                 <svg

@@ -556,7 +556,7 @@ export default function FinancingPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
+                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#333333] transition-colors"
                     >
                       <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                         <path d="M4 2l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
@@ -584,7 +584,7 @@ export default function FinancingPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
+                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#333333] transition-colors"
                     >
                       <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                         <path d="M4 2l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
@@ -612,7 +612,7 @@ export default function FinancingPage() {
                   <li key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#0f0f0f] transition-colors"
+                      className="flex items-center gap-2 text-sm text-[#737373] hover:text-[#333333] transition-colors"
                     >
                       <svg className="w-3 h-3 flex-shrink-0" viewBox="0 0 12 12" fill="none">
                         <path d="M4 2l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />

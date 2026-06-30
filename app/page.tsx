@@ -234,7 +234,7 @@ function FactoringSection() {
               Trucking, staffing, healthcare, manufacturing, oilfield, construction, agriculture, and government contractors each have specific factoring requirements. ZEO evaluates your industry and receivable structure to identify relevant factoring options.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors">
+              <Link href="/factoring" className="px-4 py-2 rounded-lg bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors">
                 Explore Factoring
               </Link>
               <Link href="/calculators/invoice-factoring-calculator" className="px-4 py-2 rounded-lg border border-[#e5e5e5] text-sm text-[#737373] hover:text-white hover:border-[#0f0f0f] transition-colors">
@@ -357,7 +357,7 @@ function CalculatorsSection() {
                   <rect x="2" y="2" width="12" height="12" rx="2" stroke="currentColor" strokeWidth="1.3"/>
                   <path d="M5 8h6M8 5v6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round"/>
                 </svg>
-                <p className="text-sm font-semibold text-[#0f0f0f] group-hover:text-[#0f0f0f] transition-colors">{c.label}</p>
+                <p className="text-sm font-semibold text-[#0f0f0f] group-hover:text-[#333333] transition-colors">{c.label}</p>
               </div>
               <p className="text-xs text-[#a3a3a3]">{c.desc}</p>
             </Link>
@@ -588,7 +588,7 @@ function HeroSection() {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="#intake-form"
-                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-black font-semibold hover:bg-[#333333] transition-colors"
+                className="px-6 py-3 rounded-xl bg-[#0f0f0f] text-white font-semibold hover:bg-[#333333] transition-colors"
               >
                 Find Financing
               </Link>

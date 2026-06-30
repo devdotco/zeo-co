@@ -179,7 +179,7 @@ export default function InvoiceFactoringCalculator() {
               title="Initial Advance"
             />
             <div
-              className="bg-[#4ade80]/40 transition-all duration-300"
+              className="bg-[#333333]/40 transition-all duration-300"
               style={{ width: `${Math.min(100, netReservePct)}%` }}
               title="Net Reserve Release"
             />
@@ -195,7 +195,7 @@ export default function InvoiceFactoringCalculator() {
               Advance {advancePct.toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">
-              <span className="inline-block w-2 h-2 rounded-full bg-[#4ade80]/60" />
+              <span className="inline-block w-2 h-2 rounded-full bg-[#333333]/60" />
               Net Reserve {netReservePct.toFixed(1)}%
             </span>
             <span className="flex items-center gap-1.5">

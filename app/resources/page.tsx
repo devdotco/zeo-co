@@ -285,7 +285,7 @@ export default function ResourcesPage() {
                 <p className="text-xs text-[#a3a3a3] leading-relaxed flex-1">
                   {guide.description}
                 </p>
-                <div className="flex items-center gap-1 mt-4 text-xs font-medium text-[#0f0f0f] group-hover:text-[#4ade80] transition-colors">
+                <div className="flex items-center gap-1 mt-4 text-xs font-medium text-[#0f0f0f] group-hover:text-[#333333] transition-colors">
                   Read guide <ArrowRight />
                 </div>
               </Link>
@@ -312,7 +312,7 @@ export default function ResourcesPage() {
               <Link
                 key={calc.href}
                 href={calc.href}
-                className="group flex items-center gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 text-sm text-[#737373] transition-all hover:border-[#e5e5e5] hover:bg-[#161a15] hover:text-[#0f0f0f] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f]/60"
+                className="group flex items-center gap-3 rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] px-4 py-3 text-sm text-[#737373] transition-all hover:border-[#e5e5e5] hover:bg-[#161a15] hover:text-[#333333] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0f0f0f]/60"
               >
                 <span className="flex-shrink-0 text-[#0f0f0f] opacity-60 group-hover:opacity-100 transition-opacity">
                   <ChevronRight />
@@ -324,7 +324,7 @@ export default function ResourcesPage() {
 
           <Link
             href="/calculators"
-            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#4ade80] transition-colors"
+            className="group inline-flex items-center gap-1.5 text-sm font-medium text-[#0f0f0f] hover:text-[#333333] transition-colors"
           >
             View all calculators <ArrowRight />
           </Link>
@@ -348,7 +348,7 @@ export default function ResourcesPage() {
             <div className="flex-shrink-0">
               <Link
                 href="/blog"
-                className="group inline-flex items-center gap-1.5 px-5 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#0f0f0f] hover:border-[#0f0f0f]/40 transition-all whitespace-nowrap"
+                className="group inline-flex items-center gap-1.5 px-5 py-2.5 rounded-lg border border-[#e5e5e5] text-sm font-medium text-[#737373] hover:text-[#333333] hover:border-[#0f0f0f]/40 transition-all whitespace-nowrap"
               >
                 Browse articles <ArrowRight />
               </Link>

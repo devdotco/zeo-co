@@ -336,7 +336,7 @@ export default function CalculatorsPage() {
                     </p>
 
                     {/* CTA */}
-                    <div className="flex items-center gap-1.5 mt-4 pt-4 border-t border-[#e5e5e5] text-xs font-medium text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors">
+                    <div className="flex items-center gap-1.5 mt-4 pt-4 border-t border-[#e5e5e5] text-xs font-medium text-[#a3a3a3] group-hover:text-[#333333] transition-colors">
                       <span>Open calculator</span>
                       <span className="translate-x-0 group-hover:translate-x-0.5 transition-transform">
                         <ArrowRightIcon />

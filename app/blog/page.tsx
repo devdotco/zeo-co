@@ -47,7 +47,7 @@ function PostCard({ post }: { post: BlogPost }) {
         </span>
       )}
 
-      <h2 className="text-base font-semibold leading-snug text-[#0f0f0f] transition-colors group-hover:text-[#0f0f0f] line-clamp-2">
+      <h2 className="text-base font-semibold leading-snug text-[#0f0f0f] transition-colors group-hover:text-[#333333] line-clamp-2">
         {post.title}
       </h2>
 
@@ -164,7 +164,7 @@ function Pagination({
       {prev !== null ? (
         <Link
           href={pageUrl(prev)}
-          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#0f0f0f]"
+          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#333333]"
           aria-label="Previous page"
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -207,7 +207,7 @@ function Pagination({
             className={
               p === page
                 ? "flex h-9 w-9 items-center justify-center rounded-lg border border-[#0f0f0f]/40 bg-[#0f0f0f]/10 text-sm font-semibold text-[#0f0f0f]"
-                : "flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-sm text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#0f0f0f]"
+                : "flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-sm text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#333333]"
             }
           >
             {p}
@@ -218,7 +218,7 @@ function Pagination({
       {next !== null ? (
         <Link
           href={pageUrl(next)}
-          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#0f0f0f]"
+          className="flex h-9 w-9 items-center justify-center rounded-lg border border-[#e5e5e5] bg-[#f5f5f5] text-[#737373] transition-colors hover:border-[#0f0f0f]/30 hover:text-[#333333]"
           aria-label="Next page"
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">

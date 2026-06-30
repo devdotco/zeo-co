@@ -160,7 +160,7 @@ export default function UseCasesPage() {
                     {useCase.eyebrow}
                   </span>
                   <svg
-                    className="w-4 h-4 flex-shrink-0 text-[#a3a3a3] group-hover:text-[#0f0f0f] transition-colors"
+                    className="w-4 h-4 flex-shrink-0 text-[#a3a3a3] group-hover:text-[#333333] transition-colors"
                     viewBox="0 0 16 16"
                     fill="none"
                   >
@@ -274,7 +274,7 @@ export default function UseCasesPage() {
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <Link
                 href="/industries"
-                className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-black text-sm font-semibold hover:bg-[#333333] transition-colors"
+                className="px-6 py-2.5 rounded-xl bg-[#0f0f0f] text-white text-sm font-semibold hover:bg-[#333333] transition-colors"
               >
                 Browse by Industry
               </Link>
