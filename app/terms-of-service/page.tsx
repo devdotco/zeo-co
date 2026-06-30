@@ -106,7 +106,7 @@ export default function TermsPage() {
             <span className="text-[#9aaa98] font-medium">Effective Date:</span> June 30, 2026
           </span>
           <span className="text-xs text-[#6b7e69]">
-            <span className="text-[#9aaa98] font-medium">Jurisdiction:</span> United States
+            <span className="text-[#9aaa98] font-medium">Jurisdiction:</span> Arkansas, USA
           </span>
           <span className="text-xs text-[#6b7e69]">
             <span className="text-[#9aaa98] font-medium">Operator:</span> ZEO.co
@@ -586,7 +586,7 @@ export default function TermsPage() {
 
           <Divider />
 
-          {/* 17 — Dispute Resolution — with counsel warning */}
+          {/* 17 — Dispute Resolution */}
           <div>
             <SectionLabel number="17">Dispute Resolution</SectionLabel>
             <Prose>
@@ -606,28 +606,67 @@ export default function TermsPage() {
               <p>
                 <strong className="text-[#eef2ec] font-medium">Governing Law.</strong> These Terms
                 and any dispute arising from them shall be governed by and construed in accordance
-                with the laws of the State of [STATE], without regard to its conflict of law
-                provisions.
+                with the laws of the State of Arkansas, without regard to its conflict of law
+                provisions. The United Nations Convention on Contracts for the International Sale
+                of Goods shall not apply.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Arbitration.</strong> [ARBITRATION
-                CLAUSE TO BE DRAFTED BY COUNSEL — specify: mandatory vs. optional, AAA/JAMS/other
-                rules, venue, individual vs. class arbitration, opt-out rights, small claims
-                carve-out, and injunctive relief carve-out.]
+                <strong className="text-[#eef2ec] font-medium">Binding Arbitration.</strong> Except
+                as provided below, any dispute, claim, or controversy arising out of or relating to
+                these Terms or the Platform that is not resolved through informal negotiation shall
+                be submitted to and resolved by binding individual arbitration administered by the
+                American Arbitration Association (&ldquo;AAA&rdquo;) under its Commercial
+                Arbitration Rules then in effect. The arbitration shall be conducted by a single
+                neutral arbitrator. The seat and location of arbitration shall be Benton County,
+                Arkansas. The arbitrator shall apply Arkansas substantive law. The arbitrator&rsquo;s
+                award shall be final and binding on the parties, and judgment on the award may be
+                entered in any court of competent jurisdiction. The costs of arbitration, including
+                AAA administrative fees, shall be allocated in accordance with the AAA&rsquo;s
+                fee schedule unless the arbitrator determines that applicable law requires a
+                different allocation.
               </p>
               <p>
-                <strong className="text-[#eef2ec] font-medium">Class Action Waiver.</strong> [CLASS
-                ACTION WAIVER LANGUAGE TO BE REVIEWED BY COUNSEL — enforceability varies by
-                jurisdiction and claim type.]
+                <strong className="text-[#eef2ec] font-medium">Carve-Outs.</strong> Notwithstanding
+                the foregoing, either party may: (a) bring an individual action in small claims
+                court for disputes within that court&rsquo;s jurisdiction; and (b) seek emergency
+                injunctive or other equitable relief in a court of competent jurisdiction to
+                prevent actual or threatened infringement, misappropriation, or violation of a
+                party&rsquo;s intellectual property rights or confidential information. The filing
+                of an action for injunctive relief shall not be deemed a waiver of the right to
+                arbitrate any other claims.
+              </p>
+              <p>
+                <strong className="text-[#eef2ec] font-medium">Opt-Out Right.</strong> You may
+                opt out of this arbitration agreement by sending written notice to{" "}
+                <a
+                  href="mailto:legal@zeo.co"
+                  className="text-[#22c55e] hover:text-[#16a34a] transition-colors underline underline-offset-2 decoration-[#22c55e]/30"
+                >
+                  legal@zeo.co
+                </a>{" "}
+                within thirty (30) days of first accessing the Platform. Your opt-out notice must
+                include your full name, the email address associated with your use, and a clear
+                statement that you are opting out of this arbitration agreement. An opt-out does
+                not affect any other provision of these Terms.
+              </p>
+              <p>
+                <strong className="text-[#eef2ec] font-medium">Class Action Waiver.</strong> TO
+                THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, YOU AND ZEO EACH WAIVE ANY RIGHT
+                TO PURSUE ANY DISPUTE AS A CLASS, COLLECTIVE, CONSOLIDATED, COORDINATED, OR
+                REPRESENTATIVE ACTION, OR AS A PRIVATE ATTORNEY GENERAL ACTION. THE ARBITRATOR
+                MAY NOT CONSOLIDATE MORE THAN ONE PERSON&rsquo;S CLAIMS, AND MAY NOT PRESIDE OVER
+                ANY CLASS OR REPRESENTATIVE PROCEEDING. IF THIS CLASS ACTION WAIVER IS FOUND
+                UNENFORCEABLE AS TO ANY CLAIM, THAT CLAIM SHALL BE SEVERED FROM ARBITRATION AND
+                LITIGATED IN COURT IN ACCORDANCE WITH SECTION 17, WITH ALL REMAINING CLAIMS
+                PROCEEDING IN ARBITRATION.
+              </p>
+              <p>
+                <strong className="text-[#eef2ec] font-medium">Venue for Non-Arbitrated Claims.</strong>{" "}
+                For any claims not subject to arbitration, the parties irrevocably consent to
+                exclusive jurisdiction and venue in the state and federal courts located in Benton
+                County, Arkansas, and waive any objection to such jurisdiction or venue.
               </p>
             </Prose>
-            <WarnBox>
-              Counsel Review Recommended Before Publication — Section 17 contains placeholder text
-              for the governing law jurisdiction, arbitration clause, and class action waiver.
-              These provisions carry significant legal and strategic implications and must be
-              reviewed and completed by qualified legal counsel before this document is published
-              or relied upon.
-            </WarnBox>
           </div>
 
           <Divider />
