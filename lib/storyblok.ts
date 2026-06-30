@@ -69,12 +69,21 @@ export async function getBlogPosts(options: {
         title: (c.title as string) ?? "",
         intro: (c.intro as string) ?? "",
         date: (s.first_published_at as string) ?? (s.created_at as string),
-        category: ((c.category as Record<string, unknown>)?.content as Record<string, unknown>)?.name as string | undefined,
-        author: ((c.author as Record<string, unknown>)?.content as Record<string, unknown>)?.name as string | undefined,
+        category: resolveField(c.category),
+        author: resolveField(c.author),
       };
     }),
     total: response.total,
   };
+}
+
+function resolveField(val: unknown): string | undefined {
+  if (typeof val === "string") return val || undefined;
+  if (val && typeof val === "object") {
+    const r = (val as Record<string, unknown>)?.content as Record<string, unknown>;
+    return (r?.name as string) || undefined;
+  }
+  return undefined;
 }
 
 export async function getBlogPost(slug: string, preview = false): Promise<BlogPost | null> {
@@ -92,8 +101,8 @@ export async function getBlogPost(slug: string, preview = false): Promise<BlogPo
       intro: (c.intro as string) ?? "",
       date: s.first_published_at ?? s.created_at,
       body: c.body,
-      category: ((c.category as Record<string, unknown>)?.content as Record<string, unknown>)?.name as string | undefined,
-      author: ((c.author as Record<string, unknown>)?.content as Record<string, unknown>)?.name as string | undefined,
+      category: resolveField(c.category),
+      author: resolveField(c.author),
     };
   } catch {
     return null;

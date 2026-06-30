@@ -61,7 +61,11 @@ export default async function BlogPostPage({
 
   if (!post) notFound();
 
-  const bodyHtml = post.body ? richTextToHtml(post.body) : "";
+  const bodyHtml = post.body
+    ? typeof post.body === "string"
+      ? post.body
+      : richTextToHtml(post.body)
+    : "";
 
   return (
     <div className="min-h-screen bg-[#0a0d0b]">
