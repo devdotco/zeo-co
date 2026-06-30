@@ -20,7 +20,7 @@ export default function CalculatorShell({
   disclaimerType = "general",
 }: CalculatorShellProps) {
   return (
-    <div className="max-w-4xl mx-auto px-5 lg:px-8 py-8">
+    <div className="max-w-4xl mx-auto px-5 lg:px-8 pt-24 pb-8">
       <div className="mb-6">
         <p className="text-xs text-[#a3a3a3] mb-2">Results are estimates only — not offers, commitments, or guaranteed terms.</p>
       </div>

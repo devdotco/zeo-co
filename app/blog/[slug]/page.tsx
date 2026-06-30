@@ -71,7 +71,7 @@ export default async function BlogPostPage({
     <div className="min-h-screen bg-[#ffffff]">
       {/* ── Article header ─────────────────────────────────────────── */}
       <div className="border-b border-[#e5e5e5]">
-        <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
+        <div className="mx-auto max-w-3xl px-4 pt-24 pb-8 sm:px-6">
           <Breadcrumbs
             items={[
               { label: "Blog", href: "/blog" },
